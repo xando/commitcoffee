@@ -6,8 +6,6 @@ App.controller('Controller', function ($scope, $location) {
 
 	$scope.search = function () {
 
-		$location.hash('bottom');
-
 		var geocoder = new google.maps.Geocoder();
 
 		$scope.disabled = true;
