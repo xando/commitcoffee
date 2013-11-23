@@ -535,5 +535,21 @@ var places = [
 			"Hours": "Mon-Thu 8.00-20.00, Fri-Sun 10.00-20.00"
 		},
 		"link": {"homepage":"http://www.cb1.com/cb2/"}
+	},
+	{
+		"city": "Pabianice",
+		"country": "PL",
+		"name": "Piemont Cafe",
+		"address": "Jana Kilińskiego 25",
+		"coordinates": ["51.661095", "19.3545"],
+		"description": {
+			"Internet": "Free wifi, good speed, ask for the password",
+			"Power Outlets": "There are a few",
+			"Seating": "Comfortable seats",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, beers, cake, meals",
+		},
+		"link": {"homepage":"http://www.hotelpiemont.pl/"}
 	}
+
 ]
