@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html ng-app="CommitCoffee" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>CommitCoffee</title>
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+		<link href="/lib/bootstrap-3.0.2/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/lib/font-awesome-4.0.3/css/font-awesome.min.css" rel="stylesheet">
+
+		<link rel="stylesheet/less" type="text/css" href="main.less" />
+
+	</head>
+
+	<body ng-controller="Controller" ng-cloak>
+
+		<div class="logo">
+			<div class="sign">
+				Commit@Coffee
+			</div>
+		</div>
+
+		<div class="container search">
+			<div class="row">
+				<div class="col-lg-12">
+
+					<p>
+						Enter the location nad search for a
+						geek friendly coffee place near you with good
+						<span class="blue">WiFi</span> and <span class="blue">Coffee</span>
+					</p>
+					<form class="form-inline" role="form">
+						<div class="input-group">
+							<input type="text" ng-disabled="disabled" ng-model="location"
+								   class="input-lg form-control" placeholder="Location">
+							<span class="input-group-btn">
+								<button ng-disabled="disabled" type="submit" ng-click="search()"
+										class="input-lg btn btn-primary">
+									<i ng-show="disabled" class="fa fa-spinner fa-spin"></i>
+									<span ng-hide="disabled">Search</span>
+								</button>
+							</span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div ng-show="showMap" class="map">
+			<div ng-model="locationDetails" ng-show="showDetails" class="detail">
+				<div class="container message" click-anywhere-but-here="clickedSomewhereElse($event)">
+
+					<div class="row">
+						<div class="col-md-6">
+							<h2 ng-show="locationDetails.link.homepage">
+								<a ng-show="locationDetails.link.homepage"
+								   ng-href="{{ locationDetails.link.homepage }}" target="_blank">
+									{{ locationDetails.name }}
+								</a>
+							</h2>
+							<h2 ng-hide="locationDetails.link.homepage">{{ locationDetails.name }}</h2>
+							<h4>{{ locationDetails.address }}</h4>
+						</div>
+						<div class="col-md-6">
+							<div class="links">
+								<a ng-show="locationDetails.link.homepage"
+								   ng-href="{{ locationDetails.link.homepage }}"
+								   target="_blank"><i class="fa fa-home fa-4"></i></a>
+								<a ng-show="locationDetails.link.facebook"
+								   ng-href="{{ locationDetails.link.facebook }}"
+								   target="_blank"><i class="fa fa-facebook-square fa-4"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+
+						<div class="col-md-12">
+							<dl>
+
+								<div ng-repeat="(name, value) in locationDetails.description">
+									<dt>{{ name }}</dt><dd>{{ value }}</dd>
+								</div>
+
+							</dl>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+			<div id="map-canvas"> </div>
+		</div>
+
+		<div class="contribute">
+			<p>
+				Is there a good coffee place missing. Would like to see it here?
+				<a href="#">Fork it.</a>
+			</p>
+
+			<p>Append your place to the <a href="#">places.json</a> file.</p>
+
+			<p><code>
+					$ git commit -m "New awesome coffee place"
+			</code></p>
+
+			<p>Send the pull request. We are done here!</p>
+		</div>
+
+		<footer>
+			<span>
+				<i class="fa fa-envelope tblue"></i>
+				<a href="mailto:commitcoffee@gmail.com">commitcoffee@gmail.com</a>
+			</span>
+		</footer>
+
+		<script src="lib/less-1.5.0.min.js" type="text/javascript"></script>
+		<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyDsYuxYyWbsn0UI5wTzluO13c8hHWFvQWI&sensor=true"></script>
+		<script src="lib/lodash.min.js"></script>
+		<script src="lib/jquery.js"></script>
+		<script src="lib/angular.min.js"></script>
+		<script src="lib/bootstrap-3.0.2/js/bootstrap.min.js"></script>
+		<script src="lib/html5shiv.js"></script>
+
+		<script src="places.js"></script>
+		<script src="main.js"></script>
+
+	</body>
+
+</html>

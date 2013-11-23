@@ -1,0 +1,134 @@
+body {
+	background:#000;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.logo {
+	background:url('img/background.jpg') no-repeat;
+	background-size:1920px;
+	background-position: center -84px;
+	border-bottom:2px solid #666;
+	padding: 80px 0 90px 0;
+
+	.sign {
+		text-align:center;
+		color:#fff;
+		color: #F5F4DF;
+		font-family: 'Kaushan Script', cursive;
+		font-size:10em;
+		line-height:140px;
+		text-shadow: 2px 2px 20px #111;
+	}
+}
+
+.search {
+	text-align: center;
+	padding:20px 140px;
+	text-align: center;
+	color:#ddd;
+	line-height:30px;
+	font-size:19px;
+	text-shadow:2px 2px 3px #000;
+	margin-bottom: 20px;
+
+	.blue {
+		color: #A19572;
+		font-weight: bold;
+	}
+
+	form {
+		margin-top: 20px;
+		button, button[disabled] {
+			font-weight: bold;
+			background: #A19572;
+			border-color: #A19572;
+			width: 130px;
+			&:hover {
+				background: #A19572;
+				border-color: #A19572;
+			}
+			&:active {
+				background: #A19572;
+				border-color: #A19572;
+			}
+			&:focus {
+				background: #A19572;
+				border-color: #A19572;
+			}
+		}
+	}
+}
+
+.contribute{
+	background:#191919;
+	border-top:2px solid #222;
+	border-bottom:2px solid #222;
+	padding:30px 0px;
+	text-align: center;
+	p {
+		color:#ddd;
+		line-height:30px;
+		font-size:22px;
+		text-shadow:2px 2px 3px #000;
+	}
+	code {
+		display: inline-block;
+		margin: 18px 0 13px 0;
+		color: green;
+		background-color: #222;
+		padding: 13px 70px;
+	}
+}
+
+.map {
+	position: relative;
+	.detail {
+		position: absolute;
+		width: 100%;
+		z-index: 1;
+		height: 500px;
+		.message {
+			border-radius: 10px;
+			border: 3px solid #ddd;
+			width: 50%;
+			background: #EfEfEf;
+			margin: 50px auto;
+			height: 400px;
+			h2 {
+				font-weight: bold;
+			}
+			address{
+				margin-bottom: 0;
+			}
+			.links {
+				font-size: 40px;
+				margin-top: 10px;
+				text-align: right;
+			}
+		}
+	}
+}
+
+#map-canvas {
+	height: 500px
+}
+
+footer {
+	text-align: center;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+
+.section-heading {
+	font-size: 2em;
+}
+
+.section {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+}
