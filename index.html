@@ -55,7 +55,7 @@
 			</div>
 		</div>
 
-		<div ng-show="showMap" class="map">
+		<div class="map">
 			<div ng-model="locationDetails" ng-show="showDetails" class="detail">
 				<div class="container message" click-anywhere-but-here="clickedSomewhereElse($event)">
 
@@ -82,18 +82,16 @@
 						</div>
 					</div>
 					<div class="row">
-
-						<div class="col-md-12">
+						<div class="col-md-6">
 							<dl>
-
 								<div ng-repeat="(name, value) in locationDetails.description">
 									<dt>{{ name }}</dt><dd>{{ value }}</dd>
 								</div>
-
 							</dl>
-
 						</div>
-
+						<div class="col-md-6">
+							<img ng-src="http://maps.googleapis.com/maps/api/staticmap?center={{ locationDetails.coordinates[0] }},{{ locationDetails.coordinates[1] }}&markers={{ locationDetails.coordinates[0] }},{{ locationDetails.coordinates[1] }}&zoom=16&size=398x250&sensor=false">
+						</div>
 					</div>
 
 				</div>
