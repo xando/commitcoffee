@@ -537,6 +537,23 @@ var places = [
 		"link": {"homepage":"http://www.cb1.com/cb2/"}
 	},
 	{
+		"city": "Cambridge",
+		"country": "UK",
+		"name": "Hot Numbers",
+		"address": "Dales Brewery, Gwydir Street",
+		"coordinates": ["52.200035","0.138552"],
+    "telephone": "+44 1223 359966",
+		"description": {
+			"Internet": "Free wifi, good speed, just ask for the password",
+			"Power Outlets": "Plentiful",
+			"Seating": "Trendy Benches, Large Tables, but it gets busy, so be in quick to nab a spot.",
+			"Service": "Very friendly, knowledgeable",
+			"Provision": "Artisinal coffee, tea, juices, cake, snacks, etc",
+			"Hours": "Daily 7:30-18:00"
+		},
+		"link": {"homepage":"http://www.hotnumberscoffee.co.uk/"}
+	},
+	{
 		"city": "Pabianice",
 		"country": "PL",
 		"name": "Piemont Cafe",
