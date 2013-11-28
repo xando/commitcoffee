@@ -563,6 +563,7 @@ var places = [
 			"Seating": "Lots of very comfortable chairs and couches",
 			"Service": "Friendly baristas",
 			"Provision": "All types of great mocha coffee",
+			"Hours": "24 Hours!"
 		},
 		"link": {"homepage":"http://www.bennucoffee.com/"
 	}
