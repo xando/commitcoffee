@@ -686,5 +686,24 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
+	},
+	{
+		"city": "Berlin",
+		"country": "Germany",
+		"name": "Tischendorf",
+		"address": "Friedelstrasse 25, 12047 Neuköln",
+		"coordinates": ["52.49206", "13.42825"],
+		"description": {
+			"Internet": "Free wifi, decent speed",
+			"Power Outlets": "Tables on the left from entrance have access to power outlets",
+			"Seating": "Wooden benches and chairs",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, beer, cake, pastry, breakfast",
+			"Hours": "Everyday 9am-8pm, 'Laptop-free' Sundays"
+		},
+		"link": {
+			"homepage": "http://tischendorf-berlin.de/",
+			"facebook": "https://www.facebook.com/pages/Tischendorf/315316785224423"
+		}
 	}
 ]
