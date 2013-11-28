@@ -553,6 +553,22 @@ var places = [
 		"link": {"homepage":"http://roostercoffeehouse.com/"}
 	},
 	{
+		"city": "Toronto",
+		"country": "CA",
+		"name": "The Green Grind",
+		"address": "567 College Street",
+		"coordinates": "43.65529, -79.41266",
+		"description": {
+			"Internet": "Password protected -- ask for password",
+			"Power Outlets": "1 power bar at each end of big communal table",
+			"Seating": "Big communal work table, 3 small 2-person tables, and half dozen lounge chairs",
+			"Service": "Consistently good wifi, very quiet (sometimes play music, good hot drinks and food)",
+			"Provision": "coffee, tea, sandwiches, baked goods. Can buy beans to go",
+			"Hours": "Monday-Friday  8am – 8pm, Saturday-Sunday 9am – 7pm"
+		},
+		"link": {"homepage":"http://www.thegreengrind.ca/"}
+	},
+	{
 		"city": "Pabianice",
 		"country": "PL",
 		"name": "Piemont Cafe",
