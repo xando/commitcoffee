@@ -550,6 +550,22 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
+	},
+	{
+		"city": "Omaha",
+		"state": "Nebraska",
+		"country": "United States",
+		"name": "Aromas Coffeehouse",
+		"address": "1033 Jones St",
+		"coordinates": ["41.253198","-95.930234"],
+		"description": {
+			"internet":"Free wifi even with a lot of people, ask for password",
+			"Power Outlets":"Most tables have one",
+			"Seating":"Couches and regular tables",
+			"Service":"Friendly, not always quick",
+			"Provision":"Coffee, tea, smoothies, pastries"
+		},
+		"link": {"homepage":"http://aromasomaha.com/"}
 	}
 
 ]
