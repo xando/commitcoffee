@@ -671,5 +671,20 @@ var places = [
 			"Hours": "Mon-Sat 7am-9pm, Sun 8am-5pm"
 		},
 		"link": {"homepage":"http://butterbakerycafe.com/"}
+	},
+	{
+		"city": "Chicago",
+		"country": "USA",
+		"name": "Eva's Cafe",
+		"address": "1447 N Sedgwick St",
+		"coordinates": ["41.908945", "-87.638398"],
+		"description": {
+			"Internet": "Free wifi, good speed, must buy to get the password",
+			"Power Outlets": "Most tables have outlets nearby",
+			"Seating": "Variety of seating - large tables, individual tables, a few comfy chairs",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
+		},
+		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
 	}
 ]
