@@ -551,5 +551,20 @@ var places = [
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
 	}
+	{
+		"city": "London",
+		"country": "UK",
+		"name": "Campus London",
+		"coordinates": ["51.52292", "-0.08553"],
+		"description": {
+			"Access": "You need to be a member, it's free, check website"
+			"Internet": "Free, 65Mbps up and down",
+			"Power Outlets": "Lots",
+			"Seating": "Plenty, but get there early it fills up quick",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, more..",
+		},
+		"link": {"homepage":"http://www.campuslondon.com/"}
+	}
 
 ]
