@@ -550,6 +550,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
+	},
+	{
+		"city": "San Antonio, TX",
+		"country": "US",
+		"name": "Brown Coffee Company",
+		"address": "1800 Broadway St",
+		"coordinates": ["29.44294", "-98.47679"],
+		"description": {
+			"Internet": "Free wifi, good speed, ask for the password",
+			"Power Outlets": "There are a few",
+			"Seating": "Some individual tables, some long tables",
+			"Service": "Very friendly",
+			"Provision": "Coffee, espresso, some pastries, Mexican coke, Topo Chico",
+		},
+		"link": {"homepage":"http://browncoffeeco.com/"}
 	}
 
 ]
