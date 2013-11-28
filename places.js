@@ -550,7 +550,8 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
-	}	{
+	},
+	{
 		"city": "Jacksonville",
 		"country": "US",
 		"name": "Bold Bean Coffee Roasters",
