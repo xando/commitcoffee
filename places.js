@@ -610,5 +610,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
+	},
+	{
+		"city": "Ottawa",
+		"country": "CA",
+		"name": "Bridgehead",
+		"address": "109 Bank Street",
+		"coordinates": ["45.419924", "-75.700197"],
+		"description": {
+			"Internet": "Free wifi, reliable and good speed",
+			"Power Outlets": "A few",
+			"Seating": "Fairly comfortable seats",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, cake, salads, sandwiches"
+		},
+		"link": {"homepage":"http://www.bridgehead.ca/"}
 	}
 ]
