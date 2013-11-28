@@ -550,6 +550,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
+	},
+	{
+		"city": "Beacon",
+		"country": "US",
+		"name": "Bank Square Coffeehouse",
+		"address": "129 Main Street",
+		"coordinates": ["41.50825, "-73.976997""],
+		"description": {
+			"Internet": "Free wifi, good speed. Network name: Bank Square",
+			"Power Outlets": "There are plenty",
+			"Seating": "Comfortable seats, couches, tables, al fresco",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, beers, pastries, small meals",
+		},
+		"link": {"homepage":"http://banksquarecoffeehouse.com/"}
 	}
 
 ]
