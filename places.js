@@ -547,7 +547,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Comfortable seats",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, beers, cake, meals",
+			"Provision": "Coffee, tea, juices, beers, cake, meals"
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
 	},
@@ -562,8 +562,38 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Coffee shop and quiet lounge with couches and large tables for meetings",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, doughnuts, pastries",
+			"Provision": "Coffee, tea, juices, doughnuts, pastries"
 		},
 		"link": {"homepage":"http://www.discoverycoffee.com/"}
+	},
+	{
+		"city": "Portland",
+		"country": "US",
+		"name": "Ford Food and Drink",
+		"address": "2505 SE 11th Ave.",
+		"coordinates": ["45.5047039", "-122.6548178"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "There are a few",
+			"Seating": "Comfortable seats",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, beers, cake, meals"
+		},
+		"link": {"homepage":"http://www.fordfoodanddrink.com/"}
+	},
+	{
+		"city": "Portland",
+		"country": "US",
+		"name": "Papaccino's",
+		"address": "4411 SE Woodstock Blvd.",
+		"coordinates": ["45.4794579", "-122.617157"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "There are a few",
+			"Seating": "Comfortable seats",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, pastries, cereal bar"
+		},
+		"link": {"homepage":"https://www.facebook.com/papaccinos"}
 	}
 ]
