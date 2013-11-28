@@ -550,6 +550,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
+	},
+	{
+		"city": "Victoria",
+		"name": "Discovery Coffee House and Lounge",
+		"country": "CA",
+		"address": "664 Discovery Street",
+		"coordinates": ["-123.3650072","48.4320183"],
+		"description": {
+			"Internet": "Free open internet",
+			"Power Outlets": "There are a few",
+			"Seating": "Coffee shop and quiet lounge with couches and large tables for meetings",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, doughnuts, pastries",
+		},
+		"link": {"homepage":"http://www.discoverycoffee.com/"}
 	}
 
 ]
