@@ -550,7 +550,7 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
-	}
+	},
 	{
 		"city": "London",
 		"country": "UK",
