@@ -610,5 +610,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
+	},
+	{
+		"city": "St. Catharines",
+		"country": "Canada",
+		"name": "Mahtay Café & Lounge",
+		"address": "241 St. Paul Street",
+		"coordinates": ["43.158550", "-79.243172"],
+		"description": {
+			"Internet": "Free wifi, reliable and good speed",
+			"Power Outlets": "Plentiful",
+			"Seating": "Handful of tables, bar with stools, some couches and comfy chairs",
+			"Service": "Excellent, very friendly and accommodating",
+			"Provision": "Coffee, tea, juice, sandwiches, soups, sweets, craft beers",
+		},
+		"link": {"homepage":"http://www.mahtay.ca/"}
 	}
 ]
