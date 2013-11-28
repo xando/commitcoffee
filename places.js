@@ -550,6 +550,22 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
+	},
+	{
+		"city": "Bristol",
+		"country": "UK",
+		"name": "The Watershed Café/Bar",
+		"address": "1 Canon's Rd, Bristol BS1 5TX",
+		"coordinates": ["51.4520891", "-2.5980765"],
+		"description": {
+			"Internet": "Free, decent wifi. Ask for the password",
+			"Power Outlets": "Quite a few, particularly at the south end",
+			"Seating": "Not the best, but quite passable",
+			"Service": "Very friendly. Gets busy in evenings.",
+			"Provision": "Coffee, hot drinks, cider, decent food, locally sourced",
+			"Hours": "1000-2300, Sunday 1000-2230"
+		},
+		"link": {"homepage": "http://www.watershed.co.uk/food-drink/cafe-bar/"}
 	}
 
 ]
