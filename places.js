@@ -610,5 +610,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
+	},
+	{
+		"city": "San Francisco",
+		"country": "US",
+		"name": "Coffee Bar",
+		"address": "1890 Bryant St",
+		"coordinates": ["57.698283", "11.9663"],
+		"description": {
+			"Internet": "Free wifi, reliable and good speed",
+			"Power Outlets": "Quite a few",
+			"Seating": "Fairly comfortable seats",
+			"Service": "Good service",
+			"Provision": "Coffee, tea, salads, sandwiches",
+		},
+		"link": {"homepage":"http://www.coffeebarsf.com/"}
 	}
 ]
