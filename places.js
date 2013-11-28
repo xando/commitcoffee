@@ -565,5 +565,19 @@ var places = [
 			"Provision": "Coffee, tea, juices, doughnuts, pastries",
 		},
 		"link": {"homepage":"http://www.discoverycoffee.com/"}
+	},{
+		"city": "San Mateo",
+		"name": "Kaffeehaus",
+		"country": "USA",
+		"address": "92 E 3rd Ave",
+		"coordinates": ["48.4320183", "-123.3650072"],
+		"description": {
+			"Internet": "Free open internet",
+			"Power Outlets": "There are a few",
+			"Seating": "Tables, booths, bar and outdoor seating",
+			"Service": "Very friendly",
+			"Provision": "Coffee, wine, tea, juices, salads, pastries",
+		},
+		"link": {"homepage":"http://www.yelp.com/biz/kaffeehaus-san-mateo-2"}
 	}
 ]
