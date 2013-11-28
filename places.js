@@ -610,5 +610,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
+	},
+	{
+		"city": "Port Coquitlam",
+		"country": "Canada",
+		"name": "Tim Hortons",
+		"address": "1320 Kingsway Ave",
+		"coordinates": ["49.246938,-122.748767"],
+		"description": {
+			"Internet": "Free wifi, reliable and good speed",
+			"Power Outlets": "Yes",
+			"Seating": "Tons of room",
+			"Service": "Lots of room no one will bug you",
+			"Provision": "Coffee, tea, juices, sandwiches, and a Wendys",
+		},
+		"link": {"homepage":"http://www.timhortons.com/ca/locator/storedirections.html?id=101911"}
 	}
 ]
