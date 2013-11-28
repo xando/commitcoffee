@@ -565,5 +565,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, doughnuts, pastries",
 		},
 		"link": {"homepage":"http://www.discoverycoffee.com/"}
-	}
+	},
+        {
+                "city": "Ithaca",
+                "name": "Gimme! Coffee",
+                "country": "United States of America",
+                "address": "506 W State St",
+                "coordinates": ["42.43929", "-76.50691"],
+                "description": {
+                        "Internet": "Free open internet",
+                        "Power Outlets": "Plenty",
+                        "Seating": "Coffee shop and quiet lounge with couches and large tables for meetings",
+                        "Service": "Very friendly",
+                        "Provision": "Coffee, some bakery items",
+                },
+                "link": {"homepage":"http://www.gimmecoffee.com"}
+        }
 ]
