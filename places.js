@@ -580,5 +580,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, pastries.",
 		},
 		"link": {"homepage":"https://plus.google.com/105646394886961700159"}
+	},
+	{
+		"city": "San Francisco",
+		"name": "Ritual Roasters",
+		"country": "U.S.A",
+		"address": "1026 Valencia St",
+		"coordinates": ["37.756211","-122.420904"],
+		"description": {
+			"Internet": "Free open internet",
+			"Power Outlets": "There are a few",
+			"Seating": "Tables and chairs for groups, individual seating at the bar.",
+			"Service": "Very friendly",
+			"Provision": "Espresso, pour-over coffee, tea, and some pastries.",
+		},
+		"link": {"homepage":"http://www.ritualroasters.com/‎"}
 	}
 ]
