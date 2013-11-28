@@ -565,5 +565,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, doughnuts, pastries",
 		},
 		"link": {"homepage":"http://www.discoverycoffee.com/"}
+	},
+	{
+		"city": "London",
+		"country": "UK",
+		"name": "Campus London",
+		"address": "4-5 BONHILL STREET LONDON EC2A 4BX",
+		"coordinates": ["51.522669", "-0.085818"],
+		"description": {
+			"Access": "You need to be a member, it's free, check website",
+			"Internet": "Free, 65Mbps up and down",
+			"Power Outlets": "Lots",
+			"Seating": "Plenty, but get there early it fills up quick",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, more..",
+		},
+		"link": {"homepage":"http://www.campuslondon.com/"}
 	}
 ]
