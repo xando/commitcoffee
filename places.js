@@ -610,5 +610,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
+	},
+		{
+		"city": "Travelers Rest",
+		"country": "US",
+		"name": "The Forest Coffeehouse",
+		"address": "27 South Main Street, Travelers Rest, SC 29690",
+		"coordinates": ["34.965926", "-82.441688"],
+		"description": {
+			"Internet": "Free wifi, okay speed",
+			"Power Outlets": "There are a few",
+			"Seating": "Lots of seating",
+			"Service": "Good",
+			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
+		},
+		"link": {"homepage":"http://www.theforestcoffee.com/"}
 	}
 ]
