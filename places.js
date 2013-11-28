@@ -610,5 +610,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
+	},
+	{
+		"city": "Montreal",
+		"country": "CA",
+		"name": "Café Expressions",
+		"address": "957 Avenue du Mont-Royal Est Montréal, QC H2J 1X4",
+		"coordinates": ["45.527141", "-73.580078"],
+		"description": {
+			"Internet": "Free WiFi, but not so fast",
+			"Power Outlets": "There are a few",
+			"Seating": "Chairs and benches, could be more comfortable",
+			"Service": "Okay service",
+			"Provision": "Fair trade and organic coffee and tea, more...",
+		},
+		"link": {"homepage":"https://plus.google.com/113437543592526873134/about?gl=ca&hl=en"}
 	}
 ]
