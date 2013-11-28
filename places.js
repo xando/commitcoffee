@@ -552,18 +552,18 @@ var places = [
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
 	},
 	{
-		"city": "Victoria",
-		"name": "Discovery Coffee House and Lounge",
-		"country": "Canada",
-		"address": "664 Discovery Street",
-		"coordinates": ["48.4320183", "-123.3650072"],
+		"city": "Palo Alto",
+		"country": "US",
+		"name": "3 G's Cafe",
+		"address": "456 Cambridge Ave",
 		"description": {
-			"Internet": "Free open internet",
-			"Power Outlets": "There are a few",
-			"Seating": "Coffee shop and quiet lounge with couches and large tables for meetings",
+			"Internet": "Free wifi, good speed, ask for the password",
+			"Power Outlets": "Plenty",
+			"Seating": "Few but good chairs, outdoor morning sun",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, doughnuts, pastries",
+			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
-		"link": {"homepage":"http://www.discoverycoffee.com/"}
+		"link": {"yelp":"http://www.yelp.com/biz/3-gs-cafe-palo-alto"}
 	}
+
 ]
