@@ -610,5 +610,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
+	},
+	{
+		"city": "São Paulo",
+		"country": "BR",
+		"name": "Nina Veloso Pâtisserie",
+		"address": "Rua Costa Carvalho, 195, Pinheiros",
+		"coordinates": ["-23.561647", "-46.699065"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "Unknown",
+			"Seating": "Chairs, benches and also a sofa upstairs",
+			"Service": "Very friendly and efficient",
+			"Provision": "Their main thing is pastries, but they have a really good espresso as well",
+		},
+		"link": {"homepage":"http://www.ninaveloso.com.br/"}
 	}
 ]
