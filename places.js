@@ -550,6 +550,19 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
-	}
-
+	},
+    {
+        "city": "Waterloo",
+        "country": "Canada",
+        "name": "Death Valley's Little Brother",
+        "address": "84 King St N, Waterloo, ON N2J 2X4",
+        "coordinates": ["43.4679659", "-80.5229583"],
+        "description": {
+            "Internet": "Free wifi, good speed, ask for the password",
+            "Power Outlets": "There are a few",
+            "Seating": "Wooden furnishing, very relaxing",
+            "Provision": "Coffee, tea, alchohol, muffins, scones, etc",
+        },
+        "link": {"homepage":"http://dvlb.ca"}
+    }
 ]
