@@ -610,5 +610,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
+	},
+	{
+		"city": "Waterloo",
+		"country": "Canada",
+		"name": "Coffee Culture Café and Eatery",
+		"address": "31 King Street North, N2J 2W6",
+		"coordinates": ["43.46602", "-80.52265"],
+		"description": {
+			"Internet": "Not sure if there's free wifi",
+			"Power Outlets": "There are a few",
+			"Seating": "Comfortable seats",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, cake, meals",
+		},
+		"link": {"homepage":"http://www.coffeeculturecafe.com/"}
 	}
 ]
