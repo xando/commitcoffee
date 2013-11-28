@@ -550,6 +550,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
+	},
+	{
+		"city": "Curitiba",
+		"country": "BR",
+		"name": "Rubi Café",
+		"address": "Visconde de Nácar, 1322",
+		"coordinates": ["-25.42836", "-49.27325"],
+		"description": {
+			"Internet": "Good latency, ask for the password",
+			"Power Outlets": "Few",
+			"Seating": "Comfortable tables",
+			"Service": "Friendly",
+			"Provision": "Coffee, tea, juices, beers, cake, meals",
+		},
+		"link": {"homepage":"https://www.facebook.com/RubiCafe"}
 	}
 
 ]
