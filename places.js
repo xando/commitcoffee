@@ -537,6 +537,22 @@ var places = [
 		"link": {"homepage":"http://www.cb1.com/cb2/"}
 	},
 	{
+		"city": "Toronto",
+		"country": "CA",
+		"name": "Rooster Coffee House",
+		"address": "479 Broadview Avenue",
+		"coordinates": "43.66911, -79.35275",
+		"description": {
+			"Internet": "Password protected -- password written on chalkboard",
+			"Power Outlets": "1 power bar at the back big table, one outlet at front windows, north side",
+			"Seating": "four lounge chair, lots of outdoor seating, big back communal table for working",
+			"Service": "very friendly, great coffee, good music, quality wifi",
+			"Provision": "coffee, tea, sandwiches, baked goods. Can buy beans to go",
+			"Hours": "Mon-Fri 7am-7pm, Sat 7am-7pm, Sun 7am-7pm"
+		},
+		"link": {"homepage":"http://roostercoffeehouse.com/"}
+	},
+	{
 		"city": "Pabianice",
 		"country": "PL",
 		"name": "Piemont Cafe",
