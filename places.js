@@ -551,5 +551,20 @@ var places = [
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
 	}
+		{
+		"city": "Fredericton",
+		"country": "CA",
+		"name": "Cedar Tree Cafe",
+		"address": "418 Queen Street, E3B 4K2",
+		"coordinates": ["45.962752","-66.642804"],
+		"description": {
+			"Internet": "Free open wifi, good speed",
+			"Power Outlets": "There a a couple. You should be able to find an outlet if you need one",
+			"Seating": "Good seats. No problem to work for quite some time.",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea,  cookies, meals",
+		},
+		"link": {"homepage":"http://www.cedartreecafe.com/"}
+	}
 
 ]
