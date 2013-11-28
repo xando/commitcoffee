@@ -550,6 +550,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
+	},
+		{
+		"city": "Waterloo",
+		"country": "CA",
+		"name": "Coffee Culture Café and Eatery",
+		"address": "31 King Street North, N2J 2W6",
+		"coordinates": ["43.46602", "-80.52265"],
+		"description": {
+			"Internet": "Not sure if there's free wifi",
+			"Power Outlets": "There are a few",
+			"Seating": "Comfortable seats",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, cake, meals",
+		},
+		"link": {"homepage":"http://www.coffeeculturecafe.com/"}
 	}
 
 ]
