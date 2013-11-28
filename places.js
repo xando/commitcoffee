@@ -550,6 +550,22 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
-	}
+	},
+ 	{
+                "city": "Liverpool",
+                "country": "UK",
+                "name": "Bold Street Coffee",
+                "address": "89 Bold Street, Liverpool, L1 4HF",
+                "coordinates": ["53.4024574","-2.9768352"],
+                "description": {
+                        "Internet": "Free wifi, good speed",
+                        "Power Outlets": "A few",
+                        "Seating": "Comfortable tables, seats and benches",
+                        "Service": "Very friendly, definitely know their coffee",
+                        "Provision": "Coffee, tea, breakfast, cakes",
+                        "Hours": "Mon-Fri 7.30-6, Sat 8-6, Sun 9.30-5"
+                },
+                "link": {"homepage":"http://www.boldstreetcoffee.co.uk/"}
+        }
 
 ]
