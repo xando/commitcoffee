@@ -610,7 +610,7 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
-	}
+	},
 	{
 		"city": "Homewood",
 		"country": "US",
