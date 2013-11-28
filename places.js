@@ -554,9 +554,9 @@ var places = [
 	{
 		"city": "Victoria",
 		"name": "Discovery Coffee House and Lounge",
-		"country": "CA",
+		"country": "Canada",
 		"address": "664 Discovery Street",
-		"coordinates": ["-123.3650072","48.4320183"],
+		"coordinates": ["48.4320183", "-123.3650072"],
 		"description": {
 			"Internet": "Free open internet",
 			"Power Outlets": "There are a few",
@@ -566,5 +566,4 @@ var places = [
 		},
 		"link": {"homepage":"http://www.discoverycoffee.com/"}
 	}
-
 ]
