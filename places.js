@@ -687,4 +687,20 @@ var places = [
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
 	}
+	{
+		"city": "Geneseo, NY",
+		"country": "USA",
+		"name": "Muddy Waters",
+		"address": "53 Main Street, Geneseo, NY",
+		"coordinates": ["42.796797", "-77.816684"],
+		"description": {
+			"Internet": "Open and fast: SSID id 'Linksys'(!) No password.",
+			"Power Outlets": "Plentiful.",
+			"Seating": "Tables, chairs and some old but very comfortable sofas",
+			"Service": "Very friendly students from SUNY Geneseo",
+			"Provision": "Coffee, pastries, light meals",
+		},
+		"link": {"homepage":"http://muddywaterscoffeeroasters.com/geneseo.html"}
+	}
+
 ]
