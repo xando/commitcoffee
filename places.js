@@ -582,4 +582,19 @@ var places = [
 		},
 		"link": {"homepage":"http://www.campuslondon.com/"}
 	}
+	{
+		"city": "Dallas",
+		"country": "TX",
+		"name": "Sip | Stir",
+		"address": "3800 McKinney Ave. #180 Dallas, TX 75204",
+		"coordinates": ["32.809059", "-96.795104"],
+		"description": {
+			"Internet": "Free.  Speed is OK.  Ask for the password.",
+			"Power Outlets": "Plenty",
+			"Seating": "Always somewhere to sit, but not too quiet.",
+			"Service": "Super friendly",
+			"Provision": "Great coffee and pastries.",
+		},
+		"link": {"homepage":"http://www.sipstircafe.com/"}
+	}
 ]
