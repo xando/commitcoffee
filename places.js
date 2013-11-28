@@ -560,7 +560,7 @@ var places = [
 		"description": {
 			"Internet": "Free wifi, good speed, must buy to get the password",
 			"Power Outlets": "Most tables have outlets nearby",
-			"Seating": "Variety of seating - large tables, invidual tables, a few comfy chairs",
+			"Seating": "Variety of seating - large tables, individual tables, a few comfy chairs",
 			"Service": "Very friendly",
 			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
 		},
