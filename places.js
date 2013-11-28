@@ -550,6 +550,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
+	},
+	{
+		"city": "New York",
+		"country": "USA",
+		"name": "Ground Support",
+		"address": "399 W Broadway, New York, NY 10012",
+		"coordinates": ["40.7242813", "-74.0018234"],
+		"description": {
+			"Internet": "Free wifi, great grilled cheese sandwich",
+			"Power Outlets": "Some",
+			"Seating": "Comfortable seats, outside benches",
+			"Service": "It's New York",
+			"Provision": "Coffee, tea, juices, cake, sandwiches",
+		},
+		"link": {"homepage":"http://groundsupportcafe.com/"}
 	}
-
 ]
