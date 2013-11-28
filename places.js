@@ -550,6 +550,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
+	},
+	{
+		"city": "Minneapolis",
+		"country": "MN",
+		"name": "Butter Bakery Cafe",
+		"address": "3700 Nicollet Ave",
+		"coordinates": ["44.935715", "-93.278231"],
+		"description": {
+			"Internet": "Free wifi, ask for the password",
+			"Power Outlets": "They're spread about, but there's enough",
+			"Seating": "Ample seating, some counter, some tables",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc",
+			"Hours": "Mon-Sat 7am-9pm, Sun 8am-5pm"
+		},
+		"link": {"homepage":"http://butterbakerycafe.com/"}
 	}
-
 ]
