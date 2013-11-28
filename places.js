@@ -552,18 +552,18 @@ var places = [
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
 	},
 	{
-		"city": "Victoria",
-		"name": "Discovery Coffee House and Lounge",
-		"country": "Canada",
-		"address": "664 Discovery Street",
-		"coordinates": ["48.4320183", "-123.3650072"],
+		"city": "Kyiv",
+		"country": "UA",
+		"name": "Chasopys",
+		"address": "Lva Tolstoho 3",
+		"coordinates": ["50.4395", "30.515017"],
 		"description": {
-			"Internet": "Free open internet",
-			"Power Outlets": "There are a few",
-			"Seating": "Coffee shop and quiet lounge with couches and large tables for meetings",
-			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, doughnuts, pastries",
-		},
-		"link": {"homepage":"http://www.discoverycoffee.com/"}
+			"Format": "Pay for time",
+			"Internet": "Free wifi, nice speed, password protected",
+			"Power outlets": "A lot of them",
+			"Service": "Self-service",
+			"Provision": "Coffee, tea, hot chocolate, sandwiches" 
+		}
+		
 	}
 ]
