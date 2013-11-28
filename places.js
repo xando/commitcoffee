@@ -550,6 +550,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
+	},
+	{
+		"city": "Chicago",
+		"country": "US",
+		"name": "Eva's Cafe",
+		"address": "1447 N Sedgwick St",
+		"coordinates": ["41.908989", "-87.638184"],
+		"description": {
+			"Internet": "Free wifi, good speed, must buy to get the password",
+			"Power Outlets": "Most tables have outlets nearby",
+			"Seating": "Variety of seating - large tables, invidual tables, a few comfy chairs",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
+		},
+		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
 	}
 
 ]
