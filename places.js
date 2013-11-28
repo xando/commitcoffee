@@ -550,6 +550,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
+	},
+	{
+		"city": "Austin",
+		"country": "US",
+		"name":"Bennu",
+		"address": "2001 E. MLK Blvd.",
+		"coordinates": ["30.279967, -97.7199691"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "Lots of power outlets near seats",
+			"Seating": "Lots of very comfortable chairs and couches",
+			"Service": "Friendly baristas",
+			"Provision": "All types of great mocha coffee",
+		},
+		"link": {"homepage":"http://www.bennucoffee.com/"
 	}
 
 ]
