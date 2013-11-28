@@ -569,7 +569,7 @@ var places = [
         {
                 "city": "Ithaca",
                 "name": "Gimme! Coffee",
-                "country": "United States of America",
+                "country": "US",
                 "address": "506 W State St",
                 "coordinates": ["42.43929", "-76.50691"],
                 "description": {
