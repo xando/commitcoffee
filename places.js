@@ -565,12 +565,13 @@ var places = [
 			"Provision": "Coffee, tea, juices, doughnuts, pastries",
 		},
 		"link": {"homepage":"http://www.discoverycoffee.com/"}
-	},{
+	},
+	{
 		"city": "San Mateo",
 		"name": "Kaffeehaus",
 		"country": "USA",
 		"address": "92 E 3rd Ave",
-		"coordinates": ["48.4320183", "-123.3650072"],
+		"coordinates": ["37.564599", "-122.324313"],
 		"description": {
 			"Internet": "Free open internet",
 			"Power Outlets": "There are a few",
@@ -578,6 +579,21 @@ var places = [
 			"Service": "Very friendly",
 			"Provision": "Coffee, wine, tea, juices, salads, pastries",
 		},
-		"link": {"homepage":"http://www.yelp.com/biz/kaffeehaus-san-mateo-2"}
+		"link": {"homepage":"http://mykaffeehaus.com/"}
+	},
+	{
+		"city": "Seattle",
+		"name": "Zeitgeist",
+		"country": "USA",
+		"address": "171 South Jackson Street",
+		"coordinates": ["47.602575", "-122.331932"],
+		"description": {
+			"Internet": "Free fast internet",
+			"Power Outlets": "There are a few",
+			"Seating": "Tables and local art",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, sandwiches, pastries",
+		},
+		"link": {"homepage":"http://zeitgeistcoffee.com"}
 	}
 ]
