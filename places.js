@@ -550,6 +550,50 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
+	},
+	{
+		"city": "Cape Town",
+		"country": "ZA",
+		"name": "Truth HQ",
+		"address": "36 Buitenkant Street (between Barrack & Commercial)",
+		"coordinates": ["-33.9282112", "18.4225807"],
+		"description": {
+			"Internet": "Free wifi, no password",
+			"Power Outlets": "A few available, so aim for near the wall",
+			"Seating": "A good mixture of long and single tables, and a few couches here and there",
+			"Service": "Cool Cape Town vibe",
+			"Provision": "Great coffee, good breakfasts, and the usual coffee shop pastry selection."
+		},
+		"link": {"homepage":"http://www.truthcoffee.com", "facebook":"https://www.facebook.com/TRUTH.Coffee"}
+	},
+	{
+		"city": "Cape Town",
+		"country": "ZA",
+		"name": "Truth Prestwich Memorial",
+		"address": "Somerset Road (Buitengracht Street), De Waterkant",
+		"coordinates": ["-33.914402", "18.4177761"],
+		"description": {
+			"Internet": "Free wifi, no password",
+			"Power Outlets": "A few available, so aim for near the wall",
+			"Seating": "Limited. A mixture of long and single tables",
+			"Service": "Good",
+			"Provision": "Great coffee, good breakfasts, and the usual coffee shop pastry selection."
+		},
+		"link": {"homepage":"http://www.truthcoffee.com", "facebook":"https://www.facebook.com/TRUTH.Coffee"}
+	},
+	{
+		"city": "Cape Town",
+		"country": "ZA",
+		"name": "Origin Coffee Roasting",
+		"address": "28 Hudson Street, De Waterkant",
+		"coordinates": ["-33.9170189", "18.41749"],
+		"description": {
+			"Internet": "Free wifi, ask for password",
+			"Power Outlets": "A few places near the sides of the restaurant",
+			"Seating": "Comfortable rustic tables and seating",
+			"Service": "Good, depending on the time of day",
+			"Provision": "Great coffee!"
+		},
+		"link": {"homepage":"http://www.originroasting.co.za", "facebook":"https://www.facebook.com/originroasting"}
 	}
-
 ]
