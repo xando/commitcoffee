@@ -640,5 +640,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, sandwiches",
 		},
 		"link": {"homepage":"http://groundsupportcafe.com/"}
+	},
+	{
+		"city": "Saint Louis",
+		"country": "USA",
+		"name": "Hartford Coffee",
+		"address": "3974 Hartford St",
+		"coordinates": ["38.602733", "-90.2524"],
+		"description": {
+			"Internet": "Free wifi, no password, good speed",
+			"Power Outlets": "By the walls; dedicated \"quiet zone\" with more in back",
+			"Seating": "Decent seats; raised laptop-bar area",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, pastries, hot food",
+		},
+		"link": {"homepage":"http://www.hartfordcoffeecompany.com/"}
 	}
 ]
