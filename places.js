@@ -581,5 +581,20 @@ var places = [
 			"Provision": "Coffee, tea, more..",
 		},
 		"link": {"homepage":"http://www.campuslondon.com/"}
+	},
+	{
+		"city": "Roseville",
+		"country": "US",
+		"name": "Bloom Coffee",
+		"address": "1485 Eureka Rd, Roseville, CA 95661",
+		"coordinates": ["38.753245", "-121.25126"]
+		"description": {
+			"Internet": "Free wifi, excellent coffee",
+			"Power Outlets": "Several along the walls.",
+			"Seating": "Bar-style seating along one wall, standard coffee-shop tables, couches and cushy chairs in the center.",
+			"Service": "Usually good, and they know their coffee.",
+			"Provision": "Coffee, tea, hot breakfast, pastries. A little pricey, but VERY good coffee and food."
+		},
+		"link": {"homepage":"http://www.bloomcoffee.com/"}
 	}
 ]
