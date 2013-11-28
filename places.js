@@ -550,6 +550,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
+	},
+	{
+		"city": "London",
+		"country": "UK",
+		"name": "Browns of Brockley",
+		"address": "No. 5 Coulgate Street",
+		"coordinates": ["51.528642","-0.101599"],
+		"description": {
+			"Internet": "Free wifi, good speed, ask for the password",
+			"Power Outlets": "Unknown",
+			"Seating": "Comfortable bar stools",
+			"Service": "Very friendly",
+			"Provision": "Excellent coffee, sandwiches, pastries, cakes",
+		},
+		"link": {"homepage":"http://brownsofbrockley.com/"}
 	}
 
 ]
