@@ -27,7 +27,7 @@ var places = [
 			"Service": "good, the owner is always inside and can organize more power outlets if needed",
 			"Provision": "coffee, tea, soft and alcoholic drinks. Good spinach tart, variety of cakes. Coffee a bit pricey, other drinks in good prices. You can also buy books there (mostly non-technical), it's also a bookstore."
 		},
-		"link": {"homepage":"http://www.facebook.com/pages/Kawiarnia-Akcent/139389146143599"}
+		"link": {"facebook":"http://www.facebook.com/pages/Kawiarnia-Akcent/139389146143599"}
 	},
 	{
 		"city": "Gdańsk",
