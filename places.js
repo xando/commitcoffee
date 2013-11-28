@@ -611,4 +611,19 @@ var places = [
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
 	}
+	{
+		"city": "Pittsburgh",
+		"country": "United States",
+		"name": "Coffee Tree Roasters",
+		"address": "48 Fox Chapel Road",
+		"coordinates": ["40.488391","-79.8830234"],
+		"description": {
+			"Internet": "Fast wifi, always free",
+			"Power Outlets": "Multiple outlets across every wall",
+			"Seating": "small tables with 1-2 seats at each",
+			"Service": "always friendly - very busy in the mornings",
+			"Provision": "different coffees from around the world, many different types of pastries, great teas."
+		},
+		"link": {"homepage":"http://www.coffeetree.com"}
+	},
 ]
