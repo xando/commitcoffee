@@ -567,6 +567,20 @@ var places = [
 		"link": {"homepage":"http://www.discoverycoffee.com/"}
 	},
 	{
+		"city": "Mountain View",
+		"country": "US",
+		"name": "Red Rock",
+		"address": "201 Castro St, Mountain View, CA 94041",
+		"description": {
+			"Internet": "Free stable WIFI and Google public WIFI also available",
+			"Power Outlets": "Lots",
+			"Seating": "Plenty, and there is a second floor that is quieter, get there early it fills up fairly quickly",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, muffins, snacks",
+		},
+		"link": {"homepage":"http://www.redrockcoffee.org/"}
+	},
+	{
 		"city": "London",
 		"country": "UK",
 		"name": "Campus London",
@@ -581,19 +595,5 @@ var places = [
 			"Provision": "Coffee, tea, more..",
 		},
 		"link": {"homepage":"http://www.campuslondon.com/"}
-	},
-	{
-		"city": "Mountain View",
-		"country": "US",
-		"name": "Red Rock",
-		"address": "201 Castro St, Mountain View, CA 94041",
-		"description": {
-			"Internet": "Free stable WIFI and Google public WIFI also available",
-			"Power Outlets": "Lots",
-			"Seating": "Plenty, and there is a second floor that is quieter, get there early it fills up fairly quickly",
-			"Service": "Very friendly",
-			"Provision": "Coffee, tea, muffins, snacks",
-		},
-		"link": {"homepage":"http://www.redrockcoffee.org/"}
 	}
 ]
