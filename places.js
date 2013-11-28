@@ -565,5 +565,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, doughnuts, pastries",
 		},
 		"link": {"homepage":"http://www.discoverycoffee.com/"}
+	},
+	{
+		"city": "San Francisco",
+		"name": "Haus Coffee",
+		"country": "U.S.A",
+		"address": "3086 24th St",
+		"coordinates": ["37.752614","-122.413742"],
+		"description": {
+			"Internet": "Free open internet",
+			"Power Outlets": "There are a few",
+			"Seating": "Tables and chairs for groups, couple of comfortable sofas, and a beautiful outdoor patio",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, pastries.",
+		},
+		"link": {"homepage":"https://plus.google.com/105646394886961700159"}
 	}
 ]
