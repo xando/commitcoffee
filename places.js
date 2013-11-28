@@ -610,5 +610,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
+	},
+	{
+		"city": "Montréal",
+		"name": "Café Larue & Fils",
+		"country": "Canada",
+		"address": "244, De Castelnau Est",
+		"coordinates": ["45.53784", "-73.61809"],
+		"description": {
+			"Internet": "Free open internet",
+			"Power Outlets": "A few",
+			"Seating": "Mostly large tables with bar stools",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, panini, pastries",
+		},
+		"link": {"homepage":"https://www.facebook.com/caffedellavia"}
 	}
 ]
