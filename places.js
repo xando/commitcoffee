@@ -550,6 +550,38 @@ var places = [
 			"Provision": "Coffee, tea, juices, beers, cake, meals",
 		},
 		"link": {"homepage":"http://www.hotelpiemont.pl/"}
-	}
+	},
+        {
+                "city": "Austin",
+                "country": "US",
+                "name": "Epoch",
+                "address": "221 W North Loop Blvd",
+                "coordinates": ["30.31838", "-97.72193"],
+                "description": {
+                        "Internet": "Free wifi, good speed, password displayed on counter",
+                        "Power Outlets": "Many, more than one per table",
+                        "Seating": "Tables, couches, bar, outside seating",
+                        "Service": "Great, very friendly",
+                        "Provision": "Coffee, tea, soda, pizza, pastries, tacos",
+                        "Hours": "24 hours"
+                },
+                "link": {"homepage": "http://www.epochcoffee.com"}
+        },
+        {
+                "city": "Austin",
+                "country": "US",
+                "name": "Bennu",
+                "address": "2001 E Martin Luther King Jr Blvd",
+                "coordinates": ["30.27987", "-97.71957"],
+                "description": {
+                        "Internet": "Free wifi, good speed",
+                        "Power Outlets": "Many, more than one per table",
+                        "Seating": "Tables, couches, bar, outside seating",
+                        "Service": "Great, very friendly, knowledgeable staff",
+                        "Provision": "Coffee, tea, soda, pizza, pastries, tacos",
+                        "Hours": "24 hours"
+                },
+                "link": {"homepage": "http://www.bennucoffee.com/"}
+        }
 
 ]
