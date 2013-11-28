@@ -565,5 +565,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, doughnuts, pastries",
 		},
 		"link": {"homepage":"http://www.discoverycoffee.com/"}
-	}
+	},
+	{
+                "city": "Caldwell",
+                "name": "Rock 'n Joe Coffe House and Bistro",
+                "country": "United States",
+                "address": "339 Bloomfield Ave",
+                "coordinates": ["40.840551","-74.276698"],
+                "description": {
+                        "Internet": "Free open internet",
+                        "Power Outlets": "Plenty of outlets",
+                        "Seating": "Coffee shop and with couches and tables",
+                        "Service": "Very friendly",
+                        "Provision": "Coffee, tea, juices, doughnuts, pastries",
+                },
+                "link": {"homepage":"http://www.rocknjoe.net"}
+        }
 ]
