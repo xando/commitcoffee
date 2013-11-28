@@ -595,5 +595,20 @@ var places = [
             "Provision": "Coffee, tea, alchohol, muffins, scones, etc",
         },
         "link": {"homepage":"http://dvlb.ca"}
-    }
+    },
+	{
+		"city": "Gothenburg",
+		"country": "SE",
+		"name": "Espresso House",
+		"address": "Vasagatan 22",
+		"coordinates": ["57.698283", "11.9663"],
+		"description": {
+			"Internet": "Free wifi, reliable and good speed",
+			"Power Outlets": "There are a few",
+			"Seating": "Fairly comfortable seats",
+			"Service": "Okay service",
+			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
+		},
+		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
+	}
 ]
