@@ -582,20 +582,20 @@ var places = [
 		},
 		"link": {"homepage":"http://www.campuslondon.com/"}
 	},
-    {
-        "city": "Waterloo",
-        "country": "Canada",
-        "name": "Death Valley's Little Brother",
-        "address": "84 King St N, Waterloo, ON N2J 2X4",
-        "coordinates": ["43.467711", "-80.5229581"],
-        "description": {
-            "Internet": "Free wifi, good speed, ask for the password",
-            "Power Outlets": "There are a few",
-            "Seating": "Wooden furnishing, very relaxing",
-            "Provision": "Coffee, tea, alchohol, muffins, scones, etc",
-        },
-        "link": {"homepage":"http://dvlb.ca"}
+  {
+    "city": "Waterloo",
+    "country": "Canada",
+    "name": "Death Valley's Little Brother",
+    "address": "84 King St N, Waterloo, ON N2J 2X4",
+    "coordinates": ["43.467711", "-80.5229581"],
+    "description": {
+        "Internet": "Free wifi, good speed, ask for the password",
+        "Power Outlets": "There are a few",
+        "Seating": "Wooden furnishing, very relaxing",
+        "Provision": "Coffee, tea, alchohol, muffins, scones, etc",
     },
+    "link": {"homepage":"http://dvlb.ca"}
+  },
 	{
 		"city": "Gothenburg",
 		"country": "SE",
@@ -610,5 +610,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
+	},
+	{
+		"city": "Ithaca, NY",
+		"country": "USA",
+		"name": "Gimme Coffee",
+		"address": "506 W State St, Ithaca, NY",
+		"coordinates": ["42.4393842", "-76.5064596"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "There are plenty",
+			"Seating": "Fairly comfortable seats",
+			"Service": "Very good service",
+			"Provision": "Coffee, tea, juices, cakes",
+		},
+		"link": {"homepage":"http://www.gimmecoffee.com"}
 	}
 ]
