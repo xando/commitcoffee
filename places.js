@@ -686,5 +686,22 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
+	},
+	{
+		"city": "Bogotá",
+		"country": "Colombia",
+		"name": "Arte y Pasión",
+		"address": "Calle 16 No 7-76 Antiguo Gun Club",
+		"coordinates": ["4.602874", "-74.073312"],
+		"description": {
+			"Internet": "Free wifi, good speed, must buy to get the password",
+			"Power Outlets": "There are a few",
+			"Seating": "Variety of seating - large tables, individual tables, a few comfy chairs",
+			"Service": "Very friendly",
+			"Provision": "coffee, tea, sandwiches, muffins, sweets, lunch",
+			"Hours": "Mon-Sat 7am-9pm, Sun 8am-5pm"
+		},
+		"link": {"homepage":"http://www.arteypasioncafe.com/"}
 	}
+
 ]
