@@ -616,7 +616,7 @@ var places = [
 		"country": "US",
 		"name": "O'Henry's Coffee",
 		"address": "2831 18th St S, Homewood AL 35209",
-		"coordinates": ["33.480194","-86.791767""],
+		"coordinates": ["33.480194","-86.791767"],
 		"description": {
 			"Internet": "Free wifi, reliable and good speed",
 			"Power Outlets": "A handful scattered throughout the space",
