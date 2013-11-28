@@ -537,6 +537,21 @@ var places = [
 		"link": {"homepage":"http://www.cb1.com/cb2/"}
 	},
 	{
+		"city": "Boston",
+		"country": "US",
+		"name": "Fuel America",
+		"address": "152 Chestnut Hill Avenue, Brighton, MA",
+		"coordinates",["42.341702", "-71.15445"],
+		"description": {
+			"Internet": "Free wifi, password is on a slip at the counter",
+			"Power Outlets": "There are a few",
+			"Seating": "Plenty of tables, couches, and chairs, plus a counter at the window",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, sandwiches",
+			"Hours" : "Mon-Fri 7:00 AM-6:00 PM, Sat 7:00 AM-9:00 PM, Sun 8:00 AM-9:00 PM"
+		}
+	},
+	{
 		"city": "Pabianice",
 		"country": "PL",
 		"name": "Piemont Cafe",
