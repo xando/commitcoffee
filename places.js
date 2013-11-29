@@ -1,20 +1,5 @@
 var places = [
 	{
-		"city": "Seattle",
-		"country": "US",
-		"name": "Herkimer Coffee",
-		"address": "5611 The Ave Seattle, WA",
-		"coordinates": ["47.669845", "-122.31325"],
-		"description": {
-			"Internet": "Good wifi, good coffee",
-			"Power Outlets": "Usually at least two or three free",
-			"Seating": "A good variety",
-			"Service": "Warm Hearted",
-			"Provision": "Coffee, Pasteries",
-		},
-		"link": {"homepage":"http://herkimercoffee.com/locations.php"}
-	},
-	{
 		"city": "Białystok",
 		"country": "PL",
 		"name": "Akcent Kawiarnia i Księgarnia",
@@ -716,5 +701,20 @@ var places = [
 			"Provision": "Exceptional coffee (roasted on-premises), tea, craft beer, baked goods, sandwiches at lunch time",
 		},
 		"link": {"homepage":"http://www.boldbeancoffee.com"}
+	},
+	{
+		"city": "Seattle",
+		"country": "USA",
+		"name": "Herkimer Coffee",
+		"address": "5611 The Ave Seattle, WA",
+		"coordinates": ["47.669845", "-122.31325"],
+		"description": {
+			"Internet": "Good wifi, good coffee",
+			"Power Outlets": "Usually at least two or three free",
+			"Seating": "A good variety",
+			"Service": "Warm Hearted",
+			"Provision": "Coffee, Pasteries",
+		},
+		"link": {"homepage":"http://herkimercoffee.com/locations.php"}
 	}
 ]
