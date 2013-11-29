@@ -686,5 +686,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
+	},
+ 	{
+		"city": "Seattle",
+		"country": "USA",
+		"name": "Elliot Bay Cafe",
+		"address": "1521 10th Ave",
+		"coordinates": ["47.614682", "-122.319573"],
+		"description": {
+			"Internet": "Free, open wifi, good speed as long as the place isn't too busy (connection becomes spotty at lunch hours)",
+			"Power Outlets": "Most tables have outlets nearby",
+			"Seating": "Variety of seating - large tables, individual tables, a few comfy chairs",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, beer, cider, juices, baked sweets, salads, sandwiches",
+		},
+		"link": {"homepage":"http://www.elliottbaybook.com/"}
 	}
 ]
