@@ -686,5 +686,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
+	},
+	{
+		"city": "Jacksonville",
+		"country": "USA",
+		"name": "Bold Bean Coffee Roasters",
+		"address": "869 Stockton Street, Suite 1-2, FL 32204",
+		"coordinates": ["30.3155766", "-81.6891937"],
+		"description": {
+			"Internet": "Free wifi, good speed, ask for the password.  Be mindful of their 'Web-Free Weekends.'  They turn the wifi off on Saturdays and Sundays to foster community.",
+			"Power Outlets": "There are a few",
+			"Seating": "Comfortable seats",
+			"Service": "Very friendly & great at what they do",
+			"Provision": "Exceptional coffee (roasted on-premises), tea, craft beer, baked goods, sandwiches at lunch time",
+		},
+		"link": {"homepage":"http://www.boldbeancoffee.com"}
 	}
 ]
