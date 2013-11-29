@@ -686,5 +686,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
+	},
+	{
+		"city": "Pittsburgh",
+		"country": "USA",
+		"name": "Cafe 61C",
+		"address": "1839 Murray Ave",
+		"coordinates": ["40.4365861", "-79.9228549"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "Some tables have outlets nearby",
+			"Seating": "Small tables however you can combine to make a larger table",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, cake, bagels",
+		},
+		"link": {"homepage":"http://61ccafe.com/"}
 	}
 ]
