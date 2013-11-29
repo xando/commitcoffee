@@ -686,5 +686,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
+	},
+	{
+		"city": "Den Haag",
+		"country": "The Netherlands",
+		"name": "Belmondo",
+		"address": "Waldorpstraat 25",
+		"coordinates": ["52.064638", "4.314837"],
+		"description": {
+			"Internet": "Free wifi, good speed, password is written in receipt",
+			"Power Outlets": "Not much, but are available.",
+			"Seating": "Variety of seating - large tables, individual tables, a few comfy chairs",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, cake, small breakfast foods, lunch",
+		},
+		"link": {"homepage":"http://www.caffebelmondo.nl/den-haag/"}
 	}
 ]
