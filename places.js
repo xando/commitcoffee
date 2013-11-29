@@ -686,5 +686,50 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
+	},
+	{
+		"city": "Nashville",
+		"country": "USA",
+		"name": "Crema",
+		"address": "15 Hermitage Ave",
+		"coordinates": ["36.157099","-86.769762"],
+		"description": {
+			"Internet": "free wifi w/purchase",
+			"Power Outlets": "Tables along the wall are close to outlets",
+			"Seating": "Outdoor patio, variety of seating inside from couches to two-chair tables to group tables",
+			"Service": "good, could be a wait during rush periods",
+			"Provision": "coffee, tea. Breakfast and light lunch."
+		},
+		"link": {"homepage":"http://www.crema-coffee.com/"}
+	},
+	{
+		"city": "Nashville",
+		"country": "USA",
+		"name": "Portland Brew East",
+		"address": "1921 Eastland Avenue",
+		"coordinates": ["36.182667","-86.734657"],
+		"description": {
+			"Internet": "free wifi, very fast",
+			"Power Outlets": "Plenty on both floors",
+			"Seating": "Limited outdoor seating, variety of seating inside from couches to booths, tables. Not a lot of group seating",
+			"Service": "Great",
+			"Provision": "coffee, tea. Quiche, sandwiches, desserts."
+		},
+		"link": {"facebook":"https://www.facebook.com/portlandbreweast"}
+	},
+	{
+		"city": "Nashville",
+		"country": "USA",
+		"name": "Portland Brew",
+		"address": "2605 12th Avenue South",
+		"coordinates": ["36.123661","-86.790138"],
+		"description": {
+			"Internet": "free wifi, very fast",
+			"Power Outlets": "Plenty",
+			"Seating": "Limited outdoor seating, variety of seating inside from couches to booths, tables for individual or groups.",
+			"Service": "Great",
+			"Provision": "coffee, tea. Quiche, sandwiches, desserts."
+		},
+		"link": {"facebook":"https://www.facebook.com/portlandbrew12th"}
 	}
 ]
