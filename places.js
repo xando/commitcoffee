@@ -732,5 +732,20 @@ var places = [
             "Hours": "Mon-Fri 7.30-6, Sat 8-6, Sun 9.30-5"
         },
         "link": {"homepage":"http://www.boldstreetcoffee.co.uk/"}
-    }
+    },
+	{
+		"city": "Beacon",
+		"country": "USA",
+		"name": "Bank Square Coffeehouse",
+		"address": "129 Main Street",
+		"coordinates": ["41.50825", "-73.976997"],
+		"description": {
+			"Internet": "Free wifi, good speed. Network name: Bank Square",
+			"Power Outlets": "There are plenty",
+			"Seating": "Comfortable seats, couches, tables, al fresco",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, beers, pastries, small meals",
+		},
+		"link": {"homepage":"http://banksquarecoffeehouse.com/"}
+	}
 ]
