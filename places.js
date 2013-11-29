@@ -686,5 +686,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
+	},
+	{
+		"city": "Montreal",
+		"country": "Canada",
+		"name": "Humble Lion",
+		"address": "904 Rue Sherbrooke Ouest",
+		"coordinates": ["12.0882", "-73.574851"],
+		"description": {
+			"Internet": "Free wifi, good speed, ask for password",
+			"Power Outlets": "Pretty good for outlets",
+			"Seating": "Not a lot of seating, but perfect table height",
+			"Service": "Very friendly",
+			"Provision": "Coffee, Tea, Scone, Pastries",
+		},
+		"link": {"homepage":"http://cafehumblelion.com/"}
 	}
 ]
