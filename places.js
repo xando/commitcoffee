@@ -686,5 +686,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
+	},
+	{
+		"city": "Hoboken",
+		"country": "USA",
+		"name": "Bwe Kafe"
+		"address": "1002 Washington Street",
+		"coordinates": ["40.74471", "-74.028951"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "Most tables have outlets nearby",
+			"Seating": "Variety of seating - group tables, individual tables, a few window seats, outdoor seating, and a few comfy chairs",
+			"Service": "Very friendly.  Know you by name if you are a regular",
+			"Provision": "Earth conscious coffee, exciting brewing methods, tea, juices, gluten-free / vegan friendly, small breakfast foods",
+		},
+		"link": {"homepage":"http://www.bwekafe.com/"}
 	}
 ]
