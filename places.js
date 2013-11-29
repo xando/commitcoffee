@@ -690,7 +690,7 @@ var places = [
 	{
                 "city": "Boston",
                 "country": "USA",
-                "name": "Boston Common Coffe Co.",
+                "name": "Boston Common Coffee Co.",
                 "address": "515 Washington Street",
                 "coordinates": ["42.354217", "-71.061917"],
                 "description": {
