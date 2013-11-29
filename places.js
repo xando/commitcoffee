@@ -688,7 +688,7 @@ var places = [
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
 	},
 	{
-		"city": "Bangalore, Bengaluru",
+		"city": "Bengaluru",
 		"country": "India",
 		"name": "Cafe Coffee Day Jayamahal",
 		"address": "Nandhidurga Rd Jayamahal Bangalore",
