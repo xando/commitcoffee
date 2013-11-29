@@ -686,5 +686,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
+	},
+	{
+		"city": "Newcastle Upon Tyne",
+		"country": "UK",
+		"name": "Pink Lane Coffee",
+		"address": "1 Pink Lane, Newcastle upon Tyne, NE1 5DW",
+		"coordinates": ["54.969513", "-1.618495"],
+		"description": {
+			"Internet": "Free reliable wifi",
+			"Power Outlets": "Located with the tables",
+			"Seating": "Comfy sofas and nice chairs",
+			"Service": "Awesome, very knowledgeable staff",
+			"Provision": "Amazing coffee, delicious sandwiches, cold drip.",
+			"Hours": "Mon-Fri 7.30am-6pm, Sat 9am-5pm, Sun 10am-4pm"
+		},
+		"link": {"homepage":"http://www.pinklanecoffee.co.uk/"}
 	}
 ]
