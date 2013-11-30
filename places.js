@@ -863,5 +863,21 @@ var places = [
             "Provision": "Coffee, tea, deserts, sandwiches"
         },
         "link": {"homepage":"http://www.theroot-cafe.com/"}
-    }
+    },
+	{
+		"city": "Omaha",
+		"state": "Nebraska",
+		"country": "USA",
+		"name": "Aromas Coffeehouse",
+		"address": "1033 Jones St",
+		"coordinates": ["41.253198","-95.930234"],
+		"description": {
+			"internet":"Free wifi even with a lot of people, ask for password",
+			"Power Outlets":"Most tables have one",
+			"Seating":"Couches and regular tables",
+			"Service":"Friendly, not always quick",
+			"Provision":"Coffee, tea, smoothies, pastries"
+		},
+		"link": {"homepage":"http://aromasomaha.com/"}
+	}
 ]
