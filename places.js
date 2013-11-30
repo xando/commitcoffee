@@ -537,38 +537,6 @@ var places = [
 		"link": {"homepage":"http://www.cb1.com/cb2/"}
 	},
 	{
-		"city": "Toronto",
-		"country": "CA",
-		"name": "Rooster Coffee House",
-		"address": "479 Broadview Avenue",
-		"coordinates": "43.66911, -79.35275",
-		"description": {
-			"Internet": "Password protected -- password written on chalkboard",
-			"Power Outlets": "1 power bar at the back big table, one outlet at front windows, north side",
-			"Seating": "four lounge chair, lots of outdoor seating, big back communal table for working",
-			"Service": "very friendly, great coffee, good music, quality wifi",
-			"Provision": "coffee, tea, sandwiches, baked goods. Can buy beans to go",
-			"Hours": "Mon-Fri 7am-7pm, Sat 7am-7pm, Sun 7am-7pm"
-		},
-		"link": {"homepage":"http://roostercoffeehouse.com/"}
-	},
-	{
-		"city": "Toronto",
-		"country": "CA",
-		"name": "The Green Grind",
-		"address": "567 College Street",
-		"coordinates": "43.65529, -79.41266",
-		"description": {
-			"Internet": "Password protected -- ask for password",
-			"Power Outlets": "1 power bar at each end of big communal table",
-			"Seating": "Big communal work table, 3 small 2-person tables, and half dozen lounge chairs",
-			"Service": "Consistently good wifi, very quiet (sometimes play music, good hot drinks and food)",
-			"Provision": "coffee, tea, sandwiches, baked goods. Can buy beans to go",
-			"Hours": "Monday-Friday  8am – 8pm, Saturday-Sunday 9am – 7pm"
-		},
-		"link": {"homepage":"http://www.thegreengrind.ca/"}
-	},
-	{
 		"city": "Pabianice",
 		"country": "PL",
 		"name": "Piemont Cafe",
@@ -942,5 +910,38 @@ var places = [
             "Hours": "24 hours"
         },
         "link": {"homepage": "http://www.epochcoffee.com"}
-    }
+    },
+	{
+		"city": "Toronto",
+		"country": "Canada",
+		"name": "Rooster Coffee House",
+		"address": "479 Broadview Avenue",
+		"coordinates": ["43.669105", "-79.352863"],
+		"description": {
+			"Internet": "Password protected -- password written on chalkboard",
+			"Power Outlets": "1 power bar at the back big table, one outlet at front windows, north side",
+			"Seating": "four lounge chair, lots of outdoor seating, big back communal table for working",
+			"Service": "very friendly, great coffee, good music, quality wifi",
+			"Provision": "coffee, tea, sandwiches, baked goods. Can buy beans to go",
+			"Hours": "Mon-Fri 7am-7pm, Sat 7am-7pm, Sun 7am-7pm"
+		},
+		"link": {"homepage":"http://roostercoffeehouse.com/"}
+	},
+	{
+		"city": "Toronto",
+		"country": "Canada",
+		"name": "The Green Grind",
+		"address": "567 College Street",
+		"coordinates": ["43.655536", "-79.412567"],
+		"description": {
+			"Internet": "Password protected -- ask for password",
+			"Power Outlets": "1 power bar at each end of big communal table",
+			"Seating": "Big communal work table, 3 small 2-person tables, and half dozen lounge chairs",
+			"Service": "Consistently good wifi, very quiet (sometimes play music, good hot drinks and food)",
+			"Provision": "coffee, tea, sandwiches, baked goods. Can buy beans to go",
+			"Hours": "Monday-Friday  8am – 8pm, Saturday-Sunday 9am – 7pm"
+		},
+		"link": {"homepage":"http://www.thegreengrind.ca/"}
+	},
+
 ]
