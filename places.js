@@ -879,5 +879,20 @@ var places = [
 			"Provision":"Coffee, tea, smoothies, pastries"
 		},
 		"link": {"homepage":"http://aromasomaha.com/"}
-	}
+	},
+	{
+        "city": "Rabat",
+        "country": "MA",
+        "name": "Café Viking",
+        "address": "49, Avenue moulay youssef",
+        "coordinates": ["34.014213", "-6.836497"],
+        "description": {
+            "Internet": "Free wifi, good speed",
+            "Power Outlets": "There are a few",
+            "Seating": "Comfortable seats",
+            "Service": "Very friendly",
+            "Provision": "Coffee, tea, juices, toasts",
+        },
+        "link": {"facebook":"https://www.facebook.com/pages/Viking/207492465937077"}
+    }
 ]
