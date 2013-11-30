@@ -374,7 +374,7 @@ var places = [
 		"country": "GB",
 		"name": "Cafe Vintage",
 		"address": "88 Mountgrove Road London N5 2LT, near Arsenal Tube",
-		"coordinates": "",
+		"coordinates": ["51.561143", "-0.097318"],
 		"description": {
 			"Internet": "wifi (~4Mbit/s)",
 			"Power Outlets": "A few, and I bought them extensions which are available",
@@ -389,7 +389,7 @@ var places = [
 		"country": "GB",
 		"name": "Departure Cafe",
 		"address": "649/651 Commercial Road, Limehouse, London E14 7LW",
-		"coordinates": "",
+		"coordinates": ["51.512787", "-0.038269"],
 		"description": {
 			"Internet": "wifi (~8Mbit/s)",
 			"Power Outlets": "Plenty, 2 or 4 next to each desk, sofa or table",
@@ -404,7 +404,7 @@ var places = [
 		"country": "GB",
 		"name": "Scandinavian Kitchen",
 		"address": "61 Great Titchfield Street, London W1W 7PP",
-		"coordinates": "",
+		"coordinates": ["51.518752", "-0.140848"],
 		"description": {
 			"Internet": "free, WPA-protected Wi-Fi (~10 Mbps), stable and speedy",
 			"Power Outlets": "few are present, at least in the basement room",
