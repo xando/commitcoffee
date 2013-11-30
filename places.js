@@ -1,4 +1,19 @@
 var places = [
+    {
+        "city": "Lakewood, OH",
+        "country": "US",
+        "name": "The Root Cafe",
+        "address": "15118 Detroit Ave. Lakewood, Ohio 44107",
+        "coordinates": "",
+        "description": {
+            "Internet": "Free wifi",
+            "Power Outlets": "Alone each wall",
+            "Seating": "Lots of tables and chairs, especially towards the back. Books and boardgames are available in bookcases.",
+            "Service": "Quick and friendly",
+            "Provision": "Coffee, tea, deserts, sandwiches"
+        },
+        "link": {"homepage":"http://www.theroot-cafe.com/"}
+    },
 	{
 		"city": "Białystok",
 		"country": "PL",
