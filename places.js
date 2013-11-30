@@ -894,5 +894,21 @@ var places = [
             "Provision": "Coffee, tea, juices, toasts",
         },
         "link": {"facebook":"https://www.facebook.com/pages/Viking/207492465937077"}
+    },
+    {
+        "city": "Austin",
+        "country": "USA",
+        "name": "Epoch",
+        "address": "221 W North Loop Blvd",
+        "coordinates": ["30.318686", "-97.724464"],
+        "description": {
+            "Internet": "Free wifi, good speed, password displayed on counter",
+            "Power Outlets": "Many, more than one per table",
+            "Seating": "Tables, couches, bar, outside seating",
+            "Service": "Great, very friendly",
+            "Provision": "Coffee, tea, soda, pizza, pastries, tacos",
+            "Hours": "24 hours"
+        },
+        "link": {"homepage": "http://www.epochcoffee.com"}
     }
 ]
