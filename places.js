@@ -817,5 +817,21 @@ var places = [
 			"homepage":"http://www.originroasting.co.za",
 			"facebook":"https://www.facebook.com/originroasting"
 		}
+	},
+	{
+		"city": "London",
+		"country": "UK",
+		"name": "Browns of Brockley",
+		"address": "No. 5 Coulgate Street",
+		"coordinates": [ "51.464467", "-0.036954"],
+		"description": {
+			"Internet": "Free wifi, good speed, ask for the password",
+			"Power Outlets": "Unknown",
+			"Seating": "Comfortable bar stools",
+			"Service": "Very friendly",
+			"Provision": "Excellent coffee, sandwiches, pastries, cakes",
+		},
+		"link": {"homepage":"http://brownsofbrockley.com/"}
+
 	}
 ]
