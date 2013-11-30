@@ -832,6 +832,21 @@ var places = [
 			"Provision": "Excellent coffee, sandwiches, pastries, cakes",
 		},
 		"link": {"homepage":"http://brownsofbrockley.com/"}
-
+	},
+	{
+		"city": "Austin",
+		"country": "USA",
+		"name":"Bennu",
+		"address": "2001 E. MLK Blvd.",
+		"coordinates": ["30.280009", "-97.719679"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "Lots of power outlets near seats",
+			"Seating": "Lots of very comfortable chairs and couches",
+			"Service": "Friendly baristas",
+			"Provision": "All types of great mocha coffee",
+			"Hours": "24 Hours!"
+		},
+		"link": {"homepage":"http://www.bennucoffee.com/"}
 	}
 ]
