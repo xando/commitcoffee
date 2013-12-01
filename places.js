@@ -1113,5 +1113,20 @@ var places = [
 			"Provision": "Coffee, tea, pastries, cereal bar"
 		},
 		"link": {"homepage":"https://www.facebook.com/papaccinos"}
+	},
+	{
+		"city": "Dublin",
+		"name": "3FE Coffee",
+		"country": "Ireland",
+		"address": "32/34 Lower Grand Canal, Dublin 2",
+		"coordinates": ["53.339926", "-6.2419822"],
+		"description": {
+			"Internet": "Free WiFi internet",
+			"Power Outlets": "Some",
+			"Seating": "Premium coffee shop, considered Ireland's finest ",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, brownies, pastries",
+		},
+		"link": {"homepage":"http://www.3fe.com/"}
 	}
 ]
