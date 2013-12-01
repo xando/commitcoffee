@@ -943,5 +943,19 @@ var places = [
 		},
 		"link": {"homepage":"http://www.thegreengrind.ca/"}
 	},
-
+	{
+        "city": "Caldwell",
+        "name": "Rock 'n Joe Coffe House and Bistro",
+        "country": "USA",
+        "address": "339 Bloomfield Ave",
+        "coordinates": ["40.840251","-74.276475"],
+        "description": {
+            "Internet": "Free open internet",
+            "Power Outlets": "Plenty of outlets",
+            "Seating": "Coffee shop and with couches and tables",
+            "Service": "Very friendly",
+            "Provision": "Coffee, tea, juices, doughnuts, pastries",
+        },
+        "link": {"homepage":"http://www.rocknjoe.net"}
+    }
 ]
