@@ -1310,7 +1310,6 @@ var places = [
 		},
 		"link": {"homepage":"http://www.redrockcoffee.org/"}
 	},
-
 	{
 		"city": "London",
 		"country": "United Kingdom",
