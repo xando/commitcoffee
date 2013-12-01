@@ -1176,5 +1176,19 @@ var places = [
 		},
 		"link": {"facebook":"startbucks.com"}
 	},
-
+	{
+		"city": "San Francisco",
+		"country": "USA",
+		"name": "Coffee Bar",
+		"address": "1890 Bryant St",
+		"coordinates": ["37.763133", "-122.410931"],
+		"description": {
+			"Internet": "Free wifi, reliable and good speed",
+			"Power Outlets": "Quite a few",
+			"Seating": "Fairly comfortable seats",
+			"Service": "Good service",
+			"Provision": "Coffee, tea, salads, sandwiches",
+		},
+		"link": {"homepage":"http://www.coffeebarsf.com/"}
+	}
 ]
