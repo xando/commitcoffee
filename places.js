@@ -1034,5 +1034,39 @@ var places = [
 			"Service": "Self-service",
 			"Provision": "Coffee, tea, hot chocolate, sandwiches"
 		}
+	},
+	{
+		"city": "San Francisco",
+		"name": "Haus Coffee",
+		"country": "USA",
+		"address": "3086 24th St",
+		"coordinates": ["37.752641","-122.413729"],
+		"description": {
+			"Internet": "Free open internet",
+			"Power Outlets": "There are a few",
+			"Seating": "Tables and chairs for groups, couple of comfortable sofas, and a beautiful outdoor patio",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, pastries.",
+		},
+		"link": {
+			"homepage":"https://plus.google.com/105646394886961700159"
+		}
+	},
+	{
+		"city": "San Francisco",
+		"name": "Ritual Roasters",
+		"country": "USA",
+		"address": "1026 Valencia St",
+		"coordinates": ["37.756490", "-122.421263"],
+		"description": {
+			"Internet": "Free open internet",
+			"Power Outlets": "There are a few",
+			"Seating": "Tables and chairs for groups, individual seating at the bar.",
+			"Service": "Very friendly",
+			"Provision": "Espresso, pour-over coffee, tea, and some pastries.",
+		},
+		"link": {
+			"homepage":"http://www.ritualroasters.com/‎"
+		}
 	}
 ]
