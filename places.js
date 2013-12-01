@@ -1190,5 +1190,19 @@ var places = [
 			"Provision": "Coffee, tea, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.coffeebarsf.com/"}
+	},
+	{
+		"city": "Orenburg",
+		"name": "Прокоffий",
+		"country": "Russia",
+		"address": "4/2 Donetskaya Street",
+		"coordinates": ["51.762418", "55.121874"],
+		"description": {
+			"Internet": "WiFi password: freeforyou",
+			"Power Outlets": "There are a few",
+			"Seating": "Coffee shop with very strange furniture and small tables",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, drinks, delicious food",
+		}
 	}
 ]
