@@ -1,5 +1,20 @@
 var places = [
 	{
+		"city": "Kastrup",
+		"country": "DK",
+		"name": "Starbucks",
+		"address": "Lufthavnsboulevarden 6",
+		"coordinates": ["55.628977", "12.64977"],
+		"description": {
+			"Internet": "Free WiFi",
+			"Power Outlets": "On the wall, Danish type",
+			"Seating": "Chairs and coffee tables",
+			"Service": "It's Starbucks!",
+			"Provision": "All Starbucksy stuff."
+		},
+		"link": {"facebook":"startbucks.com"}
+	},
+	{
 		"city": "Białystok",
 		"country": "PL",
 		"name": "Akcent Kawiarnia i Księgarnia",
