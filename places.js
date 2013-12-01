@@ -1279,13 +1279,13 @@ var places = [
 			"Provision": "Coffee, tea, hot breakfast, pastries. A little pricey, but VERY good coffee and food."
 		},
 		"link": {"homepage":"http://www.bloomcoffee.com/"}
-	}
+	},
 	{
 		"city": "Dallas",
-		"country": "TX",
+		"country": "USA",
 		"name": "Sip | Stir",
 		"address": "3800 McKinney Ave. #180 Dallas, TX 75204",
-		"coordinates": ["32.809059", "-96.795104"],
+		"coordinates": ["32.808883", "-96.795454"],
 		"description": {
 			"Internet": "Free.  Speed is OK.  Ask for the password.",
 			"Power Outlets": "Plenty",
