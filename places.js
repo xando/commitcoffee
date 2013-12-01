@@ -1204,5 +1204,35 @@ var places = [
 			"Service": "Very friendly",
 			"Provision": "Coffee, tea, drinks, delicious food",
 		}
+	},
+	{
+		"city": "San Mateo",
+		"name": "Kaffeehaus",
+		"country": "USA",
+		"address": "92 E 3rd Ave",
+		"coordinates": ["37.563981", "-122.324314"],
+		"description": {
+			"Internet": "Free open internet",
+			"Power Outlets": "There are a few",
+			"Seating": "Tables, booths, bar and outdoor seating",
+			"Service": "Very friendly",
+			"Provision": "Coffee, wine, tea, juices, salads, pastries",
+		},
+		"link": {"homepage":"http://mykaffeehaus.com/"}
+	},
+	{
+		"city": "Seattle",
+		"name": "Zeitgeist",
+		"country": "USA",
+		"address": "171 S. Jackson St  Seattle",
+		"coordinates": ["47.599107", "-122.331924"],
+		"description": {
+			"Internet": "Free fast internet",
+			"Power Outlets": "There are a few",
+			"Seating": "Tables and local art",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, sandwiches, pastries",
+		},
+		"link": {"homepage":"http://zeitgeistcoffee.com"}
 	}
 ]
