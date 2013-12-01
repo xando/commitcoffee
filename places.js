@@ -957,5 +957,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, pastry, ace sandwiches",
 		},
 		"link": {"homepage":"www.departmentofcoffee.co.uk/"}
-	}
+	},
+    {
+        "city": "Ithaca",
+        "name": "Gimme! Coffee",
+        "country": "USA",
+        "address": "506 W State St",
+        "coordinates": ["42.439408", "-76.506432"],
+        "description": {
+            "Internet": "Free open internet",
+            "Power Outlets": "Plenty",
+            "Seating": "Coffee shop and quiet lounge with couches and large tables for meetings",
+            "Service": "Very friendly",
+            "Provision": "Coffee, some bakery items",
+        },
+        "link": {"homepage":"http://www.gimmecoffee.com"}
+    }
 ]
