@@ -324,6 +324,23 @@ var places = [
 		},
 		"link": { "facebook":"http://www.facebook.com/fabrykanadeptaku"}
 	},
+    {
+        "city": "Toronto",
+        "country": "CA",
+        "name": "Dark Horse Espresso Bar",
+        "address": "684 Queen St W, Toronto, Ontario",
+        "coordinates": ["43.646549", "-79.407603"],
+        "description": {
+            "Internet": "free wifi, I've had to ask them to reset the router once or twice, but usually it's fine.",
+			"Power Outlets": "They exist, but are not as widespread as they could be.",
+			"Seating": "Benches and some chairs",
+			"Service": "Generally friendly and helpful",
+			"Provision": "Incredibly good coffee.  Ask for the Pour-over!",
+			"Hours": "Mon-Fri 07:00 - 20:00, Sat-Sun 08:00 - 20:00"
+
+        },
+        "link": {"homepage": "http://darkhorseespresso.com/"}
+    }
 	{
 		"city": "Warszawa",
 		"country": "PL",
