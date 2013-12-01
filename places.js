@@ -445,21 +445,6 @@ var places = [
 		"link": {"homepage":"https://www.facebook.com/pages/Caf%C3%A9-Gr%C3%A5munken/138341679557900"}
 	},
 	{
-		"city": "Linköping",
-		"country": "SE",
-		"name": "De Klomp",
-		"address": "S:T Larsgatan 13",
-		"coordinates": ["58.413707","15.623648"],
-		"description": {
-			"Internet": "wifi free (Open Network)",
-			"Power Outlets": "By the windows",
-			"Seating": "Tables, Couches, Bar",
-			"Service": "Wonderful Beer Selection",
-			"Provision": "Beer, Food, Tea, Coffee, Snacks",
-		},
-		"link": {"homepage":"http://www.deklomp.se/"}
-	},
-	{
 		"city": "Stockholm",
 		"country": "SE",
 		"name": "Le Cafe",
@@ -1021,5 +1006,19 @@ var places = [
 			"homepage":"http://www.brewlabcoffee.co.uk/"
 		}
 	},
-
+	{
+		"city": "Linköping",
+		"country": "SE",
+		"name": "De Klomp",
+		"address": "S:T Larsgatan 13",
+		"coordinates": ["58.413401","15.623704"],
+		"description": {
+			"Internet": "wifi free (Open Network)",
+			"Power Outlets": "By the windows",
+			"Seating": "Tables, Couches, Bar",
+			"Service": "Wonderful Beer Selection",
+			"Provision": "Beer, Food, Tea, Coffee, Snacks",
+		},
+		"link": {"homepage":"http://www.deklomp.se/"}
+	}
 ]
