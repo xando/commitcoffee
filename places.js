@@ -896,6 +896,21 @@ var places = [
         "link": {"facebook":"https://www.facebook.com/pages/Viking/207492465937077"}
     },
     {
+        "city": "Fès",
+        "country": "MA",
+        "name": "Café Diamant Princess",
+        "address": "N 408 Lot Nouzha Route Ain Chkef, Fès",
+        "coordinates": ["34.0137833", "-5.0079167"],
+        "description": {
+            "Internet": "Free wifi, good speed",
+            "Power Outlets": "There are a few",
+            "Seating": "Comfortable seats",
+            "Service": "Very friendly",
+            "Provision": "Coffee, tea, juices, toasts",
+        },
+        "link": {"foursquare":"https://foursquare.com/v/diamant-princess/4f533cebe4b028a92039fc84"}
+    },
+    {
         "city": "Austin",
         "country": "USA",
         "name": "Epoch",
