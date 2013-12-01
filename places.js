@@ -1157,7 +1157,6 @@ var places = [
 			"Service": "Generally friendly and helpful",
 			"Provision": "Incredibly good coffee.  Ask for the Pour-over!",
 			"Hours": "Mon-Fri 07:00 - 20:00, Sat-Sun 08:00 - 20:00"
-
         },
         "link": {"homepage": "http://darkhorseespresso.com/"}
     },
@@ -1234,5 +1233,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, sandwiches, pastries",
 		},
 		"link": {"homepage":"http://zeitgeistcoffee.com"}
-	}
+	},
+	{
+		"city": "San Antonio",
+		"country": "USA",
+		"name": "Brown Coffee Company",
+		"address": "1800 Broadway St",
+		"coordinates": ["29.442948", "-98.476649"],
+		"description": {
+			"Internet": "Free wifi, good speed, ask for the password",
+			"Power Outlets": "There are a few",
+			"Seating": "Some individual tables, some long tables",
+			"Service": "Very friendly",
+			"Provision": "Coffee, espresso, some pastries, Mexican coke, Topo Chico",
+		},
+		"link": {"homepage":"http://browncoffeeco.com/"}
+	},
+
 ]
