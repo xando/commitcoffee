@@ -24,10 +24,10 @@
 
 	<body ng-controller="Controller" class="ng-cloak">
 
-		<a target="_blank" href="https://github.com/xando/commitcoffee">
-			<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub">
-		</a>
-		<div class="logo">
+		<div class="logo hidden-xs hidden-sm">
+			<a target="_blank" href="https://github.com/xando/commitcoffee">
+				<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub">
+			</a>
 			<div class="sign">
 				Commit@Coffee
 			</div>
@@ -37,7 +37,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 
-					<p>
+					<p class="hidden-xs hidden-sm">
 						Enter the location and search for a
 						geek friendly coffee place near you with good
 						<span class="brown">WiFi</span> and <span class="brown">Coffee</span>
@@ -93,7 +93,7 @@
 								</div>
 							</dl>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-6 hidden-xs hidden-sm">
 							<img ng-src="http://maps.googleapis.com/maps/api/staticmap?center={{ locationDetails.coordinates[0] }},{{ locationDetails.coordinates[1] }}&markers={{ locationDetails.coordinates[0] }},{{ locationDetails.coordinates[1] }}&zoom=16&size=398x250&sensor=false">
 						</div>
 					</div>
@@ -103,7 +103,7 @@
 			<div id="map-canvas"> </div>
 		</div>
 
-		<div class="contribute">
+		<div class="contribute hidden-xs hidden-sm">
 			<p>
 				Is there a good coffee place missing? Would like to see it here?
 				Please make a fork of the
@@ -122,7 +122,7 @@
 			<p>Send the pull request. We are done here!</p>
 		</div>
 
-		<footer>
+		<footer class="hidden-xs hidden-sm">
 			<span>
 				<i class="fa fa-envelope tblue"></i>
 				<a href="mailto:commitcoffee@gmail.com">commitcoffee@gmail.com</a> |

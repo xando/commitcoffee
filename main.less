@@ -125,15 +125,56 @@ footer {
 	margin: 10px 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 
-.section-heading {
-	font-size: 2em;
-}
+	html,body {
 
-.section {
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
+		height: 100%;
+
+		.search {
+			text-align: center;
+			position: fixed;
+			z-index: 2;
+			background: black;
+			width: 100%;
+			padding: 11px 0px;
+		}
+
+		.map {
+			height: 100%;
+			.detail {
+				margin-top: 80px;
+				height: 100%;
+				.message {
+					border-radius: 0px;
+					border: 0;
+					width: 100%;
+					background: #EfEfEf;
+					height: 100%;
+					margin: 0;
+					h2 {
+						font-weight: bold;
+					}
+					address{
+						margin-bottom: 0;
+					}
+					.links {
+						font-size: 40px;
+						margin-top: 10px;
+						text-align: right;
+					}
+					img {
+
+						border-radius: 6px;
+						border: 2px solid #ccc;
+					}
+				}
+
+			}
+			#map-canvas {
+				height: 100%;
+			}
+		}
+	}
 
 }
