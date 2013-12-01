@@ -1128,5 +1128,20 @@ var places = [
 			"Provision": "Coffee, tea, brownies, pastries",
 		},
 		"link": {"homepage":"http://www.3fe.com/"}
+	},
+	{
+		"city": "Palo Alto",
+		"country": "USA",
+		"name": "3 G's Cafe",
+		"address": "456 Cambridge Ave",
+		"coordinates": ["37.426552", "-122.146317"],
+		"description": {
+			"Internet": "Free wifi, good speed, ask for the password",
+			"Power Outlets": "Plenty",
+			"Seating": "Few but good chairs, outdoor morning sun",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, beers, cake, meals",
+		},
+		"link": {"yelp":"http://www.yelp.com/biz/3-gs-cafe-palo-alto"}
 	}
 ]
