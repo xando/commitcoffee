@@ -369,6 +369,21 @@ var places = [
 		},
 		"link": {"homepage":"http://www.missterium.pl/"}
 	},
+  {
+		"city": "Edinburgh",
+		"country": "GB",
+		"name": "Brew Lab",
+		"address": "6-8 South College Street, Edinburgh, EH8 9AA",
+		"coordinates": ["55.947087", "-3.186665"],
+		"description": {
+			"Internet": "Free Wifi Access, stable and fast",
+			"Power Outlets": "Generally available if you sit close to a wall",
+			"Seating": "Two sofas, coffee table, long table, benches, bar stools with table access",
+			"Service": "Fantastic, really take pride in their work",
+			"Provision": "Artisan coffee, tea, cakes, soup, sandwiches, drinks and coffee brewing equipment."
+		},
+		"link": {"facebook": "https://www.facebook.com/BrewLabCoffee", "homepage":"http://www.brewlabcoffee.co.uk/"}
+	},
 	{
 		"city": "London",
 		"country": "GB",
