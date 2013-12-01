@@ -1264,5 +1264,20 @@ var places = [
 			"Hours": "Mon-Fri 7 am - 6 pm, Sat-Sun 8 am - 5 pm"
 		},
 		"link": {"homepage":"http://www.greenhousecafe-sf.com/"}
+	},
+	{
+		"city": "Roseville",
+		"country": "US",
+		"name": "Bloom Coffee",
+		"address": "1485 Eureka Road, Roseville",
+		"coordinates": ["38.752791", "-121.251637"],
+		"description": {
+			"Internet": "Free wifi, excellent coffee",
+			"Power Outlets": "Several along the walls.",
+			"Seating": "Bar-style seating along one wall, standard coffee-shop tables, couches and cushy chairs in the center.",
+			"Service": "Usually good, and they know their coffee.",
+			"Provision": "Coffee, tea, hot breakfast, pastries. A little pricey, but VERY good coffee and food."
+		},
+		"link": {"homepage":"http://www.bloomcoffee.com/"}
 	}
 ]
