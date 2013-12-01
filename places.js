@@ -1311,4 +1311,20 @@ var places = [
 		"link": {"homepage":"http://www.redrockcoffee.org/"}
 	},
 
+	{
+		"city": "London",
+		"country": "United Kingdom",
+		"name": "TAP Coffee No.193",
+		"address": "193 Wardour Street, W1F 8ZF, London",
+		"coordinates": ["51.515707", "-0.135958"],
+		"description": {
+			"Internet": "Password written on a toy. Try to find it.",
+			"Power Outlets": "The only issue. Staff likely to share electricity from the bar.",
+			"Seating": "Small tables, comfortable seats. Enough space.",
+			"Service": "Friendly, relaxed, skilled, knowledgeable.",
+			"Provision": "Exceptional coffee, toasted Banana Bread's price is for two slices - unlike anywhere else.",
+			"Hours": "Mon-Fri 8am - 7pm, Sat 10am - 6pm, Sun 12pm - 6pm"
+		},
+		"link": {"homepage":"http://www.tapcoffee.co.uk/"}
+	}
 ]
