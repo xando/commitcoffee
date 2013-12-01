@@ -1331,7 +1331,7 @@ var places = [
 		"country": "USA",
 		"name": "Fuel America",
 		"address": "152 Chestnut Hill Avenue, Brighton, MA",
-		"coordinates",["42.341715", "-71.154322"],
+		"coordinates": ["42.341715", "-71.154322"],
 		"description": {
 			"Internet": "Free wifi, password is on a slip at the counter",
 			"Power Outlets": "There are a few",
