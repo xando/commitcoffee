@@ -537,22 +537,6 @@ var places = [
 		"link": {"homepage":"http://www.cb1.com/cb2/"}
 	},
 	{
-		"city": "San Francisco",
-		"country": "US",
-		"name": "Greenhouse Cafe",
-		"address": "329 West Portal Ave. San Francisco CA",
-		"coordinates": ["37.7373419", "-122.469566"],
-		"description": {
-			"Internet": "Ask for password, good coffee and light food",
-			"Power Outlets": "There are several against the wall",
-			"Seating": "Small tables, couches and comfortable back room",
-			"Service": "Friendly",
-			"Provision": "Coffee, tea, wraps, bagels, sandwhiches, etc",
-			"Hours": "Mon-Fri 7 am - 6 pm, Sat-Sun 8 am - 5 pm"
-		},
-		"link": {"homepage":"http://www.greenhousecafe-sf.com/"}
-	},
-	{
 		"city": "Pabianice",
 		"country": "PL",
 		"name": "Piemont Cafe",
@@ -1265,5 +1249,20 @@ var places = [
 		},
 		"link": {"homepage":"http://browncoffeeco.com/"}
 	},
-
+	{
+		"city": "San Francisco",
+		"country": "USA",
+		"name": "Greenhouse Cafe",
+		"address": "329 West Portal Ave. San Francisco CA",
+		"coordinates": ["37.737546", "-122.469400"],
+		"description": {
+			"Internet": "Ask for password, good coffee and light food",
+			"Power Outlets": "There are several against the wall",
+			"Seating": "Small tables, couches and comfortable back room",
+			"Service": "Friendly",
+			"Provision": "Coffee, tea, wraps, bagels, sandwhiches, etc",
+			"Hours": "Mon-Fri 7 am - 6 pm, Sat-Sun 8 am - 5 pm"
+		},
+		"link": {"homepage":"http://www.greenhousecafe-sf.com/"}
+	}
 ]
