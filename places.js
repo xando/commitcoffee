@@ -1020,5 +1020,19 @@ var places = [
 			"Provision": "Beer, Food, Tea, Coffee, Snacks",
 		},
 		"link": {"homepage":"http://www.deklomp.se/"}
+	},
+	{
+		"city": "Kyiv",
+		"country": "Ukraine",
+		"name": "Chasopys",
+		"address": "Lva Tolstoho 3",
+		"coordinates": ["50.4395", "30.515017"],
+		"description": {
+			"Format": "Pay for time",
+			"Internet": "Free wifi, nice speed, password protected",
+			"Power outlets": "A lot of them",
+			"Service": "Self-service",
+			"Provision": "Coffee, tea, hot chocolate, sandwiches"
+		}
 	}
 ]
