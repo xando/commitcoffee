@@ -567,20 +567,6 @@ var places = [
 		"link": {"homepage":"http://www.discoverycoffee.com/"}
 	},
 	{
-		"city": "Mountain View",
-		"country": "US",
-		"name": "Red Rock",
-		"address": "201 Castro St, Mountain View, CA 94041",
-		"description": {
-			"Internet": "Free stable WIFI and Google public WIFI also available",
-			"Power Outlets": "Lots",
-			"Seating": "Plenty, and there is a second floor that is quieter, get there early it fills up fairly quickly",
-			"Service": "Very friendly",
-			"Provision": "Coffee, tea, muffins, snacks",
-		},
-		"link": {"homepage":"http://www.redrockcoffee.org/"}
-	},
-	{
 		"city": "London",
 		"country": "UK",
 		"name": "Campus London",
@@ -1308,5 +1294,21 @@ var places = [
 			"Provision": "Great coffee and pastries.",
 		},
 		"link": {"homepage":"http://www.sipstircafe.com/"}
-	}
+	},
+	{
+		"city": "Mountain View",
+		"country": "USA",
+		"name": "Red Rock",
+		"address": "201 Castro St, Mountain View, CA 94041",
+		"coordinates": ["37.393611", "-122.078774"],
+		"description": {
+			"Internet": "Free stable WIFI and Google public WIFI also available",
+			"Power Outlets": "Lots",
+			"Seating": "Plenty, and there is a second floor that is quieter, get there early it fills up fairly quickly",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, muffins, snacks",
+		},
+		"link": {"homepage":"http://www.redrockcoffee.org/"}
+	},
+
 ]
