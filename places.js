@@ -943,5 +943,19 @@ var places = [
 		},
 		"link": {"homepage":"http://www.thegreengrind.ca/"}
 	},
-
+	{
+		"city": "London",
+		"name": "Department of Coffee and Social Affairs",
+		"country": "United Kingdom",
+		"address": "14-16 Leather Lane",
+		"coordinates": ["51.519461", "-0.109058"],
+		"description": {
+			"Internet": "Free password protected internet",
+			"Power Outlets": "There are several, especially in the back room",
+			"Seating": "Busy third wave coffee shop, great team table in back room",
+			"Service": "The nicest hipsters in town",
+			"Provision": "Coffee, tea, juices, pastry, ace sandwiches",
+		},
+		"link": {"homepage":"www.departmentofcoffee.co.uk/"}
+	}
 ]
