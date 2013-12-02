@@ -491,7 +491,7 @@ var places = [
 	},
 	{
 		"city": "Cologne",
-		"country": "DE",
+		"country": "Germany",
 		"name": "Goldmund Literatur Cafe",
 		"address": "Glasstraße 2",
 		"coordinates": ["50.951221","6.919882"],
