@@ -1450,5 +1450,20 @@ var places = [
 			"Provision": "Fair trade and organic coffee and tea, more...",
 		},
 		"link": {"homepage":"https://plus.google.com/113437543592526873134/about?gl=ca&hl=en"}
+	},
+	{
+		"city": "St. Catharines",
+		"country": "Canada",
+		"name": "Mahtay Café & Lounge",
+		"address": "241 St. Paul Street",
+		"coordinates": ["43.158550", "-79.243172"],
+		"description": {
+			"Internet": "Free wifi, reliable and good speed",
+			"Power Outlets": "Plentiful",
+			"Seating": "Handful of tables, bar with stools, some couches and comfy chairs",
+			"Service": "Excellent, very friendly and accommodating",
+			"Provision": "Coffee, tea, juice, sandwiches, soups, sweets, craft beers",
+		},
+		"link": {"homepage":"http://www.mahtay.ca/"}
 	}
 ]
