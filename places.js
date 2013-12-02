@@ -1605,5 +1605,20 @@ var places = [
 			"Provision": "Coffee, pastries, light meals",
 		},
 		"link": {"homepage":"http://muddywaterscoffeeroasters.com/geneseo.html"}
+	},
+	{
+		"city": "Pittsburgh",
+		"country": "USA",
+		"name": "Cafe 61C",
+		"address": "1839 Murray Ave",
+		"coordinates": ["40.436165", "-79.922762"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "Some tables have outlets nearby",
+			"Seating": "Small tables however you can combine to make a larger table",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, cake, bagels",
+		},
+		"link": {"homepage":"http://61ccafe.com/"}
 	}
 ]
