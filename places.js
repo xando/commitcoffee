@@ -516,7 +516,7 @@ var places = [
 			"Seating": "Comfortable tables and couches",
 			"Service": "Very friendly",
 			"Provision": "Coffee, tea, juices, beers, cake, muffins, etc",
-			"w": "Tue 11.30-15, 18.30-23, Wed-Sat 11.30-23"
+			"Hours": "Tue 11.30-15, 18.30-23, Wed-Sat 11.30-23"
 		},
 		"link": {"homepage":"http://lantreautre.fr"}
 	},
@@ -1340,5 +1340,21 @@ var places = [
 			"Provision": "Coffee, tea, sandwiches",
 			"Hours" : "Mon-Fri 7:00 AM-6:00 PM, Sat 7:00 AM-9:00 PM, Sun 8:00 AM-9:00 PM"
 		}
-	}
+	},
+	{
+		"city": "Brampton",
+		"country": "CA",
+		"name": "Williams Fresh Cafe",
+		"address": "2454 Queen Street East",
+		"coordinates": ["43.738046","-79.702882"],
+		"description": {
+			"Internet": "Free wifi. Not the fastest though.",
+			"Power Outlets": "A few along the walls.",
+			"Seating": "Cushioned benches in the center, decent chairs along the walls.",
+			"Service": "Great service. Open late.",
+			"Provision": "Coffee, tea, meals, desserts, etc.",
+			"Hours": "Mon-Thu 6am - 12am, Fri-Sat 6am - 2am, Sun 7am - 12am"
+		},
+		"link": {"homepage":"http://www.williamsfreshcafe.com/2454-queen-street-east"}
+	},
 ]
