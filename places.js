@@ -1407,7 +1407,7 @@ var places = [
 	},
 	{
 		"city": "Travelers Rest",
-		"country": "US",
+		"country": "USA",
 		"name": "The Forest Coffeehouse",
 		"address": "27 South Main Street, Travelers Rest, SC 29690",
 		"coordinates": ["34.965672", "-82.441534"],
@@ -1419,5 +1419,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.theforestcoffee.com/"}
+	},
+	{
+		"city": "New York",
+		"country": "USA",
+		"name": "Vbar",
+		"address": "132 1st Ave",
+		"coordinates": ["40.727395", "-73.985130"],
+		"description": {
+			"Internet": "Fast Wi-Fi",
+			"Power Outlets": "Several along the northern wall and at the high table",
+			"Seating": "Regular chairs",
+			"Provision": "Coffee, tea, pastries, lunch menu (mostly sandwiches and pasta)"
+		},
+		"link": {
+			"homepage":"http://vbarandcompany.com/"
+		}
 	}
 ]
