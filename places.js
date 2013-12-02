@@ -956,7 +956,7 @@ var places = [
 			"Service": "The nicest hipsters in town",
 			"Provision": "Coffee, tea, juices, pastry, ace sandwiches",
 		},
-		"link": {"homepage":"www.departmentofcoffee.co.uk/"}
+		"link": {"homepage":"http://www.departmentofcoffee.co.uk/"}
 	},
     {
         "city": "Ithaca",
@@ -1003,7 +1003,7 @@ var places = [
 		},
 		"link": {
 			"facebook": "https://www.facebook.com/BrewLabCoffee",
-			"homepage":"http://www.brewlabcoffee.co.uk/"
+			"homepage": "http://www.brewlabcoffee.co.uk/"
 		}
 	},
 	{
