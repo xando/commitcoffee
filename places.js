@@ -1510,5 +1510,20 @@ var places = [
 			"Provision": "Their main thing is pastries, but they have a really good espresso as well",
 		},
 		"link": {"homepage":"http://www.ninaveloso.com.br/"}
+	},
+	{
+		"city": "Ottawa",
+		"country": "CA",
+		"name": "Bridgehead",
+		"address": "109 Bank Street",
+		"coordinates": ["45.419924", "-75.700197"],
+		"description": {
+			"Internet": "Free wifi, reliable and good speed",
+			"Power Outlets": "A few",
+			"Seating": "Fairly comfortable seats",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, cake, salads, sandwiches"
+		},
+		"link": {"homepage":"http://www.bridgehead.ca/"}
 	}
 ]
