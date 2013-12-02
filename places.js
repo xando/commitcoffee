@@ -537,6 +537,25 @@ var places = [
 		"link": {"twitter":"https://twitter.com/takkmcr"}
 	},
 	{
+		"city": "Birmingham",
+		"country": "UK",
+		"name": "Yorks Bakery Cafe",
+		"address": "1-3 Newhall St, B3 3NH",
+		"coordinates": ["52.481074", "-1.901269"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "A handful",
+			"Seating": "Good size tables, comfy chairs, bar-style seating",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, cake, hot and cold food",
+			"Hours": "Mon-Tue 7.30-20.00, Wed-Fri 7.30-21.00, Sat 8.30-21.00, Sun 9.30-18.00"
+		},
+		"link": {
+      "homepage":"http://www.yorksbakerycafe.co.uk/",
+      "twitter":"https://twitter.com/takkmcr"
+    }
+	},
+	{
 		"city": "Cambridge",
 		"country": "UK",
 		"name": "CB1 (oldest active cyber cafe in the World)",
