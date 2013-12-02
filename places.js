@@ -1525,5 +1525,21 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, salads, sandwiches"
 		},
 		"link": {"homepage":"http://www.bridgehead.ca/"}
+	},
+	{
+		"city": "Homewood",
+		"country": "US",
+		"name": "O'Henry's Coffee",
+		"address": "2831 18th St S, Homewood AL 35209",
+		"coordinates": ["33.480194","-86.791767"],
+		"description": {
+			"Internet": "Free wifi, reliable and good speed",
+			"Power Outlets": "A handful scattered throughout the space",
+			"Seating": "Lots of seating, not all comfortable for extended work sessions",
+			"Service": "Counter service",
+			"Provision": "Coffee, tea, cake, pastries, cookies",
+		},
+		"link": {"homepage":"http://www.ohenryscoffees.com/"}
 	}
+
 ]
