@@ -1,3 +1,4 @@
+/* jshint es3: true */
 var places = [
 	{
 		"city": "Białystok",
@@ -578,24 +579,24 @@ var places = [
 			"Power Outlets": "Lots",
 			"Seating": "Plenty, but get there early it fills up quick",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, more..",
+			"Provision": "Coffee, tea, more.."
 		},
 		"link": {"homepage":"http://www.campuslondon.com/"}
 	},
-    {
-        "city": "Waterloo",
-        "country": "Canada",
-        "name": "Death Valley's Little Brother",
-        "address": "84 King St N, Waterloo, ON N2J 2X4",
-        "coordinates": ["43.467711", "-80.5229581"],
-        "description": {
-            "Internet": "Free wifi, good speed, ask for the password",
-            "Power Outlets": "There are a few",
-            "Seating": "Wooden furnishing, very relaxing",
-            "Provision": "Coffee, tea, alchohol, muffins, scones, etc",
-        },
-        "link": {"homepage":"http://dvlb.ca"}
-    },
+	{
+		"city": "Waterloo",
+		"country": "Canada",
+		"name": "Death Valley's Little Brother",
+		"address": "84 King St N, Waterloo, ON N2J 2X4",
+		"coordinates": ["43.467711", "-80.5229581"],
+		"description": {
+			"Internet": "Free wifi, good speed, ask for the password",
+			"Power Outlets": "There are a few",
+			"Seating": "Wooden furnishing, very relaxing",
+			"Provision": "Coffee, tea, alchohol, muffins, scones, etc"
+		},
+		"link": {"homepage":"http://dvlb.ca"}
+	},
 	{
 		"city": "Gothenburg",
 		"country": "SE",
@@ -607,7 +608,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Fairly comfortable seats",
 			"Service": "Okay service",
-			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
+			"Provision": "Coffee, tea, juices, cake, salads, sandwiches"
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
 	},
@@ -622,7 +623,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Comfortable seats",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, cake, meals",
+			"Provision": "Coffee, tea, juices, cake, meals"
 		},
 		"link": {"homepage":"http://www.coffeeculturecafe.com/"}
 	},
@@ -637,7 +638,7 @@ var places = [
 			"Power Outlets": "Some",
 			"Seating": "Comfortable seats, outside benches",
 			"Service": "It's New York",
-			"Provision": "Coffee, tea, juices, cake, sandwiches",
+			"Provision": "Coffee, tea, juices, cake, sandwiches"
 		},
 		"link": {"homepage":"http://groundsupportcafe.com/"}
 	},
@@ -652,7 +653,7 @@ var places = [
 			"Power Outlets": "By the walls; dedicated \"quiet zone\" with more in back",
 			"Seating": "Decent seats; raised laptop-bar area",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, pastries, hot food",
+			"Provision": "Coffee, tea, pastries, hot food"
 		},
 		"link": {"homepage":"http://www.hartfordcoffeecompany.com/"}
 	},
@@ -683,7 +684,7 @@ var places = [
 			"Power Outlets": "Most tables have outlets nearby",
 			"Seating": "Variety of seating - large tables, individual tables, a few comfy chairs",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
+			"Provision": "Coffee, tea, juices, cake, small breakfast foods"
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
 	},
@@ -698,7 +699,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Comfortable seats",
 			"Service": "Very friendly & great at what they do",
-			"Provision": "Exceptional coffee (roasted on-premises), tea, craft beer, baked goods, sandwiches at lunch time",
+			"Provision": "Exceptional coffee (roasted on-premises), tea, craft beer, baked goods, sandwiches at lunch time"
 		},
 		"link": {"homepage":"http://www.boldbeancoffee.com"}
 	},
@@ -713,26 +714,26 @@ var places = [
 			"Power Outlets": "Usually at least two or three free",
 			"Seating": "A good variety",
 			"Service": "Warm Hearted",
-			"Provision": "Coffee, Pasteries",
+			"Provision": "Coffee, Pasteries"
 		},
 		"link": {"homepage":"http://herkimercoffee.com/locations.php"}
 	},
- 	{
-        "city": "Liverpool",
-        "country": "UK",
-        "name": "Bold Street Coffee",
-        "address": "89 Bold Street, Liverpool, L1 4HF",
-        "coordinates": ["53.4024574","-2.9768352"],
-        "description": {
-            "Internet": "Free wifi, good speed",
-            "Power Outlets": "A few",
-            "Seating": "Comfortable tables, seats and benches",
-            "Service": "Very friendly, definitely know their coffee",
-            "Provision": "Coffee, tea, breakfast, cakes",
-            "Hours": "Mon-Fri 7.30-6, Sat 8-6, Sun 9.30-5"
-        },
-        "link": {"homepage":"http://www.boldstreetcoffee.co.uk/"}
-    },
+	{
+		"city": "Liverpool",
+		"country": "UK",
+		"name": "Bold Street Coffee",
+		"address": "89 Bold Street, Liverpool, L1 4HF",
+		"coordinates": ["53.4024574","-2.9768352"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "A few",
+			"Seating": "Comfortable tables, seats and benches",
+			"Service": "Very friendly, definitely know their coffee",
+			"Provision": "Coffee, tea, breakfast, cakes",
+			"Hours": "Mon-Fri 7.30-6, Sat 8-6, Sun 9.30-5"
+		},
+		"link": {"homepage":"http://www.boldstreetcoffee.co.uk/"}
+	},
 	{
 		"city": "Beacon",
 		"country": "USA",
@@ -744,7 +745,7 @@ var places = [
 			"Power Outlets": "There are plenty",
 			"Seating": "Comfortable seats, couches, tables, al fresco",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, beers, pastries, small meals",
+			"Provision": "Coffee, tea, beers, pastries, small meals"
 		},
 		"link": {"homepage":"http://banksquarecoffeehouse.com/"}
 	},
@@ -829,7 +830,7 @@ var places = [
 			"Power Outlets": "Unknown",
 			"Seating": "Comfortable bar stools",
 			"Service": "Very friendly",
-			"Provision": "Excellent coffee, sandwiches, pastries, cakes",
+			"Provision": "Excellent coffee, sandwiches, pastries, cakes"
 		},
 		"link": {"homepage":"http://brownsofbrockley.com/"}
 	},
@@ -850,20 +851,20 @@ var places = [
 		"link": {"homepage":"http://www.bennucoffee.com/"}
 	},
 	{
-        "city": "Lakewood, OH",
-        "country": "USA",
-        "name": "The Root Cafe",
-        "address": "15118 Detroit Ave. Lakewood, Ohio 44107",
-        "coordinates": ["41.485154", "-81.802090"],
-        "description": {
-            "Internet": "Free wifi",
-            "Power Outlets": "Alone each wall",
-            "Seating": "Lots of tables and chairs, especially towards the back. Books and boardgames are available in bookcases.",
-            "Service": "Quick and friendly",
-            "Provision": "Coffee, tea, deserts, sandwiches"
-        },
-        "link": {"homepage":"http://www.theroot-cafe.com/"}
-    },
+		"city": "Lakewood, OH",
+		"country": "USA",
+		"name": "The Root Cafe",
+		"address": "15118 Detroit Ave. Lakewood, Ohio 44107",
+		"coordinates": ["41.485154", "-81.802090"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "Alone each wall",
+			"Seating": "Lots of tables and chairs, especially towards the back. Books and boardgames are available in bookcases.",
+			"Service": "Quick and friendly",
+			"Provision": "Coffee, tea, deserts, sandwiches"
+		},
+		"link": {"homepage":"http://www.theroot-cafe.com/"}
+	},
 	{
 		"city": "Omaha",
 		"state": "Nebraska",
@@ -881,36 +882,36 @@ var places = [
 		"link": {"homepage":"http://aromasomaha.com/"}
 	},
 	{
-        "city": "Rabat",
-        "country": "MA",
-        "name": "Café Viking",
-        "address": "49, Avenue moulay youssef",
-        "coordinates": ["34.014213", "-6.836497"],
-        "description": {
-            "Internet": "Free wifi, good speed",
-            "Power Outlets": "There are a few",
-            "Seating": "Comfortable seats",
-            "Service": "Very friendly",
-            "Provision": "Coffee, tea, juices, toasts",
-        },
-        "link": {"facebook":"https://www.facebook.com/pages/Viking/207492465937077"}
-    },
-    {
-        "city": "Austin",
-        "country": "USA",
-        "name": "Epoch",
-        "address": "221 W North Loop Blvd",
-        "coordinates": ["30.318686", "-97.724464"],
-        "description": {
-            "Internet": "Free wifi, good speed, password displayed on counter",
-            "Power Outlets": "Many, more than one per table",
-            "Seating": "Tables, couches, bar, outside seating",
-            "Service": "Great, very friendly",
-            "Provision": "Coffee, tea, soda, pizza, pastries, tacos",
-            "Hours": "24 hours"
-        },
-        "link": {"homepage": "http://www.epochcoffee.com"}
-    },
+		"city": "Rabat",
+		"country": "MA",
+		"name": "Café Viking",
+		"address": "49, Avenue moulay youssef",
+		"coordinates": ["34.014213", "-6.836497"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "There are a few",
+			"Seating": "Comfortable seats",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, toasts"
+		},
+		"link": {"facebook":"https://www.facebook.com/pages/Viking/207492465937077"}
+	},
+	{
+		"city": "Austin",
+		"country": "USA",
+		"name": "Epoch",
+		"address": "221 W North Loop Blvd",
+		"coordinates": ["30.318686", "-97.724464"],
+		"description": {
+			"Internet": "Free wifi, good speed, password displayed on counter",
+			"Power Outlets": "Many, more than one per table",
+			"Seating": "Tables, couches, bar, outside seating",
+			"Service": "Great, very friendly",
+			"Provision": "Coffee, tea, soda, pizza, pastries, tacos",
+			"Hours": "24 hours"
+		},
+		"link": {"homepage": "http://www.epochcoffee.com"}
+	},
 	{
 		"city": "Toronto",
 		"country": "Canada",
@@ -954,40 +955,40 @@ var places = [
 			"Power Outlets": "There are several, especially in the back room",
 			"Seating": "Busy third wave coffee shop, great team table in back room",
 			"Service": "The nicest hipsters in town",
-			"Provision": "Coffee, tea, juices, pastry, ace sandwiches",
+			"Provision": "Coffee, tea, juices, pastry, ace sandwiches"
 		},
 		"link": {"homepage":"www.departmentofcoffee.co.uk/"}
 	},
-    {
-        "city": "Ithaca",
-        "name": "Gimme! Coffee",
-        "country": "USA",
-        "address": "506 W State St",
-        "coordinates": ["42.439408", "-76.506432"],
-        "description": {
-            "Internet": "Free open internet",
-            "Power Outlets": "Plenty",
-            "Seating": "Coffee shop and quiet lounge with couches and large tables for meetings",
-            "Service": "Very friendly",
-            "Provision": "Coffee, some bakery items",
-        },
-        "link": {"homepage":"http://www.gimmecoffee.com"}
+	{
+		"city": "Ithaca",
+		"name": "Gimme! Coffee",
+		"country": "USA",
+		"address": "506 W State St",
+		"coordinates": ["42.439408", "-76.506432"],
+		"description": {
+			"Internet": "Free open internet",
+			"Power Outlets": "Plenty",
+			"Seating": "Coffee shop and quiet lounge with couches and large tables for meetings",
+			"Service": "Very friendly",
+			"Provision": "Coffee, some bakery items"
+		},
+		"link": {"homepage":"http://www.gimmecoffee.com"}
 	},
 	{
-        "city": "Caldwell",
-        "name": "Rock 'n Joe Coffe House and Bistro",
-        "country": "USA",
-        "address": "339 Bloomfield Ave",
-        "coordinates": ["40.840251","-74.276475"],
-        "description": {
-            "Internet": "Free open internet",
-            "Power Outlets": "Plenty of outlets",
-            "Seating": "Coffee shop and with couches and tables",
-            "Service": "Very friendly",
-            "Provision": "Coffee, tea, juices, doughnuts, pastries",
-        },
-        "link": {"homepage":"http://www.rocknjoe.net"}
-    },
+		"city": "Caldwell",
+		"name": "Rock 'n Joe Coffe House and Bistro",
+		"country": "USA",
+		"address": "339 Bloomfield Ave",
+		"coordinates": ["40.840251","-74.276475"],
+		"description": {
+			"Internet": "Free open internet",
+			"Power Outlets": "Plenty of outlets",
+			"Seating": "Coffee shop and with couches and tables",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, doughnuts, pastries"
+		},
+		"link": {"homepage":"http://www.rocknjoe.net"}
+	},
 	{
 		"city": "Edinburgh",
 		"country": "GB",
@@ -1017,7 +1018,7 @@ var places = [
 			"Power Outlets": "By the windows",
 			"Seating": "Tables, Couches, Bar",
 			"Service": "Wonderful Beer Selection",
-			"Provision": "Beer, Food, Tea, Coffee, Snacks",
+			"Provision": "Beer, Food, Tea, Coffee, Snacks"
 		},
 		"link": {"homepage":"http://www.deklomp.se/"}
 	},
@@ -1046,7 +1047,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Tables and chairs for groups, couple of comfortable sofas, and a beautiful outdoor patio",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, pastries.",
+			"Provision": "Coffee, tea, juices, pastries."
 		},
 		"link": {
 			"homepage":"https://plus.google.com/105646394886961700159"
@@ -1063,10 +1064,10 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Tables and chairs for groups, individual seating at the bar.",
 			"Service": "Very friendly",
-			"Provision": "Espresso, pour-over coffee, tea, and some pastries.",
+			"Provision": "Espresso, pour-over coffee, tea, and some pastries."
 		},
 		"link": {
-			"homepage":"http://www.ritualroasters.com/‎"
+			"homepage":"http://www.ritualroasters.com/"
 		}
 	},
 	{
@@ -1080,7 +1081,7 @@ var places = [
 			"Power Outlets": "Few",
 			"Seating": "Comfortable tables",
 			"Service": "Friendly",
-			"Provision": "Coffee, tea, juices, beers, cake, meals",
+			"Provision": "Coffee, tea, juices, beers, cake, meals"
 		},
 		"link": {"homepage":"https://www.facebook.com/RubiCafe"}
 	},
@@ -1125,7 +1126,7 @@ var places = [
 			"Power Outlets": "Some",
 			"Seating": "Premium coffee shop, considered Ireland's finest ",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, brownies, pastries",
+			"Provision": "Coffee, tea, brownies, pastries"
 		},
 		"link": {"homepage":"http://www.3fe.com/"}
 	},
@@ -1140,26 +1141,26 @@ var places = [
 			"Power Outlets": "Plenty",
 			"Seating": "Few but good chairs, outdoor morning sun",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, beers, cake, meals",
+			"Provision": "Coffee, tea, juices, beers, cake, meals"
 		},
 		"link": {"yelp":"http://www.yelp.com/biz/3-gs-cafe-palo-alto"}
 	},
 	{
-        "city": "Toronto",
-        "country": "Canada",
-        "name": "Dark Horse Espresso Bar",
-        "address": "684 Queen St W, Toronto, Ontario",
-        "coordinates": ["43.646588", "-79.407580"],
-        "description": {
-            "Internet": "free wifi, I've had to ask them to reset the router once or twice, but usually it's fine.",
+		"city": "Toronto",
+		"country": "Canada",
+		"name": "Dark Horse Espresso Bar",
+		"address": "684 Queen St W, Toronto, Ontario",
+		"coordinates": ["43.646588", "-79.407580"],
+		"description": {
+			"Internet": "free wifi, I've had to ask them to reset the router once or twice, but usually it's fine.",
 			"Power Outlets": "They exist, but are not as widespread as they could be.",
 			"Seating": "Benches and some chairs",
 			"Service": "Generally friendly and helpful",
 			"Provision": "Incredibly good coffee.  Ask for the Pour-over!",
 			"Hours": "Mon-Fri 07:00 - 20:00, Sat-Sun 08:00 - 20:00"
-        },
-        "link": {"homepage": "http://darkhorseespresso.com/"}
-    },
+		},
+		"link": {"homepage": "http://darkhorseespresso.com/"}
+	},
 	{
 		"city": "Kastrup",
 		"country": "DK",
@@ -1186,7 +1187,7 @@ var places = [
 			"Power Outlets": "Quite a few",
 			"Seating": "Fairly comfortable seats",
 			"Service": "Good service",
-			"Provision": "Coffee, tea, salads, sandwiches",
+			"Provision": "Coffee, tea, salads, sandwiches"
 		},
 		"link": {"homepage":"http://www.coffeebarsf.com/"}
 	},
@@ -1201,7 +1202,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Coffee shop with very strange furniture and small tables",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, drinks, delicious food",
+			"Provision": "Coffee, tea, drinks, delicious food"
 		}
 	},
 	{
@@ -1215,7 +1216,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Tables, booths, bar and outdoor seating",
 			"Service": "Very friendly",
-			"Provision": "Coffee, wine, tea, juices, salads, pastries",
+			"Provision": "Coffee, wine, tea, juices, salads, pastries"
 		},
 		"link": {"homepage":"http://mykaffeehaus.com/"}
 	},
@@ -1230,7 +1231,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Tables and local art",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, sandwiches, pastries",
+			"Provision": "Coffee, tea, juices, sandwiches, pastries"
 		},
 		"link": {"homepage":"http://zeitgeistcoffee.com"}
 	},
@@ -1245,7 +1246,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Some individual tables, some long tables",
 			"Service": "Very friendly",
-			"Provision": "Coffee, espresso, some pastries, Mexican coke, Topo Chico",
+			"Provision": "Coffee, espresso, some pastries, Mexican coke, Topo Chico"
 		},
 		"link": {"homepage":"http://browncoffeeco.com/"}
 	},
@@ -1291,7 +1292,7 @@ var places = [
 			"Power Outlets": "Plenty",
 			"Seating": "Always somewhere to sit, but not too quiet.",
 			"Service": "Super friendly",
-			"Provision": "Great coffee and pastries.",
+			"Provision": "Great coffee and pastries."
 		},
 		"link": {"homepage":"http://www.sipstircafe.com/"}
 	},
@@ -1306,7 +1307,7 @@ var places = [
 			"Power Outlets": "Lots",
 			"Seating": "Plenty, and there is a second floor that is quieter, get there early it fills up fairly quickly",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, muffins, snacks",
+			"Provision": "Coffee, tea, muffins, snacks"
 		},
 		"link": {"homepage":"http://www.redrockcoffee.org/"}
 	},
@@ -1356,5 +1357,5 @@ var places = [
 			"Hours": "Mon-Thu 6am - 12am, Fri-Sat 6am - 2am, Sun 7am - 12am"
 		},
 		"link": {"homepage":"http://www.williamsfreshcafe.com/2454-queen-street-east"}
-	},
-]
+	}
+];
