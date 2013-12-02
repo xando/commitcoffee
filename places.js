@@ -1,4 +1,19 @@
 var places = [
+    {
+		"city": "Smyrna",
+		"country": "US",
+		"name": "Rev Coffee",
+		"address": "1680-B Spring Road, Smyrna, Georgia 30080",
+		"coordinates": ["33.88248","-84.504237"],
+		"description": {
+			"Internet": "Wifi free",
+			"Power Outlets": "There are several",
+			"Seating": "Chairs, sofas, many tables inside and a few outside as well",
+			"Service": "Great",
+			"Provision": "Coffee, tea, soft and other bottled drinks. Cookies, muffins, quiches, and tarts. Pressed sandwiches as well as the chicken salad are tasty.  Fresh roasted beans and other coffee paraphernalia."
+		},
+		"link": {"facebook":"http://www.revcoffee.com"}
+	},
 	{
 		"city": "Białystok",
 		"country": "PL",
