@@ -1394,7 +1394,7 @@ var places = [
 		"name": "Hot Numbers",
 		"address": "Dales Brewery, Gwydir Street",
 		"coordinates": ["52.200088","0.138362"],
-    "telephone": "+44 1223 359966",
+		"telephone": "+44 1223 359966",
 		"description": {
 			"Internet": "Free wifi, good speed, just ask for the password",
 			"Power Outlets": "Plentiful",
@@ -1405,5 +1405,4 @@ var places = [
 		},
 		"link": {"homepage":"http://www.hotnumberscoffee.co.uk/"}
 	},
-
 ]
