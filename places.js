@@ -1356,5 +1356,21 @@ var places = [
 		},
 		"link": {"facebook":"http://www.revcoffee.com"}
 	},
-
+	{
+		"city": "Cedar Park",
+		"country": "USA",
+		"name": "Roasters Coffee Cafe",
+		"address": "2011 Little Elm Trail",
+		"coordinates": ["30.480037", "-97.828855"],
+		"description": {
+			"Internet": "Free wifi, speed was fine.",
+			"Power Outlets": "This is lacking, charge before you go.",
+			"Seating": "Mostly cheap chairs with some couches",
+			"Provision": "Coffee, tea, muffins, juice, etc. No real food.",
+		},
+		"link": {
+			"homepage":"http://www.roasterscoffeecafe.com/",
+			"yelp":"http://www.yelp.com/biz/roasters-coffee-cafe-cedar-park?nb=1"
+		}
+	}
 ]
