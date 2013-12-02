@@ -1465,5 +1465,20 @@ var places = [
 			"Provision": "Coffee, tea, juice, sandwiches, soups, sweets, craft beers",
 		},
 		"link": {"homepage":"http://www.mahtay.ca/"}
+	},
+	{
+		"city": "Port Coquitlam",
+		"country": "Canada",
+		"name": "Tim Hortons",
+		"address": "1320 Kingsway Ave",
+		"coordinates": ["49.246938","-122.748767"],
+		"description": {
+			"Internet": "Free wifi, reliable and good speed",
+			"Power Outlets": "Yes",
+			"Seating": "Tons of room",
+			"Service": "Lots of room no one will bug you",
+			"Provision": "Coffee, tea, juices, sandwiches, and a Wendys",
+		},
+		"link": {"homepage":"http://www.timhortons.com/ca/locator/storedirections.html?id=101911"}
 	}
 ]
