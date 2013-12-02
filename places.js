@@ -1575,6 +1575,21 @@ var places = [
 			"homepage": "http://tischendorf-berlin.de/",
 			"facebook": "https://www.facebook.com/pages/Tischendorf/315316785224423"
 		}
+	},
+	{
+		"city": "Kiev",
+		"country": "Ukraine",
+		"name": "Chashka Espresso Bar",
+		"address": "Chervonoarmiiska Vulytsia, 1",
+		"coordinates": ["50.441845", "30.521385"],
+		"description": {
+			"Internet": "Free wifi, ask for the password",
+			"Power Outlets": "By the walls",
+			"Seating": "Nice tables, seats and couches, comfortable bar stools",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc",
+		},
+		"link": {"homepage":"https://www.facebook.com/ChashkaKiev"}
 	}
 
 ]
