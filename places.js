@@ -1480,7 +1480,7 @@ var places = [
 			"Provision": "Coffee, tea, juices, sandwiches, and a Wendys",
 		},
 		"link": {"homepage":"http://www.timhortons.com/ca/locator/storedirections.html?id=101911"}
-	}
+	},
 	{
 		"city": "Pittsburgh",
 		"country": "United States",
