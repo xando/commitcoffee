@@ -1,4 +1,19 @@
 var places = [
+  	{
+	    "city": "São Paulo",
+		"country": "BR",
+		"name": "Bookafe",
+		"address": "Av. Mazzei 277",
+		"coordinates": "",
+		"description": {
+			"Internet": "wifi free",
+			"Power Outlets": "In the ground floor every table have an power",
+			"Seating": "chairs",
+			"Service": "Awesome",
+			"Provision": "Coffee, tea, sandwiches"
+		},
+		"link": {"homepage": "http://www.bookafe.com.br", "facebook":"https://www.facebook.com/bookafeoficial"}
+	},
 	{
 		"city": "Białystok",
 		"country": "PL",
