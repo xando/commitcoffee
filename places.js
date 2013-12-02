@@ -521,6 +521,22 @@ var places = [
 		"link": {"homepage":"http://lantreautre.fr"}
 	},
 	{
+		"city": "Manchester",
+		"country": "UK",
+		"name": "Takk",
+		"address": "6 Tariff Street, M1 2FF",
+		"coordinates": ["53.481202", "-2.232628"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "A handful",
+			"Seating": "Good size tables and large benches",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, cake, sandwiches, etc",
+			"Hours": "Mon-Fri 8.30-17.00, Sat 10.00-18.00"
+		},
+		"link": {"twitter":"https://twitter.com/takkmcr"}
+	},
+	{
 		"city": "Cambridge",
 		"country": "UK",
 		"name": "CB1 (oldest active cyber cafe in the World)",
