@@ -1354,7 +1354,8 @@ var places = [
 			"Service": "Cute and friendly",
 			"Provision": "Coffee, tea, fresh juice, home made quiche, you can even order pizza from other places",
 			"Hours" : "Mon-Sun 11:00 AM-12:00 AM"
-		}
+		},
+		"link": {"facebook":"http://www.facebook.com/Acuarela.BistroDeArte"}
 	},
 	{
 		"city": "Bucharest",
@@ -1369,7 +1370,8 @@ var places = [
 			"Service": "Lonely, but fast",
 			"Provision": "Insanely strong coffee, fresh juice and beer",
 			"Hours" : "Mon-Sat 10:00 AM-10:00 PM, Sun 12:00 AM-8:00 PM"
-		}
+		},
+		"link": {"homepage":"http://www.librariumgrup.ro/bastilia/", "facebook":"http://www.facebook.com/libraria.bastilia"}
 	},
 	{
 		"city": "Iasi",
@@ -1384,6 +1386,7 @@ var places = [
 			"Service": "Warm and funny",
 			"Provision": "Insanely strong coffee, juice cocktails",
 			"Hours" : "Mon-Thu 8:00 AM-12:00 AM, Fri 8:00 AM-1:00AM, Sat 10:00 AM-1:00AM, Sun 10:00 AM-12:00AM"
-		}
+		},
+		"link": {"facebook":"http://www.facebook.com/MignonCafe"}
 	}
 ]
