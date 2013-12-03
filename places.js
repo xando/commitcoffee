@@ -1697,6 +1697,20 @@ var places = [
 		},
 		"link": {"homepage": "http://issaquahcoffee.com/"}
 	},
-
+	{
+		"city": "Isle of Wight",
+		"country": "UK",
+		"name": "Love Coffee",
+		"address": "115 Pyle Street, Newport",
+		"coordinates": ["50.699373", "-1.294569"],
+		"description": {
+			"Internet": "Free wifi, good speed, must buy to get the password",
+			"Power Outlets": "There are a few",
+			"Seating": "Variety of seating, tables and a few comfy chairs",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, cake, breakfast foods and lunches",
+		},
+		"link": {"homepage":"https://plus.google.com/109562220645564079210/about"}
+	}
 ]
 
