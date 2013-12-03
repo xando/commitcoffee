@@ -642,22 +642,6 @@ var places = [
 		"link": {"homepage":"http://groundsupportcafe.com/"}
 	},
 	{
-		"city": "Issaquah",
-		"country": "USA",
-		"name": "Issaquah Coffee Company",
-		"address": "317 NW Gilman Blvd",
-		"coordinates": ["47.539601", "-122.042216"],
-		"description": {
-			"Internet": "Free wifi",
-			"Power Outlets": "Every table has an outlet nearby",
-			"Seating": "Variety of seats, busy in summer",
-			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, sandwiches, breakfast, baked goods, etc",
-			"Hours": "Mon–Fri 6am-7pm, Sat 7am-6pm, Sun 8am-6pm"
-		},
-		"link": {"homepage": "http://issaquahcoffee.com/"}
-	},
-	{
 		"city": "Saint Louis",
 		"country": "USA",
 		"name": "Hartford Coffee",
@@ -1696,6 +1680,23 @@ var places = [
 			"Provision": "Earth conscious coffee, exciting brewing methods, tea, juices, gluten-free / vegan friendly, small breakfast foods",
 		},
 		"link": {"homepage":"http://www.bwekafe.com/"}
-	}
+	},
+	{
+		"city": "Issaquah",
+		"country": "USA",
+		"name": "Issaquah Coffee Company",
+		"address": "317 NW Gilman Blvd",
+		"coordinates": ["47.539601", "-122.042216"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "Every table has an outlet nearby",
+			"Seating": "Variety of seats, busy in summer",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, sandwiches, breakfast, baked goods, etc",
+			"Hours": "Mon–Fri 6am-7pm, Sat 7am-6pm, Sun 8am-6pm"
+		},
+		"link": {"homepage": "http://issaquahcoffee.com/"}
+	},
+
 ]
 
