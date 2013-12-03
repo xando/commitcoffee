@@ -673,134 +673,6 @@ var places = [
 		"link": {"homepage":"http://butterbakerycafe.com/"}
 	},
 	{
-		"city": "Denver",
-		"country": "USA",
-		"name": "Paris on the Platte",
-		"address": "1553 Platte St",
-		"coordinates": ["39.757282", "-105.008553"],
-		"description": {
-			"Internet": "Free wifi, moderate speed",
-			"Power Outlets": "They're spread about, but there's enough",
-			"Seating": "Ample seating, some counter, some tables",
-			"Service": "Friendly",
-			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc",
-			"Hours": "Mon-Thu 7am-1am, Fri 7am-2am, Sat 8am-2am, Sun 8am-1pm"
-		},
-		"link": {"homepage":"http://www.parisontheplatte.com/"}
-	},
-	{
-		"city": "Denver",
-		"country": "USA",
-		"name": "Stella's Coffeehaus",
-		"address": "1476 S Pearl St",
-		"coordinates": ["39.689653", "-104.980379"],
-		"description": {
-			"Internet": "Free wifi, ask for the password",
-			"Power Outlets": "They're spread about, but there's enough",
-			"Seating": "Ample seating, some couches, some tables",
-			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, breakfast, etc",
-			"Hours": "Mon-Fri 6:30am-11pm, Sat, Sun 7am-12am"
-		},
-		"link": {"homepage":"http://stellascoffee.com/"}
-	},
-	{
-		"city": "Denver",
-		"country": "USA",
-		"name": "Roostercat Coffee House",
-		"address": "1045 Lincoln Street",
-		"coordinates": ["39.732948", "-104.986121"],
-		"description": {
-			"Internet": "Free wifi, usually fast",
-			"Power Outlets": "Lots",
-			"Seating": "Ample seating",
-			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc",
-			"Hours": "Mon-Fri 7am-12am, Sat, Sun 8am-12am"
-		},
-		"link": {"homepage":"http://roostercatcoffeehouse.com/"}
-	},
-	{
-		"city": "Denver",
-		"country": "USA",
-		"name": "Crema Coffee House",
-		"address": "2862 Larimer St",
-		"coordinates": ["39.76117", "-104.98188"],
-		"description": {
-			"Internet": "Free wifi",
-			"Power Outlets": "Some",
-			"Seating": "Small, but has enough seating",
-			"Service": "Friendly",
-			"Provision": "Coffee, tea, juices, some food",
-			"Hours": "Mon-Sun 7am-5pm"
-		},
-		"link": {"homepage":"http://cremacoffeehouse.net/"}
-	},
-	{
-		"city": "Denver",
-		"country": "USA",
-		"name": "The Laughing Latte",
-		"address": "2001 W 32nd Ave",
-		"coordinates": ["39.762078", "-105.011372"],
-		"description": {
-			"Internet": "Free, fast wifi, ask for the password",
-			"Power Outlets": "They're spread about, but there's enough",
-			"Seating": "Ample seating, some counter, some tables",
-			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc",
-			"Hours": "Mon-Fri 6am-3pm, Sat, Sun 7am-3pm"
-		},
-		"link": {"homepage":"http://www.thelaughinglatte.com/"}
-	},
-	{
-		"city": "Grand Junction",
-		"country": "USA",
-		"name": "Roasted Espresso and Subs",
-		"address": "502 Colorado Ave",
-		"coordinates": ["39.06646", "-108.56404"],
-		"description": {
-			"Internet": "Free wifi",
-			"Power Outlets": "Some",
-			"Seating": "Limited seating",
-			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc",
-			"Hours": "Mon-Thu 6:30am-9pm, Fri, Sat 6:30am-10pm, Sun 6:30am-8pm"
-		},
-		"link": {"homepage":"http://www.roastedespresso.com/"}
-	},
-	{
-		"city": "Grand Junction",
-		"country": "USA",
-		"name": "Cafe V",
-		"address": "1014 N 5th St",
-		"coordinates": ["39.076718", "-108.564231"],
-		"description": {
-			"Internet": "Free wifi, ask for the password",
-			"Power Outlets": "They're spread about, but there's enough",
-			"Seating": "Ample seating, some counter, some tables",
-			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, vegetarian food, etc",
-			"Hours": "Mon-Sun open until 8pm"
-		},
-		"link": {"homepage":"http://www.cafe-v-gj.com/"}
-	},
-	{
-		"city": "Chicago",
-		"country": "USA",
-		"name": "The Wormhole Coffee",
-		"address": "1462 N Milwaukee Ave",
-		"coordinates": ["41.90835", "-87.67459"],
-		"description": {
-			"Internet": "Free wifi",
-			"Power Outlets": "They're spread about, but there's enough",
-			"Seating": "Ample seating, some counter, some tables",
-			"Service": "Friendly",
-			"Provision": "Coffee, tea, juices, etc",
-			"Hours": "Mon-Sun 7am-11pm"
-		},
-		"link": {"homepage":"http://www.thewormholecoffee.com/"}
-	},
-	{
 		"city": "Chicago",
 		"country": "USA",
 		"name": "Eva's Cafe",
@@ -1870,6 +1742,134 @@ var places = [
 			"Hours": "Mon-Fri 7.30am-6pm, Sat 9am-5pm, Sun 10am-4pm"
 		},
 		"link": {"homepage":"http://www.pinklanecoffee.co.uk/"}
+	},
+	{
+		"city": "Denver",
+		"country": "USA",
+		"name": "Paris on the Platte",
+		"address": "1553 Platte St",
+		"coordinates": ["39.757282", "-105.008553"],
+		"description": {
+			"Internet": "Free wifi, moderate speed",
+			"Power Outlets": "They're spread about, but there's enough",
+			"Seating": "Ample seating, some counter, some tables",
+			"Service": "Friendly",
+			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc",
+			"Hours": "Mon-Thu 7am-1am, Fri 7am-2am, Sat 8am-2am, Sun 8am-1pm"
+		},
+		"link": {"homepage":"http://www.parisontheplatte.com/"}
+	},
+	{
+		"city": "Denver",
+		"country": "USA",
+		"name": "Stella's Coffeehaus",
+		"address": "1476 S Pearl St",
+		"coordinates": ["39.689653", "-104.980379"],
+		"description": {
+			"Internet": "Free wifi, ask for the password",
+			"Power Outlets": "They're spread about, but there's enough",
+			"Seating": "Ample seating, some couches, some tables",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, breakfast, etc",
+			"Hours": "Mon-Fri 6:30am-11pm, Sat, Sun 7am-12am"
+		},
+		"link": {"homepage":"http://stellascoffee.com/"}
+	},
+	{
+		"city": "Denver",
+		"country": "USA",
+		"name": "Roostercat Coffee House",
+		"address": "1045 Lincoln Street",
+		"coordinates": ["39.732948", "-104.986121"],
+		"description": {
+			"Internet": "Free wifi, usually fast",
+			"Power Outlets": "Lots",
+			"Seating": "Ample seating",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc",
+			"Hours": "Mon-Fri 7am-12am, Sat, Sun 8am-12am"
+		},
+		"link": {"homepage":"http://roostercatcoffeehouse.com/"}
+	},
+	{
+		"city": "Denver",
+		"country": "USA",
+		"name": "Crema Coffee House",
+		"address": "2862 Larimer St",
+		"coordinates": ["39.76117", "-104.98188"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "Some",
+			"Seating": "Small, but has enough seating",
+			"Service": "Friendly",
+			"Provision": "Coffee, tea, juices, some food",
+			"Hours": "Mon-Sun 7am-5pm"
+		},
+		"link": {"homepage":"http://cremacoffeehouse.net/"}
+	},
+	{
+		"city": "Denver",
+		"country": "USA",
+		"name": "The Laughing Latte",
+		"address": "2001 W 32nd Ave",
+		"coordinates": ["39.762078", "-105.011372"],
+		"description": {
+			"Internet": "Free, fast wifi, ask for the password",
+			"Power Outlets": "They're spread about, but there's enough",
+			"Seating": "Ample seating, some counter, some tables",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc",
+			"Hours": "Mon-Fri 6am-3pm, Sat, Sun 7am-3pm"
+		},
+		"link": {"homepage":"http://www.thelaughinglatte.com/"}
+	},
+	{
+		"city": "Grand Junction",
+		"country": "USA",
+		"name": "Roasted Espresso and Subs",
+		"address": "502 Colorado Ave",
+		"coordinates": ["39.06646", "-108.56404"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "Some",
+			"Seating": "Limited seating",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc",
+			"Hours": "Mon-Thu 6:30am-9pm, Fri, Sat 6:30am-10pm, Sun 6:30am-8pm"
+		},
+		"link": {"homepage":"http://www.roastedespresso.com/"}
+	},
+	{
+		"city": "Grand Junction",
+		"country": "USA",
+		"name": "Cafe V",
+		"address": "1014 N 5th St",
+		"coordinates": ["39.076718", "-108.564231"],
+		"description": {
+			"Internet": "Free wifi, ask for the password",
+			"Power Outlets": "They're spread about, but there's enough",
+			"Seating": "Ample seating, some counter, some tables",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, vegetarian food, etc",
+			"Hours": "Mon-Sun open until 8pm"
+		},
+		"link": {"homepage":"http://www.cafe-v-gj.com/"}
+	},
+	{
+		"city": "Chicago",
+		"country": "USA",
+		"name": "The Wormhole Coffee",
+		"address": "1462 N Milwaukee Ave",
+		"coordinates": ["41.90835", "-87.67459"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "They're spread about, but there's enough",
+			"Seating": "Ample seating, some counter, some tables",
+			"Service": "Friendly",
+			"Provision": "Coffee, tea, juices, etc",
+			"Hours": "Mon-Sun 7am-11pm"
+		},
+		"link": {"homepage":"http://www.thewormholecoffee.com/"}
 	}
 ]
 
