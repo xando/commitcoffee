@@ -1311,19 +1311,6 @@ var places = [
 		"link": {"homepage":"http://www.redrockcoffee.org/"}
 	},
 	{
-		"city": "Redwood City",
-		"country": "USA",
-		"name": "Cafe La Tartine",
-		"address": "830 Middlefield Road, Redwood City, CA 94063",
-		"description": {
-			"Internet": "Free stable WIFI",
-			"Power Outlets": "Some inside",
-			"Seating": "Plenty, plus outdoor seating",
-			"Service": "Friendly",
-			"Provision": "Coffee, tea, muffins, sandwiches, snacks",
-		},
-	},
-	{
 		"city": "London",
 		"country": "United Kingdom",
 		"name": "TAP Coffee No.193",
@@ -2169,5 +2156,20 @@ var places = [
 		},
 		"link": {"homepage":"http://www.wearethelocal.com/"}
 	},
+	{
+		"city": "Redwood City",
+		"country": "USA",
+		"name": "Cafe La Tartine",
+		"address": "830 Middlefield Road, Redwood City, CA 94063",
+		"coordinates": ["37.485861", "-122.229304"],
+		"description": {
+			"Internet": "Free stable WIFI",
+			"Power Outlets": "Some inside",
+			"Seating": "Plenty, plus outdoor seating",
+			"Service": "Friendly",
+			"Provision": "Coffee, tea, muffins, sandwiches, snacks",
+		},
+	},
+
 ]
 
