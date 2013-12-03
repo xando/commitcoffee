@@ -2027,6 +2027,21 @@ var places = [
         },
         "link": {"foursquare":"https://foursquare.com/v/diamant-princess/4f533cebe4b028a92039fc84"}
     },
-
+	{
+		"city": "Beijing",
+		"country": "China",
+		"name": "MaanCoffee (漫咖啡)",
+		"address": "Jiangfu Park North Gate, Jiangtai Donglu, Chaoyang District (朝阳区将台东路将府公园北门)",
+		"coordinates": ["39.967155", "116.516168"],
+		"description": {
+			"Internet": "Free WiFi (password:maancoffee). speed: 200KBP/s",
+			"Power Outlets": "Lots",
+			"Seating": "check this page: http://chuansongme.com/n/149828",
+			"Service": "Very friendly",
+			"Provision": "Coffee, Tea, Waffle, Toast... more..",
+			"Opening Hours" : "9:00 AM - 11:50 PM",
+		},
+		"link": {"homepage":"http://www.dianping.com/shop/5649296/"}
+	}
 ]
 
