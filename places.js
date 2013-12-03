@@ -2042,6 +2042,58 @@ var places = [
 			"Opening Hours" : "9:00 AM - 11:50 PM",
 		},
 		"link": {"homepage":"http://www.dianping.com/shop/5649296/"}
+	},
+	{
+		"city": "Bucharest",
+		"country": "Romania",
+		"name": "Acuarela",
+		"address": "40 Polona Street, Bucharest",
+		"coordinates": ["44.4488368", "26.1030185"],
+		"description": {
+			"Internet": "Free wifi, ask for password",
+			"Power Outlets": "All over the place",
+			"Seating": "A few comfortable chairs, mattresses, even a hammock",
+			"Service": "Cute and friendly",
+			"Provision": "Coffee, tea, fresh juice, home made quiche, you can even order pizza from other places",
+			"Hours" : "Mon-Sun 11:00 AM-12:00 AM"
+		},
+		"link": {"facebook":"http://www.facebook.com/Acuarela.BistroDeArte"}
+	},
+	{
+		"city": "Bucharest",
+		"country": "Romania",
+		"name": "Bastilia",
+		"address": "5 Romana Square, Bucharest",
+		"coordinates": ["44.4474068", "26.0963985"],
+		"description": {
+			"Internet": "Free wifi, ask for password",
+			"Power Outlets": "Hidden under the floors",
+			"Seating": "Regular wooden chairs, one big table with a bit more comfortable chairs",
+			"Service": "Lonely, but fast",
+			"Provision": "Insanely strong coffee, fresh juice and beer",
+			"Hours" : "Mon-Sat 10:00 AM-10:00 PM, Sun 12:00 AM-8:00 PM"
+		},
+		"link": {
+			"homepage":"http://www.librariumgrup.ro/bastilia/",
+			"facebook":"http://www.facebook.com/libraria.bastilia"
+		}
+	},
+	{
+		"city": "Iasi",
+		"country": "Romania",
+		"name": "Mignon Cafe",
+		"address": "7B Lapusneanu pedestrian walk",
+		"coordinates": ["47.1681615", "27.5779772"],
+		"description": {
+			"Internet": "Free wifi, ask for password",
+			"Power Outlets": "There are some, but are well hidden",
+			"Seating": "Really comfortable chairs and solid tables",
+			"Service": "Warm and funny",
+			"Provision": "Insanely strong coffee, juice cocktails",
+			"Hours" : "Mon-Thu 8:00 AM-12:00 AM, Fri 8:00 AM-1:00AM, Sat 10:00 AM-1:00AM, Sun 10:00 AM-12:00AM"
+		},
+		"link": {"facebook":"http://www.facebook.com/MignonCafe"}
+
 	}
 ]
 
