@@ -1635,5 +1635,20 @@ var places = [
 			"Provision": "Coffee, Tea, Scone, Pastries",
 		},
 		"link": {"homepage":"http://cafehumblelion.com/"}
+	},
+	{
+		"city": "Zurich",
+		"country": "Switzerland",
+		"name": "La Stanza",
+		"address": "Bleicherweg",
+		"coordinates": ["47.368562", "8.536787"],
+		"description": {
+			"Internet": "Free wifi, great speed, ask for password",
+			"Power Outlets": "The only weak spot",
+			"Seating": "Crowded in the evenings but perfect to work during the day",
+			"Service": "This is the best coffee you'll ever get in Zurich",
+			"Provision": "Coffee, Italian Pastries, Drinks, Snacks",
+		},
+		"link": {"homepage":"http://www.lastanza.ch/"}
 	}
 ]
