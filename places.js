@@ -1979,5 +1979,23 @@ var places = [
 			"facebook":"https://www.facebook.com/pages/Aliviar-Coffeehouse/297008072078"
 		}
 	},
+	{
+		"city": "Carmel",
+		"country": "USA",
+		"name": "SoHo Cafe & Gallery",
+		"address": "620 South Rangeline Rd, Carmel, IN",
+		"coordinates": ["39.972341", "-86.129127"],
+		"description": {
+			"Internet": "Free wifi, ask for password",
+			"Power Outlets": "Quite a few along the walls",
+			"Seating": "Large tables, small tables, couches, outside seating",
+			"Service": "Good.",
+			"Provision": "Great coffee!"
+		},
+		"link": {
+			"homepage":"http://www.sohocafecarmel.com/",
+			"facebook":"https://www.facebook.com/SoHoCafeGallery"
+		}
+	}
 ]
 
