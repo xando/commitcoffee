@@ -1961,6 +1961,23 @@ var places = [
 		},
 		"link": {"homepage":"http://elixrcoffee.com"}
 	},
-
+	{
+		"city": "Portland",
+		"country": "USA",
+		"name": "Aliviar Coffee",
+		"address": "4128 NE Sandy Blvd, Portland, OR 97213",
+		"coordinates": ["45.53560", "-122.62005"],
+		"description": {
+			"Internet": "Free WIFI",
+			"Power Outlets": "Near almost any seating",
+			"Seating": "Theater seating near entrance, two person tables on both sides, some outdoor tables",
+			"Service": "Exceptionally friendly",
+			"Provision": "Coffee, bagels, pastries, cider, good books"
+		},
+		"link": {
+			"homepage":"http://www.aliviarcoffee.com/",
+			"facebook":"https://www.facebook.com/pages/Aliviar-Coffeehouse/297008072078"
+		}
+	},
 ]
 
