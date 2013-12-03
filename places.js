@@ -2094,6 +2094,22 @@ var places = [
 		},
 		"link": {"facebook":"http://www.facebook.com/MignonCafe"}
 
+	},
+	{
+		"city": "San Luis Obispo",
+		"country": "USA",
+		"name": "SLO Donut Company",
+		"address": "793F Foothill Blvd, San Luis Obispo, CA",
+		"coordinates": ["35.293979", "-120.671642"],
+		"description": {
+			"Internet": "Free wifi. Password is written on various chalkboards.",
+			"Power Outlets": "Two are placed at each sitting location",
+			"Seating": "Multiple tables, couches, and stools.",
+			"Service": "Casual, relaxed, inviting.",
+			"Provision": "Donuts, cake, and coffee.",
+			"Hours" : "Sun-Sat 12:00 AM-12:00 PM."
+		},
+		"link": {"homepage":"http://slodoco.com/"}
 	}
 ]
 
