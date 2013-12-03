@@ -13,8 +13,7 @@ A list of places friendly to social oriented geeks.
 Is there a good coffee place missing? Would like to see it here?
 
 1. Please make a fork of the repository.
-2. Append your place in [places.js](https://github.com/xando/commitcoffee/blob/gh-pages/places.js).
-2*. Not sure abotu lat/long? Check with this http://mynasadata.larc.nasa.gov/latitudelongitude-finder/
+2. Append your place in [places.js](https://github.com/xando/commitcoffee/blob/gh-pages/places.js). Not sure abotu lat/long? Check with this http://mynasadata.larc.nasa.gov/latitudelongitude-finder/
 3. `$ git commit -m "New awesome coffee place"`.
 4. Send the pull request.
 5. We are done here!
