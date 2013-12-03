@@ -573,7 +573,7 @@ var places = [
 		"address": "Church St, Shanthala Nagar, Ashok Nagar, Bangalore, Karnataka 560001",
 		"coordinates": ["12.974847","77.607011"],
 		"description": {
-			"Internet": "Nope",
+			"Internet": "Free Wifi For the first 2 hours",
 			"Power Outlets": "There are a few",
 			"Seating": "Coffee, alcohol, with an inhouse and open door service area",
 			"Service": "Very friendly",
