@@ -1279,7 +1279,7 @@ var places = [
 			"Provision": "Coffee, tea, hot breakfast, pastries. A little pricey, but VERY good coffee and food."
 		},
 		"link": {"homepage":"http://www.bloomcoffee.com/"}
-	}
+	},
 	{
 		"city": "Dallas",
 		"country": "TX",
@@ -1294,5 +1294,20 @@ var places = [
 			"Provision": "Great coffee and pastries.",
 		},
 		"link": {"homepage":"http://www.sipstircafe.com/"}
+	},
+    {
+		"city": "Bangalore",
+		"name": "Matteo Coffee",
+		"country": "India",
+		"address": "Church St, Shanthala Nagar, Ashok Nagar, Bangalore, Karnataka 560001",
+		"coordinates": ["12.974847", "77.607011"],
+		"description": {
+			"Internet": "Free Wifi For the first 2 hours",
+			"Power Outlets": "There are a few",
+			"Seating": "Coffee, alcohol, with an inhouse and open door service area",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, alcohol",
+		},
+		"link": {"blog":"http://matteocoffea.wordpress.com/"}
 	}
 ]
