@@ -1665,5 +1665,21 @@ var places = [
             "Provision": "coffee, tea, pastries, sandwiches and other foodies."
         },
         "link": {"homepage":"http://bostoncommoncoffee.com/locations-hours/boston-common-coffee-company-downtown-crossing-515-washington-street/"}
-    }
+    },
+	{
+		"city": "Hoboken",
+		"country": "USA",
+		"name": "Bwe Kafe",
+		"address": "1002 Washington Street",
+		"coordinates": ["40.748606", "-74.027338"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "Most tables have outlets nearby",
+			"Seating": "Variety of seating - group tables, individual tables, a few window seats, outdoor seating, and a few comfy chairs",
+			"Service": "Very friendly.  Know you by name if you are a regular",
+			"Provision": "Earth conscious coffee, exciting brewing methods, tea, juices, gluten-free / vegan friendly, small breakfast foods",
+		},
+		"link": {"homepage":"http://www.bwekafe.com/"}
+	}
 ]
+
