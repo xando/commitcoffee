@@ -1,19 +1,4 @@
 var places = [
-    {
-        "city": "Szeged",
-        "country": "HU",
-        "name": "Dock Cafe",
-        "address": "Kárász Street 3",
-        "coordinates": ["46.252102", "20.147400"],
-        "description": {
-            "Internet": "Free wifi, good speed, no password",
-            "Power Outlets": "Most tables have outlets nearby",
-            "Seating": "Large tables, individual tables, a few comfy chairs",
-            "Service": "Very friendly",
-            "Provision": "coffee specials, tea, juices, cake, small breakfast foods",
-        },
-        "link": {"homepage":"https://www.facebook.com/dockcafe.szeged"}
-    },
 	{
 		"city": "Białystok",
 		"country": "PL",
@@ -1945,6 +1930,22 @@ var places = [
 			"Provision": "Coffee, tea, beer, cider, juices, baked sweets, salads, sandwiches",
 		},
 		"link": {"homepage":"http://www.elliottbaybook.com/"}
-	}
+	},
+	{
+        "city": "Szeged",
+        "country": "Hungary",
+        "name": "Dock Cafe",
+        "address": "Kárász Street 3",
+        "coordinates": ["46.252102", "20.147400"],
+        "description": {
+            "Internet": "Free wifi, good speed, no password",
+            "Power Outlets": "Most tables have outlets nearby",
+            "Seating": "Large tables, individual tables, a few comfy chairs",
+            "Service": "Very friendly",
+            "Provision": "coffee specials, tea, juices, cake, small breakfast foods",
+        },
+        "link": {"homepage":"https://www.facebook.com/dockcafe.szeged"}
+    },
+
 ]
 
