@@ -703,21 +703,6 @@ var places = [
 		"link": {"homepage":"http://www.boldbeancoffee.com"}
 	},
 	{
-		"city": "San Francisco",
-		"country": "USA",
-		"name": "Philz Coffee",
-		"address": "399 Golden Gate Ave, San Francisco, CA 94102",
-		"coordinates": ["37.78137", "-122.417114"],
-		"description": {
-			"Internet": "Free wifi, good speed.",
-			"Power Outlets": "There are a few but they tend to get snapped up if you don't come early.",
-			"Seating": "Comfortable seats. Good mix of tables and chairs as well as couches. Some spots are also great for working.",
-			"Service": "Very friendly. Staff are always happy to give you a lecture on the history of their coffee and are knowledgeable on the subject.",
-			"Provision": "Great, fun coffee as one would expect from a Philz. Pastries.",
-		},
-		"link": {"homepage":"http://www.philzcoffee.com/"}
-	},
-	{
 		"city": "Seattle",
 		"country": "USA",
 		"name": "Herkimer Coffee",
@@ -2011,6 +1996,22 @@ var places = [
 			"homepage":"http://www.sohocafecarmel.com/",
 			"facebook":"https://www.facebook.com/SoHoCafeGallery"
 		}
-	}
+	},
+	{
+		"city": "San Francisco",
+		"country": "USA",
+		"name": "Philz Coffee",
+		"address": "399 Golden Gate Ave, San Francisco, CA 94102",
+		"coordinates": ["37.781455", "-122.417181"],
+		"description": {
+			"Internet": "Free wifi, good speed.",
+			"Power Outlets": "There are a few but they tend to get snapped up if you don't come early.",
+			"Seating": "Comfortable seats. Good mix of tables and chairs as well as couches. Some spots are also great for working.",
+			"Service": "Very friendly. Staff are always happy to give you a lecture on the history of their coffee and are knowledgeable on the subject.",
+			"Provision": "Great, fun coffee as one would expect from a Philz. Pastries.",
+		},
+		"link": {"homepage":"http://www.philzcoffee.com/"}
+	},
+
 ]
 
