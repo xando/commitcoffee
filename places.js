@@ -717,21 +717,6 @@ var places = [
 		},
 		"link": {"homepage":"http://herkimercoffee.com/locations.php"}
 	},
-	{
-		"city": "Philadelphia",
-		"country": "USA",
-		"name": "Elixir Cafe",
-		"address": "207 South Sydenham Street, Philadelphia, PA 19102",
-		"coordinates": ["39.949472", "-75.166672"],
-		"description": {
-			"Internet": "Free wifi",
-			"Power Outlets": "Yes",
-			"Seating": "Wood",
-			"Service": "Somewhat elitist, but the espresso is worth it",
-			"Provision": "Really good coffee (especially espresso), sandwiches, pastries",
-		},
-		"link": {"homepage":"http://elixrcoffee.com"}
-	},
  	{
         "city": "Liverpool",
         "country": "UK",
@@ -1961,6 +1946,21 @@ var places = [
         },
         "link": {"homepage":"https://www.facebook.com/dockcafe.szeged"}
     },
+	{
+		"city": "Philadelphia",
+		"country": "USA",
+		"name": "Elixir Cafe",
+		"address": "207 South Sydenham Street, Philadelphia, PA 19102",
+		"coordinates": ["39.949472", "-75.166672"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "Yes",
+			"Seating": "Wood",
+			"Service": "Somewhat elitist, but the espresso is worth it",
+			"Provision": "Really good coffee (especially espresso), sandwiches, pastries",
+		},
+		"link": {"homepage":"http://elixrcoffee.com"}
+	},
 
 ]
 
