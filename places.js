@@ -1635,5 +1635,20 @@ var places = [
 			"Provision": "Coffee, Tea, Scone, Pastries",
 		},
 		"link": {"homepage":"http://cafehumblelion.com/"}
+	},
+	{
+		"city": "Banff",
+		"country": "Canada",
+		"name": "MacLab Bistro",
+		"address": "107 Tunnel Mountain Dr",
+		"coordinates": ["51.169960", "-115.560229"],
+		"description": {
+			"Internet": "Free wifi, good speed, no password",
+			"Power Outlets": "There are some by the couch tables",
+			"Seating": "Lots of seating during the day",
+			"Service": "Very friendly",
+			"Provision": "Coffee, Tea, Lunch, Beer",
+		},
+		"link": {"homepage":"http://www.banffcentre.ca/dining/maclab-bistro.asp"}
 	}
 ]
