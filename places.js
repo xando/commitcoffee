@@ -1680,6 +1680,22 @@ var places = [
 			"Provision": "Earth conscious coffee, exciting brewing methods, tea, juices, gluten-free / vegan friendly, small breakfast foods",
 		},
 		"link": {"homepage":"http://www.bwekafe.com/"}
+	},
+	{
+		"city": "Bengaluru",
+		"country": "India",
+		"name": "Cafe Coffee Day Jayamahal",
+		"address": "Nandhidurga Rd Jayamahal Bangalore",
+		"coordinates": "",
+		"description": {
+			"Internet": "Paid wifi, ask for the password",
+			"Power Outlets": "Most tables have outlets nearby",
+			"Seating": "Variety of seating - large tables, individual tables, a few comfy chairs",
+			"Service": "friendly",
+			"Provision": "Coffee, tea, cake, fast foods",
+		},
+		"link": {"homepage":"http://www.cafecoffeeday.com/"}
 	}
+
 ]
 
