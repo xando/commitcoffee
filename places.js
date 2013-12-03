@@ -2110,6 +2110,21 @@ var places = [
 			"Hours" : "Sun-Sat 12:00 AM-12:00 PM."
 		},
 		"link": {"homepage":"http://slodoco.com/"}
+	},
+	{
+		"city": "Philadelphia",
+		"country": "USA",
+		"name": "Menagerie Coffee",
+		"address": "18 S 3rd St, Philadelphia, PA 19106",
+		"coordinates": ["39.9496863", "-75.14598260000002"],
+		"description": {
+			"Internet": "Free and pretty good",
+			"Power Outlets": "Some",
+			"Seating": "Comfortable seats, several options",
+			"Service": "Excellent",
+			"Provision": "Full espresso bar, hand poured coffee, & locally sourced small eats",
+		},
+		"link": {"homepage":"http://menageriecoffee.wordpress.com/"}
 	}
 ]
 
