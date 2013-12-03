@@ -1726,6 +1726,22 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, small breakfast foods, lunch",
 		},
 		"link": {"homepage":"http://www.caffebelmondo.nl/den-haag/"}
+	},
+	{
+		"city": "Newcastle Upon Tyne",
+		"country": "UK",
+		"name": "Pink Lane Coffee",
+		"address": "1 Pink Lane, Newcastle upon Tyne, NE1 5DW",
+		"coordinates": ["54.969410", "-1.618514"],
+		"description": {
+			"Internet": "Free reliable wifi",
+			"Power Outlets": "Located with the tables",
+			"Seating": "Comfy sofas and nice chairs",
+			"Service": "Awesome, very knowledgeable staff",
+			"Provision": "Amazing coffee, delicious sandwiches, cold drip.",
+			"Hours": "Mon-Fri 7.30am-6pm, Sat 9am-5pm, Sun 10am-4pm"
+		},
+		"link": {"homepage":"http://www.pinklanecoffee.co.uk/"}
 	}
 ]
 
