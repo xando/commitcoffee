@@ -1650,5 +1650,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, alcohol",
 		},
 		"link": {"blog":"http://matteocoffea.wordpress.com/"}
-	}
+	},
+	{
+        "city": "Boston",
+        "country": "USA",
+        "name": "Boston Common Coffee Co.",
+        "address": "515 Washington Street",
+        "coordinates": ["42.354217", "-71.061917"],
+        "description": {
+            "Internet": "Free wifi with purchase. Ask for password.",
+            "Power Outlets": "Seating near the walls",
+            "Seating": "Chairs, high chairs, couches, coffe tables",
+            "Service": "Alright, get's the job done. Nothing special.",
+            "Provision": "coffee, tea, pastries, sandwiches and other foodies."
+        },
+        "link": {"homepage":"http://bostoncommoncoffee.com/locations-hours/boston-common-coffee-company-downtown-crossing-515-washington-street/"}
+    }
 ]
