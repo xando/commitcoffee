@@ -1296,36 +1296,6 @@ var places = [
 		"link": {"homepage":"http://www.sipstircafe.com/"}
 	},
 	{
-		"city": "Richland",
-		"country": "USA",
-		"name": "Roasters Coffee",
-		"address": "496 George Washington Way, Richland, WA 99352",
-		"coordinates": ["46.27170", "-119.27129"],
-		"description": {
-			"Internet": "Free & fast.",
-			"Power Outlets": "Power strips everywhere",
-			"Seating": "Lots of varied seating.",
-			"Service": "Impeccable. Kind, interesting baristas.",
-			"Provision": "Fantastic self-roasted coffee, pastries and Red Bull.",
-		},
-		"link": {"homepage":"http://www.roasterscoffee.net/"}
-	},
-	{
-		"city": "Richland",
-		"country": "USA",
-		"name": "The Local",
-		"address": "8530 W Gage Blvd, Ste E, Kennewick, WA 99336",
-		"coordinates": ["46.22772", "-119.23749"],
-		"description": {
-			"Internet": "Free. Fast. Ask for the password.",
-			"Power Outlets": "Enough. They're behind most of the seats.",
-			"Seating": "Benches all round.",
-			"Service": "Really knowledgeable, fast baristas.",
-			"Provision": "Excellent Victrola coffee, pastries, and sandwiches.",
-		},
-		"link": {"homepage":"http://www.wearethelocal.com/"}
-	},
-	{
 		"city": "Mountain View",
 		"country": "USA",
 		"name": "Red Rock",
@@ -2155,6 +2125,36 @@ var places = [
 			"Provision": "Full espresso bar, hand poured coffee, & locally sourced small eats",
 		},
 		"link": {"homepage":"http://menageriecoffee.wordpress.com/"}
-	}
+	},
+	{
+		"city": "Richland",
+		"country": "USA",
+		"name": "Roasters Coffee",
+		"address": "496 George Washington Way, Richland, WA 99352",
+		"coordinates": ["46.27170", "-119.27129"],
+		"description": {
+			"Internet": "Free & fast.",
+			"Power Outlets": "Power strips everywhere",
+			"Seating": "Lots of varied seating.",
+			"Service": "Impeccable. Kind, interesting baristas.",
+			"Provision": "Fantastic self-roasted coffee, pastries and Red Bull.",
+		},
+		"link": {"homepage":"http://www.roasterscoffee.net/"}
+	},
+	{
+		"city": "Richland",
+		"country": "USA",
+		"name": "The Local",
+		"address": "8530 W Gage Blvd, Ste E, Kennewick, WA 99336",
+		"coordinates": ["46.22772", "-119.23749"],
+		"description": {
+			"Internet": "Free. Fast. Ask for the password.",
+			"Power Outlets": "Enough. They're behind most of the seats.",
+			"Seating": "Benches all round.",
+			"Service": "Really knowledgeable, fast baristas.",
+			"Provision": "Excellent Victrola coffee, pastries, and sandwiches.",
+		},
+		"link": {"homepage":"http://www.wearethelocal.com/"}
+	},
 ]
 
