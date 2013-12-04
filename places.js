@@ -2234,6 +2234,55 @@ var places = [
 			"Provision": "Coffee, Tea, Lunch, Beer",
 		},
 		"link": {"homepage":"http://www.banffcentre.ca/dining/maclab-bistro.asp"}
+	},
+		"name": "Birch Coffee Flatiron",
+		"address": "5 E 27th St, New York, NY 10016",
+		"coordinates": ["40.697488","-73.979681"],
+		"description": {
+			"Internet": "Free WiFi",
+			"Power Outlets": "Some limited points, particularly upstairs",
+			"Seating": "Tables near the coffee area, as well as in the library upstairs (access through the hotel lobby)",
+			"Service": "Order at counter",
+			"Provision": "Coffee, tea, juices, some cakes/pastries",
+		},
+		"link": {
+			"homepage":"http://www.birchcoffee.com",
+			"facebook","https://www.facebook.com/birchcoffee"
+		}
+	}
+		"city": "Brooklyn",
+		"country": "USA",
+		"name": "Toby's Estate Brooklyn",
+		"address": "125 N 6th St, Brooklyn, NY 11249",
+		"coordinates": ["40.717875","-73.959253"],
+		"description": {
+			"Internet": "WiFi",
+			"Power Outlets": "None",
+			"Seating": "Tables, benches, some couches with tables",
+			"Service": "Order at counter",
+			"Provision": "Coffee, tea, juices, cake, sandwiches/small meals",
+		},
+		"link": {
+			"homepage":"http://www.tobysestate.com",
+			"facebook","https://www.facebook.com/tobysestatebrooklyn"
+		}
+	},
+	{
+		"city": "Brooklyn",
+		"country": "USA",
+		"name": "Cafe Grumpy Greenpoint",
+		"address": "193 Meserole Avenue, Brooklyn, NY 11222",
+		"coordinates": ["40.728632","-73.948731"],
+		"description": {
+			"Internet": "Free WiFi",
+			"Power Outlets": "Some limited points, particularly towards the rear",
+			"Seating": "Tables, benches",
+			"Service": "Order at counter",
+			"Provision": "Coffee, tea, juices, some cakes/pastries",
+		},
+		"link": {
+			"homepage":"http://cafegrumpy.com",
+			"facebook","https://www.facebook.com/cafegrumpy"
+		}
 	}
 ]
-
