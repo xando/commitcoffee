@@ -2234,6 +2234,22 @@ var places = [
 			"Provision": "Coffee, Tea, Lunch, Beer",
 		},
 		"link": {"homepage":"http://www.banffcentre.ca/dining/maclab-bistro.asp"}
+	},
+	{
+		"city": "Toronto",
+		"country": "Canada",
+		"name": "Jetfuel Coffee",
+		"address": "519 Parliament Street",
+		"coordinates": ["43.66513", "-79.36814"],
+		"description": {
+			"Internet": "Fast unlimited internet, ask for password",
+			"Power Outlets": "Plenty along the walls",
+			"Seating": "Wooden chairs and tables, single-person tables available",
+			"Service": "Nice friendly people, order at the bar",
+			"Provision": "Inexpensive. Good lattes and cookies",
+			"Hours": "Everyday 7am–8pm"
+		},
+		"link": {"homepage":"http://www.jetfuelcoffee.com"}
 	}
 ]
 
