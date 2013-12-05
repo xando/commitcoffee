@@ -1291,7 +1291,7 @@ var places = [
 			"Power Outlets": "Plenty",
 			"Seating": "Always somewhere to sit, but not too quiet.",
 			"Service": "Super friendly",
-			"Provision": "Great coffee and pastries.",
+			"Provision": "Great coffee and pastries."
 		},
 		"link": {"homepage":"http://www.sipstircafe.com/"}
 	},
@@ -1306,7 +1306,7 @@ var places = [
 			"Power Outlets": "Lots",
 			"Seating": "Plenty, and there is a second floor that is quieter, get there early it fills up fairly quickly",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, muffins, snacks",
+			"Provision": "Coffee, tea, muffins, snacks"
 		},
 		"link": {"homepage":"http://www.redrockcoffee.org/"}
 	},
@@ -1366,7 +1366,7 @@ var places = [
 			"Internet": "Free wifi, speed was fine.",
 			"Power Outlets": "This is lacking, charge before you go.",
 			"Seating": "Mostly cheap chairs with some couches",
-			"Provision": "Coffee, tea, muffins, juice, etc. No real food.",
+			"Provision": "Coffee, tea, muffins, juice, etc. No real food."
 		},
 		"link": {
 			"homepage":"http://www.roasterscoffeecafe.com/",
@@ -1384,7 +1384,7 @@ var places = [
 			"Power Outlets": "A few",
 			"Seating": "Mostly large tables with bar stools",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, panini, pastries",
+			"Provision": "Coffee, tea, juices, panini, pastries"
 		},
 		"link": {"homepage":"https://www.facebook.com/caffedellavia"}
 	},
@@ -1416,7 +1416,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Lots of seating",
 			"Service": "Good",
-			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
+			"Provision": "Coffee, tea, juices, cake, salads, sandwiches"
 		},
 		"link": {"homepage":"http://www.theforestcoffee.com/"}
 	},
@@ -1447,7 +1447,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Chairs and benches, could be more comfortable",
 			"Service": "Okay service",
-			"Provision": "Fair trade and organic coffee and tea, more...",
+			"Provision": "Fair trade and organic coffee and tea, more..."
 		},
 		"link": {"homepage":"https://plus.google.com/113437543592526873134/about?gl=ca&hl=en"}
 	},
@@ -1462,7 +1462,7 @@ var places = [
 			"Power Outlets": "Plentiful",
 			"Seating": "Handful of tables, bar with stools, some couches and comfy chairs",
 			"Service": "Excellent, very friendly and accommodating",
-			"Provision": "Coffee, tea, juice, sandwiches, soups, sweets, craft beers",
+			"Provision": "Coffee, tea, juice, sandwiches, soups, sweets, craft beers"
 		},
 		"link": {"homepage":"http://www.mahtay.ca/"}
 	},
@@ -1477,7 +1477,7 @@ var places = [
 			"Power Outlets": "Yes",
 			"Seating": "Tons of room",
 			"Service": "Lots of room no one will bug you",
-			"Provision": "Coffee, tea, juices, sandwiches, and a Wendys",
+			"Provision": "Coffee, tea, juices, sandwiches, and a Wendys"
 		},
 		"link": {"homepage":"http://www.timhortons.com/ca/locator/storedirections.html?id=101911"}
 	},
@@ -1507,7 +1507,7 @@ var places = [
 			"Power Outlets": "Unknown",
 			"Seating": "Chairs, benches and also a sofa upstairs",
 			"Service": "Very friendly and efficient",
-			"Provision": "Their main thing is pastries, but they have a really good espresso as well",
+			"Provision": "Their main thing is pastries, but they have a really good espresso as well"
 		},
 		"link": {"homepage":"http://www.ninaveloso.com.br/"}
 	},
@@ -1537,7 +1537,7 @@ var places = [
 			"Power Outlets": "A handful scattered throughout the space",
 			"Seating": "Lots of seating, not all comfortable for extended work sessions",
 			"Service": "Counter service",
-			"Provision": "Coffee, tea, cake, pastries, cookies",
+			"Provision": "Coffee, tea, cake, pastries, cookies"
 		},
 		"link": {"homepage":"http://www.ohenryscoffees.com/"}
 	},
@@ -1587,7 +1587,7 @@ var places = [
 			"Power Outlets": "By the walls",
 			"Seating": "Nice tables, seats and couches, comfortable bar stools",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc",
+			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc"
 		},
 		"link": {"homepage":"https://www.facebook.com/ChashkaKiev"}
 	},
@@ -1602,7 +1602,7 @@ var places = [
 			"Power Outlets": "Plentiful.",
 			"Seating": "Tables, chairs and some old but very comfortable sofas",
 			"Service": "Very friendly students from SUNY Geneseo",
-			"Provision": "Coffee, pastries, light meals",
+			"Provision": "Coffee, pastries, light meals"
 		},
 		"link": {"homepage":"http://muddywaterscoffeeroasters.com/geneseo.html"}
 	},
@@ -1617,7 +1617,7 @@ var places = [
 			"Power Outlets": "Some tables have outlets nearby",
 			"Seating": "Small tables however you can combine to make a larger table",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, cake, bagels",
+			"Provision": "Coffee, tea, juices, cake, bagels"
 		},
 		"link": {"homepage":"http://61ccafe.com/"}
 	},
@@ -1632,7 +1632,7 @@ var places = [
 			"Power Outlets": "Pretty good for outlets",
 			"Seating": "Not a lot of seating, but perfect table height",
 			"Service": "Very friendly",
-			"Provision": "Coffee, Tea, Scone, Pastries",
+			"Provision": "Coffee, Tea, Scone, Pastries"
 		},
 		"link": {"homepage":"http://cafehumblelion.com/"}
 	},
@@ -1647,7 +1647,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Coffee, alcohol, with an inhouse and open door service area",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, alcohol",
+			"Provision": "Coffee, tea, juices, alcohol"
 		},
 		"link": {"blog":"http://matteocoffea.wordpress.com/"}
 	},
@@ -1677,7 +1677,7 @@ var places = [
 			"Power Outlets": "Most tables have outlets nearby",
 			"Seating": "Variety of seating - group tables, individual tables, a few window seats, outdoor seating, and a few comfy chairs",
 			"Service": "Very friendly.  Know you by name if you are a regular",
-			"Provision": "Earth conscious coffee, exciting brewing methods, tea, juices, gluten-free / vegan friendly, small breakfast foods",
+			"Provision": "Earth conscious coffee, exciting brewing methods, tea, juices, gluten-free / vegan friendly, small breakfast foods"
 		},
 		"link": {"homepage":"http://www.bwekafe.com/"}
 	},
@@ -1692,10 +1692,24 @@ var places = [
 			"Power Outlets": "Most tables have outlets nearby",
 			"Seating": "Variety of seating - large tables, individual tables, a few comfy chairs",
 			"Service": "friendly",
-			"Provision": "Coffee, tea, cake, fast foods",
+			"Provision": "Coffee, tea, cake, fast foods"
 		},
 		"link": {"homepage":"http://www.cafecoffeeday.com/"}
+	},
+	{
+		"city": "Lafayette, IN",
+		"country": "USA",
+		"name": "Star City Coffee & Ale House",
+		"address": "210 Main St, Lafayette, IN 47901",
+		"coordinates": ["40.419201", "-86.895019"],
+		"description": {
+			"Internet": "Free secured wifi, ask for the password",
+			"Power Outlets": "Outlets and powerstrips along the walls",
+			"Seating": "Variety of seating - tables, individual chairs, low bar, outside tables",
+			"Service": "friendly and knowledgeable",
+			"Provision": "Direct trade coffee, craft beer, paninis, cupcakes"
+		},
+		"link": {"homepage":"http://www.starcitycoffee.net/"}
 	}
-
 ]
 
