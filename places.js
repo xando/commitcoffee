@@ -2234,6 +2234,22 @@ var places = [
 			"Provision": "Coffee, Tea, Lunch, Beer",
 		},
 		"link": {"homepage":"http://www.banffcentre.ca/dining/maclab-bistro.asp"}
+	},
+  {
+		"city": "Beijing",
+		"country": "China",
+		"name": "MaanCoffee (漫咖啡)",
+		"address": "workers' Stadium North Road, Chaoyang, Beijing, China,(工人体育场北路工人体育场西北角1100米)"
+		"coordinates": ["39.933582","116.444875"],
+		"description": {
+			"Internet": "Free WiFi (password:maancoffee). speed: 150KBP/s",
+			"Power Outlets": "Lots",
+			"Seating": "lots of seat during the working day,sort of seat on weekend",
+			"Service": "Very friendly",
+			"Provision": "Coffee, Tea, Waffle, Toast... more..",
+			"Opening Hours" : "9:00 AM - 02:00 AM",
+		},
+		"link": {"homepage":"http://www.dianping.com/shop/6116557"}
 	}
 ]
 
