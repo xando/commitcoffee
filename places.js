@@ -598,20 +598,20 @@ var places = [
 		},
 		"link": {"homepage":"http://www.campuslondon.com/"}
 	},
-    {
-        "city": "Waterloo",
-        "country": "Canada",
-        "name": "Death Valley's Little Brother",
-        "address": "84 King St N, Waterloo, ON N2J 2X4",
-        "coordinates": ["43.467711", "-80.5229581"],
-        "description": {
-            "Internet": "Free wifi, good speed, ask for the password",
-            "Power Outlets": "There are a few",
-            "Seating": "Wooden furnishing, very relaxing",
-            "Provision": "Coffee, tea, alchohol, muffins, scones, etc",
-        },
-        "link": {"homepage":"http://dvlb.ca"}
-    },
+	{
+		"city": "Waterloo",
+		"country": "Canada",
+		"name": "Death Valley's Little Brother",
+		"address": "84 King St N, Waterloo, ON N2J 2X4",
+		"coordinates": ["43.467711", "-80.5229581"],
+		"description": {
+			"Internet": "Free wifi, good speed, ask for the password",
+			"Power Outlets": "There are a few",
+			"Seating": "Wooden furnishing, very relaxing",
+			"Provision": "Coffee, tea, alchohol, muffins, scones, etc",
+		},
+		"link": {"homepage":"http://dvlb.ca"}
+	},
 	{
 		"city": "Gothenburg",
 		"country": "SE",
@@ -733,22 +733,22 @@ var places = [
 		},
 		"link": {"homepage":"http://herkimercoffee.com/locations.php"}
 	},
- 	{
-        "city": "Liverpool",
-        "country": "UK",
-        "name": "Bold Street Coffee",
-        "address": "89 Bold Street, Liverpool, L1 4HF",
-        "coordinates": ["53.4024574","-2.9768352"],
-        "description": {
-            "Internet": "Free wifi, good speed",
-            "Power Outlets": "A few",
-            "Seating": "Comfortable tables, seats and benches",
-            "Service": "Very friendly, definitely know their coffee",
-            "Provision": "Coffee, tea, breakfast, cakes",
-            "Hours": "Mon-Fri 7.30-6, Sat 8-6, Sun 9.30-5"
-        },
-        "link": {"homepage":"http://www.boldstreetcoffee.co.uk/"}
-    },
+	{
+		"city": "Liverpool",
+		"country": "UK",
+		"name": "Bold Street Coffee",
+		"address": "89 Bold Street, Liverpool, L1 4HF",
+		"coordinates": ["53.4024574","-2.9768352"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "A few",
+			"Seating": "Comfortable tables, seats and benches",
+			"Service": "Very friendly, definitely know their coffee",
+			"Provision": "Coffee, tea, breakfast, cakes",
+			"Hours": "Mon-Fri 7.30-6, Sat 8-6, Sun 9.30-5"
+		},
+		"link": {"homepage":"http://www.boldstreetcoffee.co.uk/"}
+	},
 	{
 		"city": "Beacon",
 		"country": "USA",
@@ -866,20 +866,20 @@ var places = [
 		"link": {"homepage":"http://www.bennucoffee.com/"}
 	},
 	{
-        "city": "Lakewood, OH",
-        "country": "USA",
-        "name": "The Root Cafe",
-        "address": "15118 Detroit Ave. Lakewood, Ohio 44107",
-        "coordinates": ["41.485154", "-81.802090"],
-        "description": {
-            "Internet": "Free wifi",
-            "Power Outlets": "Alone each wall",
-            "Seating": "Lots of tables and chairs, especially towards the back. Books and boardgames are available in bookcases.",
-            "Service": "Quick and friendly",
-            "Provision": "Coffee, tea, deserts, sandwiches"
-        },
-        "link": {"homepage":"http://www.theroot-cafe.com/"}
-    },
+		"city": "Lakewood, OH",
+		"country": "USA",
+		"name": "The Root Cafe",
+		"address": "15118 Detroit Ave. Lakewood, Ohio 44107",
+		"coordinates": ["41.485154", "-81.802090"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "Alone each wall",
+			"Seating": "Lots of tables and chairs, especially towards the back. Books and boardgames are available in bookcases.",
+			"Service": "Quick and friendly",
+			"Provision": "Coffee, tea, deserts, sandwiches"
+		},
+		"link": {"homepage":"http://www.theroot-cafe.com/"}
+	},
 	{
 		"city": "Omaha",
 		"state": "Nebraska",
@@ -897,36 +897,36 @@ var places = [
 		"link": {"homepage":"http://aromasomaha.com/"}
 	},
 	{
-        "city": "Rabat",
-        "country": "MA",
-        "name": "Café Viking",
-        "address": "49, Avenue moulay youssef",
-        "coordinates": ["34.014213", "-6.836497"],
-        "description": {
-            "Internet": "Free wifi, good speed",
-            "Power Outlets": "There are a few",
-            "Seating": "Comfortable seats",
-            "Service": "Very friendly",
-            "Provision": "Coffee, tea, juices, toasts",
-        },
-        "link": {"facebook":"https://www.facebook.com/pages/Viking/207492465937077"}
-    },
-    {
-        "city": "Austin",
-        "country": "USA",
-        "name": "Epoch",
-        "address": "221 W North Loop Blvd",
-        "coordinates": ["30.318686", "-97.724464"],
-        "description": {
-            "Internet": "Free wifi, good speed, password displayed on counter",
-            "Power Outlets": "Many, more than one per table",
-            "Seating": "Tables, couches, bar, outside seating",
-            "Service": "Great, very friendly",
-            "Provision": "Coffee, tea, soda, pizza, pastries, tacos",
-            "Hours": "24 hours"
-        },
-        "link": {"homepage": "http://www.epochcoffee.com"}
-    },
+		"city": "Rabat",
+		"country": "MA",
+		"name": "Café Viking",
+		"address": "49, Avenue moulay youssef",
+		"coordinates": ["34.014213", "-6.836497"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "There are a few",
+			"Seating": "Comfortable seats",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, toasts",
+		},
+		"link": {"facebook":"https://www.facebook.com/pages/Viking/207492465937077"}
+	},
+	{
+		"city": "Austin",
+		"country": "USA",
+		"name": "Epoch",
+		"address": "221 W North Loop Blvd",
+		"coordinates": ["30.318686", "-97.724464"],
+		"description": {
+			"Internet": "Free wifi, good speed, password displayed on counter",
+			"Power Outlets": "Many, more than one per table",
+			"Seating": "Tables, couches, bar, outside seating",
+			"Service": "Great, very friendly",
+			"Provision": "Coffee, tea, soda, pizza, pastries, tacos",
+			"Hours": "24 hours"
+		},
+		"link": {"homepage": "http://www.epochcoffee.com"}
+	},
 	{
 		"city": "Toronto",
 		"country": "Canada",
@@ -974,36 +974,36 @@ var places = [
 		},
 		"link": {"homepage":"http://www.departmentofcoffee.co.uk/"}
 	},
-    {
-        "city": "Ithaca",
-        "name": "Gimme! Coffee",
-        "country": "USA",
-        "address": "506 W State St",
-        "coordinates": ["42.439408", "-76.506432"],
-        "description": {
-            "Internet": "Free open internet",
-            "Power Outlets": "Plenty",
-            "Seating": "Coffee shop and quiet lounge with couches and large tables for meetings",
-            "Service": "Very friendly",
-            "Provision": "Coffee, some bakery items",
-        },
-        "link": {"homepage":"http://www.gimmecoffee.com"}
+	{
+		"city": "Ithaca",
+		"name": "Gimme! Coffee",
+		"country": "USA",
+		"address": "506 W State St",
+		"coordinates": ["42.439408", "-76.506432"],
+		"description": {
+			"Internet": "Free open internet",
+			"Power Outlets": "Plenty",
+			"Seating": "Coffee shop and quiet lounge with couches and large tables for meetings",
+			"Service": "Very friendly",
+			"Provision": "Coffee, some bakery items",
+		},
+		"link": {"homepage":"http://www.gimmecoffee.com"}
 	},
 	{
-        "city": "Caldwell",
-        "name": "Rock 'n Joe Coffe House and Bistro",
-        "country": "USA",
-        "address": "339 Bloomfield Ave",
-        "coordinates": ["40.840251","-74.276475"],
-        "description": {
-            "Internet": "Free open internet",
-            "Power Outlets": "Plenty of outlets",
-            "Seating": "Coffee shop and with couches and tables",
-            "Service": "Very friendly",
-            "Provision": "Coffee, tea, juices, doughnuts, pastries",
-        },
-        "link": {"homepage":"http://www.rocknjoe.net"}
-    },
+		"city": "Caldwell",
+		"name": "Rock 'n Joe Coffe House and Bistro",
+		"country": "USA",
+		"address": "339 Bloomfield Ave",
+		"coordinates": ["40.840251","-74.276475"],
+		"description": {
+			"Internet": "Free open internet",
+			"Power Outlets": "Plenty of outlets",
+			"Seating": "Coffee shop and with couches and tables",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, doughnuts, pastries",
+		},
+		"link": {"homepage":"http://www.rocknjoe.net"}
+	},
 	{
 		"city": "Edinburgh",
 		"country": "GB",
@@ -1161,21 +1161,21 @@ var places = [
 		"link": {"yelp":"http://www.yelp.com/biz/3-gs-cafe-palo-alto"}
 	},
 	{
-        "city": "Toronto",
-        "country": "Canada",
-        "name": "Dark Horse Espresso Bar",
-        "address": "684 Queen St W, Toronto, Ontario",
-        "coordinates": ["43.646588", "-79.407580"],
-        "description": {
-            "Internet": "free wifi, I've had to ask them to reset the router once or twice, but usually it's fine.",
+		"city": "Toronto",
+		"country": "Canada",
+		"name": "Dark Horse Espresso Bar",
+		"address": "684 Queen St W, Toronto, Ontario",
+		"coordinates": ["43.646588", "-79.407580"],
+		"description": {
+			"Internet": "free wifi, I've had to ask them to reset the router once or twice, but usually it's fine.",
 			"Power Outlets": "They exist, but are not as widespread as they could be.",
 			"Seating": "Benches and some chairs",
 			"Service": "Generally friendly and helpful",
 			"Provision": "Incredibly good coffee.  Ask for the Pour-over!",
 			"Hours": "Mon-Fri 07:00 - 20:00, Sat-Sun 08:00 - 20:00"
-        },
-        "link": {"homepage": "http://darkhorseespresso.com/"}
-    },
+		},
+		"link": {"homepage": "http://darkhorseespresso.com/"}
+	},
 	{
 		"city": "Kastrup",
 		"country": "DK",
@@ -1652,7 +1652,7 @@ var places = [
 		},
 		"link": {"homepage":"http://cafehumblelion.com/"}
 	},
-    {
+	{
 		"city": "Bangalore",
 		"name": "Matteo Coffee",
 		"country": "India",
@@ -1668,20 +1668,20 @@ var places = [
 		"link": {"blog":"http://matteocoffea.wordpress.com/"}
 	},
 	{
-        "city": "Boston",
-        "country": "USA",
-        "name": "Boston Common Coffee Co.",
-        "address": "515 Washington Street",
-        "coordinates": ["42.354217", "-71.061917"],
-        "description": {
-            "Internet": "Free wifi with purchase. Ask for password.",
-            "Power Outlets": "Seating near the walls",
-            "Seating": "Chairs, high chairs, couches, coffe tables",
-            "Service": "Alright, get's the job done. Nothing special.",
-            "Provision": "coffee, tea, pastries, sandwiches and other foodies."
-        },
-        "link": {"homepage":"http://bostoncommoncoffee.com/locations-hours/boston-common-coffee-company-downtown-crossing-515-washington-street/"}
-    },
+		"city": "Boston",
+		"country": "USA",
+		"name": "Boston Common Coffee Co.",
+		"address": "515 Washington Street",
+		"coordinates": ["42.354217", "-71.061917"],
+		"description": {
+			"Internet": "Free wifi with purchase. Ask for password.",
+			"Power Outlets": "Seating near the walls",
+			"Seating": "Chairs, high chairs, couches, coffe tables",
+			"Service": "Alright, get's the job done. Nothing special.",
+			"Provision": "coffee, tea, pastries, sandwiches and other foodies."
+		},
+		"link": {"homepage":"http://bostoncommoncoffee.com/locations-hours/boston-common-coffee-company-downtown-crossing-515-washington-street/"}
+	},
 	{
 		"city": "Hoboken",
 		"country": "USA",
@@ -1932,7 +1932,7 @@ var places = [
 		},
 		"link": {"facebook":"https://www.facebook.com/portlandbrew12th"}
 	},
- 	{
+	{
 		"city": "Seattle",
 		"country": "USA",
 		"name": "Elliot Bay Cafe",
@@ -1948,20 +1948,20 @@ var places = [
 		"link": {"homepage":"http://www.elliottbaybook.com/"}
 	},
 	{
-        "city": "Szeged",
-        "country": "Hungary",
-        "name": "Dock Cafe",
-        "address": "Kárász Street 3",
-        "coordinates": ["46.252102", "20.147400"],
-        "description": {
-            "Internet": "Free wifi, good speed, no password",
-            "Power Outlets": "Most tables have outlets nearby",
-            "Seating": "Large tables, individual tables, a few comfy chairs",
-            "Service": "Very friendly",
-            "Provision": "coffee specials, tea, juices, cake, small breakfast foods",
-        },
-        "link": {"homepage":"https://www.facebook.com/dockcafe.szeged"}
-    },
+		"city": "Szeged",
+		"country": "Hungary",
+		"name": "Dock Cafe",
+		"address": "Kárász Street 3",
+		"coordinates": ["46.252102", "20.147400"],
+		"description": {
+			"Internet": "Free wifi, good speed, no password",
+			"Power Outlets": "Most tables have outlets nearby",
+			"Seating": "Large tables, individual tables, a few comfy chairs",
+			"Service": "Very friendly",
+			"Provision": "coffee specials, tea, juices, cake, small breakfast foods",
+		},
+		"link": {"homepage":"https://www.facebook.com/dockcafe.szeged"}
+	},
 	{
 		"city": "Philadelphia",
 		"country": "USA",
@@ -2029,20 +2029,20 @@ var places = [
 		"link": {"homepage":"http://www.philzcoffee.com/"}
 	},
 	{
-        "city": "Fès",
-        "country": "Morocco",
-        "name": "Café Diamant Princess",
-        "address": "N 408 Lot Nouzha Route Ain Chkef, Fès",
-        "coordinates": ["34.0137833", "-5.0079167"],
-        "description": {
-            "Internet": "Free wifi, good speed",
-            "Power Outlets": "There are a few",
-            "Seating": "Comfortable seats",
-            "Service": "Very friendly",
-            "Provision": "Coffee, tea, juices, toasts",
-        },
-        "link": {"foursquare":"https://foursquare.com/v/diamant-princess/4f533cebe4b028a92039fc84"}
-    },
+		"city": "Fès",
+		"country": "Morocco",
+		"name": "Café Diamant Princess",
+		"address": "N 408 Lot Nouzha Route Ain Chkef, Fès",
+		"coordinates": ["34.0137833", "-5.0079167"],
+		"description": {
+			"Internet": "Free wifi, good speed",
+			"Power Outlets": "There are a few",
+			"Seating": "Comfortable seats",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, toasts",
+		},
+		"link": {"foursquare":"https://foursquare.com/v/diamant-princess/4f533cebe4b028a92039fc84"}
+	},
 	{
 		"city": "Beijing",
 		"country": "China",
@@ -2234,6 +2234,145 @@ var places = [
 			"Provision": "Coffee, Tea, Lunch, Beer",
 		},
 		"link": {"homepage":"http://www.banffcentre.ca/dining/maclab-bistro.asp"}
+	},
+	{
+		"city": "Barcelona",
+		"country": "Spain",
+		"name": "La Clandestina",
+		"address": "Baixada de Viladecols, 2",
+		"coordinates": ["41.393996", "2.165491"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "Some inside",
+			"Seating": "Good size tables, comfy chairs, bar-style seating",
+			"Service": "Very friendly",
+			"Provision": "Over 20 types of tea are served, along with the usual coffee and stronger drinks"
+		}
+	},
+	{
+		"city": "Barcelona",
+		"country": "Spain",
+		"name": "Café Milans",
+		"address": "Milans, 7",
+		"coordinates": ["41.380657", "2.179155"],
+		"description": {
+			"Internet": "Free WIFI for customers",
+			"Power Outlets": "Some inside",
+			"Seating": "Good size tables, comfy chairs, bar-style seating",
+			"Service": "Very friendly",
+			"Provision": "Coffee with an assortment of tapas"
+		}
+	},
+	{
+		"city": "Barcelona",
+		"country": "Spain",
+		"name": "Candela",
+		"address": "Hospital, 48",
+		"coordinates": ["41.384698", "2.16686"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "A handful",
+			"Seating": "Good size tables, comfy chairs, bar-style seating",
+			"Service": "Very friendly",
+			"Hours": "Mon - Sat: 9am - 2.30pm; Closed Sun"
+		},
+		"link": {
+			"homepage":"http://www.candelaraval.com/"
+		}
+	},
+	{
+		"city": "Barcelona",
+		"country": "Spain",
+		"name": "Carmelitas",
+		"address": "Carme, 42",
+		"coordinates": ["41.39377", "2.165792"],
+		"description": {
+			"Internet": "Free WIFI - you will need to ask the staff for the key.",
+			"Power Outlets": "The only weak spot",
+			"Seating": "Bar-style seating",
+			"Service": "Very friendly",
+			"Provision": "The food is, unfortunately, rather unremarkable",
+			"Hours": " Daily: 1.30pm - 12am; Kitchen: 1.30pm - 4pm and 9pm - 12am"
+		},
+		"link": {
+			"homepage":"http://www.carmelitas.biz/"
+		}
+	},
+	{
+		"city": "Barcelona",
+		"country": "Spain",
+		"name": "Laie",
+		"address": "Pau Claris 85 (between Gran Via y Casp)",
+		"coordinates": ["37.399875", "-2.364469"],
+		"description": {
+			"Internet": "FREE WIFI - ask for the key at the bar",
+			"Power Outlets": "Some inside",
+			"Seating": "Bookstore café",
+			"Service": "Friendly",
+			"Provision": "Coffee, Beer and Sandwiches",
+			"Hours": "Mon - Fri 9am - 9.30pm; Sat 10am - 9.30pm"
+		},
+		"link": {
+			"homepage":"http://www.laie.es/"
+		}
+	},
+	{
+		"city": "Barcelona",
+		"country": "Spain",
+		"name": "Cafè Camèlia",
+		"address": "C/ Verdi, 79",
+		"coordinates": ["37.399875", "-2.364469"],
+		"description": {
+			"Internet": "Free WIFI",
+			"Power Outlets": "The only weak spot",
+			"Seating": "Bookcoffee-style",
+			"Service": "Friendly",
+			"Provision": "The lunch menu consistently includes vegan and vegetarian options",
+			"Hours": "Closed until tomorrow 9:30 am - 9:00 pm"
+		},
+		"link": {
+			"facebook": "https://www.facebook.com/pages/Caf%C3%A8-Cam%C3%A8lia/198100180227662"
+		}
+	},
+	{
+		"city": "Barcelona",
+		"country": "Spain",
+		"name": "Federal Café",
+		"address": "C/ Parlament, 39",
+		"coordinates": ["37.399875", "-2.364469"],
+		"description": {
+			"Internet": "Free WIFI",
+			"Power Outlets": "Some inside",
+			"Seating": "Big shared tables and some small tables for two",
+			"Service": "Friendly",
+			"Provision": "Portland-style” brunch: egg scrambles, arugula, smoked salmon, quinoa, wheat toast, etc",
+			"Hours": "monday – thursday 08:00 – 23:00; friday 08:00 – 01:00; saturday 09:00 – 01:00; sunday 09:00 – 17:30"
+		},
+		"link": {
+			"homepage":"http://www.federalcafe.es/",
+			"facebook": "https://www.facebook.com/pages/federal-cafe-barcelona/134531549899409"
+		}
+	},
+	{
+		"city": "Barcelona",
+		"country": "Spain",
+		"name": "Babèlia Books and Coffee",
+		"address": "Carrer de Villarroel, 271",
+		"coordinates": ["41.39281", "2.14670"],
+		"description": {
+			"Internet": "Free WIFI",
+			"Power Outlets": "Some inside",
+			"Seating": "No big tables but very comfortable",
+			"Service": "Very friendly",
+			"Provision": "Part coffee shop, part secondhand book shop",
+			"Hours": "9:00 am - 9:00 pm"
+		},
+		"link": {
+			"homepage":"http://www.babeliabcn.com/",
+			"facebook": "https://www.facebook.com/pages/Babelia-Barcelona/394872200528214",
+			"twitter": "https://twitter.com/babeliabcn",
+			"foursquare": "https://es.foursquare.com/babeliabcn"
+		}
 	}
 ]
 
