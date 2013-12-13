@@ -686,5 +686,20 @@ var places = [
 			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
+	},
+	{
+		"city": "Hamburg",
+		"country": "DE",
+		"name": "Kopiba",
+		"address": "Beim Grünen Jäger 24",
+		"coordinates": ["53.558911", "9.963615"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "unknown",
+			"Seating": "Tables and a few comfy chairs",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, juices, softdrinks, beer, wine, longdrinks, cocktails",
+		},
+		"link": {"homepage":"http://www.kopiba.de"}
 	}
 ]
