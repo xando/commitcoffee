@@ -523,6 +523,25 @@ var places = [
 	{
 		"city": "Manchester",
 		"country": "UK",
+		"name": "North Tea Power",
+		"address": "36 Tib St, Manchester, M4 1LA",
+		"coordinates": ["53.48296","-2.23583"],
+		"description": {
+			"Internet": "Free wifi (with captive portal, no registration)",
+			"Power Outlets": "None that I could see",
+			"Seating": "Small tables two large benches",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, cake",
+			"Hours": "Mon-Fri 8.00-19.00, Sat 10.00-19.00, Sun 11.00-18.00"
+		},
+		"link": {
+			"homepage":"http://northteapower.co.uk/"
+			"twitter":"https://twitter.com/northteapower"
+		}
+	},
+	{
+		"city": "Manchester",
+		"country": "UK",
 		"name": "Takk",
 		"address": "6 Tariff Street, M1 2FF",
 		"coordinates": ["53.481202", "-2.232628"],
@@ -2202,7 +2221,27 @@ var places = [
 		},
 		"link": {
 			"homepage":"http://www.yorksbakerycafe.co.uk/",
-			"twitter":"https://twitter.com/takkmcr"
+			"twitter":"https://twitter.com/YorksBakeryCafe"
+		}
+	},
+	{
+		"city": "Birmingham",
+		"country": "UK",
+		"name": "Urban Coffee Co (Church St)",
+		"address": "30 Church Street, Birmingham, B3 2NP",
+		"coordinates": ["52.48227", "-1.900485"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "A small number",
+			"Seating": "Good size tables, comfy chairs, bar-style seating, benches",
+			"Service": "Very friendly",
+			"Provision": "Coffee, tea, cake, alcoholic drinks",
+			"Hours": "Mon-Fri 7.00-19.00, Sat-Sun 10.00-17.00"
+		},
+		"link": {
+			"homepage":"http://www.urbancoffee.co.uk/",
+			"twitter":"https://twitter.com/urbancoffeeco",
+			"facebook":"https://facebook.com/urbancoffee"
 		}
 	},
 	{
