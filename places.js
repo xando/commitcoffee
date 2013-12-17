@@ -1786,7 +1786,7 @@ var places = [
 		},
 		"link": {"homepage":"http://www.atomicafe.com"}
 	}
-		{
+	{
 		"city": "Somerville",
 		"country": "USA",
 		"name": "Three Little Figs",
@@ -1800,6 +1800,21 @@ var places = [
 			"Provision": "Amazing specialty coffee, amazing baristas. Regularly carry Blue Bottle, Panther, etc. as guest coffee. Off the charts in the bakery department.",
 		},
 		"link": {"homepage":"http://3littlefigs.com/"}
+	}
+	{
+		"city": "Beverly Farms",
+		"country": "USA",
+		"name": "Vidalias",
+		"address": "9 West Street, Beverly Farms, MA",
+		"coordinates": ["42.562215", "-70.814162"],
+		"description": {
+			"Internet": "Free wifi from Dunkin Donuts next door. It's not great, but enough the check email and get a little work done.",
+			"Power Outlets": "One in the corner, you can ask them",
+			"Seating": "One big table",
+			"Service": "Family owned and wonderful!",
+			"Provision": "Local cafe, bakery, deli, grocery. I love working in here, even though the internet is shaky. The Bevely Farms library across the street has good wifi (but no coffee), and is open on weekdays.",
+		},
+		"link": {"homepage":"http://vidaliasmarket.com/"}
 	}
 
 ]
