@@ -1789,7 +1789,7 @@ var places = [
 		{
 		"city": "Somerville",
 		"country": "USA",
-		"name": "The Little Figs",
+		"name": "Three Little Figs",
 		"address": "278 Highland Ave, Somerville, MA 02143",
 		"coordinates": ["42.391810", "-71.111912"],
 		"description": {
