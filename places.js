@@ -1741,7 +1741,7 @@ var places = [
 		},
 		"link": {"homepage":"http://www.craftedkup.com/"}
 	}
-		{
+	{
 		"city": "Cambridge",
 		"country": "USA",
 		"name": "Voltage Coffee in Kendall",
@@ -1755,6 +1755,36 @@ var places = [
 			"Provision": "The lattes are off the charts amazing, look at the specials menu. They make a sea salt carmel thing that will blow your mind. High Lawn milk from a local dairy with Jersey cows.",
 		},
 		"link": {"homepage":"http://voltagecoffee.com/"}
+	}
+	{
+		"city": "Beverly",
+		"country": "USA",
+		"name": "Atomic Cafe Coffee Roasters in Beverly",
+		"address": "265 Cabot St, Beverly, MA 01915",
+		"coordinates": ["42.550351", "-70.877632"],
+		"description": {
+			"Internet": "Free wifi, ask for code",
+			"Power Outlets": "A few outlets",
+			"Seating": "Diner-style seating, small and large tables",
+			"Service": "Guys who own and run it are really nice",
+			"Provision": "Locally roasted in Salem. I don't like flavored coffee, but their house blend makes a great cup of coffee. Pasties and stuff too.",
+		},
+		"link": {"homepage":"http://www.atomicafe.com"}
+	}
+	{
+		"city": "Marblehead",
+		"country": "USA",
+		"name": "Atomic Cafe Coffee Roasters in Marblehead",
+		"address": "14 School St, Marblehead, MA 01945",
+		"coordinates": ["42.501676", "-70.856408"],
+		"description": {
+			"Internet": "Free wifi, ask for code",
+			"Power Outlets": "A few outlets",
+			"Seating": "Diner-style seating, small and large tables",
+			"Service": "Guys who own and run it are really nice",
+			"Provision": "Locally roasted in Salem. I don't like flavored coffee, but their house blend makes a great cup of coffee. Pasties and stuff too.",
+		},
+		"link": {"homepage":"http://www.atomicafe.com"}
 	}
 
 ]
