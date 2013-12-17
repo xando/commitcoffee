@@ -1707,7 +1707,7 @@ var places = [
 			"Power Outlets": "A few tables have outlets - charge before you arrive",
 			"Seating": "Limited, but really nice. Lots of 2-person tables. Rustic industrial feel.",
 			"Service": "nice",
-			"Provision": "Stumptown coffee in Harlem. Absolutely amazing.",
+			"Provision": "Stumptown coffee in Harlem. Absolutely amazing. They also have beer!",
 		},
 		"link": {"homepage":"www.lenoxcoffee.com/"}
 	}
@@ -1830,6 +1830,21 @@ var places = [
 			"Provision": "Coffee is okay, lots of food options. Cold brew in the summer is great though - get it with a splash of hanoi and it'll change your life. Great location by the water in Salem. They have another location across the street that is open in the summer and it is a much better workspace - ask if it's open",
 		},
 		"link": {"homepage":"http://www.jaho.com/"}
+	}
+	{
+		"city": "Salem",
+		"country": "USA",
+		"name": "Jo Freedom",
+		"address": "196 Essex St, Salem, MA 01970",
+		"coordinates": ["42.521664", "-70.894196"],
+		"description": {
+			"Internet": "Free wifi, ask for password",
+			"Power Outlets": "A few - ask",
+			"Seating": "Limited, but the swinging chairs are cool",
+			"Service": "Good, they are new so things change a lot.",
+			"Provision": "Coffee (no espresso) and some food, all okay. Not a specialty coffee place, but a special place. Cool hippie vibe. Tends to close for some of the winter, call to make sure they are open.",
+		},
+		"link": {"homepage":"http://www.yelp.com/biz/jo-freedom-salem"}
 	}
 
 ]
