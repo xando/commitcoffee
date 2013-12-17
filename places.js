@@ -1786,6 +1786,21 @@ var places = [
 		},
 		"link": {"homepage":"http://www.atomicafe.com"}
 	}
+		{
+		"city": "Somerville",
+		"country": "USA",
+		"name": "The Little Figs",
+		"address": "278 Highland Ave, Somerville, MA 02143",
+		"coordinates": ["42.391810", "-71.111912"],
+		"description": {
+			"Internet": "Free wifi with code on weekdays. NO LAPTOPS ON WEEKENDS.",
+			"Power Outlets": "A few outlets",
+			"Seating": "Not a ton of seating, but really nice",
+			"Service": "Great",
+			"Provision": "Amazing specialty coffee, amazing baristas. Regularly carry Blue Bottle, Panther, etc. as guest coffee. Off the charts in the bakery department.",
+		},
+		"link": {"homepage":"http://3littlefigs.com/"}
+	}
 
 ]
 
