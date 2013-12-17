@@ -1711,6 +1711,21 @@ var places = [
 		},
 		"link": {"homepage":"www.lenoxcoffee.com/"}
 	}
+		{
+		"city": "Santa Clara",
+		"country": "USA",
+		"name": "Chromatic Coffee",
+		"address": "5237 Stevens Creek Blvd, Santa Clara, CA 95051",
+		"coordinates": ["40.810050", "-73.943229"],
+		"description": {
+			"Internet": "Free wifi",
+			"Power Outlets": "Wifi bar in the back with power outlets",
+			"Seating": "Front of house is non-techie, but there is a techie heaven in the back. Big meeting table for startups, wifi bar, lots of cool folks",
+			"Service": "Worker-owned, they are fantastic",
+			"Provision": "Locally roasted. Unicorn Pony espresso is tasty. Their dark coconut mocha is to die for. Ask for a brulee latte and they'll bring out the flame torch. Orange-ginger cubano is a secret item and a nice treat.",
+		},
+		"link": {"homepage":"http://www.chromaticcoffee.com/"}
+	}
 
 ]
 
