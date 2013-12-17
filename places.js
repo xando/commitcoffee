@@ -1696,6 +1696,21 @@ var places = [
 		},
 		"link": {"homepage":"http://www.cafecoffeeday.com/"}
 	}
+	{
+		"city": "New York City",
+		"country": "USA",
+		"name": "Lenox Coffee",
+		"address": "60 W 129th St, New York, NY 10027",
+		"coordinates": ["40.810050", "-73.943229"],
+		"description": {
+			"Internet": "Free wifi, ask for password",
+			"Power Outlets": "A few tables have outlets - charge before you arrive",
+			"Seating": "Limited, but really nice. Lots of 2-person tables. Rustic industrial feel.",
+			"Service": "nice",
+			"Provision": "Stumptown coffee in Harlem. Absolutely amazing.",
+		},
+		"link": {"homepage":"www.lenoxcoffee.com/"}
+	}
 
 ]
 
