@@ -1726,7 +1726,7 @@ var places = [
 		},
 		"link": {"homepage":"http://www.chromaticcoffee.com/"}
 	}
-		{
+	{
 		"city": "Poughkeepsie",
 		"country": "USA",
 		"name": "Crafted Kup",
@@ -1740,6 +1740,21 @@ var places = [
 			"Provision": "Get the Woodstock coffee or the tea. Good pastries.",
 		},
 		"link": {"homepage":"http://www.craftedkup.com/"}
+	}
+		{
+		"city": "Cambridge",
+		"country": "USA",
+		"name": "Voltage Coffee in Kendall",
+		"address": "295 Third St, Cambridge, MA 02142",
+		"coordinates": ["42.364360", "-71.083300"],
+		"description": {
+			"Internet": "Free wifi, ask for code",
+			"Power Outlets": "Most tables have outlets nearby",
+			"Seating": "Lots of seating. Also an art gallery.",
+			"Service": "Hipsters. But nice ones.",
+			"Provision": "The lattes are off the charts amazing, look at the specials menu. They make a sea salt carmel thing that will blow your mind. High Lawn milk from a local dairy with Jersey cows.",
+		},
+		"link": {"homepage":"http://voltagecoffee.com/"}
 	}
 
 ]
