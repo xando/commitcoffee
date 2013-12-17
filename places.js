@@ -1711,12 +1711,12 @@ var places = [
 		},
 		"link": {"homepage":"www.lenoxcoffee.com/"}
 	}
-		{
+	{
 		"city": "Santa Clara",
 		"country": "USA",
 		"name": "Chromatic Coffee",
 		"address": "5237 Stevens Creek Blvd, Santa Clara, CA 95051",
-		"coordinates": ["40.810050", "-73.943229"],
+		"coordinates": ["37.324135", "-121.994298"],
 		"description": {
 			"Internet": "Free wifi",
 			"Power Outlets": "Wifi bar in the back with power outlets",
@@ -1725,6 +1725,21 @@ var places = [
 			"Provision": "Locally roasted. Unicorn Pony espresso is tasty. Their dark coconut mocha is to die for. Ask for a brulee latte and they'll bring out the flame torch. Orange-ginger cubano is a secret item and a nice treat.",
 		},
 		"link": {"homepage":"http://www.chromaticcoffee.com/"}
+	}
+		{
+		"city": "Poughkeepsie",
+		"country": "USA",
+		"name": "Crafted Kup",
+		"address": "44 Raymond Ave, Poughkeepsie, NY 12603",
+		"coordinates": ["41.692806", "-73.900682"],
+		"description": {
+			"Internet": "Free wifi, ask for password",
+			"Power Outlets": "Most tables have outlets nearby. Lots of college students working in here",
+			"Seating": "Range of tables and couches",
+			"Service": "Typical",
+			"Provision": "Get the Woodstock coffee or the tea. Good pastries.",
+		},
+		"link": {"homepage":"http://www.craftedkup.com/"}
 	}
 
 ]
