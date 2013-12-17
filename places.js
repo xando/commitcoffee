@@ -1816,6 +1816,21 @@ var places = [
 		},
 		"link": {"homepage":"http://vidaliasmarket.com/"}
 	}
+	{
+		"city": "Salem",
+		"country": "USA",
+		"name": "Jaho Coffee and Tea",
+		"address": "197 Derby St, Salem, MA 01970",
+		"coordinates": ["42.520784", "-70.888215"],
+		"description": {
+			"Internet": "Free wifi, ask for password",
+			"Power Outlets": "There are a few plugs, you have to get seated at the right table. Charge before you get there.",
+			"Seating": "Variety",
+			"Service": "Good",
+			"Provision": "Coffee is okay, lots of food options. Cold brew in the summer is great though - get it with a splash of hanoi and it'll change your life. Great location by the water in Salem. They have another location across the street that is open in the summer and it is a much better workspace - ask if it's open",
+		},
+		"link": {"homepage":"http://www.jaho.com/"}
+	}
 
 ]
 
