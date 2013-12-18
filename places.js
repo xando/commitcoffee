@@ -2234,6 +2234,21 @@ var places = [
 			"Provision": "Coffee, Tea, Lunch, Beer",
 		},
 		"link": {"homepage":"http://www.banffcentre.ca/dining/maclab-bistro.asp"}
+	},
+	{
+		"city": "Medellín",
+		"country": "Colombia",
+		"name": "Tal Cual",
+		"address": "Calle 12 No. 43D -12. Manila, El Poblado",
+		"coordinates": ["6.213583", "-75.571814"],
+		"description": {
+			"Internet": "Free wifi, good speed, must buy if wanna stay longer",
+			"Power Outlets": "There are a few",
+			"Seating": "Variety of seating - small and medium tables, some couches too",
+			"Service": "Very friendly, both english and spanish",
+			"Provision": "coffee, jiuces, awesome sandwiches, drinks",
+		},
+		"link": {"homepage":"http://www.talcualweb.com.co"}
 	}
 ]
 
