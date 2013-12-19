@@ -2175,6 +2175,19 @@ var places = [
 	{
 		"city": "Redwood City",
 		"country": "USA",
+		"name": "Peet's",
+		"address": "2600 Broadway Street, Redwood City, CA 94063",
+		"description": {
+			"Internet": "Free stable WIFI",
+			"Power Outlets": "Some inside",
+			"Seating": "Minimal, plus a couple of tables outside",
+			"Service": "Friendly",
+			"Provision": "Coffee, tea, muffins, snacks",
+		},
+	},
+	{
+		"city": "Redwood City",
+		"country": "USA",
 		"name": "Cafe La Tartine",
 		"address": "830 Middlefield Road, Redwood City, CA 94063",
 		"coordinates": ["37.485861", "-122.229304"],
