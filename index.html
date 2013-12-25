@@ -74,7 +74,12 @@
 								</a>
 							</h2>
 							<h2 ng-hide="locationDetails.link.homepage">{{ locationDetails.name }}</h2>
-							<h4><b>{{ locationDetails.city }}</b>, {{ locationDetails.address }}</h4>
+							<a ng-href="https://maps.google.com/maps?daddr={{ [ locationDetails.name,
+																																	locationDetails.city,
+																																	locationDetails.address].join(', ')
+																																| mapsDest }}" target="_blank">
+								<h4><b>{{ locationDetails.city }}</b>, {{ locationDetails.address }}</h4>
+							</a>
 						</div>
 						<div class="col-md-6">
 							<div class="links hidden-xs hidden-sm">

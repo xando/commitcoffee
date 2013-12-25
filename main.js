@@ -101,3 +101,9 @@ App.directive('clickAnywhereButHere', function($document){
     }
   }
 })
+
+App.filter('mapsDest', function() {
+	return function(input) {
+		return input.replace(/ /g, "+");
+	};
+});
