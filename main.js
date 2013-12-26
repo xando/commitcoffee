@@ -53,6 +53,10 @@ App.controller('Controller', function ($scope, $location) {
 				$scope.$apply(function(){
 					$scope.locationDetails = marker.location;
 					$scope.showDetails = 2;
+					$scope.mapsURL = [marker.location.name,
+														marker.location.city,
+														marker.location.address];
+					$scope.mapsURL = $scope.mapsURL.join(', ').replace(/ /g, "+");
 				});
 			});
 
@@ -101,9 +105,3 @@ App.directive('clickAnywhereButHere', function($document){
     }
   }
 })
-
-App.filter('mapsDest', function() {
-	return function(input) {
-		return input.replace(/ /g, "+");
-	};
-});
