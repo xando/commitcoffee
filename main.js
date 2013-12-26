@@ -2,7 +2,7 @@ var places = _.filter(places, "coordinates");
 
 var App = angular.module('CommitCoffee', []);
 
-App.controller('Controller', function ($scope, $location) {
+App.controller('Controller', function ($scope, $location, $anchorScroll) {
 
 	var mapOptions = {
 		center: new google.maps.LatLng(40, -10),
@@ -61,6 +61,9 @@ App.controller('Controller', function ($scope, $location) {
 	});
 
 	$scope.search = function () {
+
+		$location.hash('search');
+		$anchorScroll();
 
 		var geocoder = new google.maps.Geocoder();
 
