@@ -2235,6 +2235,7 @@ var places = [
 		},
 		"link": {"homepage":"http://www.banffcentre.ca/dining/maclab-bistro.asp"}
 	},
+	{
 		"name": "Birch Coffee Flatiron",
 		"address": "5 E 27th St, New York, NY 10016",
 		"coordinates": ["40.697488","-73.979681"],
@@ -2243,13 +2244,14 @@ var places = [
 			"Power Outlets": "Some limited points, particularly upstairs",
 			"Seating": "Tables near the coffee area, as well as in the library upstairs (access through the hotel lobby)",
 			"Service": "Order at counter",
-			"Provision": "Coffee, tea, juices, some cakes/pastries",
+			"Provision": "Coffee, tea, juices, some cakes/pastries"
 		},
 		"link": {
 			"homepage":"http://www.birchcoffee.com",
-			"facebook","https://www.facebook.com/birchcoffee"
+			"facebook":"https://www.facebook.com/birchcoffee"
 		}
-	}
+	},
+	{
 		"city": "Brooklyn",
 		"country": "USA",
 		"name": "Toby's Estate Brooklyn",
@@ -2260,11 +2262,11 @@ var places = [
 			"Power Outlets": "None",
 			"Seating": "Tables, benches, some couches with tables",
 			"Service": "Order at counter",
-			"Provision": "Coffee, tea, juices, cake, sandwiches/small meals",
+			"Provision": "Coffee, tea, juices, cake, sandwiches/small meals"
 		},
 		"link": {
 			"homepage":"http://www.tobysestate.com",
-			"facebook","https://www.facebook.com/tobysestatebrooklyn"
+			"facebook":"https://www.facebook.com/tobysestatebrooklyn"
 		}
 	},
 	{
@@ -2278,11 +2280,11 @@ var places = [
 			"Power Outlets": "Some limited points, particularly towards the rear",
 			"Seating": "Tables, benches",
 			"Service": "Order at counter",
-			"Provision": "Coffee, tea, juices, some cakes/pastries",
+			"Provision": "Coffee, tea, juices, some cakes/pastries"
 		},
 		"link": {
 			"homepage":"http://cafegrumpy.com",
-			"facebook","https://www.facebook.com/cafegrumpy"
+			"facebook":"https://www.facebook.com/cafegrumpy"
 		}
 	}
 ]
