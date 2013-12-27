@@ -1,0 +1,152 @@
+[
+    {
+        "city": "New York City",
+        "country": "USA",
+        "name": "Lenox Coffee",
+        "address": "60 W 129th St, New York, NY 10027",
+        "coordinates": ["40.810050", "-73.943229"],
+        "description": {
+            "Internet": "Free wifi, ask for password",
+            "Power Outlets": "A few tables have outlets - charge before you arrive",
+            "Seating": "Limited, but really nice. Lots of 2-person tables. Rustic industrial feel.",
+            "Service": "nice",
+            "Provision": "Stumptown coffee in Harlem. Absolutely amazing. They also have beer!"
+        },
+        "link": {"homepage":"www.lenoxcoffee.com/"}
+    },
+    {
+        "city": "Santa Clara",
+        "country": "USA",
+        "name": "Chromatic Coffee",
+        "address": "5237 Stevens Creek Blvd, Santa Clara, CA 95051",
+        "coordinates": ["37.324135", "-121.994298"],
+        "description": {
+            "Internet": "Free wifi",
+            "Power Outlets": "Wifi bar in the back with power outlets",
+            "Seating": "Front of house is non-techie, but there is a techie heaven in the back. Big meeting table for startups, wifi bar, lots of cool folks",
+            "Service": "Worker-owned, they are fantastic",
+            "Provision": "Locally roasted. Unicorn Pony espresso is tasty. Their dark coconut mocha is to die for. Ask for a brulee latte and they'll bring out the flame torch. Orange-ginger cubano is a secret item and a nice treat."
+        },
+        "link": {"homepage":"http://www.chromaticcoffee.com/"}
+    },
+    {
+        "city": "Poughkeepsie",
+        "country": "USA",
+        "name": "Crafted Kup",
+        "address": "44 Raymond Ave, Poughkeepsie, NY 12603",
+        "coordinates": ["41.692806", "-73.900682"],
+        "description": {
+            "Internet": "Free wifi, ask for password",
+            "Power Outlets": "Most tables have outlets nearby. Lots of college students working in here",
+            "Seating": "Range of tables and couches",
+            "Service": "Typical",
+            "Provision": "Get the Woodstock coffee or the tea. Good pastries."
+        },
+        "link": {"homepage":"http://www.craftedkup.com/"}
+    },
+    {
+        "city": "Cambridge",
+        "country": "USA",
+        "name": "Voltage Coffee in Kendall",
+        "address": "295 Third St, Cambridge, MA 02142",
+        "coordinates": ["42.364360", "-71.083300"],
+        "description": {
+            "Internet": "Free wifi, ask for code",
+            "Power Outlets": "Most tables have outlets nearby",
+            "Seating": "Lots of seating. Also an art gallery.",
+            "Service": "Hipsters. But nice ones.",
+            "Provision": "The lattes are off the charts amazing, look at the specials menu. They make a sea salt carmel thing that will blow your mind. High Lawn milk from a local dairy with Jersey cows."
+        },
+        "link": {"homepage":"http://voltagecoffee.com/"}
+    },
+    {
+        "city": "Beverly",
+        "country": "USA",
+        "name": "Atomic Cafe Coffee Roasters in Beverly",
+        "address": "265 Cabot St, Beverly, MA 01915",
+        "coordinates": ["42.550351", "-70.877632"],
+        "description": {
+            "Internet": "Free wifi, ask for code",
+            "Power Outlets": "A few outlets",
+            "Seating": "Diner-style seating, small and large tables",
+            "Service": "Guys who own and run it are really nice",
+            "Provision": "Locally roasted in Salem. I don't like flavored coffee, but their house blend makes a great cup of coffee. Pasties and stuff too."
+        },
+        "link": {"homepage":"http://www.atomicafe.com"}
+    },
+    {
+        "city": "Marblehead",
+        "country": "USA",
+        "name": "Atomic Cafe Coffee Roasters in Marblehead",
+        "address": "14 School St, Marblehead, MA 01945",
+        "coordinates": ["42.501676", "-70.856408"],
+        "description": {
+            "Internet": "Free wifi, ask for code",
+            "Power Outlets": "A few outlets",
+            "Seating": "Diner-style seating, small and large tables",
+            "Service": "Guys who own and run it are really nice",
+            "Provision": "Locally roasted in Salem. I don't like flavored coffee, but their house blend makes a great cup of coffee. Pasties and stuff too."
+        },
+        "link": {"homepage":"http://www.atomicafe.com"}
+    },
+    {
+        "city": "Somerville",
+        "country": "USA",
+        "name": "Three Little Figs",
+        "address": "278 Highland Ave, Somerville, MA 02143",
+        "coordinates": ["42.391810", "-71.111912"],
+        "description": {
+            "Internet": "Free wifi with code on weekdays. NO LAPTOPS ON WEEKENDS.",
+            "Power Outlets": "A few outlets",
+            "Seating": "Not a ton of seating, but really nice",
+            "Service": "Great",
+            "Provision": "Amazing specialty coffee, amazing baristas. Regularly carry Blue Bottle, Panther, etc. as guest coffee. Off the charts in the bakery department."
+        },
+        "link": {"homepage":"http://3littlefigs.com/"}
+    },
+    {
+        "city": "Beverly Farms",
+        "country": "USA",
+        "name": "Vidalias",
+        "address": "9 West Street, Beverly Farms, MA",
+        "coordinates": ["42.562215", "-70.814162"],
+        "description": {
+            "Internet": "Free wifi from Dunkin Donuts next door. It's not great, but enough the check email and get a little work done.",
+            "Power Outlets": "One in the corner, you can ask them",
+            "Seating": "One big table",
+            "Service": "Family owned and wonderful!",
+            "Provision": "Local cafe, bakery, deli, grocery. I love working in here, even though the internet is shaky. The Bevely Farms library across the street has good wifi (but no coffee), and is open on weekdays."
+        },
+        "link": {"homepage":"http://vidaliasmarket.com/"}
+    },
+    {
+        "city": "Salem",
+        "country": "USA",
+        "name": "Jaho Coffee and Tea",
+        "address": "197 Derby St, Salem, MA 01970",
+        "coordinates": ["42.520784", "-70.888215"],
+        "description": {
+            "Internet": "Free wifi, ask for password",
+            "Power Outlets": "There are a few plugs, you have to get seated at the right table. Charge before you get there.",
+            "Seating": "Variety",
+            "Service": "Good",
+            "Provision": "Coffee is okay, lots of food options. Cold brew in the summer is great though - get it with a splash of hanoi and it'll change your life. Great location by the water in Salem. They have another location across the street that is open in the summer and it is a much better workspace - ask if it's open"
+        },
+        "link": {"homepage":"http://www.jaho.com/"}
+    },
+    {
+        "city": "Salem",
+        "country": "USA",
+        "name": "Jo Freedom",
+        "address": "196 Essex St, Salem, MA 01970",
+        "coordinates": ["42.521664", "-70.894196"],
+        "description": {
+            "Internet": "Free wifi, ask for password",
+            "Power Outlets": "A few - ask",
+            "Seating": "Limited, but the swinging chairs are cool",
+            "Service": "Good, they are new so things change a lot.",
+            "Provision": "Coffee (no espresso) and some food, all okay. Not a specialty coffee place, but a special place. Cool hippie vibe. Tends to close for some of the winter, call to make sure they are open."
+        },
+        "link": {"homepage":"http://www.yelp.com/biz/jo-freedom-salem"}
+    }
+]
