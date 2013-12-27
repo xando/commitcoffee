@@ -594,7 +594,7 @@ var places = [
 			"Power Outlets": "Lots",
 			"Seating": "Plenty, but get there early it fills up quick",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, more..",
+			"Provision": "Coffee, tea, more.."
 		},
 		"link": {"homepage":"http://www.campuslondon.com/"}
 	},
@@ -608,7 +608,7 @@ var places = [
             "Internet": "Free wifi, good speed, ask for the password",
             "Power Outlets": "There are a few",
             "Seating": "Wooden furnishing, very relaxing",
-            "Provision": "Coffee, tea, alchohol, muffins, scones, etc",
+            "Provision": "Coffee, tea, alchohol, muffins, scones, etc"
         },
         "link": {"homepage":"http://dvlb.ca"}
     },
@@ -623,7 +623,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Fairly comfortable seats",
 			"Service": "Okay service",
-			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
+			"Provision": "Coffee, tea, juices, cake, salads, sandwiches"
 		},
 		"link": {"homepage":"http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"}
 	},
@@ -638,7 +638,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Comfortable seats",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, cake, meals",
+			"Provision": "Coffee, tea, juices, cake, meals"
 		},
 		"link": {"homepage":"http://www.coffeeculturecafe.com/"}
 	},
@@ -653,7 +653,7 @@ var places = [
 			"Power Outlets": "Some",
 			"Seating": "Comfortable seats, outside benches",
 			"Service": "It's New York",
-			"Provision": "Coffee, tea, juices, cake, sandwiches",
+			"Provision": "Coffee, tea, juices, cake, sandwiches"
 		},
 		"link": {"homepage":"http://groundsupportcafe.com/"}
 	},
@@ -668,7 +668,7 @@ var places = [
 			"Power Outlets": "By the walls; dedicated \"quiet zone\" with more in back",
 			"Seating": "Decent seats; raised laptop-bar area",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, pastries, hot food",
+			"Provision": "Coffee, tea, pastries, hot food"
 		},
 		"link": {"homepage":"http://www.hartfordcoffeecompany.com/"}
 	},
@@ -699,7 +699,7 @@ var places = [
 			"Power Outlets": "Most tables have outlets nearby",
 			"Seating": "Variety of seating - large tables, individual tables, a few comfy chairs",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, cake, small breakfast foods",
+			"Provision": "Coffee, tea, juices, cake, small breakfast foods"
 		},
 		"link": {"homepage":"https://plus.google.com/107552475726057576910/about"}
 	},
@@ -714,7 +714,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Comfortable seats",
 			"Service": "Very friendly & great at what they do",
-			"Provision": "Exceptional coffee (roasted on-premises), tea, craft beer, baked goods, sandwiches at lunch time",
+			"Provision": "Exceptional coffee (roasted on-premises), tea, craft beer, baked goods, sandwiches at lunch time"
 		},
 		"link": {"homepage":"http://www.boldbeancoffee.com"}
 	},
@@ -729,7 +729,7 @@ var places = [
 			"Power Outlets": "Usually at least two or three free",
 			"Seating": "A good variety",
 			"Service": "Warm Hearted",
-			"Provision": "Coffee, Pasteries",
+			"Provision": "Coffee, Pasteries"
 		},
 		"link": {"homepage":"http://herkimercoffee.com/locations.php"}
 	},
@@ -760,7 +760,7 @@ var places = [
 			"Power Outlets": "There are plenty",
 			"Seating": "Comfortable seats, couches, tables, al fresco",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, beers, pastries, small meals",
+			"Provision": "Coffee, tea, beers, pastries, small meals"
 		},
 		"link": {"homepage":"http://banksquarecoffeehouse.com/"}
 	},
@@ -845,7 +845,7 @@ var places = [
 			"Power Outlets": "Unknown",
 			"Seating": "Comfortable bar stools",
 			"Service": "Very friendly",
-			"Provision": "Excellent coffee, sandwiches, pastries, cakes",
+			"Provision": "Excellent coffee, sandwiches, pastries, cakes"
 		},
 		"link": {"homepage":"http://brownsofbrockley.com/"}
 	},
@@ -907,7 +907,7 @@ var places = [
             "Power Outlets": "There are a few",
             "Seating": "Comfortable seats",
             "Service": "Very friendly",
-            "Provision": "Coffee, tea, juices, toasts",
+            "Provision": "Coffee, tea, juices, toasts"
         },
         "link": {"facebook":"https://www.facebook.com/pages/Viking/207492465937077"}
     },
@@ -970,7 +970,7 @@ var places = [
 			"Power Outlets": "There are several, especially in the back room",
 			"Seating": "Busy third wave coffee shop, great team table in back room",
 			"Service": "The nicest hipsters in town",
-			"Provision": "Coffee, tea, juices, pastry, ace sandwiches",
+			"Provision": "Coffee, tea, juices, pastry, ace sandwiches"
 		},
 		"link": {"homepage":"http://www.departmentofcoffee.co.uk/"}
 	},
@@ -985,7 +985,7 @@ var places = [
             "Power Outlets": "Plenty",
             "Seating": "Coffee shop and quiet lounge with couches and large tables for meetings",
             "Service": "Very friendly",
-            "Provision": "Coffee, some bakery items",
+            "Provision": "Coffee, some bakery items"
         },
         "link": {"homepage":"http://www.gimmecoffee.com"}
 	},
@@ -1000,7 +1000,7 @@ var places = [
             "Power Outlets": "Plenty of outlets",
             "Seating": "Coffee shop and with couches and tables",
             "Service": "Very friendly",
-            "Provision": "Coffee, tea, juices, doughnuts, pastries",
+            "Provision": "Coffee, tea, juices, doughnuts, pastries"
         },
         "link": {"homepage":"http://www.rocknjoe.net"}
     },
@@ -1033,7 +1033,7 @@ var places = [
 			"Power Outlets": "By the windows",
 			"Seating": "Tables, Couches, Bar",
 			"Service": "Wonderful Beer Selection",
-			"Provision": "Beer, Food, Tea, Coffee, Snacks",
+			"Provision": "Beer, Food, Tea, Coffee, Snacks"
 		},
 		"link": {"homepage":"http://www.deklomp.se/"}
 	},
@@ -1062,7 +1062,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Tables and chairs for groups, couple of comfortable sofas, and a beautiful outdoor patio",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, pastries.",
+			"Provision": "Coffee, tea, juices, pastries."
 		},
 		"link": {
 			"homepage":"https://plus.google.com/105646394886961700159"
@@ -1079,7 +1079,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Tables and chairs for groups, individual seating at the bar.",
 			"Service": "Very friendly",
-			"Provision": "Espresso, pour-over coffee, tea, and some pastries.",
+			"Provision": "Espresso, pour-over coffee, tea, and some pastries."
 		},
 		"link": {
 			"homepage":"http://www.ritualroasters.com/‎"
@@ -1096,7 +1096,7 @@ var places = [
 			"Power Outlets": "Few",
 			"Seating": "Comfortable tables",
 			"Service": "Friendly",
-			"Provision": "Coffee, tea, juices, beers, cake, meals",
+			"Provision": "Coffee, tea, juices, beers, cake, meals"
 		},
 		"link": {"homepage":"https://www.facebook.com/RubiCafe"}
 	},
@@ -1141,7 +1141,7 @@ var places = [
 			"Power Outlets": "Some",
 			"Seating": "Premium coffee shop, considered Ireland's finest ",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, brownies, pastries",
+			"Provision": "Coffee, tea, brownies, pastries"
 		},
 		"link": {"homepage":"http://www.3fe.com/"}
 	},
@@ -1156,7 +1156,7 @@ var places = [
 			"Power Outlets": "Plenty",
 			"Seating": "Few but good chairs, outdoor morning sun",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, beers, cake, meals",
+			"Provision": "Coffee, tea, juices, beers, cake, meals"
 		},
 		"link": {"yelp":"http://www.yelp.com/biz/3-gs-cafe-palo-alto"}
 	},
@@ -1202,7 +1202,7 @@ var places = [
 			"Power Outlets": "Quite a few",
 			"Seating": "Fairly comfortable seats",
 			"Service": "Good service",
-			"Provision": "Coffee, tea, salads, sandwiches",
+			"Provision": "Coffee, tea, salads, sandwiches"
 		},
 		"link": {"homepage":"http://www.coffeebarsf.com/"}
 	},
@@ -1217,7 +1217,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Coffee shop with very strange furniture and small tables",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, drinks, delicious food",
+			"Provision": "Coffee, tea, drinks, delicious food"
 		}
 	},
 	{
@@ -1231,7 +1231,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Tables, booths, bar and outdoor seating",
 			"Service": "Very friendly",
-			"Provision": "Coffee, wine, tea, juices, salads, pastries",
+			"Provision": "Coffee, wine, tea, juices, salads, pastries"
 		},
 		"link": {"homepage":"http://mykaffeehaus.com/"}
 	},
@@ -1246,7 +1246,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Tables and local art",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, sandwiches, pastries",
+			"Provision": "Coffee, tea, juices, sandwiches, pastries"
 		},
 		"link": {"homepage":"http://zeitgeistcoffee.com"}
 	},
@@ -1261,7 +1261,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Some individual tables, some long tables",
 			"Service": "Very friendly",
-			"Provision": "Coffee, espresso, some pastries, Mexican coke, Topo Chico",
+			"Provision": "Coffee, espresso, some pastries, Mexican coke, Topo Chico"
 		},
 		"link": {"homepage":"http://browncoffeeco.com/"}
 	},
@@ -1307,7 +1307,7 @@ var places = [
 			"Power Outlets": "Plenty",
 			"Seating": "Always somewhere to sit, but not too quiet.",
 			"Service": "Super friendly",
-			"Provision": "Great coffee and pastries.",
+			"Provision": "Great coffee and pastries."
 		},
 		"link": {"homepage":"http://www.sipstircafe.com/"}
 	},
@@ -1322,7 +1322,7 @@ var places = [
 			"Power Outlets": "Lots",
 			"Seating": "Plenty, and there is a second floor that is quieter, get there early it fills up fairly quickly",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, muffins, snacks",
+			"Provision": "Coffee, tea, muffins, snacks"
 		},
 		"link": {"homepage":"http://www.redrockcoffee.org/"}
 	},
@@ -1382,7 +1382,7 @@ var places = [
 			"Internet": "Free wifi, speed was fine.",
 			"Power Outlets": "This is lacking, charge before you go.",
 			"Seating": "Mostly cheap chairs with some couches",
-			"Provision": "Coffee, tea, muffins, juice, etc. No real food.",
+			"Provision": "Coffee, tea, muffins, juice, etc. No real food."
 		},
 		"link": {
 			"homepage":"http://www.roasterscoffeecafe.com/",
@@ -1400,7 +1400,7 @@ var places = [
 			"Power Outlets": "A few",
 			"Seating": "Mostly large tables with bar stools",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, panini, pastries",
+			"Provision": "Coffee, tea, juices, panini, pastries"
 		},
 		"link": {"homepage":"https://www.facebook.com/caffedellavia"}
 	},
@@ -1432,7 +1432,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Lots of seating",
 			"Service": "Good",
-			"Provision": "Coffee, tea, juices, cake, salads, sandwiches",
+			"Provision": "Coffee, tea, juices, cake, salads, sandwiches"
 		},
 		"link": {"homepage":"http://www.theforestcoffee.com/"}
 	},
@@ -1463,7 +1463,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Chairs and benches, could be more comfortable",
 			"Service": "Okay service",
-			"Provision": "Fair trade and organic coffee and tea, more...",
+			"Provision": "Fair trade and organic coffee and tea, more..."
 		},
 		"link": {"homepage":"https://plus.google.com/113437543592526873134/about?gl=ca&hl=en"}
 	},
@@ -1478,7 +1478,7 @@ var places = [
 			"Power Outlets": "Plentiful",
 			"Seating": "Handful of tables, bar with stools, some couches and comfy chairs",
 			"Service": "Excellent, very friendly and accommodating",
-			"Provision": "Coffee, tea, juice, sandwiches, soups, sweets, craft beers",
+			"Provision": "Coffee, tea, juice, sandwiches, soups, sweets, craft beers"
 		},
 		"link": {"homepage":"http://www.mahtay.ca/"}
 	},
@@ -1493,7 +1493,7 @@ var places = [
 			"Power Outlets": "Yes",
 			"Seating": "Tons of room",
 			"Service": "Lots of room no one will bug you",
-			"Provision": "Coffee, tea, juices, sandwiches, and a Wendys",
+			"Provision": "Coffee, tea, juices, sandwiches, and a Wendys"
 		},
 		"link": {"homepage":"http://www.timhortons.com/ca/locator/storedirections.html?id=101911"}
 	},
@@ -1523,7 +1523,7 @@ var places = [
 			"Power Outlets": "Unknown",
 			"Seating": "Chairs, benches and also a sofa upstairs",
 			"Service": "Very friendly and efficient",
-			"Provision": "Their main thing is pastries, but they have a really good espresso as well",
+			"Provision": "Their main thing is pastries, but they have a really good espresso as well"
 		},
 		"link": {"homepage":"http://www.ninaveloso.com.br/"}
 	},
@@ -1553,7 +1553,7 @@ var places = [
 			"Power Outlets": "A handful scattered throughout the space",
 			"Seating": "Lots of seating, not all comfortable for extended work sessions",
 			"Service": "Counter service",
-			"Provision": "Coffee, tea, cake, pastries, cookies",
+			"Provision": "Coffee, tea, cake, pastries, cookies"
 		},
 		"link": {"homepage":"http://www.ohenryscoffees.com/"}
 	},
@@ -1603,7 +1603,7 @@ var places = [
 			"Power Outlets": "By the walls",
 			"Seating": "Nice tables, seats and couches, comfortable bar stools",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc",
+			"Provision": "Coffee, tea, juices, sandwiches, breakfast, etc"
 		},
 		"link": {"homepage":"https://www.facebook.com/ChashkaKiev"}
 	},
@@ -1618,7 +1618,7 @@ var places = [
 			"Power Outlets": "Plentiful.",
 			"Seating": "Tables, chairs and some old but very comfortable sofas",
 			"Service": "Very friendly students from SUNY Geneseo",
-			"Provision": "Coffee, pastries, light meals",
+			"Provision": "Coffee, pastries, light meals"
 		},
 		"link": {"homepage":"http://muddywaterscoffeeroasters.com/geneseo.html"}
 	},
@@ -1633,7 +1633,7 @@ var places = [
 			"Power Outlets": "Some tables have outlets nearby",
 			"Seating": "Small tables however you can combine to make a larger table",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, cake, bagels",
+			"Provision": "Coffee, tea, juices, cake, bagels"
 		},
 		"link": {"homepage":"http://61ccafe.com/"}
 	},
@@ -1648,7 +1648,7 @@ var places = [
 			"Power Outlets": "Pretty good for outlets",
 			"Seating": "Not a lot of seating, but perfect table height",
 			"Service": "Very friendly",
-			"Provision": "Coffee, Tea, Scone, Pastries",
+			"Provision": "Coffee, Tea, Scone, Pastries"
 		},
 		"link": {"homepage":"http://cafehumblelion.com/"}
 	},
@@ -1663,7 +1663,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Coffee, alcohol, with an inhouse and open door service area",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, alcohol",
+			"Provision": "Coffee, tea, juices, alcohol"
 		},
 		"link": {"blog":"http://matteocoffea.wordpress.com/"}
 	},
@@ -1693,7 +1693,7 @@ var places = [
 			"Power Outlets": "Most tables have outlets nearby",
 			"Seating": "Variety of seating - group tables, individual tables, a few window seats, outdoor seating, and a few comfy chairs",
 			"Service": "Very friendly.  Know you by name if you are a regular",
-			"Provision": "Earth conscious coffee, exciting brewing methods, tea, juices, gluten-free / vegan friendly, small breakfast foods",
+			"Provision": "Earth conscious coffee, exciting brewing methods, tea, juices, gluten-free / vegan friendly, small breakfast foods"
 		},
 		"link": {"homepage":"http://www.bwekafe.com/"}
 	},
@@ -1724,7 +1724,7 @@ var places = [
 			"Power Outlets": "There are a few",
 			"Seating": "Variety of seating, tables and a few comfy chairs",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, cake, breakfast foods and lunches",
+			"Provision": "Coffee, tea, juices, cake, breakfast foods and lunches"
 		},
 		"link": {"homepage":"https://plus.google.com/109562220645564079210/about"}
 	},
@@ -1739,7 +1739,7 @@ var places = [
 			"Power Outlets": "Not much, but are available.",
 			"Seating": "Variety of seating - large tables, individual tables, a few comfy chairs",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, juices, cake, small breakfast foods, lunch",
+			"Provision": "Coffee, tea, juices, cake, small breakfast foods, lunch"
 		},
 		"link": {"homepage":"http://www.caffebelmondo.nl/den-haag/"}
 	},
@@ -1943,7 +1943,7 @@ var places = [
 			"Power Outlets": "Most tables have outlets nearby",
 			"Seating": "Variety of seating - large tables, individual tables, a few comfy chairs",
 			"Service": "Very friendly",
-			"Provision": "Coffee, tea, beer, cider, juices, baked sweets, salads, sandwiches",
+			"Provision": "Coffee, tea, beer, cider, juices, baked sweets, salads, sandwiches"
 		},
 		"link": {"homepage":"http://www.elliottbaybook.com/"}
 	},
@@ -1958,7 +1958,7 @@ var places = [
             "Power Outlets": "Most tables have outlets nearby",
             "Seating": "Large tables, individual tables, a few comfy chairs",
             "Service": "Very friendly",
-            "Provision": "coffee specials, tea, juices, cake, small breakfast foods",
+            "Provision": "coffee specials, tea, juices, cake, small breakfast foods"
         },
         "link": {"homepage":"https://www.facebook.com/dockcafe.szeged"}
     },
@@ -1973,7 +1973,7 @@ var places = [
 			"Power Outlets": "Yes",
 			"Seating": "Wood",
 			"Service": "Somewhat elitist, but the espresso is worth it",
-			"Provision": "Really good coffee (especially espresso), sandwiches, pastries",
+			"Provision": "Really good coffee (especially espresso), sandwiches, pastries"
 		},
 		"link": {"homepage":"http://elixrcoffee.com"}
 	},
@@ -2024,7 +2024,7 @@ var places = [
 			"Power Outlets": "There are a few but they tend to get snapped up if you don't come early.",
 			"Seating": "Comfortable seats. Good mix of tables and chairs as well as couches. Some spots are also great for working.",
 			"Service": "Very friendly. Staff are always happy to give you a lecture on the history of their coffee and are knowledgeable on the subject.",
-			"Provision": "Great, fun coffee as one would expect from a Philz. Pastries.",
+			"Provision": "Great, fun coffee as one would expect from a Philz. Pastries."
 		},
 		"link": {"homepage":"http://www.philzcoffee.com/"}
 	},
@@ -2039,7 +2039,7 @@ var places = [
             "Power Outlets": "There are a few",
             "Seating": "Comfortable seats",
             "Service": "Very friendly",
-            "Provision": "Coffee, tea, juices, toasts",
+            "Provision": "Coffee, tea, juices, toasts"
         },
         "link": {"foursquare":"https://foursquare.com/v/diamant-princess/4f533cebe4b028a92039fc84"}
     },
@@ -2055,7 +2055,7 @@ var places = [
 			"Seating": "check this page: http://chuansongme.com/n/149828",
 			"Service": "Very friendly",
 			"Provision": "Coffee, Tea, Waffle, Toast... more..",
-			"Opening Hours" : "9:00 AM - 11:50 PM",
+			"Opening Hours" : "9:00 AM - 11:50 PM"
 		},
 		"link": {"homepage":"http://www.dianping.com/shop/5649296/"}
 	},
@@ -2138,7 +2138,7 @@ var places = [
 			"Power Outlets": "Some",
 			"Seating": "Comfortable seats, several options",
 			"Service": "Excellent",
-			"Provision": "Full espresso bar, hand poured coffee, & locally sourced small eats",
+			"Provision": "Full espresso bar, hand poured coffee, & locally sourced small eats"
 		},
 		"link": {"homepage":"http://menageriecoffee.wordpress.com/"}
 	},
@@ -2153,7 +2153,7 @@ var places = [
 			"Power Outlets": "Power strips everywhere",
 			"Seating": "Lots of varied seating.",
 			"Service": "Impeccable. Kind, interesting baristas.",
-			"Provision": "Fantastic self-roasted coffee, pastries and Red Bull.",
+			"Provision": "Fantastic self-roasted coffee, pastries and Red Bull."
 		},
 		"link": {"homepage":"http://www.roasterscoffee.net/"}
 	},
@@ -2168,7 +2168,7 @@ var places = [
 			"Power Outlets": "Enough. They're behind most of the seats.",
 			"Seating": "Benches all round.",
 			"Service": "Really knowledgeable, fast baristas.",
-			"Provision": "Excellent Victrola coffee, pastries, and sandwiches.",
+			"Provision": "Excellent Victrola coffee, pastries, and sandwiches."
 		},
 		"link": {"homepage":"http://www.wearethelocal.com/"}
 	},
@@ -2183,8 +2183,8 @@ var places = [
 			"Power Outlets": "Some inside",
 			"Seating": "Plenty, plus outdoor seating",
 			"Service": "Friendly",
-			"Provision": "Coffee, tea, muffins, sandwiches, snacks",
-		},
+			"Provision": "Coffee, tea, muffins, sandwiches, snacks"
+		}
 	},
 	{
 		"city": "Birmingham",
@@ -2216,7 +2216,7 @@ var places = [
 			"Power Outlets": "The only weak spot",
 			"Seating": "Crowded in the evenings but perfect to work during the day",
 			"Service": "This is the best coffee you'll ever get in Zurich",
-			"Provision": "Coffee, Italian Pastries, Drinks, Snacks",
+			"Provision": "Coffee, Italian Pastries, Drinks, Snacks"
 		},
 		"link": {"homepage":"http://www.lastanza.ch/"}
 	},
@@ -2231,7 +2231,7 @@ var places = [
 			"Power Outlets": "There are some by the couch tables",
 			"Seating": "Lots of seating during the day",
 			"Service": "Very friendly",
-			"Provision": "Coffee, Tea, Lunch, Beer",
+			"Provision": "Coffee, Tea, Lunch, Beer"
 		},
 		"link": {"homepage":"http://www.banffcentre.ca/dining/maclab-bistro.asp"}
 	}
