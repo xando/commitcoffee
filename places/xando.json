@@ -4,7 +4,7 @@
 		"country": "PL",
 		"name": "Akcent Kawiarnia i Księgarnia",
 		"address": "Rynek Kościuszki 17",
-		"coordinates": "",
+		"coordinates": ["53.132225", "23.157401"],
 		"description": {
 			"Internet": "free city wifi",
 			"Power Outlets": "4 on the wall, far right from the entrance",
