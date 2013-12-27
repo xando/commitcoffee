@@ -2234,6 +2234,20 @@ var places = [
 			"Provision": "Coffee, Tea, Lunch, Beer",
 		},
 		"link": {"homepage":"http://www.banffcentre.ca/dining/maclab-bistro.asp"}
-	}
+  },
+  {
+		"city": "San Francisco",
+		"name": "Starbucks",
+		"country": "USA",
+		"address": "2727 Mariposa St",
+		"coordinates": ["37.45774'","-122.24632'"],
+		"description": {
+			"Internet": "Free open internet",
+			"Power Outlets": "There are a few",
+			"Seating": "Small conference room, a couple of comfortable chairs, comfortable sofa",
+			"Service": "Friendly",
+			"Provision": "Coffee, tea, juices, pastries.",
+		}
+	},
 ]
 
