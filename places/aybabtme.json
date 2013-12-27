@@ -1,0 +1,16 @@
+[
+    {
+        "city": "Ho Chi Minh City",
+        "country": "VN",
+        "name": "Ca Phe Take",
+        "address": "26/7 Nguyễn Bỉnh Khiêm Q1",
+        "coordinates": ["10.7886577","106.70294639999997"],
+        "description": {
+            "Internet": "Private Wifi network with awesome speed (speedtest.net reports 50/50Mbps). Password is `takenew1` as of 2013/12/16.  ",
+            "Power Outlets": "At every table",
+            "Seating": "Chairs and sofas",
+            "Service": "Good but doesn't seem very fluent at English.",
+            "Provision": "Coffee, tea, vietnamese dishes, cigarettes, alcohol."
+        }
+    }
+]
