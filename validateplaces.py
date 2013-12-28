@@ -2,6 +2,7 @@
 import json
 import glob
 import argparse
+import itertools
 
 
 OK, WRONG = True, False
@@ -52,12 +53,78 @@ def prepare_json(places):
     return places_json
 
 
+def prepare_geojson(places):
+    def place_addess(place):
+        city = place.get('city')
+        full_address = '%s' % (city) if city else ''
+
+        country = place.get('country')
+        full_address = '%s %s' % (full_address, country) if country else full_address
+
+        address = place.get('address')
+        full_address = '%s, %s' % (full_address, address) if address else full_address
+
+        return full_address.strip()
+
+    def place_info(place):
+        desc = place.get('description')
+        if desc:
+            return (desc.get('Internet') or u'').strip()
+        return u''
+
+    def place_coordinates(place, reverse=False):
+        # apperently geojson expects reverted ordering here
+        coords = map(float, place.get('coordinates'))
+        if reverse:
+            coords.reverse()
+        return coords
+
+    def new_feature(place):
+        return {
+            'type': "Feature",
+            'geometry': {
+                'type': "Point",
+                'coordinates': place_coordinates(place, reverse=True),
+            },
+            'properties': {
+                'marker-symbol': "cafe",
+                'name': place['name'],
+                'address': place_addess(place),
+                'info': place_info(place),
+            },
+        }
+
+    def new_feature_collection(geojson_places):
+        return {
+            'type': "FeatureCollection",
+            'features': geojson_places,
+        }
+
+    def has_coordinates(place):
+        coords = place.get('coordinates')
+        return coords is not None and len(coords) >= 2
+
+    filtered_places = itertools.ifilter(has_coordinates, places)
+    geojson = new_feature_collection([
+        new_feature(place) for place in filtered_places
+    ])
+    return json.dumps(geojson, indent=4)
+
+
+def save_file(file_name, content):
+    with open(file_name, 'w') as output:
+        output.write(content)
+        output.write('\n')
+
+
 def parse_args():
     parser = argparse.ArgumentParser(
         description = "CommitCoffee json validation tool.",
     )
     parser.add_argument("-o", "--output", action="store",
                         help="target file name where the merged places/*.json should go.")
+    parser.add_argument("--geojson", action="store",
+                        help="target file name where geojson data should be saved")
     return parser.parse_args()
 
 
@@ -66,12 +133,15 @@ def main(args):
         glob.glob('places/*.json')
     )
 
-    places_json = prepare_json(places)
-
     if args.output:
-        with open(args.output, 'w') as output:
-            output.write("var places = %s;\n" % places_json)
+        places_json = prepare_json(places)
+        save_file(args.output, "var places = %s;" % places_json)
         print("File '%s' generated" % (args.output))
+
+    if args.geojson:
+        places_geojson = prepare_geojson(places)
+        save_file(args.geojson, places_geojson)
+        print("File '%s' generated" % (args.geojson))
 
 
 if __name__ == '__main__':
