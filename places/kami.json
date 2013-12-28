@@ -4,7 +4,7 @@
         "name": "Starbucks",
         "country": "USA",
         "address": "2727 Mariposa St",
-        "coordinates": ["37.45774'","-122.24632'"],
+        "coordinates": ["37.45774","-122.24632"],
         "description": {
             "Internet": "Free open internet",
             "Power Outlets": "There are a few",
