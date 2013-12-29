@@ -53,6 +53,7 @@ App.controller('Controller', function ($scope, $location) {
 				$scope.$apply(function(){
 					$scope.locationDetails = marker.location;
 					$scope.showDetails = 2;
+					$scope.mapsURL = encodeURIComponent(marker.location.coordinates.join(', '));
 				});
 			});
 
