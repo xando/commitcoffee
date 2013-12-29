@@ -6,7 +6,7 @@ Sebastian Pawluś
 ### Code contribution and suggestion
 
 * Kuba Janoszek
-* Jack Wearden 
+* [Jack Wearden](https://www.jackwearden.co.uk) ([NotBobTheBuilder](https://github.com/NotBobTheBuilder), [@jackweirdy](https://twitter.com/jackweirdy))
 
 
 ### A Fork 
