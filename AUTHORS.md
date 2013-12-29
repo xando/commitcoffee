@@ -3,7 +3,7 @@
 Sebastian Pawluś 
 
 
-### Code contributions and suggestion
+### Code contribution and suggestion
 
 * Kuba Janoszek
 * Jack Wearden 
