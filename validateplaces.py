@@ -3,6 +3,7 @@ import json
 import glob
 import argparse
 import itertools
+import sys
 
 
 OK, WRONG = True, False
@@ -36,6 +37,7 @@ def parse_places(files):
             places.extend(data)
         else:
             print("File '%s' is invalid: %s" % (json_file_name, data))
+            sys.exit(1)
 
     return places
 
