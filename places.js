@@ -3656,7 +3656,7 @@ var places = [
 			"-1.901269"
 		],
 		"link": {
-			"twitter": "https://twitter.com/takkmcr",
+			"twitter": "https://twitter.com/YorksBakeryCafe",
 			"homepage": "http://www.yorksbakerycafe.co.uk/"
 		},
 		"address": "1-3 Newhall St, B3 3NH",
