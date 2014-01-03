@@ -421,6 +421,86 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    13.43508, 
+                    52.49072
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Blazing fast WiFi. Ask for password at the bar.", 
+                "name": "The Playwright Cafe", 
+                "marker-symbol": "cafe", 
+                "address": "Berlin Germany, Pannierstrasse 30"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    13.411978, 
+                    52.502453
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Two wifi networks. Ask for password at the bar.", 
+                "name": "betahaus", 
+                "marker-symbol": "cafe", 
+                "address": "Berlin Germany, Prinzessinnenstrasse 19-20"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    13.428707, 
+                    52.497253
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Two hours free wifi by HotSplots, ask for login at the bar.", 
+                "name": "Cutie Pie", 
+                "marker-symbol": "cafe", 
+                "address": "Berlin Germany, Lausitzer Strasse"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    13.42327, 
+                    52.53344
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "One hour free wifi by HotSplots, ask for login at the bar.", 
+                "name": "Godshot", 
+                "marker-symbol": "cafe", 
+                "address": "Berlin Germany, Immanuelkirchstrasse 32"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    13.401871, 
+                    52.529339
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi", 
+                "name": "Sankt Oberholz", 
+                "marker-symbol": "cafe", 
+                "address": "Berlin Germany, Rosenthaler Strasse 72a"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -71.392167, 
                     41.821898
                 ]

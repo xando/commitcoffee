@@ -289,8 +289,8 @@ var places = [
 		},
 		"country": "USA",
 		"coordinates": [
-			"37.45774'",
-			"-122.24632'"
+			"37.45774",
+			"-122.24632"
 		],
 		"address": "2727 Mariposa St",
 		"name": "Starbucks"
@@ -517,6 +517,91 @@ var places = [
 		},
 		"address": "Carrer de Villarroel, 271",
 		"name": "Bab\u00e8lia Books and Coffee"
+	},
+	{
+		"city": "Berlin",
+		"description": {
+			"Provision": "Coffee, tea, juices, pastries, breakfasts. Amazing scones.",
+			"Seating": "Sofas and chairs, whichever you prefer",
+			"Power Outlets": "Pretty much near every bigger table",
+			"Service": "Friendly",
+			"Internet": "Blazing fast WiFi. Ask for password at the bar."
+		},
+		"country": "Germany",
+		"coordinates": [
+			"52.490720",
+			"13.435080"
+		],
+		"address": "Pannierstrasse 30",
+		"name": "The Playwright Cafe"
+	},
+	{
+		"city": "Berlin",
+		"description": {
+			"Provision": "Coffee, tea, juices, pastries, breakfasts, lunches.",
+			"Seating": "Chairs and wooden benches",
+			"Power Outlets": "Pretty much near every bigger table",
+			"Service": "Friendly",
+			"Internet": "Two wifi networks. Ask for password at the bar."
+		},
+		"country": "Germany",
+		"coordinates": [
+			"52.502453",
+			"13.411978"
+		],
+		"address": "Prinzessinnenstrasse 19-20",
+		"name": "betahaus"
+	},
+	{
+		"city": "Berlin",
+		"description": {
+			"Provision": "Coffee, tea, sandwiches, pastries. Try the carrot cake.",
+			"Seating": "Chairs and one or two sofas",
+			"Power Outlets": "A bunch",
+			"Service": "Friendly",
+			"Internet": "Two hours free wifi by HotSplots, ask for login at the bar."
+		},
+		"country": "Germany",
+		"coordinates": [
+			"52.497253",
+			"13.428707"
+		],
+		"address": "Lausitzer Strasse",
+		"name": "Cutie Pie"
+	},
+	{
+		"city": "Berlin",
+		"description": {
+			"Provision": "Great coffee, pastries.",
+			"Seating": "Chairs and sofas",
+			"Power Outlets": "A bunch",
+			"Service": "Friendly",
+			"Internet": "One hour free wifi by HotSplots, ask for login at the bar."
+		},
+		"country": "Germany",
+		"coordinates": [
+			"52.533440",
+			"13.423270"
+		],
+		"address": "Immanuelkirchstrasse 32",
+		"name": "Godshot"
+	},
+	{
+		"city": "Berlin",
+		"description": {
+			"Provision": "Coffee, food.",
+			"Seating": "Chairs and sofas",
+			"Power Outlets": "Pretty much everywhere",
+			"Service": "Friendly",
+			"Internet": "Free wifi"
+		},
+		"country": "Germany",
+		"coordinates": [
+			"52.529339",
+			"13.401871"
+		],
+		"address": "Rosenthaler Strasse 72a",
+		"name": "Sankt Oberholz"
 	},
 	{
 		"city": "Providence",
