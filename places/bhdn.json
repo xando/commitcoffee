@@ -1,0 +1,18 @@
+[
+    {
+        "city": "Curitiba",
+        "country": "BR",
+        "name": "Bello Caffe",
+        "address": "Comendador Macedo, 371, loja 2",
+        "coordinates": ["-25.429623","-49.261253"],
+        "description": {
+            "Internet": "Free Wi-Fi",
+            "Power Outlets": "No",
+            "Seating": "Regular chairs and solid tables. Crowded in the evenings",
+            "Service": "Great service.",
+            "Provision": "Coffee, tea, desserts, etc.",
+            "Hours": "Mon-Fri 9am - 8:30pm, Sat 9am - 7pm"
+        },
+        "link": {"facebook":"https://www.facebook.com/pages/Bello-Caffe/284075251619204"}
+    }
+]
