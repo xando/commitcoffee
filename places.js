@@ -1,338 +1,153 @@
 var places = [
 	{
-		"city": "Ho Chi Minh City",
+		"city": "Medell\u00edn",
 		"description": {
-			"Provision": "Coffee, tea, vietnamese dishes, cigarettes, alcohol.",
-			"Seating": "Chairs and sofas",
-			"Power Outlets": "At every table",
-			"Service": "Good but doesn't seem very fluent at English.",
-			"Internet": "Private Wifi network with awesome speed (speedtest.net reports 50/50Mbps). Password is `takenew1` as of 2013/12/16.  "
-		},
-		"country": "VN",
-		"coordinates": [
-			"10.7886577",
-			"106.70294639999997"
-		],
-		"address": "26/7 Nguy\u1ec5n B\u1ec9nh Khi\u00eam Q1",
-		"name": "Ca Phe Take"
-	},
-	{
-		"city": "Brampton",
-		"description": {
-			"Seating": "Cushioned benches in the center, decent chairs along the walls.",
-			"Service": "Great service. Open late.",
-			"Power Outlets": "A few along the walls.",
-			"Hours": "Mon-Thu 6am - 12am, Fri-Sat 6am - 2am, Sun 7am - 12am",
-			"Internet": "Free wifi. Not the fastest though.",
-			"Provision": "Coffee, tea, meals, desserts, etc."
-		},
-		"country": "CA",
-		"coordinates": [
-			"43.738046",
-			"-79.702882"
-		],
-		"link": {
-			"homepage": "http://www.williamsfreshcafe.com/2454-queen-street-east"
-		},
-		"address": "2454 Queen Street East",
-		"name": "Williams Fresh Cafe"
-	},
-	{
-		"city": "Brooklyn",
-		"description": {
-			"Provision": "Coffee from Brooklyn Roasters, baked goods, bagels",
-			"Seating": "One larger table, few individual tables, and lots of tables for two",
-			"Power Outlets": "Lots.  At every table or every other table",
-			"Service": "Good if you go outside of peak times.  Peak times during the morning rush and when school lets out",
-			"Internet": "Free locked wifi (Time-Warner Business class I'm guessing).  Fairly good speed"
-		},
-		"country": "USA",
-		"coordinates": [
-			"40.669665",
-			"-73.979353"
-		],
-		"link": {
-			"homepage": "http://www.konditorinyc.com/"
-		},
-		"address": "240 7th Ave",
-		"name": "Konditori"
-	},
-	{
-		"city": "Beijing",
-		"description": {
-			"Seating": "plenty of seats, two-story",
-			"Service": "Very friendly, owned by a group of successful young ladies.",
-			"Power Outlets": "close to the seats",
-			"Internet": "High-speed Free WiFi",
-			"Opening Hours": "8AM - 10PM",
-			"Provision": "Coffee, Tea, cake, chocolate and more.."
-		},
-		"country": "China",
-		"coordinates": [
-			"39.907234",
-			"116.460042"
-		],
-		"link": {
-			"homepage": "http://www.dianping.com/shop/13778004"
-		},
-		"address": "0104A Building #2 East JianwaiSoho, 39 E 3rd Ring Road Middle,Chaoyang, Beijing (\u5317\u4eac\u671d\u9633\u533a\u5efa\u5916soho\u4e1c\u533a2\u53f7\u697c0104A)",
-		"name": "Her Coffee"
-	},
-	{
-		"city": "New York City",
-		"description": {
-			"Provision": "Stumptown coffee in Harlem. Absolutely amazing. They also have beer!",
-			"Seating": "Limited, but really nice. Lots of 2-person tables. Rustic industrial feel.",
-			"Power Outlets": "A few tables have outlets - charge before you arrive",
-			"Service": "nice",
-			"Internet": "Free wifi, ask for password"
-		},
-		"country": "USA",
-		"coordinates": [
-			"40.810050",
-			"-73.943229"
-		],
-		"link": {
-			"homepage": "www.lenoxcoffee.com/"
-		},
-		"address": "60 W 129th St, New York, NY 10027",
-		"name": "Lenox Coffee"
-	},
-	{
-		"city": "Santa Clara",
-		"description": {
-			"Provision": "Locally roasted. Unicorn Pony espresso is tasty. Their dark coconut mocha is to die for. Ask for a brulee latte and they'll bring out the flame torch. Orange-ginger cubano is a secret item and a nice treat.",
-			"Seating": "Front of house is non-techie, but there is a techie heaven in the back. Big meeting table for startups, wifi bar, lots of cool folks",
-			"Power Outlets": "Wifi bar in the back with power outlets",
-			"Service": "Worker-owned, they are fantastic",
-			"Internet": "Free wifi"
-		},
-		"country": "USA",
-		"coordinates": [
-			"37.324135",
-			"-121.994298"
-		],
-		"link": {
-			"homepage": "http://www.chromaticcoffee.com/"
-		},
-		"address": "5237 Stevens Creek Blvd, Santa Clara, CA 95051",
-		"name": "Chromatic Coffee"
-	},
-	{
-		"city": "Poughkeepsie",
-		"description": {
-			"Provision": "Get the Woodstock coffee or the tea. Good pastries.",
-			"Seating": "Range of tables and couches",
-			"Power Outlets": "Most tables have outlets nearby. Lots of college students working in here",
-			"Service": "Typical",
-			"Internet": "Free wifi, ask for password"
-		},
-		"country": "USA",
-		"coordinates": [
-			"41.692806",
-			"-73.900682"
-		],
-		"link": {
-			"homepage": "http://www.craftedkup.com/"
-		},
-		"address": "44 Raymond Ave, Poughkeepsie, NY 12603",
-		"name": "Crafted Kup"
-	},
-	{
-		"city": "Cambridge",
-		"description": {
-			"Provision": "The lattes are off the charts amazing, look at the specials menu. They make a sea salt carmel thing that will blow your mind. High Lawn milk from a local dairy with Jersey cows.",
-			"Seating": "Lots of seating. Also an art gallery.",
-			"Power Outlets": "Most tables have outlets nearby",
-			"Service": "Hipsters. But nice ones.",
-			"Internet": "Free wifi, ask for code"
-		},
-		"country": "USA",
-		"coordinates": [
-			"42.364360",
-			"-71.083300"
-		],
-		"link": {
-			"homepage": "http://voltagecoffee.com/"
-		},
-		"address": "295 Third St, Cambridge, MA 02142",
-		"name": "Voltage Coffee in Kendall"
-	},
-	{
-		"city": "Beverly",
-		"description": {
-			"Provision": "Locally roasted in Salem. I don't like flavored coffee, but their house blend makes a great cup of coffee. Pasties and stuff too.",
-			"Seating": "Diner-style seating, small and large tables",
-			"Power Outlets": "A few outlets",
-			"Service": "Guys who own and run it are really nice",
-			"Internet": "Free wifi, ask for code"
-		},
-		"country": "USA",
-		"coordinates": [
-			"42.550351",
-			"-70.877632"
-		],
-		"link": {
-			"homepage": "http://www.atomicafe.com"
-		},
-		"address": "265 Cabot St, Beverly, MA 01915",
-		"name": "Atomic Cafe Coffee Roasters in Beverly"
-	},
-	{
-		"city": "Marblehead",
-		"description": {
-			"Provision": "Locally roasted in Salem. I don't like flavored coffee, but their house blend makes a great cup of coffee. Pasties and stuff too.",
-			"Seating": "Diner-style seating, small and large tables",
-			"Power Outlets": "A few outlets",
-			"Service": "Guys who own and run it are really nice",
-			"Internet": "Free wifi, ask for code"
-		},
-		"country": "USA",
-		"coordinates": [
-			"42.501676",
-			"-70.856408"
-		],
-		"link": {
-			"homepage": "http://www.atomicafe.com"
-		},
-		"address": "14 School St, Marblehead, MA 01945",
-		"name": "Atomic Cafe Coffee Roasters in Marblehead"
-	},
-	{
-		"city": "Somerville",
-		"description": {
-			"Provision": "Amazing specialty coffee, amazing baristas. Regularly carry Blue Bottle, Panther, etc. as guest coffee. Off the charts in the bakery department.",
-			"Seating": "Not a ton of seating, but really nice",
-			"Power Outlets": "A few outlets",
-			"Service": "Great",
-			"Internet": "Free wifi with code on weekdays. NO LAPTOPS ON WEEKENDS."
-		},
-		"country": "USA",
-		"coordinates": [
-			"42.391810",
-			"-71.111912"
-		],
-		"link": {
-			"homepage": "http://3littlefigs.com/"
-		},
-		"address": "278 Highland Ave, Somerville, MA 02143",
-		"name": "Three Little Figs"
-	},
-	{
-		"city": "Beverly Farms",
-		"description": {
-			"Provision": "Local cafe, bakery, deli, grocery. I love working in here, even though the internet is shaky. The Bevely Farms library across the street has good wifi (but no coffee), and is open on weekdays.",
-			"Seating": "One big table",
-			"Power Outlets": "One in the corner, you can ask them",
-			"Service": "Family owned and wonderful!",
-			"Internet": "Free wifi from Dunkin Donuts next door. It's not great, but enough the check email and get a little work done."
-		},
-		"country": "USA",
-		"coordinates": [
-			"42.562215",
-			"-70.814162"
-		],
-		"link": {
-			"homepage": "http://vidaliasmarket.com/"
-		},
-		"address": "9 West Street, Beverly Farms, MA",
-		"name": "Vidalias"
-	},
-	{
-		"city": "Salem",
-		"description": {
-			"Provision": "Coffee is okay, lots of food options. Cold brew in the summer is great though - get it with a splash of hanoi and it'll change your life. Great location by the water in Salem. They have another location across the street that is open in the summer and it is a much better workspace - ask if it's open",
-			"Seating": "Variety",
-			"Power Outlets": "There are a few plugs, you have to get seated at the right table. Charge before you get there.",
-			"Service": "Good",
-			"Internet": "Free wifi, ask for password"
-		},
-		"country": "USA",
-		"coordinates": [
-			"42.520784",
-			"-70.888215"
-		],
-		"link": {
-			"homepage": "http://www.jaho.com/"
-		},
-		"address": "197 Derby St, Salem, MA 01970",
-		"name": "Jaho Coffee and Tea"
-	},
-	{
-		"city": "Salem",
-		"description": {
-			"Provision": "Coffee (no espresso) and some food, all okay. Not a specialty coffee place, but a special place. Cool hippie vibe. Tends to close for some of the winter, call to make sure they are open.",
-			"Seating": "Limited, but the swinging chairs are cool",
-			"Power Outlets": "A few - ask",
-			"Service": "Good, they are new so things change a lot.",
-			"Internet": "Free wifi, ask for password"
-		},
-		"country": "USA",
-		"coordinates": [
-			"42.521664",
-			"-70.894196"
-		],
-		"link": {
-			"homepage": "http://www.yelp.com/biz/jo-freedom-salem"
-		},
-		"address": "196 Essex St, Salem, MA 01970",
-		"name": "Jo Freedom"
-	},
-	{
-		"city": "San Francisco",
-		"description": {
-			"Provision": "Coffee, tea, juices, pastries.",
-			"Seating": "Small conference room, a couple of comfortable chairs, comfortable sofa",
+			"Provision": "coffee, jiuces, awesome sandwiches, drinks",
+			"Seating": "Variety of seating - small and medium tables, some couches too",
 			"Power Outlets": "There are a few",
-			"Service": "Friendly",
-			"Internet": "Free open internet"
+			"Service": "Very friendly, both english and spanish",
+			"Internet": "Free wifi, good speed, must buy if wanna stay longer"
+		},
+		"country": "Colombia",
+		"coordinates": [
+			"6.213583",
+			"-75.571814"
+		],
+		"link": {
+			"homepage": "http://www.talcualweb.com.co"
+		},
+		"address": "Calle 12 No. 43D -12. Manila, El Poblado",
+		"name": "Tal Cual"
+	},
+	{
+		"city": "Providence",
+		"name": "Malachi's",
+		"country": "USA",
+		"coordinates": [
+			"41.821898",
+			"-71.392167"
+		],
+		"state": "RI",
+		"link": {
+			"yelp": "http://www.yelp.com/biz/malachis-providence"
+		},
+		"address": "134 Ives St, Providence, RI 02906"
+	},
+	{
+		"city": "Providence",
+		"name": "White Electric Coffee",
+		"country": "USA",
+		"coordinates": [
+			"41.818550",
+			"-71.420079"
+		],
+		"state": "RI",
+		"link": {
+			"yelp": "http://www.yelp.com/biz/white-electric-coffee-providence"
+		},
+		"address": "711 Westminster St, Providence, RI 02903"
+	},
+	{
+		"city": "Providence",
+		"name": "Small Point Caf\u00e9",
+		"country": "USA",
+		"coordinates": [
+			"41.822959",
+			"-71.412513"
+		],
+		"state": "RI",
+		"link": {
+			"yelp": "http://www.yelp.com/biz/small-point-caf\u00e9-providence"
+		},
+		"address": "230 Westminster St, Providence, RI 02903"
+	},
+	{
+		"city": "Providence",
+		"name": "Blue State Coffee",
+		"country": "USA",
+		"coordinates": [
+			"41.830135",
+			"-71.401046"
+		],
+		"state": "RI",
+		"link": {
+			"yelp": "http://www.yelp.com/biz/blue-state-coffee-providence"
+		},
+		"address": "300 Thayer St, Providence, RI 02906"
+	},
+	{
+		"city": "Providence",
+		"name": "The Duck and Bunny",
+		"country": "USA",
+		"coordinates": [
+			"41.819664",
+			"-71.396906"
+		],
+		"state": "RI",
+		"link": {
+			"yelp": "http://www.yelp.com/biz/the-duck-and-bunny-providence"
+		},
+		"address": "312 Wickenden St, Providence, RI"
+	},
+	{
+		"city": "Providence",
+		"name": "Cafe Zog",
+		"country": "USA",
+		"coordinates": [
+			"41.819415",
+			"-71.398484"
+		],
+		"state": "RI",
+		"link": {
+			"yelp": "http://www.yelp.com/biz/cafe-zog-providence"
+		},
+		"address": "239 Wickenden St, Providence, RI"
+	},
+	{
+		"city": "Providence",
+		"name": "New Harvest Coffee & Spirits",
+		"country": "USA",
+		"coordinates": [
+			"41.824152",
+			"-71.410730"
+		],
+		"state": "RI",
+		"link": {
+			"yelp": "http://www.yelp.com/biz/new-harvest-coffee-and-spirits-providence"
+		},
+		"address": "130 Westminster St, Ste 118, Providence, RI 02903"
+	},
+	{
+		"city": "Providence",
+		"name": "Coffee Exchange",
+		"country": "USA",
+		"coordinates": [
+			"41.819275",
+			"-71.399081"
+		],
+		"state": "RI",
+		"link": {
+			"yelp": "http://www.yelp.com/biz/coffee-exchange-providence"
+		},
+		"address": "207 Wickenden St, Providence, RI 02903"
+	},
+	{
+		"city": "Dana Point",
+		"description": {
+			"Hours": "Every day 5:00 AM - 8:00 PM",
+			"Provision": "amazing coffee and baked goods prepared fresh daily",
+			"Service": "service is awesome and quick",
+			"Internet": "complimentary wireless internet access to all of it's customers. just ask for an access card when making your purchase"
 		},
 		"country": "USA",
 		"coordinates": [
-			"37.45774",
-			"-122.24632"
-		],
-		"address": "2727 Mariposa St",
-		"name": "Starbucks"
-	},
-	{
-		"city": "Maribor",
-		"description": {
-			"Provision": "Coffee, Juices, Tea, Pastries, Icecream",
-			"Seating": "Comfortable chairs, three sofas",
-			"Power Outlets": "Some near the sofas",
-			"Service": "Friendly",
-			"Internet": "Multiple free wifi networks around here, good speed"
-		},
-		"country": "Slovenia",
-		"coordinates": [
-			"46.33286",
-			"15.39192"
+			"33.466223, -117.704355"
 		],
 		"link": {
-			"homepage": "http://www.europark.si/si/gostinstvo/kavarna-ginger"
+			"homepage": "http://www.jcbeans.com"
 		},
-		"address": "Pobre\u0161ka cesta 18",
-		"name": "Kavarna Ginger"
-	},
-	{
-		"city": "Ljubljana",
-		"description": {
-			"Seating": "Comfortable chairs",
-			"Provision": "Coffee, Juices, Tea, Pastries, Cakes, Sandwiches, Lunch",
-			"Service": "Friendly",
-			"Internet": "Free city wifi, free caffee wifi"
-		},
-		"country": "Slovenia",
-		"coordinates": [
-			"46.3023",
-			"14.30309"
-		],
-		"link": {
-			"homepage": "http://www.zvezdaljubljana.si/"
-		},
-		"address": "Wolfova ul. 14",
-		"name": "Kavarna in sla\u0161\u010di\u010darna Zvezda"
+		"address": "34114 Pacific Coast Highway, Dana Point, CA 92629",
+		"name": "Beans Coffee House"
 	},
 	{
 		"city": "S\u00e3o Paulo",
@@ -354,6 +169,191 @@ var places = [
 		},
 		"address": "Av. Mazzei 277",
 		"name": "Bookafe"
+	},
+	{
+		"city": "Oslo",
+		"description": {
+			"Provision": "Coffee, tea, juices, cakes, cookies, sandwiches, baguettes",
+			"Seating": "Comfortable chairs and couches in the basement, fairly comfortable seats on ground floor",
+			"Power Outlets": "There are a few",
+			"Service": "Very friendly, and highly experienced baristas",
+			"Internet": "Free wifi, reliable and good speed"
+		},
+		"country": "NO",
+		"coordinates": [
+			"59.910505",
+			"10.746625"
+		],
+		"link": {
+			"homepage": "http://www.stockfleths.as/?page_id=78"
+		},
+		"address": "Prinsens gate 6",
+		"name": "Stockfleths Prinsens Gate"
+	},
+	{
+		"city": "Manchester",
+		"description": {
+			"Seating": "Small tables two large benches",
+			"Service": "Very friendly",
+			"Power Outlets": "None that I could see",
+			"Hours": "Mon-Fri 8.00-19.00, Sat 10.00-19.00, Sun 11.00-18.00",
+			"Internet": "Free wifi (with captive portal, no registration)",
+			"Provision": "Coffee, tea, cake"
+		},
+		"country": "UK",
+		"coordinates": [
+			"53.48296",
+			"-2.23583"
+		],
+		"link": {
+			"twitter": "https://twitter.com/northteapower",
+			"homepage": "http://northteapower.co.uk/"
+		},
+		"address": "36 Tib St, Manchester, M4 1LA",
+		"name": "North Tea Power"
+	},
+	{
+		"city": "Birmingham",
+		"description": {
+			"Seating": "Good size tables, comfy chairs, bar-style seating, benches",
+			"Service": "Very friendly",
+			"Power Outlets": "A small number",
+			"Hours": "Mon-Fri 7.00-19.00, Sat-Sun 10.00-17.00",
+			"Internet": "Free wifi",
+			"Provision": "Coffee, tea, cake, alcoholic drinks"
+		},
+		"country": "UK",
+		"coordinates": [
+			"52.48227",
+			"-1.900485"
+		],
+		"link": {
+			"facebook": "https://facebook.com/urbancoffee",
+			"twitter": "https://twitter.com/urbancoffeeco",
+			"homepage": "http://www.urbancoffee.co.uk/"
+		},
+		"address": "30 Church Street, Birmingham, B3 2NP",
+		"name": "Urban Coffee Co (Church St)"
+	},
+	{
+		"city": "Hamburg",
+		"description": {
+			"Provision": "Coffee, tea, juices, softdrinks, beer, wine, longdrinks, cocktails",
+			"Seating": "Tables and a few comfy chairs",
+			"Power Outlets": "unknown",
+			"Service": "Very friendly",
+			"Internet": "Free wifi"
+		},
+		"country": "DE",
+		"coordinates": [
+			"53.558911",
+			"9.963615"
+		],
+		"link": {
+			"homepage": "http://www.kopiba.de"
+		},
+		"address": "Beim Gr\u00fcnen J\u00e4ger 24",
+		"name": "Kopiba"
+	},
+	{
+		"city": "Toronto",
+		"description": {
+			"Seating": "Wooden chairs and tables, single-person tables available",
+			"Service": "Nice friendly people, order at the bar",
+			"Power Outlets": "Plenty along the walls",
+			"Hours": "Everyday 7am\u20138pm",
+			"Internet": "Fast unlimited internet, ask for password",
+			"Provision": "Inexpensive. Good lattes and cookies"
+		},
+		"country": "Canada",
+		"coordinates": [
+			"43.66513",
+			"-79.36814"
+		],
+		"link": {
+			"homepage": "http://www.jetfuelcoffee.com"
+		},
+		"address": "519 Parliament Street",
+		"name": "Jetfuel Coffee"
+	},
+	{
+		"city": "Curitiba",
+		"description": {
+			"Seating": "Regular chairs and solid tables. Crowded in the evenings",
+			"Service": "Great service.",
+			"Power Outlets": "No",
+			"Hours": "Mon-Fri 9am - 8:30pm, Sat 9am - 7pm",
+			"Internet": "Free Wi-Fi",
+			"Provision": "Coffee, tea, desserts, etc."
+		},
+		"country": "BR",
+		"coordinates": [
+			"-25.429623",
+			"-49.261253"
+		],
+		"link": {
+			"facebook": "https://www.facebook.com/pages/Bello-Caffe/284075251619204"
+		},
+		"address": "Comendador Macedo, 371, loja 2",
+		"name": "Bello Caffe"
+	},
+	{
+		"city": "Curitiba",
+		"description": {
+			"Seating": "Ample seating",
+			"Service": "Good service",
+			"Power Outlets": "No",
+			"Hours": "Mon-Sat 10am - 10pm, Sun 2pm - 8pm",
+			"Internet": "Free Wi-Fi provided by the mall",
+			"Provision": "Coffee, tea, desserts, etc."
+		},
+		"country": "BR",
+		"coordinates": [
+			"-25.423266",
+			"-49.269915"
+		],
+		"link": {
+			"facebook": "https://www.facebook.com/cafedotop"
+		},
+		"address": "Av. C\u00e2ndido de Abreu, 127, Shopping Mueller, loja PC009",
+		"name": "Caf\u00e9 do Top"
+	},
+	{
+		"city": "Ho Chi Minh City",
+		"description": {
+			"Provision": "Coffee, tea, vietnamese dishes, cigarettes, alcohol.",
+			"Seating": "Chairs and sofas",
+			"Power Outlets": "At every table",
+			"Service": "Good but doesn't seem very fluent at English.",
+			"Internet": "Private Wifi network with awesome speed (speedtest.net reports 50/50Mbps). Password is `takenew1` as of 2013/12/16.  "
+		},
+		"country": "VN",
+		"coordinates": [
+			"10.7886577",
+			"106.70294639999997"
+		],
+		"address": "26/7 Nguy\u1ec5n B\u1ec9nh Khi\u00eam Q1",
+		"name": "Ca Phe Take"
+	},
+	{
+		"city": "Lafayette, IN",
+		"description": {
+			"Provision": "Direct trade coffee, craft beer, paninis, cupcakes",
+			"Seating": "Variety of seating - tables, individual chairs, low bar, outside tables",
+			"Power Outlets": "Outlets and powerstrips along the walls",
+			"Service": "friendly and knowledgeable",
+			"Internet": "Free secured wifi, ask for the password"
+		},
+		"country": "USA",
+		"coordinates": [
+			"40.419201",
+			"-86.895019"
+		],
+		"link": {
+			"homepage": "http://www.starcitycoffee.net/"
+		},
+		"address": "210 Main St, Lafayette, IN 47901",
+		"name": "Star City Coffee & Ale House"
 	},
 	{
 		"city": "Barcelona",
@@ -604,268 +604,246 @@ var places = [
 		"name": "Sankt Oberholz"
 	},
 	{
-		"city": "Providence",
-		"name": "Malachi's",
-		"country": "USA",
-		"coordinates": [
-			"41.821898",
-			"-71.392167"
-		],
-		"state": "RI",
-		"link": {
-			"yelp": "http://www.yelp.com/biz/malachis-providence"
-		},
-		"address": "134 Ives St, Providence, RI 02906"
-	},
-	{
-		"city": "Providence",
-		"name": "White Electric Coffee",
-		"country": "USA",
-		"coordinates": [
-			"41.818550",
-			"-71.420079"
-		],
-		"state": "RI",
-		"link": {
-			"yelp": "http://www.yelp.com/biz/white-electric-coffee-providence"
-		},
-		"address": "711 Westminster St, Providence, RI 02903"
-	},
-	{
-		"city": "Providence",
-		"name": "Small Point Caf\u00e9",
-		"country": "USA",
-		"coordinates": [
-			"41.822959",
-			"-71.412513"
-		],
-		"state": "RI",
-		"link": {
-			"yelp": "http://www.yelp.com/biz/small-point-caf\u00e9-providence"
-		},
-		"address": "230 Westminster St, Providence, RI 02903"
-	},
-	{
-		"city": "Providence",
-		"name": "Blue State Coffee",
-		"country": "USA",
-		"coordinates": [
-			"41.830135",
-			"-71.401046"
-		],
-		"state": "RI",
-		"link": {
-			"yelp": "http://www.yelp.com/biz/blue-state-coffee-providence"
-		},
-		"address": "300 Thayer St, Providence, RI 02906"
-	},
-	{
-		"city": "Providence",
-		"name": "The Duck and Bunny",
-		"country": "USA",
-		"coordinates": [
-			"41.819664",
-			"-71.396906"
-		],
-		"state": "RI",
-		"link": {
-			"yelp": "http://www.yelp.com/biz/the-duck-and-bunny-providence"
-		},
-		"address": "312 Wickenden St, Providence, RI"
-	},
-	{
-		"city": "Providence",
-		"name": "Cafe Zog",
-		"country": "USA",
-		"coordinates": [
-			"41.819415",
-			"-71.398484"
-		],
-		"state": "RI",
-		"link": {
-			"yelp": "http://www.yelp.com/biz/cafe-zog-providence"
-		},
-		"address": "239 Wickenden St, Providence, RI"
-	},
-	{
-		"city": "Providence",
-		"name": "New Harvest Coffee & Spirits",
-		"country": "USA",
-		"coordinates": [
-			"41.824152",
-			"-71.410730"
-		],
-		"state": "RI",
-		"link": {
-			"yelp": "http://www.yelp.com/biz/new-harvest-coffee-and-spirits-providence"
-		},
-		"address": "130 Westminster St, Ste 118, Providence, RI 02903"
-	},
-	{
-		"city": "Providence",
-		"name": "Coffee Exchange",
-		"country": "USA",
-		"coordinates": [
-			"41.819275",
-			"-71.399081"
-		],
-		"state": "RI",
-		"link": {
-			"yelp": "http://www.yelp.com/biz/coffee-exchange-providence"
-		},
-		"address": "207 Wickenden St, Providence, RI 02903"
-	},
-	{
-		"city": "Manchester",
+		"city": "Beijing",
 		"description": {
-			"Seating": "Small tables two large benches",
-			"Service": "Very friendly",
-			"Power Outlets": "None that I could see",
-			"Hours": "Mon-Fri 8.00-19.00, Sat 10.00-19.00, Sun 11.00-18.00",
-			"Internet": "Free wifi (with captive portal, no registration)",
-			"Provision": "Coffee, tea, cake"
+			"Seating": "plenty of seats, two-story",
+			"Service": "Very friendly, owned by a group of successful young ladies.",
+			"Power Outlets": "close to the seats",
+			"Internet": "High-speed Free WiFi",
+			"Opening Hours": "8AM - 10PM",
+			"Provision": "Coffee, Tea, cake, chocolate and more.."
 		},
-		"country": "UK",
+		"country": "China",
 		"coordinates": [
-			"53.48296",
-			"-2.23583"
+			"39.907234",
+			"116.460042"
 		],
 		"link": {
-			"twitter": "https://twitter.com/northteapower",
-			"homepage": "http://northteapower.co.uk/"
+			"homepage": "http://www.dianping.com/shop/13778004"
 		},
-		"address": "36 Tib St, Manchester, M4 1LA",
-		"name": "North Tea Power"
+		"address": "0104A Building #2 East JianwaiSoho, 39 E 3rd Ring Road Middle,Chaoyang, Beijing (\u5317\u4eac\u671d\u9633\u533a\u5efa\u5916soho\u4e1c\u533a2\u53f7\u697c0104A)",
+		"name": "Her Coffee"
 	},
 	{
-		"city": "Birmingham",
+		"city": "New York City",
 		"description": {
-			"Seating": "Good size tables, comfy chairs, bar-style seating, benches",
-			"Service": "Very friendly",
-			"Power Outlets": "A small number",
-			"Hours": "Mon-Fri 7.00-19.00, Sat-Sun 10.00-17.00",
-			"Internet": "Free wifi",
-			"Provision": "Coffee, tea, cake, alcoholic drinks"
+			"Provision": "Stumptown coffee in Harlem. Absolutely amazing. They also have beer!",
+			"Seating": "Limited, but really nice. Lots of 2-person tables. Rustic industrial feel.",
+			"Power Outlets": "A few tables have outlets - charge before you arrive",
+			"Service": "nice",
+			"Internet": "Free wifi, ask for password"
 		},
-		"country": "UK",
+		"country": "USA",
 		"coordinates": [
-			"52.48227",
-			"-1.900485"
+			"40.810050",
+			"-73.943229"
 		],
 		"link": {
-			"facebook": "https://facebook.com/urbancoffee",
-			"twitter": "https://twitter.com/urbancoffeeco",
-			"homepage": "http://www.urbancoffee.co.uk/"
+			"homepage": "www.lenoxcoffee.com/"
 		},
-		"address": "30 Church Street, Birmingham, B3 2NP",
-		"name": "Urban Coffee Co (Church St)"
+		"address": "60 W 129th St, New York, NY 10027",
+		"name": "Lenox Coffee"
 	},
 	{
-		"city": "Medell\u00edn",
+		"city": "Santa Clara",
 		"description": {
-			"Provision": "coffee, jiuces, awesome sandwiches, drinks",
-			"Seating": "Variety of seating - small and medium tables, some couches too",
-			"Power Outlets": "There are a few",
-			"Service": "Very friendly, both english and spanish",
-			"Internet": "Free wifi, good speed, must buy if wanna stay longer"
-		},
-		"country": "Colombia",
-		"coordinates": [
-			"6.213583",
-			"-75.571814"
-		],
-		"link": {
-			"homepage": "http://www.talcualweb.com.co"
-		},
-		"address": "Calle 12 No. 43D -12. Manila, El Poblado",
-		"name": "Tal Cual"
-	},
-	{
-		"city": "Oslo",
-		"description": {
-			"Provision": "Coffee, tea, juices, cakes, cookies, sandwiches, baguettes",
-			"Seating": "Comfortable chairs and couches in the basement, fairly comfortable seats on ground floor",
-			"Power Outlets": "There are a few",
-			"Service": "Very friendly, and highly experienced baristas",
-			"Internet": "Free wifi, reliable and good speed"
-		},
-		"country": "NO",
-		"coordinates": [
-			"59.910505",
-			"10.746625"
-		],
-		"link": {
-			"homepage": "http://www.stockfleths.as/?page_id=78"
-		},
-		"address": "Prinsens gate 6",
-		"name": "Stockfleths Prinsens Gate"
-	},
-	{
-		"city": "Hamburg",
-		"description": {
-			"Provision": "Coffee, tea, juices, softdrinks, beer, wine, longdrinks, cocktails",
-			"Seating": "Tables and a few comfy chairs",
-			"Power Outlets": "unknown",
-			"Service": "Very friendly",
+			"Provision": "Locally roasted. Unicorn Pony espresso is tasty. Their dark coconut mocha is to die for. Ask for a brulee latte and they'll bring out the flame torch. Orange-ginger cubano is a secret item and a nice treat.",
+			"Seating": "Front of house is non-techie, but there is a techie heaven in the back. Big meeting table for startups, wifi bar, lots of cool folks",
+			"Power Outlets": "Wifi bar in the back with power outlets",
+			"Service": "Worker-owned, they are fantastic",
 			"Internet": "Free wifi"
 		},
-		"country": "DE",
+		"country": "USA",
 		"coordinates": [
-			"53.558911",
-			"9.963615"
+			"37.324135",
+			"-121.994298"
 		],
 		"link": {
-			"homepage": "http://www.kopiba.de"
+			"homepage": "http://www.chromaticcoffee.com/"
 		},
-		"address": "Beim Gr\u00fcnen J\u00e4ger 24",
-		"name": "Kopiba"
+		"address": "5237 Stevens Creek Blvd, Santa Clara, CA 95051",
+		"name": "Chromatic Coffee"
 	},
 	{
-		"city": "Lafayette, IN",
+		"city": "Poughkeepsie",
 		"description": {
-			"Provision": "Direct trade coffee, craft beer, paninis, cupcakes",
-			"Seating": "Variety of seating - tables, individual chairs, low bar, outside tables",
-			"Power Outlets": "Outlets and powerstrips along the walls",
-			"Service": "friendly and knowledgeable",
-			"Internet": "Free secured wifi, ask for the password"
+			"Provision": "Get the Woodstock coffee or the tea. Good pastries.",
+			"Seating": "Range of tables and couches",
+			"Power Outlets": "Most tables have outlets nearby. Lots of college students working in here",
+			"Service": "Typical",
+			"Internet": "Free wifi, ask for password"
 		},
 		"country": "USA",
 		"coordinates": [
-			"40.419201",
-			"-86.895019"
+			"41.692806",
+			"-73.900682"
 		],
 		"link": {
-			"homepage": "http://www.starcitycoffee.net/"
+			"homepage": "http://www.craftedkup.com/"
 		},
-		"address": "210 Main St, Lafayette, IN 47901",
-		"name": "Star City Coffee & Ale House"
+		"address": "44 Raymond Ave, Poughkeepsie, NY 12603",
+		"name": "Crafted Kup"
 	},
 	{
-		"city": "Toronto",
+		"city": "Cambridge",
 		"description": {
-			"Seating": "Wooden chairs and tables, single-person tables available",
-			"Service": "Nice friendly people, order at the bar",
-			"Power Outlets": "Plenty along the walls",
-			"Hours": "Everyday 7am\u20138pm",
-			"Internet": "Fast unlimited internet, ask for password",
-			"Provision": "Inexpensive. Good lattes and cookies"
+			"Provision": "The lattes are off the charts amazing, look at the specials menu. They make a sea salt carmel thing that will blow your mind. High Lawn milk from a local dairy with Jersey cows.",
+			"Seating": "Lots of seating. Also an art gallery.",
+			"Power Outlets": "Most tables have outlets nearby",
+			"Service": "Hipsters. But nice ones.",
+			"Internet": "Free wifi, ask for code"
 		},
-		"country": "Canada",
+		"country": "USA",
 		"coordinates": [
-			"43.66513",
-			"-79.36814"
+			"42.364360",
+			"-71.083300"
 		],
 		"link": {
-			"homepage": "http://www.jetfuelcoffee.com"
+			"homepage": "http://voltagecoffee.com/"
 		},
-		"address": "519 Parliament Street",
-		"name": "Jetfuel Coffee"
+		"address": "295 Third St, Cambridge, MA 02142",
+		"name": "Voltage Coffee in Kendall"
 	},
 	{
-		"city": "Beijing",
-		"address": "workers' Stadium North Road, Chaoyang, Beijing, China,(\u5de5\u4eba\u4f53\u80b2\u573a\u5317\u8def\u5de5\u4eba\u4f53\u80b2\u573a\u897f\u5317\u89d21100\u7c73)",
-		"name": "MaanCoffee (\u6f2b\u5496\u5561)",
-		"country": "China"
+		"city": "Beverly",
+		"description": {
+			"Provision": "Locally roasted in Salem. I don't like flavored coffee, but their house blend makes a great cup of coffee. Pasties and stuff too.",
+			"Seating": "Diner-style seating, small and large tables",
+			"Power Outlets": "A few outlets",
+			"Service": "Guys who own and run it are really nice",
+			"Internet": "Free wifi, ask for code"
+		},
+		"country": "USA",
+		"coordinates": [
+			"42.550351",
+			"-70.877632"
+		],
+		"link": {
+			"homepage": "http://www.atomicafe.com"
+		},
+		"address": "265 Cabot St, Beverly, MA 01915",
+		"name": "Atomic Cafe Coffee Roasters in Beverly"
+	},
+	{
+		"city": "Marblehead",
+		"description": {
+			"Provision": "Locally roasted in Salem. I don't like flavored coffee, but their house blend makes a great cup of coffee. Pasties and stuff too.",
+			"Seating": "Diner-style seating, small and large tables",
+			"Power Outlets": "A few outlets",
+			"Service": "Guys who own and run it are really nice",
+			"Internet": "Free wifi, ask for code"
+		},
+		"country": "USA",
+		"coordinates": [
+			"42.501676",
+			"-70.856408"
+		],
+		"link": {
+			"homepage": "http://www.atomicafe.com"
+		},
+		"address": "14 School St, Marblehead, MA 01945",
+		"name": "Atomic Cafe Coffee Roasters in Marblehead"
+	},
+	{
+		"city": "Somerville",
+		"description": {
+			"Provision": "Amazing specialty coffee, amazing baristas. Regularly carry Blue Bottle, Panther, etc. as guest coffee. Off the charts in the bakery department.",
+			"Seating": "Not a ton of seating, but really nice",
+			"Power Outlets": "A few outlets",
+			"Service": "Great",
+			"Internet": "Free wifi with code on weekdays. NO LAPTOPS ON WEEKENDS."
+		},
+		"country": "USA",
+		"coordinates": [
+			"42.391810",
+			"-71.111912"
+		],
+		"link": {
+			"homepage": "http://3littlefigs.com/"
+		},
+		"address": "278 Highland Ave, Somerville, MA 02143",
+		"name": "Three Little Figs"
+	},
+	{
+		"city": "Beverly Farms",
+		"description": {
+			"Provision": "Local cafe, bakery, deli, grocery. I love working in here, even though the internet is shaky. The Bevely Farms library across the street has good wifi (but no coffee), and is open on weekdays.",
+			"Seating": "One big table",
+			"Power Outlets": "One in the corner, you can ask them",
+			"Service": "Family owned and wonderful!",
+			"Internet": "Free wifi from Dunkin Donuts next door. It's not great, but enough the check email and get a little work done."
+		},
+		"country": "USA",
+		"coordinates": [
+			"42.562215",
+			"-70.814162"
+		],
+		"link": {
+			"homepage": "http://vidaliasmarket.com/"
+		},
+		"address": "9 West Street, Beverly Farms, MA",
+		"name": "Vidalias"
+	},
+	{
+		"city": "Salem",
+		"description": {
+			"Provision": "Coffee is okay, lots of food options. Cold brew in the summer is great though - get it with a splash of hanoi and it'll change your life. Great location by the water in Salem. They have another location across the street that is open in the summer and it is a much better workspace - ask if it's open",
+			"Seating": "Variety",
+			"Power Outlets": "There are a few plugs, you have to get seated at the right table. Charge before you get there.",
+			"Service": "Good",
+			"Internet": "Free wifi, ask for password"
+		},
+		"country": "USA",
+		"coordinates": [
+			"42.520784",
+			"-70.888215"
+		],
+		"link": {
+			"homepage": "http://www.jaho.com/"
+		},
+		"address": "197 Derby St, Salem, MA 01970",
+		"name": "Jaho Coffee and Tea"
+	},
+	{
+		"city": "Salem",
+		"description": {
+			"Provision": "Coffee (no espresso) and some food, all okay. Not a specialty coffee place, but a special place. Cool hippie vibe. Tends to close for some of the winter, call to make sure they are open.",
+			"Seating": "Limited, but the swinging chairs are cool",
+			"Power Outlets": "A few - ask",
+			"Service": "Good, they are new so things change a lot.",
+			"Internet": "Free wifi, ask for password"
+		},
+		"country": "USA",
+		"coordinates": [
+			"42.521664",
+			"-70.894196"
+		],
+		"link": {
+			"homepage": "http://www.yelp.com/biz/jo-freedom-salem"
+		},
+		"address": "196 Essex St, Salem, MA 01970",
+		"name": "Jo Freedom"
+	},
+	{
+		"city": "Brampton",
+		"description": {
+			"Seating": "Cushioned benches in the center, decent chairs along the walls.",
+			"Service": "Great service. Open late.",
+			"Power Outlets": "A few along the walls.",
+			"Hours": "Mon-Thu 6am - 12am, Fri-Sat 6am - 2am, Sun 7am - 12am",
+			"Internet": "Free wifi. Not the fastest though.",
+			"Provision": "Coffee, tea, meals, desserts, etc."
+		},
+		"country": "CA",
+		"coordinates": [
+			"43.738046",
+			"-79.702882"
+		],
+		"link": {
+			"homepage": "http://www.williamsfreshcafe.com/2454-queen-street-east"
+		},
+		"address": "2454 Queen Street East",
+		"name": "Williams Fresh Cafe"
 	},
 	{
 		"city": "Redwood City",
@@ -3847,5 +3825,87 @@ var places = [
 		},
 		"address": "193 Meserole Avenue, Brooklyn, NY 11222",
 		"name": "Cafe Grumpy Greenpoint"
+	},
+	{
+		"city": "Beijing",
+		"address": "workers' Stadium North Road, Chaoyang, Beijing, China,(\u5de5\u4eba\u4f53\u80b2\u573a\u5317\u8def\u5de5\u4eba\u4f53\u80b2\u573a\u897f\u5317\u89d21100\u7c73)",
+		"name": "MaanCoffee (\u6f2b\u5496\u5561)",
+		"country": "China"
+	},
+	{
+		"city": "San Francisco",
+		"description": {
+			"Provision": "Coffee, tea, juices, pastries.",
+			"Seating": "Small conference room, a couple of comfortable chairs, comfortable sofa",
+			"Power Outlets": "There are a few",
+			"Service": "Friendly",
+			"Internet": "Free open internet"
+		},
+		"country": "USA",
+		"coordinates": [
+			"37.45774",
+			"-122.24632"
+		],
+		"address": "2727 Mariposa St",
+		"name": "Starbucks"
+	},
+	{
+		"city": "Maribor",
+		"description": {
+			"Provision": "Coffee, Juices, Tea, Pastries, Icecream",
+			"Seating": "Comfortable chairs, three sofas",
+			"Power Outlets": "Some near the sofas",
+			"Service": "Friendly",
+			"Internet": "Multiple free wifi networks around here, good speed"
+		},
+		"country": "Slovenia",
+		"coordinates": [
+			"46.33286",
+			"15.39192"
+		],
+		"link": {
+			"homepage": "http://www.europark.si/si/gostinstvo/kavarna-ginger"
+		},
+		"address": "Pobre\u0161ka cesta 18",
+		"name": "Kavarna Ginger"
+	},
+	{
+		"city": "Ljubljana",
+		"description": {
+			"Seating": "Comfortable chairs",
+			"Provision": "Coffee, Juices, Tea, Pastries, Cakes, Sandwiches, Lunch",
+			"Service": "Friendly",
+			"Internet": "Free city wifi, free caffee wifi"
+		},
+		"country": "Slovenia",
+		"coordinates": [
+			"46.3023",
+			"14.30309"
+		],
+		"link": {
+			"homepage": "http://www.zvezdaljubljana.si/"
+		},
+		"address": "Wolfova ul. 14",
+		"name": "Kavarna in sla\u0161\u010di\u010darna Zvezda"
+	},
+	{
+		"city": "Brooklyn",
+		"description": {
+			"Provision": "Coffee from Brooklyn Roasters, baked goods, bagels",
+			"Seating": "One larger table, few individual tables, and lots of tables for two",
+			"Power Outlets": "Lots.  At every table or every other table",
+			"Service": "Good if you go outside of peak times.  Peak times during the morning rush and when school lets out",
+			"Internet": "Free locked wifi (Time-Warner Business class I'm guessing).  Fairly good speed"
+		},
+		"country": "USA",
+		"coordinates": [
+			"40.669665",
+			"-73.979353"
+		],
+		"link": {
+			"homepage": "http://www.konditorinyc.com/"
+		},
+		"address": "240 7th Ave",
+		"name": "Konditori"
 	}
 ];
