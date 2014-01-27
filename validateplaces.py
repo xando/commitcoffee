@@ -21,6 +21,14 @@ def validate(input_data):
     if not data:
         return u"There should be at least one place defined.", WRONG
 
+    for item in data:
+        if 'coordinates' not in item:
+            print(u"   WARNING: 'coordinates' not defined in: %s" % item['name'])
+
+        if 'coordinates' in item and len(item['coordinates']) != 2:
+            print(u"   WARNING: 'coordinates' of place: '%s' should be a list of exactly two "
+                  u"elements, but instead: '%s'" % (item['name'], item['coordinates']))
+
     return data, OK
 
 
