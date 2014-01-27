@@ -19,7 +19,7 @@
 		"country": "PL",
 		"name": "Costa Coffee",
 		"address": "Długa 5",
-		"coordinates": "",
+		"coordinates": ["54.349474", "18.648655"],
 		"description": {
 			"Internet": "wifi free",
 			"Power Outlets": "At the walls mostly",
