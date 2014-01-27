@@ -10,6 +10,7 @@
             "Seating": "Minimal, plus a couple of tables outside",
             "Service": "Friendly",
             "Provision": "Coffee, tea, muffins, snacks"
-        }
+        },
+        "coordinates": ["37.486495", "-122.233522"]
     }
 ]
