@@ -141,7 +141,8 @@ var places = [
 		},
 		"country": "USA",
 		"coordinates": [
-			"33.466223, -117.704355"
+			"33.466223",
+			"-117.704355"
 		],
 		"link": {
 			"homepage": "http://www.jcbeans.com"
@@ -854,9 +855,13 @@ var places = [
 			"Service": "Friendly",
 			"Internet": "Free stable WIFI"
 		},
+		"country": "USA",
+		"coordinates": [
+			"37.486495",
+			"-122.233522"
+		],
 		"address": "2600 Broadway Street, Redwood City, CA 94063",
-		"name": "Peet's",
-		"country": "USA"
+		"name": "Peet's"
 	},
 	{
 		"city": "Bia\u0142ystok",
@@ -889,7 +894,10 @@ var places = [
 			"Provision": "coffee (really big), tea, sandwiches, muffins, sweets"
 		},
 		"country": "PL",
-		"coordinates": "",
+		"coordinates": [
+			"54.349474",
+			"18.648655"
+		],
 		"link": {
 			"homepage": "http://www.costacoffee.pl/"
 		},

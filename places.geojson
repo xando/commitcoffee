@@ -149,6 +149,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    -117.704355, 
+                    33.466223
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "complimentary wireless internet access to all of it's customers. just ask for an access card when making your purchase", 
+                "name": "Beans Coffee House", 
+                "marker-symbol": "cafe", 
+                "address": "Dana Point USA, 34114 Pacific Coast Highway, Dana Point, CA 92629"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -46.60593, 
                     -23.477683
                 ]
@@ -709,6 +725,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    -122.233522, 
+                    37.486495
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free stable WIFI", 
+                "name": "Peet's", 
+                "marker-symbol": "cafe", 
+                "address": "Redwood City USA, 2600 Broadway Street, Redwood City, CA 94063"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     23.157401, 
                     53.132225
                 ]
@@ -719,6 +751,22 @@
                 "name": "Akcent Kawiarnia i Ksi\u0119garnia", 
                 "marker-symbol": "cafe", 
                 "address": "Bia\u0142ystok PL, Rynek Ko\u015bciuszki 17"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    18.648655, 
+                    54.349474
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "wifi free", 
+                "name": "Costa Coffee", 
+                "marker-symbol": "cafe", 
+                "address": "Gda\u0144sk PL, D\u0142uga 5"
             }
         }, 
         {
