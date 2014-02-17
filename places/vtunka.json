@@ -1,0 +1,18 @@
+[
+    {
+        "city": "Brno",
+        "country": "Czech Republic",
+        "name": "Café Mitte",
+        "address": "Panská 11, Brno, Czech Republic",
+	"coordinates": ["49.193379","16.607919"],
+        "description": {
+            "Internet": "Private Wifi network called `mitte`. Password is `hostel11` as of 2014/02/14.  ",
+            "Power Outlets": "Almost at every table",
+            "Seating": "Chairs",
+            "Service": "Great filtered coffee selection, friendly staff.",
+            "Provision": "Coffee, tea, small dishes, alcohol.",
+	    "Hours": "Every day 8:00 AM - 11:00 PM"
+        },
+	"link": {"homepage":"http://www.cafemitte.com/en/index.php"}
+    }
+]
