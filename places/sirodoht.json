@@ -1,0 +1,18 @@
+[
+	{
+		"city": "Thessaloniki",
+		"country": "GR",
+		"name": "iheart",
+		"address": "Episkopou Nikolau Kitrou 7	",
+		"coordinates": ["40.632470", "22.952963"],
+		"description": {
+			"Hours": "Mon-Sat 9:00am-11:00pm, Sun 12:00pm-11:00pm.",
+			"Internet": "Free Wi-Fi. Ask for the password.",
+			"Power Outlets": "Mostly in the tables by the walls",
+			"Seating": "Chairs, armchairs, sofas",
+			"Service": "Friendly",
+			"Provision": "Coffee, tea, juice, beverages, muffin, toast, brownies, cake, croissant"
+		},
+		"link": {"homepage":"http://www.iheartthessaloniki.com/", "facebook":"https://www.facebook.com/pages/IHeart/199695586742430"}
+	}
+]
