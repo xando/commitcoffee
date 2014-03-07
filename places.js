@@ -1,5 +1,26 @@
 var places = [
 	{
+		"city": "Brno",
+		"description": {
+			"Seating": "Chairs",
+			"Service": "Great filtered coffee selection, friendly staff.",
+			"Power Outlets": "Almost at every table",
+			"Hours": "Every day 8:00 AM - 11:00 PM",
+			"Internet": "Private Wifi network called `mitte`. Password is `hostel11` as of 2014/02/14.  ",
+			"Provision": "Coffee, tea, small dishes, alcohol."
+		},
+		"country": "Czech Republic",
+		"coordinates": [
+			"49.193379",
+			"16.607919"
+		],
+		"link": {
+			"homepage": "http://www.cafemitte.com/en/index.php"
+		},
+		"address": "Pansk\u00e1 11, Brno, Czech Republic",
+		"name": "Caf\u00e9 Mitte"
+	},
+	{
 		"city": "Medell\u00edn",
 		"description": {
 			"Provision": "coffee, jiuces, awesome sandwiches, drinks",
@@ -130,6 +151,28 @@ var places = [
 			"yelp": "http://www.yelp.com/biz/coffee-exchange-providence"
 		},
 		"address": "207 Wickenden St, Providence, RI 02903"
+	},
+	{
+		"city": "Thessaloniki",
+		"description": {
+			"Seating": "Chairs, armchairs, sofas",
+			"Service": "Friendly",
+			"Power Outlets": "Mostly in the tables by the walls",
+			"Hours": "Mon-Sat 9:00am-11:00pm, Sun 12:00pm-11:00pm.",
+			"Internet": "Free Wi-Fi. Ask for the password.",
+			"Provision": "Coffee, tea, juice, beverages, muffin, toast, brownies, cake, croissant"
+		},
+		"country": "GR",
+		"coordinates": [
+			"40.632470",
+			"22.952963"
+		],
+		"link": {
+			"facebook": "https://www.facebook.com/pages/IHeart/199695586742430",
+			"homepage": "http://www.iheartthessaloniki.com/"
+		},
+		"address": "Episkopou Nikolau Kitrou 7",
+		"name": "iheart"
 	},
 	{
 		"city": "Dana Point",
@@ -518,6 +561,46 @@ var places = [
 		},
 		"address": "Carrer de Villarroel, 271",
 		"name": "Bab\u00e8lia Books and Coffee"
+	},
+	{
+		"city": "San Francisco",
+		"description": {
+			"Provision": "Pretentious, yet delicious coffee. Have great pastries as well.",
+			"Seating": "Fair amount of tables, some for large group seating and some individuals. A few couches too!",
+			"Power Outlets": "Most tables have an outlet or a power strip nearby",
+			"Service": "Friendly.",
+			"Internet": "Free wifi"
+		},
+		"country": "USA",
+		"coordinates": [
+			"37.752352",
+			"-122.414300"
+		],
+		"link": {
+			"homepage": "http://www.philzcoffee.com/"
+		},
+		"address": "3101 24th St",
+		"name": "Philz Coffee"
+	},
+	{
+		"city": "San Francisco",
+		"description": {
+			"Provision": "Coffee is just alright. Food is pretty alright. Seating and outlets is where it's at",
+			"Seating": "Great student-like tables for 1 or 2 people. Easy to spend hours here with that kind of private space.",
+			"Power Outlets": "Most tables have outlets available",
+			"Service": "They are nice and value their customers",
+			"Internet": "Free wifi"
+		},
+		"country": "USA",
+		"coordinates": [
+			"37.757441",
+			"-122.421421"
+		],
+		"link": {
+			"homepage": "http://www.yelp.com/biz/mission-creek-cafe-san-francisco"
+		},
+		"address": "968 Valencia St",
+		"name": "Mission Creek Cafe"
 	},
 	{
 		"city": "Berlin",

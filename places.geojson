@@ -5,6 +5,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    16.607919, 
+                    49.193379
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Private Wifi network called `mitte`. Password is `hostel11` as of 2014/02/14.", 
+                "name": "Caf\u00e9 Mitte", 
+                "marker-symbol": "cafe", 
+                "address": "Brno Czech Republic, Pansk\u00e1 11, Brno, Czech Republic"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -75.571814, 
                     6.213583
                 ]
@@ -143,6 +159,22 @@
                 "name": "Coffee Exchange", 
                 "marker-symbol": "cafe", 
                 "address": "Providence USA, 207 Wickenden St, Providence, RI 02903"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    22.952963, 
+                    40.63247
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free Wi-Fi. Ask for the password.", 
+                "name": "iheart", 
+                "marker-symbol": "cafe", 
+                "address": "Thessaloniki GR, Episkopou Nikolau Kitrou 7"
             }
         }, 
         {
@@ -447,6 +479,38 @@
                 "name": "Bab\u00e8lia Books and Coffee", 
                 "marker-symbol": "cafe", 
                 "address": "Barcelona Spain, Carrer de Villarroel, 271"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.4143, 
+                    37.752352
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi", 
+                "name": "Philz Coffee", 
+                "marker-symbol": "cafe", 
+                "address": "San Francisco USA, 3101 24th St"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.421421, 
+                    37.757441
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi", 
+                "name": "Mission Creek Cafe", 
+                "marker-symbol": "cafe", 
+                "address": "San Francisco USA, 968 Valencia St"
             }
         }, 
         {
