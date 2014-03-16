@@ -853,6 +853,21 @@ var places = [
 		"link": {"homepage":"http://www.sugarcafesf.com/"}
 	},
 	{
+		"city": "San Francisco",
+		"country": "USA",
+		"name": "Jane",
+		"address": "2123 Fillmore St, San Francisco, CA 94115",
+		"coordinates": ["37.789379", "-122.434069"],
+		"description": {
+			"Internet": "Free wifi, good speed.",
+			"Power Outlets": "Some.",
+			"Seating": "Ample seating.",
+			"Service": "Excellent service.",
+			"Provision": "Coffee, pastries and sandwiches.",
+		},
+		"link": {"homepage":"http://janeonfillmore.com/"}
+	},
+	{
 		"city": "Seattle",
 		"country": "USA",
 		"name": "Herkimer Coffee",
