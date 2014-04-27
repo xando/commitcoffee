@@ -1,6 +1,11 @@
 var places = _.filter(places, "coordinates");
 
-var App = angular.module('CommitCoffee', []);
+var App = angular
+	.module('CommitCoffee', [])
+	.config(['$locationProvider',function ($locationProvider) {
+		$locationProvider.html5Mode(true);
+	}]);
+
 
 App.controller('Controller', function ($scope, $location, $anchorScroll) {
 
@@ -64,7 +69,8 @@ App.controller('Controller', function ($scope, $location, $anchorScroll) {
 	$scope.search = function () {
 
 		$location.hash('search');
-		$anchorScroll();
+
+		// $anchorScroll();
 
 		var geocoder = new google.maps.Geocoder();
 
