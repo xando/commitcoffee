@@ -6,7 +6,7 @@ SECRET_KEY = '9jx_xmhceg#wy9*7z%cf=step--ddu&)c@w=djupzfjzt=q&7u'
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 ADMINS = (
     ("Seba", "sebastian.pawlus@gmail.com"),
