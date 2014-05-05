@@ -89,3 +89,5 @@ LOGGING = {
     }
 }
 
+if 'HEROKU' in os.environ:
+    from heroku import *
