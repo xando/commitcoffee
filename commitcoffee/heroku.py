@@ -2,9 +2,7 @@ from settings import *
 
 import dj_database_url
 
-STATIC_ROOT = 'staticfiles'
-
-
+DEBUG = False
 DATABASES = {
     'default': dj_database_url.config()
 }
