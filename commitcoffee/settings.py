@@ -4,10 +4,13 @@ BASE_DIR = os.path.dirname(__file__)
 SECRET_KEY = '9jx_xmhceg#wy9*7z%cf=step--ddu&)c@w=djupzfjzt=q&7u'
 
 DEBUG = True
+TEMPLATE_DEBUG = DEBUG
 
-TEMPLATE_DEBUG = True
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
-ALLOWED_HOSTS = ['*']
+ADMINS = (
+    ("Seba", "sebastian.pawlus@gmail.com"),
+)
 
 INSTALLED_APPS = (
     'django.contrib.admin',
@@ -33,8 +36,6 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'commitcoffee.urls'
 
-WSGI_APPLICATION = 'commitcoffee.wsgi.application'
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -54,4 +55,35 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
     os.path.join(BASE_DIR, "templates"),
 )
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': True,
+    'formatters': {
+        'verbose': {
+            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+    'handlers': {
+        'null': {
+            'level': 'DEBUG',
+            'class': 'logging.NullHandler',
+        },
+        'console':{
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple'
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'propagate': True,
+            'level': 'INFO',
+        },
+    }
+}
 
