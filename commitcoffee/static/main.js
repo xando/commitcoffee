@@ -1,13 +1,27 @@
-var places = _.filter(places, "coordinates");
+angular.module('api', ['ngResource']).
+	// factory('Place', function($resource) {
+	// 	return $resource('/api/restaurant/:id/', {}, {
+	// 		query: {method:'GET', isArray:true}
+	// 	});
+	// }).
+	factory('PlaceSearch', function($resource) {
+		return $resource('/api/search', {}, {
+			query: {method:'GET', isArray: true}
+		});
+	});
+
+// var places = _.filter(places, "coordinates");
 
 var App = angular
-	.module('CommitCoffee', [])
+	.module('CommitCoffee', ['api'])
 	.config(['$locationProvider',function ($locationProvider) {
 		$locationProvider.html5Mode(true);
 	}]);
 
 
-App.controller('Controller', function ($scope, $location, $anchorScroll) {
+App.controller('Controller', function ($scope, $location, $anchorScroll, PlaceSearch) {
+
+	var searchCache = null;
 
 	var mapOptions = {
 		center: new google.maps.LatLng(40, -10),
@@ -20,57 +34,73 @@ App.controller('Controller', function ($scope, $location, $anchorScroll) {
 		mapOptions
 	);
 
+	function fetchLocations(coordinates) {
+		PlaceSearch.query(coordinates, function(locations) {
+
+			_.each(locations, function(location) {
+
+				var position = new google.maps.LatLng(
+					location.latitude,
+					location.longitude
+				);
+
+				var marker = new google.maps.Marker({
+					map: map,
+					position: position,
+					location: location
+				});
+
+				google.maps.event.addListener(marker, 'click', function() {
+					self = this;
+					$scope.$apply(function(){
+						$scope.locationDetails = marker.location;
+						$scope.showDetails = 2;
+						$scope.mapsURL = encodeURIComponent(
+							marker.location.latitude+','+marker.location.longitude
+						)
+					});
+				});
+
+			});
+		});
+	}
+
 	google.maps.event.addListener(map, 'tilesloaded', function() {
 
-		var lat0 = map.getBounds().getNorthEast().lat();
-		var lng0 = map.getBounds().getNorthEast().lng();
-		var lat1 = map.getBounds().getSouthWest().lat();
-		var lng1 = map.getBounds().getSouthWest().lng();
+		if (map.getZoom() > 7) {
 
-		var locationPlaces = _.filter(places, function(p) {
-			if (lat1 <= parseFloat(p.coordinates[0]) &&
-				parseFloat(p.coordinates[0]) <= lat0 &&
-				lng1 <= parseFloat(p.coordinates[1]) &&
-				parseFloat(p.coordinates[1]) <= lng0) {
-				return true
+			lat1 = map.getBounds().getNorthEast().lat();
+			lng1 = map.getBounds().getNorthEast().lng();
+			lat2 = map.getBounds().getSouthWest().lat();
+			lng2 = map.getBounds().getSouthWest().lng();
+
+			var coordinatesExpanded = {
+				lat1: lat1 > 0 ? lat1 * 1.01 : lat1 * 0.99,
+				lng1: lng1 > 0 ? lng1 * 1.01 : lng1 * 0.99,
+				lat2: lat2 > 0 ? lat2 * 0.99 : lat2 * 1.01,
+				lng2: lng2 > 0 ? lng2 * 0.99 : lng2 * 1.01,
 			}
-			return false
-		});
 
-		$scope.$apply(function(){
-			$scope.results = locationPlaces;
-		});
+			if (!searchCache) {
+				searchCache = coordinatesExpanded;
+				fetchLocations(coordinatesExpanded);
+			} else {
 
-		_.each(locationPlaces, function(location) {
-			var position = new google.maps.LatLng(
-				location.coordinates[0],
-				location.coordinates[1]
-			);
+				if (searchCache.lat1 < lat1 ||
+					searchCache.lng1 < lng1 ||
+					searchCache.lat2 > lat2 ||
+					searchCache.lng2 > lng2 ) {
 
-			var marker = new google.maps.Marker({
-				map: map,
-				position: position,
-				location: location
-			});
-
-			google.maps.event.addListener(marker, 'click', function() {
-				self = this;
-				$scope.$apply(function(){
-					$scope.locationDetails = marker.location;
-					$scope.showDetails = 2;
-					$scope.mapsURL = encodeURIComponent(marker.location.coordinates.join(', '));
-				});
-			});
-
-		});
-
+					fetchLocations(coordinatesExpanded);
+					searchCache = coordinatesExpanded;
+				}
+			}
+		}
 	});
 
-	$scope.search = function () {
+	$scope.search = function (location) {
 
-		$location.hash('search');
-
-		// $anchorScroll();
+		$location.url('in/kraków');
 
 		var geocoder = new google.maps.Geocoder();
 

@@ -8,7 +8,11 @@ https://docs.djangoproject.com/en/dev/howto/deployment/wsgi/
 """
 
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "commitcoffee.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "commitcoffee.heroku")
+
 
 from django.core.wsgi import get_wsgi_application
-application = get_wsgi_application()
+from dj_static import Cling
+
+application = Cling(get_wsgi_application())
+

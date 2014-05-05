@@ -1,4 +1,4 @@
-var places = [
+[
 	{
 		"city": "Brno",
 		"description": {
@@ -1325,7 +1325,10 @@ var places = [
 			"Provision": "Great coffee (Mundo Novo: http://www.unoespresso.pl/nasza_oferta/kawa/41/52.html) and delicious salads with rucola."
 		},
 		"country": "PL",
-		"coordinates": "",
+		"coordinates": [
+			"52.403422",
+			"16.893647"
+		],
 		"link": {
 			"facebook": "https://www.facebook.com/pages/Kukania-CafeBar/124864080931538",
 			"homepage": "http://www.kukania.pl/"
@@ -1344,7 +1347,10 @@ var places = [
 			"Provision": "Coffee (recommend the Skinny Vanilla Latte), Tea, Sandwiches, Muffins, etc."
 		},
 		"country": "PL",
-		"coordinates": "",
+		"coordinates": [
+			"53.428127",
+			"14.551584"
+		],
 		"link": {
 			"homepage": "http://www.facebook.com/pages/Starbucks-Szczecin/144523252310659"
 		},
@@ -1382,31 +1388,16 @@ var places = [
 			"Internet": "wifi (~2Mbit/s)"
 		},
 		"country": "PL",
-		"coordinates": "",
+		"coordinates": [
+			"52.240855",
+			"21.022591"
+		],
 		"link": {
 			"facebook": "http://pl-pl.facebook.com/Tarabuk",
 			"homepage": "http://www.tarabuk.pl/"
 		},
-		"address": "Browarna, Powi\u015ble",
+		"address": "Browarna 6, Warsaw, Poland",
 		"name": "Tarabuk"
-	},
-	{
-		"city": "Warszawa",
-		"description": {
-			"Provision": "coffee, tea, cakes and what's important salads and sandwiches.",
-			"Seating": "chairs, bar stools, sofas, few really comfy armchairs and a lot of space",
-			"Power Outlets": "Generally available if you sit close to a wall",
-			"Service": "good",
-			"Internet": "wifi (~2Mbit/s)"
-		},
-		"country": "PL",
-		"coordinates": "",
-		"link": {
-			"facebook": "http://www.facebook.com/wbiegucafebyjacobskronung",
-			"homepage": "http://www.wbiegucafe.pl/"
-		},
-		"address": "\u015awi\u0119tokrzyska 18, near Tube station",
-		"name": "W Biegu Cafe"
 	},
 	{
 		"city": "Wojnicz",
@@ -1487,23 +1478,6 @@ var places = [
 		},
 		"address": "61 Great Titchfield Street, London W1W 7PP",
 		"name": "Scandinavian Kitchen"
-	},
-	{
-		"city": "Vilnius",
-		"description": {
-			"Provision": "coffee, tea, sandwiches, muffins, sweets",
-			"Seating": "Simple tables, few sitbags",
-			"Power Outlets": "Almost everywhere",
-			"Service": "Great. Food great. Coffee great. Everything - great.",
-			"Internet": "wifi free"
-		},
-		"country": "LT",
-		"coordinates": "",
-		"link": {
-			"homepage": "http://coffee-inn.lt/"
-		},
-		"address": "17 Vilnius st.",
-		"name": "CoffeInn"
 	},
 	{
 		"city": "Stockholm",
@@ -3873,7 +3847,9 @@ var places = [
 			"40.697488",
 			"-73.979681"
 		],
-		"address": "5 E 27th St, New York, NY 10016"
+		"address": "5 E 27th St, New York, NY 10016",
+		"city": "New York",
+		"country": "USA"
 	},
 	{
 		"city": "Brooklyn",
@@ -3916,12 +3892,6 @@ var places = [
 		},
 		"address": "193 Meserole Avenue, Brooklyn, NY 11222",
 		"name": "Cafe Grumpy Greenpoint"
-	},
-	{
-		"city": "Beijing",
-		"address": "workers' Stadium North Road, Chaoyang, Beijing, China,(\u5de5\u4eba\u4f53\u80b2\u573a\u5317\u8def\u5de5\u4eba\u4f53\u80b2\u573a\u897f\u5317\u89d21100\u7c73)",
-		"name": "MaanCoffee (\u6f2b\u5496\u5561)",
-		"country": "China"
 	},
 	{
 		"city": "San Francisco",
@@ -3999,4 +3969,4 @@ var places = [
 		"address": "240 7th Ave",
 		"name": "Konditori"
 	}
-];
+]
