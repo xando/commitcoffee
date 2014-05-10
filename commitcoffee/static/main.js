@@ -10,8 +10,6 @@ angular.module('api', ['ngResource']).
 		});
 	});
 
-// var places = _.filter(places, "coordinates");
-
 var App = angular
 	.module('CommitCoffee', ['api'])
 	.config(['$locationProvider',function ($locationProvider) {
