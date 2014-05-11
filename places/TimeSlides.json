@@ -1,7 +1,7 @@
 [
     {
         "city": "Seattle",
-        "country": "US",
+        "country": "USA",
         "name": "Ada's Technical Books and Cafe",
         "address": "425 15th Ave East",
         "coordinates": ["47.622711", "-122.312957"],
