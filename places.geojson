@@ -277,6 +277,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    -122.312957, 
+                    47.622711
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "free wifi", 
+                "name": "Ada's Technical Books and Cafe", 
+                "marker-symbol": "cafe", 
+                "address": "Seattle USA, 425 15th Ave East"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -79.36814, 
                     43.66513
                 ]

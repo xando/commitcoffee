@@ -300,6 +300,27 @@ var places = [
 		"name": "Kopiba"
 	},
 	{
+		"city": "Seattle",
+		"description": {
+			"Seating": "chairs",
+			"Store Hours": "8am-10pm every day",
+			"Service": "Awesome",
+			"Power Outlets": "Most tables have a power outlet in the floor underneath them",
+			"Internet": "free wifi",
+			"Provision": "Menu changes often but can include mac & cheese, soup, scrambled eggs. Coffee, tea, etc are always available."
+		},
+		"country": "USA",
+		"coordinates": [
+			"47.622711",
+			"-122.312957"
+		],
+		"link": {
+			"homepage": "http://www.seattletechnicalbooks.com/"
+		},
+		"address": "425 15th Ave East",
+		"name": "Ada's Technical Books and Cafe"
+	},
+	{
 		"city": "Toronto",
 		"description": {
 			"Seating": "Wooden chairs and tables, single-person tables available",
