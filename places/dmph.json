@@ -1,0 +1,16 @@
+[
+        {
+                "city": "Charleston",
+                "country": "USA",
+                "name": "King Dusko",
+                "address": "541 King St Charleston, SC 29403",
+                "coordinates": ["32.791406", "-79.940019"],
+                "description": {
+                        "Internet": "Free internet. Ask barista for password",
+                        "Service": "Service is awesome. Errbody who work there be friendly.",
+                        "Provision": "Good coffee, sometimes pasteries.",
+                        "Hours": "M-TR: 11-11 | FR&SAT: 11-2 | SUN: 11-11"
+                },
+                "link": {"homepage":"http://http://www.kingdusko.com/"}
+        }
+]
