@@ -2757,6 +2757,26 @@ var places = [
 		"name": "Rev Coffee"
 	},
 	{
+		"city": "Asheville",
+		"description": {
+			"Provision": "Coffee, tea, muffins, Mexican Coke, juice, etc. Bagels, breakfast sandwiches. Connected to a CityMac store -- the locally-owned Apple computer specialist.",
+			"Seating": "A couple of couches, some soft chairs, some high tops.",
+			"Power Outlets": "This is lacking, charge before you go.",
+			"Internet": "Free wifi, speed is good."
+		},
+		"country": "USA",
+		"coordinates": [
+			"35.570551",
+			"-82.545271"
+		],
+		"link": {
+			"homepage": "http://citymac.com/citymug-cafe/",
+			"yelp": "http://www.yelp.com/biz/city-mug-asheville"
+		},
+		"address": "755 Biltmore Avenue, Asheville, North Carolina 28803",
+		"name": "CityMug Café"
+	},
+	{
 		"city": "Cedar Park",
 		"description": {
 			"Provision": "Coffee, tea, muffins, juice, etc. No real food.",
