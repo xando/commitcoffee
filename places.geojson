@@ -5,182 +5,6 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    16.607919, 
-                    49.193379
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Private Wifi network called `mitte`. Password is `hostel11` as of 2014/02/14.", 
-                "name": "Caf\u00e9 Mitte", 
-                "marker-symbol": "cafe", 
-                "address": "Brno Czech Republic, Pansk\u00e1 11, Brno, Czech Republic"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -75.571814, 
-                    6.213583
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free wifi, good speed, must buy if wanna stay longer", 
-                "name": "Tal Cual", 
-                "marker-symbol": "cafe", 
-                "address": "Medell\u00edn Colombia, Calle 12 No. 43D -12. Manila, El Poblado"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -71.392167, 
-                    41.821898
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "", 
-                "name": "Malachi's", 
-                "marker-symbol": "cafe", 
-                "address": "Providence USA, 134 Ives St, Providence, RI 02906"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -71.420079, 
-                    41.81855
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "", 
-                "name": "White Electric Coffee", 
-                "marker-symbol": "cafe", 
-                "address": "Providence USA, 711 Westminster St, Providence, RI 02903"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -71.412513, 
-                    41.822959
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "", 
-                "name": "Small Point Caf\u00e9", 
-                "marker-symbol": "cafe", 
-                "address": "Providence USA, 230 Westminster St, Providence, RI 02903"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -71.401046, 
-                    41.830135
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "", 
-                "name": "Blue State Coffee", 
-                "marker-symbol": "cafe", 
-                "address": "Providence USA, 300 Thayer St, Providence, RI 02906"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -71.396906, 
-                    41.819664
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "", 
-                "name": "The Duck and Bunny", 
-                "marker-symbol": "cafe", 
-                "address": "Providence USA, 312 Wickenden St, Providence, RI"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -71.398484, 
-                    41.819415
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "", 
-                "name": "Cafe Zog", 
-                "marker-symbol": "cafe", 
-                "address": "Providence USA, 239 Wickenden St, Providence, RI"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -71.41073, 
-                    41.824152
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "", 
-                "name": "New Harvest Coffee & Spirits", 
-                "marker-symbol": "cafe", 
-                "address": "Providence USA, 130 Westminster St, Ste 118, Providence, RI 02903"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -71.399081, 
-                    41.819275
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "", 
-                "name": "Coffee Exchange", 
-                "marker-symbol": "cafe", 
-                "address": "Providence USA, 207 Wickenden St, Providence, RI 02903"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    22.952963, 
-                    40.63247
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free Wi-Fi. Ask for the password.", 
-                "name": "iheart", 
-                "marker-symbol": "cafe", 
-                "address": "Thessaloniki GR, Episkopou Nikolau Kitrou 7"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
                     -117.704355, 
                     33.466223
                 ]
@@ -197,112 +21,16 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    -46.60593, 
-                    -23.477683
+                    106.70294639999997, 
+                    10.7886577
                 ]
             }, 
             "type": "Feature", 
             "properties": {
-                "info": "wifi free", 
-                "name": "Bookafe", 
+                "info": "Private Wifi network with awesome speed (speedtest.net reports 50/50Mbps). Password is `takenew1` as of 2013/12/16.", 
+                "name": "Ca Phe Take", 
                 "marker-symbol": "cafe", 
-                "address": "S\u00e3o Paulo BR, Av. Mazzei 277"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    10.746625, 
-                    59.910505
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free wifi, reliable and good speed", 
-                "name": "Stockfleths Prinsens Gate", 
-                "marker-symbol": "cafe", 
-                "address": "Oslo NO, Prinsens gate 6"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -2.23583, 
-                    53.48296
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free wifi (with captive portal, no registration)", 
-                "name": "North Tea Power", 
-                "marker-symbol": "cafe", 
-                "address": "Manchester UK, 36 Tib St, Manchester, M4 1LA"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -1.900485, 
-                    52.48227
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free wifi", 
-                "name": "Urban Coffee Co (Church St)", 
-                "marker-symbol": "cafe", 
-                "address": "Birmingham UK, 30 Church Street, Birmingham, B3 2NP"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    9.963615, 
-                    53.558911
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free wifi", 
-                "name": "Kopiba", 
-                "marker-symbol": "cafe", 
-                "address": "Hamburg DE, Beim Gr\u00fcnen J\u00e4ger 24"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -122.312957, 
-                    47.622711
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "free wifi", 
-                "name": "Ada's Technical Books and Cafe", 
-                "marker-symbol": "cafe", 
-                "address": "Seattle USA, 425 15th Ave East"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -79.36814, 
-                    43.66513
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Fast unlimited internet, ask for password", 
-                "name": "Jetfuel Coffee", 
-                "marker-symbol": "cafe", 
-                "address": "Toronto Canada, 519 Parliament Street"
+                "address": "Ho Chi Minh City VN, 26/7 Nguy\u1ec5n B\u1ec9nh Khi\u00eam Q1"
             }
         }, 
         {
@@ -341,272 +69,224 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    106.70294639999997, 
-                    10.7886577
+                    -79.702882, 
+                    43.738046
                 ]
             }, 
             "type": "Feature", 
             "properties": {
-                "info": "Private Wifi network with awesome speed (speedtest.net reports 50/50Mbps). Password is `takenew1` as of 2013/12/16.", 
-                "name": "Ca Phe Take", 
+                "info": "Free wifi. Not the fastest though.", 
+                "name": "Williams Fresh Cafe", 
                 "marker-symbol": "cafe", 
-                "address": "Ho Chi Minh City VN, 26/7 Nguy\u1ec5n B\u1ec9nh Khi\u00eam Q1"
+                "address": "Brampton CA, 2454 Queen Street East"
             }
         }, 
         {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    -86.895019, 
-                    40.419201
+                    -79.940019, 
+                    32.791406
                 ]
             }, 
             "type": "Feature", 
             "properties": {
-                "info": "Free secured wifi, ask for the password", 
-                "name": "Star City Coffee & Ale House", 
+                "info": "Free internet. Ask barista for password", 
+                "name": "King Dusko", 
                 "marker-symbol": "cafe", 
-                "address": "Lafayette, IN USA, 210 Main St, Lafayette, IN 47901"
+                "address": "Charleston USA, 541 King St Charleston, SC 29403"
             }
         }, 
         {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    2.165491, 
-                    41.393996
+                    -122.417114, 
+                    37.78137
                 ]
             }, 
             "type": "Feature", 
             "properties": {
-                "info": "Free wifi", 
-                "name": "La Clandestina", 
-                "marker-symbol": "cafe", 
-                "address": "Barcelona Spain, Baixada de Viladecols, 2"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    2.179155, 
-                    41.380657
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free WIFI for customers", 
-                "name": "Caf\u00e9 Milans", 
-                "marker-symbol": "cafe", 
-                "address": "Barcelona Spain, Milans, 7"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    2.16686, 
-                    41.384698
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free wifi", 
-                "name": "Candela", 
-                "marker-symbol": "cafe", 
-                "address": "Barcelona Spain, Hospital, 48"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    2.165792, 
-                    41.39377
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free WIFI - you will need to ask the staff for the key.", 
-                "name": "Carmelitas", 
-                "marker-symbol": "cafe", 
-                "address": "Barcelona Spain, Carme, 42"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -2.364469, 
-                    37.399875
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "FREE WIFI - ask for the key at the bar", 
-                "name": "Laie", 
-                "marker-symbol": "cafe", 
-                "address": "Barcelona Spain, Pau Claris 85 (between Gran Via y Casp)"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -2.364469, 
-                    37.399875
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free WIFI", 
-                "name": "Caf\u00e8 Cam\u00e8lia", 
-                "marker-symbol": "cafe", 
-                "address": "Barcelona Spain, C/ Verdi, 79"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -2.364469, 
-                    37.399875
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free WIFI", 
-                "name": "Federal Caf\u00e9", 
-                "marker-symbol": "cafe", 
-                "address": "Barcelona Spain, C/ Parlament, 39"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    2.1467, 
-                    41.39281
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free WIFI", 
-                "name": "Bab\u00e8lia Books and Coffee", 
-                "marker-symbol": "cafe", 
-                "address": "Barcelona Spain, Carrer de Villarroel, 271"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -122.4143, 
-                    37.752352
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free wifi", 
+                "info": "Free wifi, good speed.", 
                 "name": "Philz Coffee", 
                 "marker-symbol": "cafe", 
-                "address": "San Francisco USA, 3101 24th St"
+                "address": "San Francisco USA, 399 Golden Gate Ave, San Francisco, CA 94102"
             }
         }, 
         {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    -122.421421, 
-                    37.757441
+                    -122.393487, 
+                    37.77584
                 ]
             }, 
             "type": "Feature", 
             "properties": {
-                "info": "Free wifi", 
+                "info": "Free wifi, good speed.", 
+                "name": "Philz Coffee", 
+                "marker-symbol": "cafe", 
+                "address": "San Francisco USA, 201 Berry St, San Francisco, CA 94158"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.402247, 
+                    37.790925
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Excellent internet. Super fast.", 
+                "name": "Workshop Cafe", 
+                "marker-symbol": "cafe", 
+                "address": "San Francisco USA, 180 Montgomery St #100, San Francisco, CA 94104"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.408597, 
+                    37.776279
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi, good speed.", 
+                "name": "BrainWash Cafe & Laundromat", 
+                "marker-symbol": "cafe", 
+                "address": "San Francisco USA, 1122 Folsom St, San Francisco, CA 94103"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.398994, 
+                    37.78148
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi, good speed.", 
+                "name": "Epicenter Cafe", 
+                "marker-symbol": "cafe", 
+                "address": "San Francisco USA, 764 Harrison St, San Francisco, CA 94107"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.40843, 
+                    37.777033
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi, good speed.", 
+                "name": "Sightglass Coffee", 
+                "marker-symbol": "cafe", 
+                "address": "San Francisco USA, 270 7th St, San Francisco, CA 94103"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.419169, 
+                    37.790981
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi, good speed.", 
+                "name": "Contraband Coffee Bar", 
+                "marker-symbol": "cafe", 
+                "address": "San Francisco USA, 1415 Larkin St, San Francisco, CA 94109"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.421229, 
+                    37.756426
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi, good speed.", 
+                "name": "Ritual Coffee Roasters", 
+                "marker-symbol": "cafe", 
+                "address": "San Francisco USA, 1026 Valencia St, San Francisco, CA 94110"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.421335, 
+                    37.757445
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi, good speed.", 
                 "name": "Mission Creek Cafe", 
                 "marker-symbol": "cafe", 
-                "address": "San Francisco USA, 968 Valencia St"
+                "address": "San Francisco USA, 968 Valencia St, San Francisco, CA 94110"
             }
         }, 
         {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    13.43508, 
-                    52.49072
+                    -122.411519, 
+                    37.788674
                 ]
             }, 
             "type": "Feature", 
             "properties": {
-                "info": "Blazing fast WiFi. Ask for password at the bar.", 
-                "name": "The Playwright Cafe", 
+                "info": "Free wifi, very quick speed.", 
+                "name": "Sugar Cafe", 
                 "marker-symbol": "cafe", 
-                "address": "Berlin Germany, Pannierstrasse 30"
+                "address": "San Francisco USA, 679 Sutter Street, San Francisco CA 94102"
             }
         }, 
         {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    13.411978, 
-                    52.502453
+                    -122.434069, 
+                    37.789379
                 ]
             }, 
             "type": "Feature", 
             "properties": {
-                "info": "Two wifi networks. Ask for password at the bar.", 
-                "name": "betahaus", 
+                "info": "Free wifi, good speed.", 
+                "name": "Jane", 
                 "marker-symbol": "cafe", 
-                "address": "Berlin Germany, Prinzessinnenstrasse 19-20"
+                "address": "San Francisco USA, 2123 Fillmore St, San Francisco, CA 94115"
             }
         }, 
         {
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    13.428707, 
-                    52.497253
+                    -73.979353, 
+                    40.669665
                 ]
             }, 
             "type": "Feature", 
             "properties": {
-                "info": "Two hours free wifi by HotSplots, ask for login at the bar.", 
-                "name": "Cutie Pie", 
+                "info": "Free locked wifi (Time-Warner Business class I'm guessing).  Fairly good speed", 
+                "name": "Konditori", 
                 "marker-symbol": "cafe", 
-                "address": "Berlin Germany, Lausitzer Strasse"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    13.42327, 
-                    52.53344
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "One hour free wifi by HotSplots, ask for login at the bar.", 
-                "name": "Godshot", 
-                "marker-symbol": "cafe", 
-                "address": "Berlin Germany, Immanuelkirchstrasse 32"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    13.401871, 
-                    52.529339
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free wifi", 
-                "name": "Sankt Oberholz", 
-                "marker-symbol": "cafe", 
-                "address": "Berlin Germany, Rosenthaler Strasse 72a"
+                "address": "Brooklyn USA, 240 7th Ave"
             }
         }, 
         {
@@ -623,6 +303,22 @@
                 "name": "Her Coffee", 
                 "marker-symbol": "cafe", 
                 "address": "Beijing China, 0104A Building #2 East JianwaiSoho, 39 E 3rd Ring Road Middle,Chaoyang, Beijing (\u5317\u4eac\u671d\u9633\u533a\u5efa\u5916soho\u4e1c\u533a2\u53f7\u697c0104A)"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -82.545271, 
+                    35.570551
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi, speed is good.", 
+                "name": "CityMug Caf\u00e9", 
+                "marker-symbol": "cafe", 
+                "address": "Asheville USA, 755 Biltmore Avenue, Asheville, North Carolina 28803"
             }
         }, 
         {
@@ -789,16 +485,576 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    -79.702882, 
-                    43.738046
+                    -122.24632, 
+                    37.45774
                 ]
             }, 
             "type": "Feature", 
             "properties": {
-                "info": "Free wifi. Not the fastest though.", 
-                "name": "Williams Fresh Cafe", 
+                "info": "Free open internet", 
+                "name": "Starbucks", 
                 "marker-symbol": "cafe", 
-                "address": "Brampton CA, 2454 Queen Street East"
+                "address": "San Francisco USA, 2727 Mariposa St"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    15.39192, 
+                    46.33286
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Multiple free wifi networks around here, good speed", 
+                "name": "Kavarna Ginger", 
+                "marker-symbol": "cafe", 
+                "address": "Maribor Slovenia, Pobre\u0161ka cesta 18"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    14.30309, 
+                    46.3023
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free city wifi, free caffee wifi", 
+                "name": "Kavarna in sla\u0161\u010di\u010darna Zvezda", 
+                "marker-symbol": "cafe", 
+                "address": "Ljubljana Slovenia, Wolfova ul. 14"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -46.60593, 
+                    -23.477683
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "wifi free", 
+                "name": "Bookafe", 
+                "marker-symbol": "cafe", 
+                "address": "S\u00e3o Paulo BR, Av. Mazzei 277"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    2.165491, 
+                    41.393996
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi", 
+                "name": "La Clandestina", 
+                "marker-symbol": "cafe", 
+                "address": "Barcelona Spain, Baixada de Viladecols, 2"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    2.179155, 
+                    41.380657
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free WIFI for customers", 
+                "name": "Caf\u00e9 Milans", 
+                "marker-symbol": "cafe", 
+                "address": "Barcelona Spain, Milans, 7"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    2.16686, 
+                    41.384698
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi", 
+                "name": "Candela", 
+                "marker-symbol": "cafe", 
+                "address": "Barcelona Spain, Hospital, 48"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    2.165792, 
+                    41.39377
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free WIFI - you will need to ask the staff for the key.", 
+                "name": "Carmelitas", 
+                "marker-symbol": "cafe", 
+                "address": "Barcelona Spain, Carme, 42"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -2.364469, 
+                    37.399875
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "FREE WIFI - ask for the key at the bar", 
+                "name": "Laie", 
+                "marker-symbol": "cafe", 
+                "address": "Barcelona Spain, Pau Claris 85 (between Gran Via y Casp)"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -2.364469, 
+                    37.399875
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free WIFI", 
+                "name": "Caf\u00e8 Cam\u00e8lia", 
+                "marker-symbol": "cafe", 
+                "address": "Barcelona Spain, C/ Verdi, 79"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -2.364469, 
+                    37.399875
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free WIFI", 
+                "name": "Federal Caf\u00e9", 
+                "marker-symbol": "cafe", 
+                "address": "Barcelona Spain, C/ Parlament, 39"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    2.1467, 
+                    41.39281
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free WIFI", 
+                "name": "Bab\u00e8lia Books and Coffee", 
+                "marker-symbol": "cafe", 
+                "address": "Barcelona Spain, Carrer de Villarroel, 271"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    13.43508, 
+                    52.49072
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Blazing fast WiFi. Ask for password at the bar.", 
+                "name": "The Playwright Cafe", 
+                "marker-symbol": "cafe", 
+                "address": "Berlin Germany, Pannierstrasse 30"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    13.411978, 
+                    52.502453
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Two wifi networks. Ask for password at the bar.", 
+                "name": "betahaus", 
+                "marker-symbol": "cafe", 
+                "address": "Berlin Germany, Prinzessinnenstrasse 19-20"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    13.428707, 
+                    52.497253
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Two hours free wifi by HotSplots, ask for login at the bar.", 
+                "name": "Cutie Pie", 
+                "marker-symbol": "cafe", 
+                "address": "Berlin Germany, Lausitzer Strasse"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    13.42327, 
+                    52.53344
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "One hour free wifi by HotSplots, ask for login at the bar.", 
+                "name": "Godshot", 
+                "marker-symbol": "cafe", 
+                "address": "Berlin Germany, Immanuelkirchstrasse 32"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    13.401871, 
+                    52.529339
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi", 
+                "name": "Sankt Oberholz", 
+                "marker-symbol": "cafe", 
+                "address": "Berlin Germany, Rosenthaler Strasse 72a"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -71.392167, 
+                    41.821898
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "", 
+                "name": "Malachi's", 
+                "marker-symbol": "cafe", 
+                "address": "Providence USA, 134 Ives St, Providence, RI 02906"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -71.420079, 
+                    41.81855
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "", 
+                "name": "White Electric Coffee", 
+                "marker-symbol": "cafe", 
+                "address": "Providence USA, 711 Westminster St, Providence, RI 02903"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -71.412513, 
+                    41.822959
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "", 
+                "name": "Small Point Caf\u00e9", 
+                "marker-symbol": "cafe", 
+                "address": "Providence USA, 230 Westminster St, Providence, RI 02903"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -71.401046, 
+                    41.830135
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "", 
+                "name": "Blue State Coffee", 
+                "marker-symbol": "cafe", 
+                "address": "Providence USA, 300 Thayer St, Providence, RI 02906"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -71.396906, 
+                    41.819664
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "", 
+                "name": "The Duck and Bunny", 
+                "marker-symbol": "cafe", 
+                "address": "Providence USA, 312 Wickenden St, Providence, RI"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -71.398484, 
+                    41.819415
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "", 
+                "name": "Cafe Zog", 
+                "marker-symbol": "cafe", 
+                "address": "Providence USA, 239 Wickenden St, Providence, RI"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -71.41073, 
+                    41.824152
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "", 
+                "name": "New Harvest Coffee & Spirits", 
+                "marker-symbol": "cafe", 
+                "address": "Providence USA, 130 Westminster St, Ste 118, Providence, RI 02903"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -71.399081, 
+                    41.819275
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "", 
+                "name": "Coffee Exchange", 
+                "marker-symbol": "cafe", 
+                "address": "Providence USA, 207 Wickenden St, Providence, RI 02903"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.4143, 
+                    37.752352
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi", 
+                "name": "Philz Coffee", 
+                "marker-symbol": "cafe", 
+                "address": "San Francisco USA, 3101 24th St"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.421421, 
+                    37.757441
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi", 
+                "name": "Mission Creek Cafe", 
+                "marker-symbol": "cafe", 
+                "address": "San Francisco USA, 968 Valencia St"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -2.23583, 
+                    53.48296
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi (with captive portal, no registration)", 
+                "name": "North Tea Power", 
+                "marker-symbol": "cafe", 
+                "address": "Manchester UK, 36 Tib St, Manchester, M4 1LA"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -1.900485, 
+                    52.48227
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi", 
+                "name": "Urban Coffee Co (Church St)", 
+                "marker-symbol": "cafe", 
+                "address": "Birmingham UK, 30 Church Street, Birmingham, B3 2NP"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -75.571814, 
+                    6.213583
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi, good speed, must buy if wanna stay longer", 
+                "name": "Tal Cual", 
+                "marker-symbol": "cafe", 
+                "address": "Medell\u00edn Colombia, Calle 12 No. 43D -12. Manila, El Poblado"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    10.746625, 
+                    59.910505
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi, reliable and good speed", 
+                "name": "Stockfleths Prinsens Gate", 
+                "marker-symbol": "cafe", 
+                "address": "Oslo NO, Prinsens gate 6"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    9.963615, 
+                    53.558911
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi", 
+                "name": "Kopiba", 
+                "marker-symbol": "cafe", 
+                "address": "Hamburg DE, Beim Gr\u00fcnen J\u00e4ger 24"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -86.895019, 
+                    40.419201
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free secured wifi, ask for the password", 
+                "name": "Star City Coffee & Ale House", 
+                "marker-symbol": "cafe", 
+                "address": "Lafayette, IN USA, 210 Main St, Lafayette, IN 47901"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -79.36814, 
+                    43.66513
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Fast unlimited internet, ask for password", 
+                "name": "Jetfuel Coffee", 
+                "marker-symbol": "cafe", 
+                "address": "Toronto Canada, 519 Parliament Street"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    22.952963, 
+                    40.63247
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free Wi-Fi. Ask for the password.", 
+                "name": "iheart", 
+                "marker-symbol": "cafe", 
+                "address": "Thessaloniki GR, Episkopou Nikolau Kitrou 7"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.312957, 
+                    47.622711
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "free wifi", 
+                "name": "Ada's Technical Books and Cafe", 
+                "marker-symbol": "cafe", 
+                "address": "Seattle USA, 425 15th Ave East"
             }
         }, 
         {
@@ -815,6 +1071,22 @@
                 "name": "Peet's", 
                 "marker-symbol": "cafe", 
                 "address": "Redwood City USA, 2600 Broadway Street, Redwood City, CA 94063"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    16.607919, 
+                    49.193379
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Private Wifi network called `mitte`. Password is `hostel11` as of 2014/02/14.", 
+                "name": "Caf\u00e9 Mitte", 
+                "marker-symbol": "cafe", 
+                "address": "Brno Czech Republic, Pansk\u00e1 11, Brno, Czech Republic"
             }
         }, 
         {
@@ -3087,70 +3359,6 @@
                 "name": "Cafe Grumpy Greenpoint", 
                 "marker-symbol": "cafe", 
                 "address": "Brooklyn USA, 193 Meserole Avenue, Brooklyn, NY 11222"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -122.24632, 
-                    37.45774
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free open internet", 
-                "name": "Starbucks", 
-                "marker-symbol": "cafe", 
-                "address": "San Francisco USA, 2727 Mariposa St"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    15.39192, 
-                    46.33286
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Multiple free wifi networks around here, good speed", 
-                "name": "Kavarna Ginger", 
-                "marker-symbol": "cafe", 
-                "address": "Maribor Slovenia, Pobre\u0161ka cesta 18"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    14.30309, 
-                    46.3023
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free city wifi, free caffee wifi", 
-                "name": "Kavarna in sla\u0161\u010di\u010darna Zvezda", 
-                "marker-symbol": "cafe", 
-                "address": "Ljubljana Slovenia, Wolfova ul. 14"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -73.979353, 
-                    40.669665
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free locked wifi (Time-Warner Business class I'm guessing).  Fairly good speed", 
-                "name": "Konditori", 
-                "marker-symbol": "cafe", 
-                "address": "Brooklyn USA, 240 7th Ave"
             }
         }
     ]
