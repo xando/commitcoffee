@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html ng-app="application" lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Work with your laptop in a friendly coffee shop near you" />
+      <meta name="author" content="Sebastian Pawluś" />
+      <meta name="keywords" content="coffee cafe laptop wifi internet work coffeshop" />
+
+      <title>Commit Coffee - work from a cafe</title>
+
+      <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css' /> -->
+
+      <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css' />
+
+      <link href="/static/lib/bootstrap-3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="/static/lib/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+      <link href="/static/main.less" type="text/css"  rel="stylesheet/less" />
+
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsYuxYyWbsn0UI5wTzluO13c8hHWFvQWI&sensor=true"></script>
+      
+      <script src="/static/lib/less-1.7.5.min.js" type="text/javascript"></script>
+      <script src="/static/lib/jquery-2.1.1.min.js"></script>
+      <script src="/static/lib/lodash.min.js"></script>
+
+      <script src="/static/lib/angular.min.js"></script>
+      <script src="/static/lib/angular-resource.min.js"></script>
+      <script src="/static/lib/angular-route.min.js"></script>
+      <script src="/static/lib/angular-google-maps.min.js"></script>
+      <script src="/static/lib/angular-django-rest-resource.js"></script>
+      <script src="/static/lib/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+      
+      <script src="/static/main.js"></script>
+      
+      
+  </head>
+
+  <body class="ng-cloak">
+    <base href="/" />
+    
+    <div class="logo hidden-xs hidden-sm" ng-hide="true">
+      <div class="sign">
+	$> commit coffee
+      </div>
+    </div>
+    
+    <div class="container-fluid" ng-view></div>
+
+    <footer class="hidden-xs">
+      <p>
+	Is there a good coffee place missing? Would like to see it here?
+	Please make a fork of the
+	<button class="btn btn-primary" type="button">Submit</button>
+      </p>
+
+      <span>
+	<i class="fa fa-envelope tblue"></i>
+	<a href="mailto:commitcoffee@gmail.com">commitcoffee@gmail.com</a> |
+	<i class="fa fa-github tblue"></i>
+	<a href="https://github.com/xando/commitcoffee" target="_blank">github.com/xando/commitcoffee</a>
+      </span>
+    </footer>
+
+    <script> 
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-11337039-16', 'commitcoffee.com');
+     ga('send', 'pageview');
+    </script>
+
+  </body>
+
+</html>

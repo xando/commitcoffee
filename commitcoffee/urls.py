@@ -1,28 +1,21 @@
-import os
+from django.conf.urls import include, url
 from django.conf import settings
-from django.conf.urls import patterns, include, url
+from django.views.static import serve
 from django.conf.urls.static import static
-from django.http import HttpResponse, CompatibleStreamingHttpResponse
-from django.contrib.staticfiles.views import serve
+from django.contrib import admin
 
-from rest_framework import routers
+from rest_framework.routers import DefaultRouter
 
-from commitcoffee import api
-
-router = routers.DefaultRouter()
-router.register(r'place', api.Place)
+from . import api
 
 
-def template(request, path):
-    path = path or 'index.html'
-    fullpath = os.path.join(settings.BASE_DIR, 'templates', path)
-    return CompatibleStreamingHttpResponse(open(fullpath, 'rb'), "text/html")
+router = DefaultRouter()
+router.register(r'place', api.PlaceView)
 
 
-urlpatterns = static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-urlpatterns += patterns(
-    '',
-    url(r'^api/search', api.ListUsers.as_view()),
+urlpatterns = [
+    url(r'^api/search$', api.search),
     url(r'^api/', include(router.urls)),
-    url(r'(^(?P<path>[^/]+.html)$)|(^$)', template),
-)
+    url(r'^admin/', include(admin.site.urls)),
+    url(r'', lambda r: serve(r, 'templates/base.html', settings.STATIC_ROOT)),
+]

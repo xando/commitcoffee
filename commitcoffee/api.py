@@ -1,36 +1,45 @@
+from django.http import JsonResponse
+from django.contrib.gis.geos import Polygon
+from django.contrib.gis.geos import Point
+
 from rest_framework import viewsets, serializers, views, response
-from rest_framework import routers
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from commitcoffee import models
+
+from . import models
 
 
-class SearchSerializer(serializers.ModelSerializer):
+class PlaceSerializer(serializers.ModelSerializer):
+    location = serializers.SerializerMethodField('get_location')
+
     class Meta:
         model = models.Place
 
+    def get_location(self, obj):
+        return {
+            "latitude": obj.location.y,
+            "longitude": obj.location.x
+        }
 
-class ListUsers(APIView):
-    def get(self, request, format=None):
-
-        latitude1 = float(request.GET.get('lat1', 0))
-        latitude2 = float(request.GET.get('lat2', 0))
-
-        longitude1 = float(request.GET.get('lng1', 0))
-        longitude2 = float(request.GET.get('lng2', 0))
-
-        query = models.Place.objects.filter(
-            latitude__lte=latitude1,
-            latitude__gte=latitude2,
-
-            longitude__lte=longitude1,
-            longitude__gte=longitude2,
+    def validate_location(self, attrs, b):
+        attrs['location'] = Point(
+            self.init_data['location']['longitude'],
+            self.init_data['location']['latitude']
         )
-
-        serializer = SearchSerializer(query)
-
-        return Response(serializer.data)
+        return attrs
 
 
-class Place(viewsets.ReadOnlyModelViewSet):
+
+class PlaceView(viewsets.ModelViewSet):
     model = models.Place
+    serializer_class = PlaceSerializer
+
+
+def search(request):
+    geom = Polygon.from_bbox((
+        request.GET['lng0'],
+        request.GET['lat0'],
+        request.GET['lng1'],
+        request.GET['lat1']
+    ))
+    queryset = models.Place.objects.filter(location__within=geom)
+
+    return JsonResponse(PlaceSerializer(queryset, many=True).data, safe=False)

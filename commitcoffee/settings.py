@@ -38,7 +38,7 @@ ROOT_URLCONF = 'commitcoffee.urls'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.contrib.gis.db.backends.spatialite',
         'NAME': os.path.join(BASE_DIR, '..', 'db.sqlite3'),
     }
 }
@@ -49,14 +49,8 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
-STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
-
-
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
-    os.path.join(BASE_DIR, "templates"),
-)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 LOGGING = {

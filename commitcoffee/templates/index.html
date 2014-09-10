@@ -1,166 +1,163 @@
 <!DOCTYPE html>
 <html ng-app="CommitCoffee" lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Work with your laptop in a friendly coffee shop near you" />
-		<meta name="author" content="Sebastian Pawluś" />
-		<meta name="keywords" content="coffee cafe laptop wifi internet work coffeshop" />
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Work with your laptop in a friendly coffee shop near you" />
+    <meta name="author" content="Sebastian Pawluś" />
+    <meta name="keywords" content="coffee cafe laptop wifi internet work coffeshop" />
 
-		<title>Commit Coffee - work from cafe</title>
+    <title>Commit Coffee - work from cafe</title>
 
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 
-		<link href="/static/lib/bootstrap-3.0.2/css/bootstrap.min.css" rel="stylesheet">
-		<link href="/static/lib/font-awesome-4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/lib/bootstrap-3.0.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/lib/font-awesome-4.0.3/css/font-awesome.min.css" rel="stylesheet">
 
-		<style>
-			.ng-cloak {display: none !important;}
-		</style>
+    <style>
+     .ng-cloak {display: none !important;}
+    </style>
 
-		<link rel="stylesheet/less" type="text/css" href="/static/main.less" />
+    <link rel="stylesheet/less" type="text/css" href="/static/main.less" />
 
-	</head>
+  </head>
 
-	<body ng-controller="Controller" class="ng-cloak">
+  <body ng-controller="Controller" class="ng-cloak">
 
-		<div class="logo hidden-xs hidden-sm">
-			<a target="_blank" href="https://github.com/xando/commitcoffee">
-				<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub">
-			</a>
-			<div class="sign">
-				$> commit coffee
-			</div>
+    <div class="logo hidden-xs hidden-sm">
+      <div class="sign">
+	$> commit coffee
+      </div>
+    </div>
+
+    <div id="search" class="container search">
+      <div class="row">
+	<div class="col-lg-12">
+
+	  <p class="hidden-xs hidden-sm">
+	    Enter the location and search for a
+	    geek friendly coffee place near you with good
+	    <span class="brown">WiFi</span> and <span class="brown">Coffee</span>
+	  </p>
+	  <form class="form-inline" role="form">
+	    <div class="input-group">
+	      <input type="text" ng-disabled="disabled" ng-model="location"
+		     class="input-lg form-control" placeholder="Location">
+	      <span class="input-group-btn">
+		<button ng-disabled="disabled" type="submit" ng-click="search()"
+			class="input-lg btn btn-primary">
+		  <i ng-show="disabled" class="fa fa-spinner fa-spin"></i>
+		  <span ng-hide="disabled">Search</span>
+		</button>
+	      </span>
+	    </div>
+	  </form>
+	</div>
+      </div>
+    </div>
+
+    <div class="map">
+      <div ng-model="locationDetails" ng-show="showDetails" class="detail">
+	<div class="container message" click-anywhere-but-here="clickedSomewhereElse($event)">
+
+	  <div class="close" ng-click="showDetails = showDetails - 1"></div>
+
+	  <div class="row">
+	    <div class="col-md-6">
+	      <h2 ng-show="locationDetails.link.homepage">
+		<a ng-show="locationDetails.link.homepage"
+		   ng-href="{{ locationDetails.link.homepage }}" target="_blank">
+		  {{ locationDetails.name }}
+		</a>
+	      </h2>
+	      <h2 ng-hide="locationDetails.link.homepage">{{ locationDetails.name }}</h2>
+	      <a ng-href="https://maps.google.com/maps?daddr={{mapsURL}}" target="_blank">
+		<h4><b>{{ locationDetails.city }}</b>, {{ locationDetails.address }}</h4>
+	      </a>
+	    </div>
+	    <div class="col-md-6">
+	      <div class="links hidden-xs hidden-sm">
+		<a ng-show="locationDetails.link.homepage"
+		   ng-href="{{ locationDetails.link.homepage }}"
+		   target="_blank"><i class="fa fa-home fa-4"></i></a>
+		<a ng-show="locationDetails.link.twitter"
+		   ng-href="{{ locationDetails.link.twitter }}"
+		   target="_blank"><i class="fa fa-twitter-square fa-4"></i></a>
+		<a ng-show="locationDetails.link.facebook"
+		   ng-href="{{ locationDetails.link.facebook }}"
+		   target="_blank"><i class="fa fa-facebook-square fa-4"></i></a>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-md-6">
+	      <dl>
+		<div ng-repeat="(name, value) in locationDetails.description">
+		  <dt>{{ name }}</dt><dd>{{ value }}</dd>
 		</div>
+	      </dl>
+	    </div>
+	    <div class="col-md-6 hidden-xs hidden-sm">
+	      <img ng-src="http://maps.googleapis.com/maps/api/staticmap?center={{ locationDetails.coordinates[0] }},{{ locationDetails.coordinates[1] }}&markers={{ locationDetails.coordinates[0] }},{{ locationDetails.coordinates[1] }}&zoom=16&size=398x250&sensor=false">
+	    </div>
+	  </div>
 
-		<div id="search" class="container search">
-			<div class="row">
-				<div class="col-lg-12">
+	</div>
+      </div>
+      <div id="map-canvas"> </div>
+    </div>
 
-					<p class="hidden-xs hidden-sm">
-						Enter the location and search for a
-						geek friendly coffee place near you with good
-						<span class="brown">WiFi</span> and <span class="brown">Coffee</span>
-					</p>
-					<form class="form-inline" role="form">
-						<div class="input-group">
-							<input type="text" ng-disabled="disabled" ng-model="location"
-								   class="input-lg form-control" placeholder="Location">
-							<span class="input-group-btn">
-								<button ng-disabled="disabled" type="submit" ng-click="search()"
-										class="input-lg btn btn-primary">
-									<i ng-show="disabled" class="fa fa-spinner fa-spin"></i>
-									<span ng-hide="disabled">Search</span>
-								</button>
-							</span>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
+    <div class="contribute hidden-xs hidden-sm">
+      <p>
+	Is there a good coffee place missing? Would like to see it here?
+	Please make a fork of the
+	<a target="_blank" href="https://github.com/xando/commitcoffee">repository</a>.
+      </p>
 
-		<div class="map">
-			<div ng-model="locationDetails" ng-show="showDetails" class="detail">
-				<div class="container message" click-anywhere-but-here="clickedSomewhereElse($event)">
+      <p>Create new places/&lsaquo;your-github-username&rsaquo;.json file like
+	<a target="_blank" href="https://github.com/xando/commitcoffee/blob/gh-pages/places">
+	  one of these</a> and simply put you place there.
+      </p>
 
-					<div class="close" ng-click="showDetails = showDetails - 1"></div>
+      <p><code>
+	$ git commit -m "New awesome coffee place"
+      </code></p>
 
-					<div class="row">
-						<div class="col-md-6">
-							<h2 ng-show="locationDetails.link.homepage">
-								<a ng-show="locationDetails.link.homepage"
-								   ng-href="{{ locationDetails.link.homepage }}" target="_blank">
-									{{ locationDetails.name }}
-								</a>
-							</h2>
-							<h2 ng-hide="locationDetails.link.homepage">{{ locationDetails.name }}</h2>
-							<a ng-href="https://maps.google.com/maps?daddr={{mapsURL}}" target="_blank">
-								<h4><b>{{ locationDetails.city }}</b>, {{ locationDetails.address }}</h4>
-							</a>
-						</div>
-						<div class="col-md-6">
-							<div class="links hidden-xs hidden-sm">
-								<a ng-show="locationDetails.link.homepage"
-								   ng-href="{{ locationDetails.link.homepage }}"
-								   target="_blank"><i class="fa fa-home fa-4"></i></a>
-								<a ng-show="locationDetails.link.twitter"
-								   ng-href="{{ locationDetails.link.twitter }}"
-								   target="_blank"><i class="fa fa-twitter-square fa-4"></i></a>
-								<a ng-show="locationDetails.link.facebook"
-								   ng-href="{{ locationDetails.link.facebook }}"
-								   target="_blank"><i class="fa fa-facebook-square fa-4"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6">
-							<dl>
-								<div ng-repeat="(name, value) in locationDetails.description">
-									<dt>{{ name }}</dt><dd>{{ value }}</dd>
-								</div>
-							</dl>
-						</div>
-						<div class="col-md-6 hidden-xs hidden-sm">
-							<img ng-src="http://maps.googleapis.com/maps/api/staticmap?center={{ locationDetails.coordinates[0] }},{{ locationDetails.coordinates[1] }}&markers={{ locationDetails.coordinates[0] }},{{ locationDetails.coordinates[1] }}&zoom=16&size=398x250&sensor=false">
-						</div>
-					</div>
+      <p>Send the pull request. We are done here!</p>
+    </div>
 
-				</div>
-			</div>
-			<div id="map-canvas"> </div>
-		</div>
+    <footer class="hidden-xs hidden-sm">
+      <span>
+	<i class="fa fa-envelope tblue"></i>
+	<a href="mailto:commitcoffee@gmail.com">commitcoffee@gmail.com</a> |
+	<i class="fa fa-github tblue"></i>
+	<a href="https://github.com/xando/commitcoffee" target="_blank">github.com/xando/commitcoffee</a>
+      </span>
+    </footer>
 
-		<div class="contribute hidden-xs hidden-sm">
-			<p>
-				Is there a good coffee place missing? Would like to see it here?
-				Please make a fork of the
-				<a target="_blank" href="https://github.com/xando/commitcoffee">repository</a>.
-			</p>
+    <script src="/static/lib/less-1.5.0.min.js" type="text/javascript"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyDsYuxYyWbsn0UI5wTzluO13c8hHWFvQWI&sensor=true"></script>
+    <script src="/static/lib/lodash.min.js"></script>
+    <script src="/static/lib/jquery.js"></script>
+    <script src="/static/lib/angular.min.js"></script>
+    <script src="/static/lib/angular-resource.js"></script>
+    <script src="/static/lib/bootstrap-3.0.2/js/bootstrap.min.js"></script>
+    <script src="/static/lib/html5shiv.js"></script>
 
-			<p>Create new places/&lsaquo;your-github-username&rsaquo;.json file like
-				<a target="_blank" href="https://github.com/xando/commitcoffee/blob/gh-pages/places">
-					one of these</a> and simply put you place there.
-			</p>
+    <script src="/static/places.js"></script>
+    <script src="/static/main.js"></script>
 
-			<p><code>
-					$ git commit -m "New awesome coffee place"
-			</code></p>
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-			<p>Send the pull request. We are done here!</p>
-		</div>
+     ga('create', 'UA-11337039-16', 'commitcoffee.com');
+     ga('send', 'pageview');
+    </script>
 
-		<footer class="hidden-xs hidden-sm">
-			<span>
-				<i class="fa fa-envelope tblue"></i>
-				<a href="mailto:commitcoffee@gmail.com">commitcoffee@gmail.com</a> |
-				<i class="fa fa-github tblue"></i>
-				<a href="https://github.com/xando/commitcoffee" target="_blank">github.com/xando/commitcoffee</a>
-			</span>
-		</footer>
-
-		<script src="/static/lib/less-1.5.0.min.js" type="text/javascript"></script>
-		<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyDsYuxYyWbsn0UI5wTzluO13c8hHWFvQWI&sensor=true"></script>
-		<script src="/static/lib/lodash.min.js"></script>
-		<script src="/static/lib/jquery.js"></script>
-		<script src="/static/lib/angular.min.js"></script>
-		<script src="/static/lib/angular-resource.js"></script>
-		<script src="/static/lib/bootstrap-3.0.2/js/bootstrap.min.js"></script>
-		<script src="/static/lib/html5shiv.js"></script>
-
-		<script src="/static/places.js"></script>
-		<script src="/static/main.js"></script>
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-11337039-16', 'commitcoffee.com');
-			ga('send', 'pageview');
-		</script>
-
-	</body>
+  </body>
 
 </html>

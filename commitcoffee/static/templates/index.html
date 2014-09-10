@@ -1,0 +1,41 @@
+<div id="search" class="container-fluid">
+
+  <p class="hidden-xs">
+    Enter the location and search for a
+    geek friendly coffee place near you with good
+    <span class="brown">WiFi</span> and <span class="brown">Coffee</span>
+  </p>
+
+  <form class="form text-center" role="form" ng-submit="search()">
+    <div class="input-group">
+      <input type="text" class="form-control input-lg">
+      <span class="input-group-btn">
+	<button class="btn btn-primary btn-lg" type="button">Search</button>
+      </span>
+    </div>
+  </form>
+  
+</div>
+
+<div id="results" class="container-fluid">
+  <div class="row">
+
+    <div id="map" class="col-sm-8">
+      <google-map center="map.center" events="map.events" zoom="map.zoom" draggable="true">
+	<markers models="items" coords="'location'" doCluster="true" 
+		 clusterOptions="map.cluster_options" click="'click'" icon="'icon'" />
+      </google-map>
+    </div>
+
+    <div id="list" class="col-sm-4">
+      <div class="list-group">
+	<a ng-repeat="item in items" href="#" class="list-group-item" ng-class="{active: item.active}">
+	  {{ item.active }}
+	  <h5>{{ item.name }}</h5>
+	  <small>{{ item.distance }} km</small>
+	  <small>{{ item.active }}</small>
+	</a>
+      </div>
+    </div>
+  </div>
+</div>

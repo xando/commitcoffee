@@ -1,17 +1,22 @@
-from django.db import models
+from django.contrib import admin
+from django.contrib.gis.db import models
 
 
 class Place(models.Model):
     name=models.CharField(max_length=256)
-    city=models.CharField(max_length=128)
-    country=models.CharField(max_length=128)
     address=models.CharField(max_length=256)
+    city=models.CharField(max_length=128, blank=True)
+    country=models.CharField(max_length=128, blank=True)
 
-    latitude = models.FloatField()
-    longitude = models.FloatField()
+    location = models.PointField()
 
-    homepage=models.URLField(null=True)
-    facebook=models.URLField(null=True)
-    twitter=models.URLField(null=True)
+    homepage=models.URLField(blank=True)
+    facebook=models.URLField(blank=True)
+    twitter=models.URLField(blank=True)
 
+    objects = models.GeoManager()
 
+    def __unicode__(self):
+        return self.name
+
+admin.site.register(Place)

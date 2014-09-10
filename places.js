@@ -1018,8 +1018,8 @@
 		},
 		"country": "PL",
 		"coordinates": [
-			"50.063382",
-			"19.934096"
+			"50.063382", 
+			"19.934096"  
 		],
 		"link": {
 			"facebook": "http://www.facebook.com/group.php?gid=57554203936"
