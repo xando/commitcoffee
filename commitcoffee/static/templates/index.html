@@ -28,13 +28,25 @@
     </div>
 
     <div id="list" class="col-sm-4">
-      <div class="list-group">
+      <div class="list-group" ng-show="items.length">
 	<a ng-repeat="item in items" href="#" class="list-group-item" ng-class="{active: item.active}">
-	  {{ item.active }}
 	  <h5>{{ item.name }}</h5>
 	  <small>{{ item.distance }} km</small>
 	  <small>{{ item.active }}</small>
 	</a>
+
+	<div class="list-group-item text-center">
+	  <p>
+	    Is there a good coffee place missing? Would like to see it here?
+	  </p>
+	  <p>
+	    <a ng-href="add" class="btn btn-success" type="button">Submit</a>
+	  </p>
+	</div>
+
+      </div>
+      <div class="empty" ng-hide="items.length">
+	Nima
       </div>
     </div>
   </div>

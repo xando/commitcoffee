@@ -26,6 +26,7 @@ var app = angular.module(
 	function($routeProvider, $resourceProvider, $httpProvider, $locationProvider) {
 
 		$resourceProvider.defaults.stripTrailingSlashes = false;
+
 		$locationProvider.html5Mode(true).hashPrefix('!');
 		$httpProvider.defaults.xsrfCookieName = 'csrftoken';
 		$httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
@@ -33,47 +34,68 @@ var app = angular.module(
 		$routeProvider
 			.when('/', {
 				templateUrl: '/static/templates/index.html',
+				controller: 'index',
+
+			})
+			.when('/:latitude/:longitude', {
+				templateUrl: '/static/templates/index.html',
 				controller: 'index'
 			})
 			.when('/add', {
 				templateUrl: '/static/templates/add.html',
 				controller: 'add'
-			})
+			});
 
 	});
 
-app.factory('$config', function() {
+app.factory('$config', ['$location', '$rootScope', '$route', function($location, $rootScope, $route) {
+
+	var lastRoute = $route.current;
+	$rootScope.$on('$locationChangeSuccess', function (event) {
+		if (lastRoute.$$route.originalPath === $route.current.$$route.originalPath) {
+			$route.current = lastRoute;
+		}
+	});
 
 	var config = {
 		map: {
 			center: {
-				latitude: 51.919438,
-				longitude: 19.145136,
+				latitude: parseFloat($location.search().latitude ||  51.919438),
+				longitude: parseFloat($location.search().longitude || 19.145136),
 			},
-			zoom: 4,
+			zoom: parseInt($location.search().z || 4),
 			cluster_options: {
 		  		gridSize: 10
-			}
+			},
+			events: {}
 		},
 		location: null
 	}
 
+	config.map.events.center_changed = function(map) {
+		$location.search('latitude', config.map.center.latitude);
+		$location.search('longitude', config.map.center.longitude);
+		$location.search('z', config.map.zoom);
+	}
 
 	navigator.geolocation.getCurrentPosition(function(position) {
 		config.location = {
 			latitude: position.coords.latitude,
 			longitude: position.coords.longitude
 		}
-	  	config.map.center = {
-	  		latitude: position.coords.latitude,
-	  		longitude: position.coords.longitude
+		if ($location.search().latitude == undefined &&
+			$location.search().longitude == undefined) {
+	  		config.map.center = {
+	  			latitude: position.coords.latitude,
+	  			longitude: position.coords.longitude
+			}
+			config.map.zoom = 10;
 		}
-		config.map.zoom = 10;
 	});
 
 	return config;
 
-});
+}]);
 
 
 app.controller('index', ['$scope', '$http', '$location', 'Place', '$config',
@@ -85,7 +107,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config',
 		  angular.element('#search').outerHeight(true)
 	  );
 
-	  angular.element('#list .list-group').height(
+	  angular.element('#list').height(
 		  angular.element(window).outerHeight(true) -
 		  angular.element('footer').outerHeight(true) -
 		  angular.element('#search').outerHeight(true)
@@ -99,45 +121,44 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config',
 
 	  $scope.items = [];
 	  $scope.map = $config.map;
-	  $scope.map.events = {
-	  	  'idle': function(map) {
-	  		  var search = {
-	  			  lat0: map.getBounds().getSouthWest().lat(),
-	  			  lng0: map.getBounds().getSouthWest().lng(),
-	  			  lat1: map.getBounds().getNorthEast().lat(),
-	  			  lng1: map.getBounds().getNorthEast().lng(),
-	  		  }
-	  		  var search_query = decodeURIComponent($.param(search));
+	  $scope.map.events.idle = function(map) {
 
-	  		  $http({method: 'GET', url: '/api/search?' + search_query})
-	  			  .success(function(items, status, headers, config) {
-
-	  				  if ($config.location) {
-	  					  angular.forEach(items, function(item) {
-	  			  		  	  item.distance = distance(
-	  							  item.location.latitude,
-	  							  item.location.longitude,
-								  $config.location.latitude,
-								  $config.location.longitude
-	  						  ).toFixed(2);
-	  					  })
-	  			  		  $scope.items = _.sortBy(items, ['distance']);
-	  				  } else {
-	  					  $scope.items = items;
-	  				  }
-
-	  			  	  angular.forEach($scope.items, function(item, i) {
-	  					  item.icon = '/static/img/map1.png';
-	  			  		  item.click = function() {
-	  						  this.model.icon = "/static/img/map2.png";
-	  						  $scope.$apply();
-	  			  		  }
-	  			  	  });
-	  			  })
-	  			  .error(function(data, status, headers, config) {
-
-	  			  });
+	  	  var search = {
+	  		  lat0: map.getBounds().getSouthWest().lat(),
+	  		  lng0: map.getBounds().getSouthWest().lng(),
+	  		  lat1: map.getBounds().getNorthEast().lat(),
+	  		  lng1: map.getBounds().getNorthEast().lng(),
 	  	  }
+	  	  var search_query = decodeURIComponent($.param(search));
+
+	  	  $http({method: 'GET', url: '/api/search?' + search_query})
+	  		  .success(function(items, status, headers, config) {
+
+	  			  if ($config.location) {
+	  				  angular.forEach(items, function(item) {
+	  			  		  item.distance = distance(
+	  						  item.location.latitude,
+	  						  item.location.longitude,
+							  $config.location.latitude,
+							  $config.location.longitude
+	  					  ).toFixed(2);
+	  				  })
+	  			  	  $scope.items = _.sortBy(items, ['distance']);
+	  			  } else {
+	  				  $scope.items = items;
+	  			  }
+
+	  			  angular.forEach($scope.items, function(item, i) {
+	  				  item.icon = '/static/img/map1.png';
+	  			  	  item.click = function() {
+	  					  this.model.icon = "/static/img/map2.png";
+	  					  $scope.$apply();
+	  			  	  }
+	  			  });
+	  		  })
+	  		  .error(function(data, status, headers, config) {
+
+	  		  });
 	  }
 
 }]);
@@ -152,7 +173,7 @@ app.controller('add', ['$scope', '$http', '$location', 'Place', '$config',
 		  angular.element('#search').outerHeight(true)
 	  );
 
-	  angular.element('#list .list-group').height(
+	  angular.element('#list').height(
 		  angular.element(window).outerHeight(true) -
 		  angular.element('footer').outerHeight(true) -
 		  angular.element('#search').outerHeight(true)
@@ -166,7 +187,7 @@ app.controller('add', ['$scope', '$http', '$location', 'Place', '$config',
 
 
 	  $scope.map = $config.map;
-	  $scope.map.events = {};
+	  $scope.map.events = {idle: null};
 
 	  $scope.place = {
 		  location: $scope.map.center
