@@ -14,7 +14,10 @@ class Place(models.Model):
     facebook=models.URLField(blank=True)
     twitter=models.URLField(blank=True)
 
+    accepted = models.BooleanField(default=False)
+
     objects = models.GeoManager()
+
 
     def __unicode__(self):
         return self.name
