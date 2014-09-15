@@ -18,14 +18,13 @@ if __name__ == "__main__":
     for each in data:
         link = each.get('link', '')
         if link:
-            homepage=link.get('homepage', ''),
-            facebook=link.get('facebook', ''),
+            homepage=link.get('homepage', '')
+            facebook=link.get('facebook', '')
             twitter=link.get('twitter', '')
         else:
-            homepage=link
-            facebook=link
-            twitter=link
-
+            homepage=''
+            facebook=''
+            twitter=''
 
         models.Place.objects.get_or_create(
             name=each['name'],
@@ -35,5 +34,6 @@ if __name__ == "__main__":
             location=Point(float(each['coordinates'][1]), float(each['coordinates'][0])),
             homepage=homepage,
             facebook=facebook,
-            twitter=twitter
+            twitter=twitter,
+            published=True
         )
