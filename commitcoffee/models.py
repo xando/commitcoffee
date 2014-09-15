@@ -3,18 +3,18 @@ from django.contrib.gis.db import models
 
 
 class Place(models.Model):
-    name=models.CharField(max_length=256)
-    address=models.CharField(max_length=256)
-    city=models.CharField(max_length=128, blank=True)
-    country=models.CharField(max_length=128, blank=True)
+    name = models.CharField(max_length=256)
+    address = models.CharField(max_length=256)
+    city = models.CharField(max_length=128, blank=True)
+    country = models.CharField(max_length=128, blank=True)
 
     location = models.PointField()
 
-    homepage=models.URLField(blank=True)
-    facebook=models.URLField(blank=True)
-    twitter=models.URLField(blank=True)
+    homepage = models.URLField(blank=True)
+    facebook = models.URLField(blank=True)
+    twitter = models.URLField(blank=True)
 
-    accepted = models.BooleanField(default=False)
+    published = models.BooleanField(default=False)
 
     objects = models.GeoManager()
 
