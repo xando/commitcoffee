@@ -1,21 +1,4 @@
-<div id="search" class="container-fluid">
-
-  <p class="hidden-xs">
-    Enter the location and search for a
-    geek friendly coffee place near you with good
-    <span class="brown">WiFi</span> and <span class="brown">Coffee</span>
-  </p>
-
-  <form class="form text-center" role="form" ng-submit="search()">
-    <div class="input-group">
-      <input type="text" class="form-control input-lg">
-      <span class="input-group-btn">
-	<button class="btn btn-primary btn-lg" type="button">Search</button>
-      </span>
-    </div>
-  </form>
-  
-</div>
+<div ng-include="'/static/templates/search.html'" ></div>
 
 <div id="results" class="container-fluid">
   <div class="row">

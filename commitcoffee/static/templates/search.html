@@ -1,0 +1,18 @@
+<div id="search" class="container-fluid" ng-controller="search">
+
+  <p class="hidden-xs">
+    Enter the location and search for a
+    geek friendly coffee place near you with good
+    <span class="brown">WiFi</span> and <span class="brown">Coffee</span>
+  </p>
+
+  <form class="form text-center" role="form" ng-submit="search()">
+    <div class="input-group">
+      <input ng-model="location" type="text" class="form-control input-lg" ng-disabled="disabled">
+      <span class="input-group-btn">
+	<button class="btn btn-primary btn-lg" type="submit" ng-disabled="disabled">Search</button>
+      </span>
+    </div>
+  </form>
+
+</div>

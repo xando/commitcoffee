@@ -35,11 +35,12 @@ var app = angular.module(
 			.when('/', {
 				templateUrl: '/static/templates/index.html',
 				controller: 'index',
+				reloadOnSearch: false,
 
 			})
-			.when('/:latitude/:longitude', {
-				templateUrl: '/static/templates/index.html',
-				controller: 'index'
+			.when('/:id/:name', {
+				templateUrl: '/static/templates/details.html',
+				controller: 'details'
 			})
 			.when('/add', {
 				templateUrl: '/static/templates/add.html',
@@ -48,14 +49,8 @@ var app = angular.module(
 
 	});
 
-app.factory('$config', ['$location', '$rootScope', '$route', function($location, $rootScope, $route) {
-
-	var lastRoute = $route.current;
-	$rootScope.$on('$locationChangeSuccess', function (event) {
-		if (lastRoute.$$route.originalPath === $route.current.$$route.originalPath) {
-			$route.current = lastRoute;
-		}
-	});
+app.factory('$config', ['$location', '$rootScope', '$route',
+						function($location, $rootScope, $route) {
 
 	var config = {
 		map: {
@@ -64,18 +59,9 @@ app.factory('$config', ['$location', '$rootScope', '$route', function($location,
 				longitude: parseFloat($location.search().longitude || 19.145136),
 			},
 			zoom: parseInt($location.search().z || 4),
-			cluster_options: {
-		  		gridSize: 10
-			},
 			events: {}
 		},
-		location: null
-	}
-
-	config.map.events.center_changed = function(map) {
-		$location.search('latitude', config.map.center.latitude);
-		$location.search('longitude', config.map.center.longitude);
-		$location.search('z', config.map.zoom);
+		location: null,
 	}
 
 	navigator.geolocation.getCurrentPosition(function(position) {
@@ -83,13 +69,15 @@ app.factory('$config', ['$location', '$rootScope', '$route', function($location,
 			latitude: position.coords.latitude,
 			longitude: position.coords.longitude
 		}
+
 		if ($location.search().latitude == undefined &&
 			$location.search().longitude == undefined) {
-	  		config.map.center = {
-	  			latitude: position.coords.latitude,
-	  			longitude: position.coords.longitude
-			}
-			config.map.zoom = 10;
+
+			$location
+				.path("/")
+				.search('x', position.coords.longitude.toFixed(3))
+				.search('y', position.coords.latitude.toFixed(3))
+				.search('z', 14);
 		}
 	});
 
@@ -98,40 +86,88 @@ app.factory('$config', ['$location', '$rootScope', '$route', function($location,
 }]);
 
 
-app.controller('index', ['$scope', '$http', '$location', 'Place', '$config',
-  function ($scope, $http, $location, Place, $config) {
+app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$routeParams', '$route',
+  function ($scope, $http, $location, Place, $config, $routeParams, $route) {
 
-	  angular.element('.angular-google-map-container').height(
+	  angular.element('.angular-google-map-container, #list .list-group, #details, #add').height(
 		  angular.element(window).outerHeight(true) -
 		  angular.element('footer').outerHeight(true) -
 		  angular.element('#search').outerHeight(true)
 	  );
 
-	  angular.element('#list').height(
-		  angular.element(window).outerHeight(true) -
-		  angular.element('footer').outerHeight(true) -
-		  angular.element('#search').outerHeight(true)
-	  );
+	  $scope.search = function() {
+	  	  $scope.disabled = true;
+	  	  $scope.details = false;
 
-	  angular.element('#add').height(
-		  angular.element(window).outerHeight(true) -
-		  angular.element('footer').outerHeight(true) -
-		  angular.element('#search').outerHeight(true)
-	  );
+	  	  var geocoder = new google.maps.Geocoder();
 
-	  $scope.items = [];
+	  	  geocoder.geocode({'address': $scope.location}, function(results, status) {
+
+	  		  if (results.length > 0) {
+	  			  var location = results[0].geometry.location;
+
+				  $location
+					  .path("/")
+					  .search('x', location.lng().toFixed(3))
+					  .search('y', location.lat().toFixed(3))
+					  .search('z', 14);
+	  		  }
+
+	  		  $scope.disabled = false;
+	  		  $scope.$apply();
+	  	  });
+	  }
+}])
+
+app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$routeParams',
+  function ($scope, $http, $location, Place, $config, $routeParams) {
 	  $scope.map = $config.map;
-	  $scope.map.events.idle = function(map) {
+	  $scope.items = [];
+	  $scope.details = false;
+
+	  $scope.show_details = function(item) {
+		  $scope.details = item;
+
+		  $config.map.center = item.location;
+		  if ($config.map.zoom < 14) {
+			  $config.map.zoom = 14;
+		  }
+	  }
+
+	  var setup_map = function() {
+		  var search = $location.search();
+		  if ('x' in search &&
+			  'y' in search &&
+			  'z' in search) {
+
+			  $scope.map.center.latitude = parseFloat(search.y);
+	  		  $scope.map.center.longitude = parseFloat(search.x);
+	  		  $scope.map.zoom = parseInt(search.z);
+		  }
+	  }
+
+	  $scope.$on('$routeUpdate', function(next, current) {
+		  setup_map();
+	  });
+
+	  setup_map();
+
+	  $config.map.events.dragstart = function(map) {
+		  google.maps.event.trigger(map, 'resize');
+		  $scope.details = false;
+	  }
+	  $config.map.events.idle = function(map) {
+
+		  google.maps.event.trigger(map, 'resize');
 
 	  	  var search = {
-	  		  lat0: map.getBounds().getSouthWest().lat(),
-	  		  lng0: map.getBounds().getSouthWest().lng(),
-	  		  lat1: map.getBounds().getNorthEast().lat(),
-	  		  lng1: map.getBounds().getNorthEast().lng(),
+	  	  	  lat0: map.getBounds().getSouthWest().lat(),
+	  	  	  lng0: map.getBounds().getSouthWest().lng(),
+	  	  	  lat1: map.getBounds().getNorthEast().lat(),
+	  	  	  lng1: map.getBounds().getNorthEast().lng(),
 	  	  }
-	  	  var search_query = decodeURIComponent($.param(search));
 
-	  	  $http({method: 'GET', url: '/api/search?' + search_query})
+		  $http({method: 'GET', url: '/api/search?' + decodeURIComponent($.param(search))})
 	  		  .success(function(items, status, headers, config) {
 
 	  			  if ($config.location) {
@@ -139,8 +175,8 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config',
 	  			  		  item.distance = distance(
 	  						  item.location.latitude,
 	  						  item.location.longitude,
-							  $config.location.latitude,
-							  $config.location.longitude
+	  						  $config.location.latitude,
+	  						  $config.location.longitude
 	  					  ).toFixed(2);
 	  				  })
 	  			  	  $scope.items = _.sortBy(items, ['distance']);
@@ -148,50 +184,37 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config',
 	  				  $scope.items = items;
 	  			  }
 
-	  			  angular.forEach($scope.items, function(item, i) {
-	  				  item.icon = '/static/img/map1.png';
-	  			  	  item.click = function() {
-	  					  this.model.icon = "/static/img/map2.png";
+				  angular.forEach($scope.items, function(item, i) {
+	  				  item.icon = '/static/img/map1-a.png';
+	  				  item.click = function() {
+	  					  $scope.details = this.model;
+
+	  					  this.model.active = true;
+	  					  this.map.panTo(
+	  						  new google.maps.LatLng(
+	  							  this.coords.latitude,
+	  							  this.coords.longitude
+	  						  )
+	  					  );
 	  					  $scope.$apply();
 	  			  	  }
 	  			  });
-	  		  })
-	  		  .error(function(data, status, headers, config) {
 
-	  		  });
+			  });
 	  }
-
 }]);
 
 app.controller('add', ['$scope', '$http', '$location', 'Place', '$config',
   function ($scope, $http, $location, Place, $config) {
-
-
-	  angular.element('.angular-google-map-container').height(
-		  angular.element(window).outerHeight(true) -
-		  angular.element('footer').outerHeight(true) -
-		  angular.element('#search').outerHeight(true)
-	  );
-
-	  angular.element('#list').height(
-		  angular.element(window).outerHeight(true) -
-		  angular.element('footer').outerHeight(true) -
-		  angular.element('#search').outerHeight(true)
-	  );
-
-	  angular.element('#add').height(
-		  angular.element(window).outerHeight(true) -
-		  angular.element('footer').outerHeight(true) -
-		  angular.element('#search').outerHeight(true)
-	  );
-
-
 	  $scope.map = $config.map;
-	  $scope.map.events = {idle: null};
+	  $scope.map.events.idle = function(map) {
+		  google.maps.event.trigger(map, 'resize');
+	  };
 
 	  $scope.place = {
 		  location: $scope.map.center
 	  }
+
 	  $scope.submit = function() {
 		  Place.save($scope.place, function() {}, function(response) {
 			  $scope.error = response.data;
@@ -199,145 +222,3 @@ app.controller('add', ['$scope', '$http', '$location', 'Place', '$config',
 	  }
 
 }]);
-
-// angular.module('api', ['ngResource']).
-// 	// factory('Place', function($resource) {
-// 	// 	return $resource('/api/restaurant/:id/', {}, {
-// 	// 		query: {method:'GET', isArray:true}
-// 	// 	});
-// 	// }).
-// 	factory('PlaceSearch', function($resource) {
-// 		return $resource('/api/search', {}, {
-// 			query: {method:'GET', isArray: true}
-// 		});
-// 	});
-
-// var App = angular
-// 	.module('CommitCoffee', ['api'])
-// 	.config(['$locationProvider',function ($locationProvider) {
-// 		$locationProvider.html5Mode(true);
-// 	}]);
-
-
-// App.controller('Controller', function ($scope, $location, $anchorScroll, PlaceSearch) {
-
-// 	var searchCache = null;
-
-// 	var mapOptions = {
-// 		center: new google.maps.LatLng(40, -10),
-// 		zoom: 3,
-// 		mapTypeId: google.maps.MapTypeId.ROADMAP
-// 	};
-
-// 	var map = new google.maps.Map(
-// 		document.getElementById("map-canvas"),
-// 		mapOptions
-// 	);
-
-// 	function fetchLocations(coordinates) {
-// 		PlaceSearch.query(coordinates, function(locations) {
-
-// 			_.each(locations, function(location) {
-
-// 				var position = new google.maps.LatLng(
-// 					location.latitude,
-// 					location.longitude
-// 				);
-
-// 				var marker = new google.maps.Marker({
-// 					map: map,
-// 					position: position,
-// 					location: location
-// 				});
-
-// 				google.maps.event.addListener(marker, 'click', function() {
-// 					self = this;
-// 					$scope.$apply(function(){
-// 						$scope.locationDetails = marker.location;
-// 						$scope.showDetails = 2;
-// 						$scope.mapsURL = encodeURIComponent(
-// 							marker.location.latitude+','+marker.location.longitude
-// 						)
-// 					});
-// 				});
-
-// 			});
-// 		});
-// 	}
-
-// 	google.maps.event.addListener(map, 'tilesloaded', function() {
-
-// 		if (map.getZoom() > 7) {
-
-// 			lat1 = map.getBounds().getNorthEast().lat();
-// 			lng1 = map.getBounds().getNorthEast().lng();
-// 			lat2 = map.getBounds().getSouthWest().lat();
-// 			lng2 = map.getBounds().getSouthWest().lng();
-
-// 			var coordinatesExpanded = {
-// 				lat1: lat1 > 0 ? lat1 * 1.01 : lat1 * 0.99,
-// 				lng1: lng1 > 0 ? lng1 * 1.01 : lng1 * 0.99,
-// 				lat2: lat2 > 0 ? lat2 * 0.99 : lat2 * 1.01,
-// 				lng2: lng2 > 0 ? lng2 * 0.99 : lng2 * 1.01,
-// 			}
-
-// 			if (!searchCache) {
-// 				searchCache = coordinatesExpanded;
-// 				fetchLocations(coordinatesExpanded);
-// 			} else {
-
-// 				if (searchCache.lat1 < lat1 ||
-// 					searchCache.lng1 < lng1 ||
-// 					searchCache.lat2 > lat2 ||
-// 					searchCache.lng2 > lng2 ) {
-
-// 					fetchLocations(coordinatesExpanded);
-// 					searchCache = coordinatesExpanded;
-// 				}
-// 			}
-// 		}
-// 	});
-
-// 	$scope.search = function (location) {
-
-// 		$location.url('in/kraków');
-
-// 		var geocoder = new google.maps.Geocoder();
-
-// 		$scope.disabled = true;
-
-// 		geocoder.geocode({'address': $scope.location}, function(results, status) {
-// 			if (results.length > 0) {
-
-// 				map.panTo(results[0].geometry.location);
-// 				map.setZoom(14);
-// 			}
-
-// 			$scope.$apply(function(){
-// 				$scope.disabled = false;
-// 			});
-
-// 		});
-// 	}
-
-// 	$scope.clickedSomewhereElse = function($event) {
-// 		if ($scope.showDetails > 0) {
-// 			--$scope.showDetails;
-// 		}
-// 	}
-
-// });
-
-// App.directive('clickAnywhereButHere', function($document){
-//   return {
-//     restrict: 'A',
-//     link: function(scope, elem, attr, ctrl) {
-//       elem.bind('click', function(e) {
-//         e.stopPropagation();
-//       });
-//       $document.bind('click', function() {
-//         scope.$apply(attr.clickAnywhereButHere);
-//       })
-//     }
-//   }
-// })

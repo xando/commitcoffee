@@ -1,0 +1,68 @@
+<div id="search" class="container-fluid">
+  <p class="hidden-xs">
+    Enter the location and search for a
+    geek friendly coffee place near you with good
+    <span class="brown">WiFi</span> and <span class="brown">Coffee</span>
+  </p>
+
+  <form class="form text-center" role="form" ng-submit="submit()">
+    <div class="input-group">
+      <input ng-model="location" type="text" class="form-control input-lg" ng-disabled="disabled">
+      <span class="input-group-btn">
+	<button class="btn btn-primary btn-lg" type="submit" ng-disabled="disabled">Search</button>
+      </span>
+    </div>
+  </form>
+</div>
+
+<div id="results" class="container-fluid">
+  <div class="row">
+
+    <div id="details" class="col-sm-6">
+      something
+      {{ item }}
+      <div>a</div>
+      <div>a</div>
+      <div>a</div>
+      <div>a</div>
+
+    </div>
+    
+    <div  class="col-sm-3">
+      test
+    </div>
+      
+    <div id="list" class="col-sm-3" ng-disabled="true">
+      <div class="list-group" ng-show="items.length">
+	<a ng-repeat="item in items" href="#" class="list-group-item" ng-class="{active: item.active}">
+	  <h5>{{ item.name }}</h5>
+	  <small>{{ item.distance }} km</small>
+	  <small>{{ item.active }}</small>
+	</a>
+
+	<div class="list-group-item text-center">
+	  <p>
+	    Is there a good coffee place missing? Would like to see it here?
+	  </p>
+	  <p>
+	    <a ng-href="add" class="btn btn-success" type="button">Submit</a>
+	  </p>
+	</div>
+
+      </div>
+      <div class="empty text-center" ng-hide="items.length">
+
+	<div class="list-group-item text-center">
+	  <p>
+	    It looks like we don't have anything here.
+	    Would like to see it here?
+	  </p>
+	  <p>
+	    <a ng-href="add" class="btn btn-success" type="button">Submit</a>
+	  </p>
+	</div>
+
+      </div>
+    </div>
+  </div>
+</div>

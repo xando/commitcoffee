@@ -20,7 +20,7 @@ if __name__ == "__main__":
         if link:
             homepage=link.get('homepage', '')
             facebook=link.get('facebook', '')
-            twitter=link.get('twitter', '')
+            twitter=link.get('twitter', '').split("/")[-1]
         else:
             homepage=''
             facebook=''

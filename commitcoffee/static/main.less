@@ -1,3 +1,6 @@
+#preload-01 { background: url(/static/img/map1.png) }
+#preload-02 { background: url(/static/img/map2.png) }
+
 body {
 	background: #000;
 	font-family: 'Open Sans', sans-serif;
@@ -116,12 +119,26 @@ body {
 
 		.list-group {
 			margin-bottom: 0;
-			overflow-y: auto;
+			overflow-y: scroll;
 			.list-group-item {
 				border-radius: 0;
 			}
 		}
 	}
+
+	#details {
+		background-color: #f5f5f5;
+		box-shadow: -5px 0px 30px -7px rgba(0,0,0,0.75);
+		z-index: 5;
+		position: relative;
+
+		button {
+			position: absolute;
+			bottom: 15px;
+			width: 94%;
+		}
+	}
+
 
 	#add {
 		box-shadow: -5px 0px 30px -7px rgba(0,0,0,0.75);
