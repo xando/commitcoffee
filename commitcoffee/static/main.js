@@ -1,24 +1,7 @@
-function distance(lat1, lon1, lat2, lon2, unit) {
-	var radlat1 = Math.PI * lat1/180
-	var radlat2 = Math.PI * lat2/180
-	var radlon1 = Math.PI * lon1/180
-	var radlon2 = Math.PI * lon2/180
-	var theta = lon1-lon2
-	var radtheta = Math.PI * theta/180
-	var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
-	dist = Math.acos(dist)
-	dist = dist * 180/Math.PI
-	dist = dist * 60 * 1.1515
-	if (unit=="K") { dist = dist * 1.609344 }
-	if (unit=="N") { dist = dist * 0.8684 }
-	return dist
-}
-
 angular.module('api', ['djangoRESTResources'])
 	.factory('Place', function(djResource) {
 		return djResource('/api/place/:id/', {id:'@id'});
 	});
-
 
 
 var app = angular.module(
@@ -106,6 +89,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 	  $scope.map = $config.map;
 	  $scope.items = [];
 	  $scope.details = false;
+	  $scope.current_location = null;
 
 	  $scope.show_details = function(item) {
 		  $scope.details = item;
@@ -128,9 +112,12 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 		  } else {
 
 			  navigator.geolocation.getCurrentPosition(function(position) {
+				  angular.copy(position.coords, $scope.current_location);
+
 				  $scope.map.center.latitude = position.coords.latitude;
 	  			  $scope.map.center.longitude = position.coords.longitude;
 				  $scope.map.zoom = 14;
+
 			  });
 		  }
 	  }
@@ -142,9 +129,11 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 	  setup_map();
 
 	  $config.map.events.dragstart = function(map) {
+		  //TODO: hack to keep map in shape
 		  google.maps.event.trigger(map, 'resize');
 		  $scope.details = false;
 	  }
+
 	  $config.map.events.idle = function(map) {
 
 		  google.maps.event.trigger(map, 'resize');
@@ -159,19 +148,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 		  $http({method: 'GET', url: '/api/search?' + decodeURIComponent($.param(search))})
 	  		  .success(function(items, status, headers, config) {
 
-	  			  if ($config.location) {
-	  				  angular.forEach(items, function(item) {
-	  			  		  item.distance = distance(
-	  						  item.location.latitude,
-	  						  item.location.longitude,
-	  						  $config.location.latitude,
-	  						  $config.location.longitude
-	  					  ).toFixed(2);
-	  				  })
-	  			  	  $scope.items = _.sortBy(items, ['distance']);
-	  			  } else {
-	  				  $scope.items = items;
-	  			  }
+	  			  $scope.items = items;
 
 				  angular.forEach($scope.items, function(item, i) {
 	  				  item.icon = '/static/img/map1-a.png';

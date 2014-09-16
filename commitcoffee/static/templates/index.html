@@ -48,13 +48,11 @@
 
 	<a href="#" class="list-group-item active" ng-show="details">
 	  <h5>{{ details.name }}</h5>
-	  <small>{{ details.distance }} km</small>
 	  <small>{{ details.active }}</small>
 	</a>
 	
 	<a ng-repeat="item in items" href="#" class="list-group-item" ng-click="show_details(item)">
 	  <h5>{{ item.name }}</h5>
-	  <small>{{ item.distance }} km</small>
 	  <small>{{ item.active }}</small>
 	</a>
 
