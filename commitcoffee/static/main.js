@@ -64,23 +64,6 @@ app.factory('$config', ['$location', '$rootScope', '$route',
 		location: null,
 	}
 
-	navigator.geolocation.getCurrentPosition(function(position) {
-		config.location = {
-			latitude: position.coords.latitude,
-			longitude: position.coords.longitude
-		}
-
-		if ($location.search().latitude == undefined &&
-			$location.search().longitude == undefined) {
-
-			$location
-				.path("/")
-				.search('x', position.coords.longitude.toFixed(3))
-				.search('y', position.coords.latitude.toFixed(3))
-				.search('z', 14);
-		}
-	});
-
 	return config;
 
 }]);
@@ -100,7 +83,6 @@ app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$
 	  	  $scope.details = false;
 
 	  	  var geocoder = new google.maps.Geocoder();
-
 	  	  geocoder.geocode({'address': $scope.location}, function(results, status) {
 
 	  		  if (results.length > 0) {
@@ -143,6 +125,13 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 			  $scope.map.center.latitude = parseFloat(search.y);
 	  		  $scope.map.center.longitude = parseFloat(search.x);
 	  		  $scope.map.zoom = parseInt(search.z);
+		  } else {
+
+			  navigator.geolocation.getCurrentPosition(function(position) {
+				  $scope.map.center.latitude = position.coords.latitude;
+	  			  $scope.map.center.longitude = position.coords.longitude;
+				  $scope.map.zoom = 14;
+			  });
 		  }
 	  }
 
@@ -206,8 +195,10 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 
 app.controller('add', ['$scope', '$http', '$location', 'Place', '$config',
   function ($scope, $http, $location, Place, $config) {
+
 	  $scope.map = $config.map;
 	  $scope.map.events.idle = function(map) {
+		  //TODO: hack to keep map in shape
 		  google.maps.event.trigger(map, 'resize');
 	  };
 
