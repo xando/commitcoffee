@@ -45,13 +45,9 @@
 
     <div id="list" class="col-sm-3" ng-disabled="true">
       <div class="list-group" ng-show="items.length || details"> 
-
-	<a href="#" class="list-group-item active" ng-show="details">
-	  <h5>{{ details.name }}</h5>
-	  <small>{{ details.active }}</small>
-	</a>
 	
-	<a ng-repeat="item in items" href="#" class="list-group-item" ng-click="show_details(item)">
+	<a id="item-{{ item.id }}" ng-repeat="item in items" ng-href="" class="list-group-item" 
+	   ng-click="show_details(item)" ng-class="{'active': item.id == details.id}">
 	  <h5>{{ item.name }}</h5>
 	  <small>{{ item.active }}</small>
 	</a>

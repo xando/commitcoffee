@@ -84,5 +84,17 @@ LOGGING = {
     }
 }
 
-if 'HEROKU' in os.environ:
-    from heroku import *
+if 'webfaction.com' in os.environ.get('HOSTNAME', ''):
+    ALLOWED_HOSTS = ['commitcoffee.xando.webfactional.com']
+    DEBUG = True
+    DATABASES = {
+    'default': {
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'NAME': 'commitcoffee',
+        'USER': 'commitcoffee',
+        'PASSWORD': 'commitcoffee',
+        'HOST': 'localhost',
+        'PORT': '5432',
+        }
+    }
+
