@@ -53,7 +53,7 @@ app.factory('$config', ['$location', '$rootScope', '$route',
 }]);
 
 
-app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$routeParams', '$route', 
+app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$routeParams', '$route',
   function ($scope, $http, $location, Place, $config, $routeParams, $route) {
 	  angular.element('.angular-google-map-container, #list .list-group, #details, #add').height(
 		  angular.element(window).outerHeight(true) -
@@ -94,8 +94,12 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 		  angular.element('#search').outerHeight(true)
 	  );
 
-	  $rootScope.map_center = {latitude: 0, longitude: 0};
-	  $rootScope.map_zoom = 14;
+	  $rootScope.map_center = {
+		  latitude: 21.722797,
+		  longitude: -42.705444
+	  };
+
+	  $rootScope.map_zoom = 3;
 
 	  $scope.map = {
 		  center: $rootScope.map_center,
@@ -123,14 +127,14 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 	  		  $scope.map.zoom = parseInt(search.z);
 		  } else {
 
-			  navigator.geolocation.getCurrentPosition(function(position) {
-				  angular.copy(position.coords, $scope.current_location);
+			  // navigator.geolocation.getCurrentPosition(function(position) {
+			  // 	  angular.copy(position.coords, $scope.current_location);
 
-				  $scope.map.center.latitude = position.coords.latitude;
-	  			  $scope.map.center.longitude = position.coords.longitude;
-				  $scope.map.zoom = 14;
+			  // 	  $scope.map.center.latitude = position.coords.latitude;
+	  		  // 	  $scope.map.center.longitude = position.coords.longitude;
+			  // 	  $scope.map.zoom = 14;
 
-			  });
+			  // });
 		  }
 	  }
 
