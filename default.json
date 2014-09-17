@@ -1,0 +1,2987 @@
+[
+{
+  "fields": {
+    "city": "Brno",
+    "name": "Caf\u00e9 Mitte",
+    "country": "Czech Republic",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (16.6079189999999990 49.1933790000000002)",
+    "address": "Pansk\u00e1 11, Brno, Czech Republic",
+    "homepage": "http://www.cafemitte.com/en/index.php"
+  },
+  "model": "commitcoffee.place",
+  "pk": 1
+},
+{
+  "fields": {
+    "city": "Medell\u00edn",
+    "name": "Tal Cual",
+    "country": "Colombia",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-75.5718140000000034 6.2135829999999999)",
+    "address": "Calle 12 No. 43D -12. Manila, El Poblado",
+    "homepage": "http://www.talcualweb.com.co"
+  },
+  "model": "commitcoffee.place",
+  "pk": 2
+},
+{
+  "fields": {
+    "city": "Providence",
+    "name": "Malachi's",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-71.3921670000000006 41.8218979999999974)",
+    "address": "134 Ives St, Providence, RI 02906",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 3
+},
+{
+  "fields": {
+    "city": "Providence",
+    "name": "White Electric Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-71.4200790000000012 41.8185500000000019)",
+    "address": "711 Westminster St, Providence, RI 02903",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 4
+},
+{
+  "fields": {
+    "city": "Providence",
+    "name": "Small Point Caf\u00e9",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-71.4125130000000041 41.8229589999999973)",
+    "address": "230 Westminster St, Providence, RI 02903",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 5
+},
+{
+  "fields": {
+    "city": "Providence",
+    "name": "Blue State Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-71.4010459999999938 41.8301349999999985)",
+    "address": "300 Thayer St, Providence, RI 02906",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 6
+},
+{
+  "fields": {
+    "city": "Providence",
+    "name": "The Duck and Bunny",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-71.3969060000000013 41.8196640000000031)",
+    "address": "312 Wickenden St, Providence, RI",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 7
+},
+{
+  "fields": {
+    "city": "Providence",
+    "name": "Cafe Zog",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-71.3984839999999963 41.8194149999999993)",
+    "address": "239 Wickenden St, Providence, RI",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 8
+},
+{
+  "fields": {
+    "city": "Providence",
+    "name": "New Harvest Coffee & Spirits",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-71.4107300000000009 41.8241519999999980)",
+    "address": "130 Westminster St, Ste 118, Providence, RI 02903",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 9
+},
+{
+  "fields": {
+    "city": "Providence",
+    "name": "Coffee Exchange",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-71.3990809999999954 41.8192749999999975)",
+    "address": "207 Wickenden St, Providence, RI 02903",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 10
+},
+{
+  "fields": {
+    "city": "Thessaloniki",
+    "name": "iheart",
+    "country": "GR",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/pages/IHeart/199695586742430",
+    "location": "POINT (22.9529630000000004 40.6324699999999979)",
+    "address": "Episkopou Nikolau Kitrou 7",
+    "homepage": "http://www.iheartthessaloniki.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 11
+},
+{
+  "fields": {
+    "city": "Dana Point",
+    "name": "Beans Coffee House",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-117.7043550000000067 33.4662229999999994)",
+    "address": "34114 Pacific Coast Highway, Dana Point, CA 92629",
+    "homepage": "http://www.jcbeans.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 12
+},
+{
+  "fields": {
+    "city": "S\u00e3o Paulo",
+    "name": "Bookafe",
+    "country": "BR",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/bookafeoficial",
+    "location": "POINT (-46.6059300000000007 -23.4776829999999990)",
+    "address": "Av. Mazzei 277",
+    "homepage": "http://www.bookafe.com.br"
+  },
+  "model": "commitcoffee.place",
+  "pk": 13
+},
+{
+  "fields": {
+    "city": "Oslo",
+    "name": "Stockfleths Prinsens Gate",
+    "country": "NO",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (10.7466249999999999 59.9105050000000006)",
+    "address": "Prinsens gate 6",
+    "homepage": "http://www.stockfleths.as/?page_id=78"
+  },
+  "model": "commitcoffee.place",
+  "pk": 14
+},
+{
+  "fields": {
+    "city": "Manchester",
+    "name": "North Tea Power",
+    "country": "UK",
+    "twitter": "https://twitter.com/northteapower",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-2.2358300000000000 53.4829599999999985)",
+    "address": "36 Tib St, Manchester, M4 1LA",
+    "homepage": "http://northteapower.co.uk/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 15
+},
+{
+  "fields": {
+    "city": "Birmingham",
+    "name": "Urban Coffee Co (Church St)",
+    "country": "UK",
+    "twitter": "https://twitter.com/urbancoffeeco",
+    "published": true,
+    "facebook": "https://facebook.com/urbancoffee",
+    "location": "POINT (-1.9004850000000000 52.4822699999999998)",
+    "address": "30 Church Street, Birmingham, B3 2NP",
+    "homepage": "http://www.urbancoffee.co.uk/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 16
+},
+{
+  "fields": {
+    "city": "Hamburg",
+    "name": "Kopiba",
+    "country": "DE",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (9.9636150000000008 53.5589110000000019)",
+    "address": "Beim Gr\u00fcnen J\u00e4ger 24",
+    "homepage": "http://www.kopiba.de"
+  },
+  "model": "commitcoffee.place",
+  "pk": 17
+},
+{
+  "fields": {
+    "city": "Toronto",
+    "name": "Jetfuel Coffee",
+    "country": "Canada",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-79.3681399999999968 43.6651299999999978)",
+    "address": "519 Parliament Street",
+    "homepage": "http://www.jetfuelcoffee.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 18
+},
+{
+  "fields": {
+    "city": "Curitiba",
+    "name": "Bello Caffe",
+    "country": "BR",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/pages/Bello-Caffe/284075251619204",
+    "location": "POINT (-49.2612530000000035 -25.4296229999999994)",
+    "address": "Comendador Macedo, 371, loja 2",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 19
+},
+{
+  "fields": {
+    "city": "Curitiba",
+    "name": "Caf\u00e9 do Top",
+    "country": "BR",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/cafedotop",
+    "location": "POINT (-49.2699149999999975 -25.4232660000000017)",
+    "address": "Av. C\u00e2ndido de Abreu, 127, Shopping Mueller, loja PC009",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 20
+},
+{
+  "fields": {
+    "city": "Ho Chi Minh City",
+    "name": "Ca Phe Take",
+    "country": "VN",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (106.7029459999999972 10.7886579999999999)",
+    "address": "26/7 Nguy\u1ec5n B\u1ec9nh Khi\u00eam Q1",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 21
+},
+{
+  "fields": {
+    "city": "Lafayette, IN",
+    "name": "Star City Coffee & Ale House",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-86.8950190000000049 40.4192010000000010)",
+    "address": "210 Main St, Lafayette, IN 47901",
+    "homepage": "http://www.starcitycoffee.net/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 22
+},
+{
+  "fields": {
+    "city": "Barcelona",
+    "name": "La Clandestina",
+    "country": "Spain",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (2.1654909999999998 41.3939960000000013)",
+    "address": "Baixada de Viladecols, 2",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 23
+},
+{
+  "fields": {
+    "city": "Barcelona",
+    "name": "Caf\u00e9 Milans",
+    "country": "Spain",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (2.1791550000000002 41.3806569999999994)",
+    "address": "Milans, 7",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 24
+},
+{
+  "fields": {
+    "city": "Barcelona",
+    "name": "Candela",
+    "country": "Spain",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (2.1668599999999998 41.3846980000000002)",
+    "address": "Hospital, 48",
+    "homepage": "http://www.candelaraval.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 25
+},
+{
+  "fields": {
+    "city": "Barcelona",
+    "name": "Carmelitas",
+    "country": "Spain",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (2.1657920000000002 41.3937700000000035)",
+    "address": "Carme, 42",
+    "homepage": "http://www.carmelitas.biz/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 26
+},
+{
+  "fields": {
+    "city": "Barcelona",
+    "name": "Laie",
+    "country": "Spain",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-2.3644690000000002 37.3998750000000015)",
+    "address": "Pau Claris 85 (between Gran Via y Casp)",
+    "homepage": "http://www.laie.es/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 27
+},
+{
+  "fields": {
+    "city": "Barcelona",
+    "name": "Caf\u00e8 Cam\u00e8lia",
+    "country": "Spain",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/pages/Caf%C3%A8-Cam%C3%A8lia/198100180227662",
+    "location": "POINT (-2.3644690000000002 37.3998750000000015)",
+    "address": "C/ Verdi, 79",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 28
+},
+{
+  "fields": {
+    "city": "Barcelona",
+    "name": "Federal Caf\u00e9",
+    "country": "Spain",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/pages/federal-cafe-barcelona/134531549899409",
+    "location": "POINT (-2.3644690000000002 37.3998750000000015)",
+    "address": "C/ Parlament, 39",
+    "homepage": "http://www.federalcafe.es/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 29
+},
+{
+  "fields": {
+    "city": "Barcelona",
+    "name": "Bab\u00e8lia Books and Coffee",
+    "country": "Spain",
+    "twitter": "https://twitter.com/babeliabcn",
+    "published": true,
+    "facebook": "https://www.facebook.com/pages/Babelia-Barcelona/394872200528214",
+    "location": "POINT (2.1467000000000001 41.3928099999999972)",
+    "address": "Carrer de Villarroel, 271",
+    "homepage": "http://www.babeliabcn.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 30
+},
+{
+  "fields": {
+    "city": "San Francisco",
+    "name": "Philz Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.4142999999999972 37.7523520000000019)",
+    "address": "3101 24th St",
+    "homepage": "http://www.philzcoffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 31
+},
+{
+  "fields": {
+    "city": "San Francisco",
+    "name": "Mission Creek Cafe",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.4214209999999952 37.7574410000000000)",
+    "address": "968 Valencia St",
+    "homepage": "http://www.yelp.com/biz/mission-creek-cafe-san-francisco"
+  },
+  "model": "commitcoffee.place",
+  "pk": 32
+},
+{
+  "fields": {
+    "city": "Berlin",
+    "name": "The Playwright Cafe",
+    "country": "Germany",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (13.4350799999999992 52.4907200000000032)",
+    "address": "Pannierstrasse 30",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 33
+},
+{
+  "fields": {
+    "city": "Berlin",
+    "name": "betahaus",
+    "country": "Germany",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (13.4119779999999995 52.5024530000000027)",
+    "address": "Prinzessinnenstrasse 19-20",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 34
+},
+{
+  "fields": {
+    "city": "Berlin",
+    "name": "Cutie Pie",
+    "country": "Germany",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (13.4287069999999993 52.4972530000000006)",
+    "address": "Lausitzer Strasse",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 35
+},
+{
+  "fields": {
+    "city": "Berlin",
+    "name": "Godshot",
+    "country": "Germany",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (13.4232700000000005 52.5334399999999988)",
+    "address": "Immanuelkirchstrasse 32",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 36
+},
+{
+  "fields": {
+    "city": "Berlin",
+    "name": "Sankt Oberholz",
+    "country": "Germany",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (13.4018709999999999 52.5293390000000002)",
+    "address": "Rosenthaler Strasse 72a",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 37
+},
+{
+  "fields": {
+    "city": "Beijing",
+    "name": "Her Coffee",
+    "country": "China",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (116.4600420000000014 39.9072340000000025)",
+    "address": "0104A Building #2 East JianwaiSoho, 39 E 3rd Ring Road Middle,Chaoyang, Beijing (\u5317\u4eac\u671d\u9633\u533a\u5efa\u5916soho\u4e1c\u533a2\u53f7\u697c0104A)",
+    "homepage": "http://www.dianping.com/shop/13778004"
+  },
+  "model": "commitcoffee.place",
+  "pk": 38
+},
+{
+  "fields": {
+    "city": "New York City",
+    "name": "Lenox Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-73.9432290000000023 40.8100499999999968)",
+    "address": "60 W 129th St, New York, NY 10027",
+    "homepage": "www.lenoxcoffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 39
+},
+{
+  "fields": {
+    "city": "Santa Clara",
+    "name": "Chromatic Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-121.9942980000000006 37.3241349999999983)",
+    "address": "5237 Stevens Creek Blvd, Santa Clara, CA 95051",
+    "homepage": "http://www.chromaticcoffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 40
+},
+{
+  "fields": {
+    "city": "Poughkeepsie",
+    "name": "Crafted Kup",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-73.9006820000000033 41.6928059999999974)",
+    "address": "44 Raymond Ave, Poughkeepsie, NY 12603",
+    "homepage": "http://www.craftedkup.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 41
+},
+{
+  "fields": {
+    "city": "Cambridge",
+    "name": "Voltage Coffee in Kendall",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-71.0832999999999942 42.3643599999999978)",
+    "address": "295 Third St, Cambridge, MA 02142",
+    "homepage": "http://voltagecoffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 42
+},
+{
+  "fields": {
+    "city": "Beverly",
+    "name": "Atomic Cafe Coffee Roasters in Beverly",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-70.8776320000000055 42.5503509999999991)",
+    "address": "265 Cabot St, Beverly, MA 01915",
+    "homepage": "http://www.atomicafe.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 43
+},
+{
+  "fields": {
+    "city": "Marblehead",
+    "name": "Atomic Cafe Coffee Roasters in Marblehead",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-70.8564080000000018 42.5016760000000033)",
+    "address": "14 School St, Marblehead, MA 01945",
+    "homepage": "http://www.atomicafe.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 44
+},
+{
+  "fields": {
+    "city": "Somerville",
+    "name": "Three Little Figs",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-71.1119120000000038 42.3918099999999995)",
+    "address": "278 Highland Ave, Somerville, MA 02143",
+    "homepage": "http://3littlefigs.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 45
+},
+{
+  "fields": {
+    "city": "Beverly Farms",
+    "name": "Vidalias",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-70.8141619999999961 42.5622150000000019)",
+    "address": "9 West Street, Beverly Farms, MA",
+    "homepage": "http://vidaliasmarket.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 46
+},
+{
+  "fields": {
+    "city": "Salem",
+    "name": "Jaho Coffee and Tea",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-70.8882150000000024 42.5207839999999990)",
+    "address": "197 Derby St, Salem, MA 01970",
+    "homepage": "http://www.jaho.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 47
+},
+{
+  "fields": {
+    "city": "Salem",
+    "name": "Jo Freedom",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-70.8941959999999938 42.5216640000000012)",
+    "address": "196 Essex St, Salem, MA 01970",
+    "homepage": "http://www.yelp.com/biz/jo-freedom-salem"
+  },
+  "model": "commitcoffee.place",
+  "pk": 48
+},
+{
+  "fields": {
+    "city": "Brampton",
+    "name": "Williams Fresh Cafe",
+    "country": "CA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-79.7028820000000024 43.7380459999999971)",
+    "address": "2454 Queen Street East",
+    "homepage": "http://www.williamsfreshcafe.com/2454-queen-street-east"
+  },
+  "model": "commitcoffee.place",
+  "pk": 49
+},
+{
+  "fields": {
+    "city": "Redwood City",
+    "name": "Peet's",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.2335219999999936 37.4864949999999979)",
+    "address": "2600 Broadway Street, Redwood City, CA 94063",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 50
+},
+{
+  "fields": {
+    "city": "Bia\u0142ystok",
+    "name": "Akcent Kawiarnia i Ksi\u0119garnia",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://www.facebook.com/pages/Kawiarnia-Akcent/139389146143599",
+    "location": "POINT (23.1574010000000001 53.1322249999999983)",
+    "address": "Rynek Ko\u015bciuszki 17",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 51
+},
+{
+  "fields": {
+    "city": "Gda\u0144sk",
+    "name": "Costa Coffee",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (18.6486550000000015 54.3494740000000007)",
+    "address": "D\u0142uga 5",
+    "homepage": "http://www.costacoffee.pl/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 52
+},
+{
+  "fields": {
+    "city": "Gliwice",
+    "name": "Club Hemingway",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (18.6648490000000002 50.2941920000000025)",
+    "address": "Rynek ul. Raciborska 2",
+    "homepage": "http://www.hemingwayclub.pl"
+  },
+  "model": "commitcoffee.place",
+  "pk": 53
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Bunkier Sztuki",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://www.facebook.com/group.php?gid=57554203936",
+    "location": "POINT (19.9340960000000003 50.0633819999999972)",
+    "address": "Planty, Plac Szczepanski",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 54
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Cafe M\u0142ynek",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://www.facebook.com/pages/Cafe-M%C5%82ynek/178696854321",
+    "location": "POINT (19.9446450000000013 50.0491779999999977)",
+    "address": "Plac Wolnica",
+    "homepage": "http://www.cafemlynek.pl/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 55
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Castor Coffee Club",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://pl-pl.facebook.com/pages/Castor-Coffee-Club/154565244603777",
+    "location": "POINT (19.9396829999999987 50.0620550000000009)",
+    "address": "Market Square, Plac Mariacki 1",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 56
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Drukarnia",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://www.facebook.com/pages/Drukarnia-Jazz-Club/92289934116",
+    "location": "POINT (19.9492900000000013 50.0460769999999968)",
+    "address": "Nadwi\u015bla\u0144ska 1",
+    "homepage": "http://http://www.drukarnia_podgorze.republika.pl/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 57
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Gazeta Cafe",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://www.facebook.com/pages/Gazeta-Cafe-Krak\u00f3w/111777562170435",
+    "location": "POINT (19.9362829999999995 50.0595879999999980)",
+    "address": "Bracka 14",
+    "homepage": "http://www.gazetacafe.pl/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 58
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Indalo Cafe",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://www.facebook.com/Indalo.Cafe",
+    "location": "POINT (19.9312520000000006 50.0573959999999971)",
+    "address": "Tar\u0142owska",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 59
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Karma",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (19.9306809999999999 50.0634390000000025)",
+    "address": "Krupnicza 12",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 60
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Kolory",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (19.9453619999999994 50.0519320000000008)",
+    "address": "Plac Nowy",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 61
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Konfederacka 4",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/konfederacka4",
+    "location": "POINT (19.9265830000000008 50.0499409999999969)",
+    "address": "Konfederacka 4",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 62
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Le Scandale",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://www.facebook.com/LeScandale",
+    "location": "POINT (19.9446960000000004 50.0520210000000034)",
+    "address": "Plac Nowy",
+    "homepage": "http://www.lescandale.pl/kazimierz/onas.html"
+  },
+  "model": "commitcoffee.place",
+  "pk": 63
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Moment",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (19.9458559999999991 50.0510009999999994)",
+    "address": "the corner of Plac Nowy and Jozefa street",
+    "homepage": "http://momentcafe.pl"
+  },
+  "model": "commitcoffee.place",
+  "pk": 64
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Tajemniczy Ogr\u00f3d",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://www.facebook.com/pages/tajemniczy-ogr%C3%B3d/107118389369660",
+    "location": "POINT (19.9446960000000004 50.0520210000000034)",
+    "address": "Plac Nowy 9",
+    "homepage": "http://www.tajemniczyogrod.pl/plac"
+  },
+  "model": "commitcoffee.place",
+  "pk": 65
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Lunch Box Cafe",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://pl-pl.facebook.com/pages/LUNCH-BOX-CAFE/123777694381442",
+    "location": "POINT (19.9451800000000006 50.0567300000000017)",
+    "address": "Starowi\u015blna 22 (wej\u015bcie od Dietla)",
+    "homepage": "http://lunchboxcafe.pl/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 66
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Korek Eco Resto Bar",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (19.9379360000000005 50.0604450000000014)",
+    "address": "Czysta 8",
+    "homepage": "http://www.korekrestobar.pl"
+  },
+  "model": "commitcoffee.place",
+  "pk": 67
+},
+{
+  "fields": {
+    "city": "Krak\u00f3w",
+    "name": "Tektura",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/pages/Tektura/356751461078030",
+    "location": "POINT (19.9311170000000004 50.0635729999999981)",
+    "address": "Krupnicza 7",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 68
+},
+{
+  "fields": {
+    "city": "Pozna\u0144",
+    "name": "Kukania",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/pages/Kukania-CafeBar/124864080931538",
+    "location": "POINT (16.8936470000000014 52.4034219999999991)",
+    "address": "Wojskowa 4, CityPark",
+    "homepage": "http://www.kukania.pl/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 69
+},
+{
+  "fields": {
+    "city": "Szczecin",
+    "name": "Starbucks Coffee",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (14.5515840000000001 53.4281270000000035)",
+    "address": "Galeria KASKADA",
+    "homepage": "http://www.facebook.com/pages/Starbucks-Szczecin/144523252310659"
+  },
+  "model": "commitcoffee.place",
+  "pk": 70
+},
+{
+  "fields": {
+    "city": "Szczecin",
+    "name": "Fabryka",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://www.facebook.com/fabrykanadeptaku",
+    "location": "POINT (14.5442599999999995 53.4304649999999981)",
+    "address": "Ksi\u0119cia Bogus\u0142awa X",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 71
+},
+{
+  "fields": {
+    "city": "Warszawa",
+    "name": "Tarabuk",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://pl-pl.facebook.com/Tarabuk",
+    "location": "POINT (21.0225909999999985 52.2408550000000034)",
+    "address": "Browarna 6, Warsaw, Poland",
+    "homepage": "http://www.tarabuk.pl/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 72
+},
+{
+  "fields": {
+    "city": "Wojnicz",
+    "name": "Missterium",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (20.8178599999999996 49.9588800000000006)",
+    "address": "Krakowska 111, near exit from road no 4",
+    "homepage": "http://www.missterium.pl/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 73
+},
+{
+  "fields": {
+    "city": "London",
+    "name": "Cafe Vintage",
+    "country": "GB",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-0.0973180000000000 51.5611430000000013)",
+    "address": "88 Mountgrove Road London N5 2LT, near Arsenal Tube",
+    "homepage": "http://www.cafevintage.co.uk/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 74
+},
+{
+  "fields": {
+    "city": "London",
+    "name": "Departure Cafe",
+    "country": "GB",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-0.0382690000000000 51.5127870000000030)",
+    "address": "649/651 Commercial Road, Limehouse, London E14 7LW",
+    "homepage": "http://www.depart.in/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 75
+},
+{
+  "fields": {
+    "city": "London",
+    "name": "Scandinavian Kitchen",
+    "country": "GB",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-0.1408480000000000 51.5187519999999992)",
+    "address": "61 Great Titchfield Street, London W1W 7PP",
+    "homepage": "http://www.scandikitchen.co.uk/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 76
+},
+{
+  "fields": {
+    "city": "Stockholm",
+    "name": "Cafe Gr\u00e5munken",
+    "country": "SE",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (18.0688470000000017 59.3254779999999968)",
+    "address": "V\u00e4sterl\u00e5nggatan 18",
+    "homepage": "https://www.facebook.com/pages/Caf%C3%A9-Gr%C3%A5munken/138341679557900"
+  },
+  "model": "commitcoffee.place",
+  "pk": 77
+},
+{
+  "fields": {
+    "city": "Stockholm",
+    "name": "Le Cafe",
+    "country": "SE",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (18.0555799999999991 59.3303229999999999)",
+    "address": "Klarabergsviadukten 61",
+    "homepage": "http://www.lecafe.nu/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 78
+},
+{
+  "fields": {
+    "city": "Stockholm",
+    "name": "Cafe Mocco",
+    "country": "SE",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (18.0798980000000000 59.3387219999999971)",
+    "address": "Kommend\u00f6rsgatan 17 (Nybrogatan)",
+    "homepage": "http://www.mocco.se/?page_id=703"
+  },
+  "model": "commitcoffee.place",
+  "pk": 79
+},
+{
+  "fields": {
+    "city": "Stockholm",
+    "name": "Non Solo Bar",
+    "country": "SE",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (18.0590340000000005 59.3450289999999967)",
+    "address": "Odengatan 34",
+    "homepage": "http://www.nonsolobar.com/nonsolo.swf"
+  },
+  "model": "commitcoffee.place",
+  "pk": 80
+},
+{
+  "fields": {
+    "city": "Cologne",
+    "name": "Goldmund Literatur Cafe",
+    "country": "Germany",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (6.9198820000000003 50.9512209999999968)",
+    "address": "Glasstra\u00dfe 2",
+    "homepage": "http://www.goldmundkoeln.de"
+  },
+  "model": "commitcoffee.place",
+  "pk": 81
+},
+{
+  "fields": {
+    "city": "Lyon",
+    "name": "L'Antre Autre",
+    "country": "FR",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (4.8316200000000000 45.7694839999999985)",
+    "address": "11 rue Terme - Metro H\u00f4tel de Ville",
+    "homepage": "http://lantreautre.fr"
+  },
+  "model": "commitcoffee.place",
+  "pk": 82
+},
+{
+  "fields": {
+    "city": "Manchester",
+    "name": "Takk",
+    "country": "UK",
+    "twitter": "https://twitter.com/takkmcr",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-2.2326280000000001 53.4812020000000032)",
+    "address": "6 Tariff Street, M1 2FF",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 83
+},
+{
+  "fields": {
+    "city": "Cambridge",
+    "name": "CB1 (oldest active cyber cafe in the World)",
+    "country": "UK",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (0.1342920000000000 52.2011680000000027)",
+    "address": "32 Mill Road, CB1 2AD",
+    "homepage": "http://www.cb1.com/cb2/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 84
+},
+{
+  "fields": {
+    "city": "Pabianice",
+    "name": "Piemont Cafe",
+    "country": "PL",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (19.3545000000000016 51.6610950000000031)",
+    "address": "Jana Kili\u0144skiego 25",
+    "homepage": "http://www.hotelpiemont.pl/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 85
+},
+{
+  "fields": {
+    "city": "Victoria",
+    "name": "Discovery Coffee House and Lounge",
+    "country": "Canada",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-123.3650070000000056 48.4320179999999993)",
+    "address": "664 Discovery Street",
+    "homepage": "http://www.discoverycoffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 86
+},
+{
+  "fields": {
+    "city": "London",
+    "name": "Campus London",
+    "country": "UK",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-0.0858180000000000 51.5226690000000005)",
+    "address": "4-5 BONHILL STREET LONDON EC2A 4BX",
+    "homepage": "http://www.campuslondon.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 87
+},
+{
+  "fields": {
+    "city": "Waterloo",
+    "name": "Death Valley's Little Brother",
+    "country": "Canada",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-80.5229580000000027 43.4677110000000013)",
+    "address": "84 King St N, Waterloo, ON N2J 2X4",
+    "homepage": "http://dvlb.ca"
+  },
+  "model": "commitcoffee.place",
+  "pk": 88
+},
+{
+  "fields": {
+    "city": "Gothenburg",
+    "name": "Espresso House",
+    "country": "SE",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (11.9663000000000004 57.6982830000000035)",
+    "address": "Vasagatan 22",
+    "homepage": "http://www.espressohouse.se/hitta-oss/sverige/goeteborg/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 89
+},
+{
+  "fields": {
+    "city": "Waterloo",
+    "name": "Coffee Culture Caf\u00e9 and Eatery",
+    "country": "Canada",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-80.5226499999999987 43.4660200000000003)",
+    "address": "31 King Street North, N2J 2W6",
+    "homepage": "http://www.coffeeculturecafe.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 90
+},
+{
+  "fields": {
+    "city": "New York",
+    "name": "Ground Support",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-74.0020399999999938 40.7242820000000023)",
+    "address": "399 W Broadway, NY 10012",
+    "homepage": "http://groundsupportcafe.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 91
+},
+{
+  "fields": {
+    "city": "Saint Louis",
+    "name": "Hartford Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-90.2523999999999944 38.6027330000000006)",
+    "address": "3974 Hartford St",
+    "homepage": "http://www.hartfordcoffeecompany.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 92
+},
+{
+  "fields": {
+    "city": "Minneapolis",
+    "name": "Butter Bakery Cafe",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-93.2782490000000024 44.9357970000000009)",
+    "address": "3700 Nicollet Ave",
+    "homepage": "http://butterbakerycafe.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 93
+},
+{
+  "fields": {
+    "city": "Chicago",
+    "name": "Eva's Cafe",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-87.6383979999999951 41.9089450000000028)",
+    "address": "1447 N Sedgwick St",
+    "homepage": "https://plus.google.com/107552475726057576910/about"
+  },
+  "model": "commitcoffee.place",
+  "pk": 94
+},
+{
+  "fields": {
+    "city": "Jacksonville",
+    "name": "Bold Bean Coffee Roasters",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-81.6891940000000005 30.3155770000000011)",
+    "address": "869 Stockton Street, Suite 1-2, FL 32204",
+    "homepage": "http://www.boldbeancoffee.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 95
+},
+{
+  "fields": {
+    "city": "Seattle",
+    "name": "Herkimer Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.3132499999999965 47.6698450000000022)",
+    "address": "5611 The Ave Seattle, WA",
+    "homepage": "http://herkimercoffee.com/locations.php"
+  },
+  "model": "commitcoffee.place",
+  "pk": 96
+},
+{
+  "fields": {
+    "city": "Liverpool",
+    "name": "Bold Street Coffee",
+    "country": "UK",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-2.9768349999999999 53.4024569999999983)",
+    "address": "89 Bold Street, Liverpool, L1 4HF",
+    "homepage": "http://www.boldstreetcoffee.co.uk/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 97
+},
+{
+  "fields": {
+    "city": "Beacon",
+    "name": "Bank Square Coffeehouse",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-73.9769969999999972 41.5082499999999968)",
+    "address": "129 Main Street",
+    "homepage": "http://banksquarecoffeehouse.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 98
+},
+{
+  "fields": {
+    "city": "Bristol",
+    "name": "The Watershed Caf\u00e9/Bar",
+    "country": "UK",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-2.5980759999999998 51.4520890000000009)",
+    "address": "1 Canon's Rd, Bristol BS1 5TX",
+    "homepage": "http://www.watershed.co.uk/food-drink/cafe-bar/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 99
+},
+{
+  "fields": {
+    "city": "Cape Town",
+    "name": "Truth HQ",
+    "country": "ZA",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/TRUTH.Coffee",
+    "location": "POINT (18.4225810000000010 -33.9282109999999975)",
+    "address": "36 Buitenkant Street (between Barrack & Commercial)",
+    "homepage": "http://www.truthcoffee.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 100
+},
+{
+  "fields": {
+    "city": "Cape Town",
+    "name": "Truth Prestwich Memorial",
+    "country": "ZA",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/TRUTH.Coffee",
+    "location": "POINT (18.4177759999999999 -33.9144020000000026)",
+    "address": "Somerset Road (Buitengracht Street), De Waterkant",
+    "homepage": "http://www.truthcoffee.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 101
+},
+{
+  "fields": {
+    "city": "Cape Town",
+    "name": "Origin Coffee Roasting",
+    "country": "ZA",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/originroasting",
+    "location": "POINT (18.4174900000000008 -33.9170190000000034)",
+    "address": "28 Hudson Street, De Waterkant",
+    "homepage": "http://www.originroasting.co.za"
+  },
+  "model": "commitcoffee.place",
+  "pk": 102
+},
+{
+  "fields": {
+    "city": "London",
+    "name": "Browns of Brockley",
+    "country": "UK",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-0.0369540000000000 51.4644669999999991)",
+    "address": "No. 5 Coulgate Street",
+    "homepage": "http://brownsofbrockley.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 103
+},
+{
+  "fields": {
+    "city": "Austin",
+    "name": "Bennu",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-97.7196789999999993 30.2800089999999997)",
+    "address": "2001 E. MLK Blvd.",
+    "homepage": "http://www.bennucoffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 104
+},
+{
+  "fields": {
+    "city": "Lakewood, OH",
+    "name": "The Root Cafe",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-81.8020900000000069 41.4851540000000014)",
+    "address": "15118 Detroit Ave. Lakewood, Ohio 44107",
+    "homepage": "http://www.theroot-cafe.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 105
+},
+{
+  "fields": {
+    "city": "Omaha",
+    "name": "Aromas Coffeehouse",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-95.9302339999999987 41.2531979999999976)",
+    "address": "1033 Jones St",
+    "homepage": "http://aromasomaha.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 106
+},
+{
+  "fields": {
+    "city": "Rabat",
+    "name": "Caf\u00e9 Viking",
+    "country": "MA",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/pages/Viking/207492465937077",
+    "location": "POINT (-6.8364969999999996 34.0142129999999980)",
+    "address": "49, Avenue moulay youssef",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 107
+},
+{
+  "fields": {
+    "city": "Austin",
+    "name": "Epoch",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-97.7244639999999976 30.3186859999999996)",
+    "address": "221 W North Loop Blvd",
+    "homepage": "http://www.epochcoffee.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 108
+},
+{
+  "fields": {
+    "city": "Toronto",
+    "name": "Rooster Coffee House",
+    "country": "Canada",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-79.3528629999999993 43.6691050000000018)",
+    "address": "479 Broadview Avenue",
+    "homepage": "http://roostercoffeehouse.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 109
+},
+{
+  "fields": {
+    "city": "Toronto",
+    "name": "The Green Grind",
+    "country": "Canada",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-79.4125669999999957 43.6555359999999979)",
+    "address": "567 College Street",
+    "homepage": "http://www.thegreengrind.ca/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 110
+},
+{
+  "fields": {
+    "city": "London",
+    "name": "Department of Coffee and Social Affairs",
+    "country": "United Kingdom",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-0.1090580000000000 51.5194609999999997)",
+    "address": "14-16 Leather Lane",
+    "homepage": "http://www.departmentofcoffee.co.uk/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 111
+},
+{
+  "fields": {
+    "city": "Ithaca",
+    "name": "Gimme! Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-76.5064320000000038 42.4394080000000002)",
+    "address": "506 W State St",
+    "homepage": "http://www.gimmecoffee.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 112
+},
+{
+  "fields": {
+    "city": "Caldwell",
+    "name": "Rock 'n Joe Coffe House and Bistro",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-74.2764750000000049 40.8402510000000021)",
+    "address": "339 Bloomfield Ave",
+    "homepage": "http://www.rocknjoe.net"
+  },
+  "model": "commitcoffee.place",
+  "pk": 113
+},
+{
+  "fields": {
+    "city": "Edinburgh",
+    "name": "Brew Lab",
+    "country": "GB",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/BrewLabCoffee",
+    "location": "POINT (-3.1866140000000001 55.9470680000000016)",
+    "address": "6-8 South College Street, Edinburgh, EH8 9AA",
+    "homepage": "http://www.brewlabcoffee.co.uk/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 114
+},
+{
+  "fields": {
+    "city": "Link\u00f6ping",
+    "name": "De Klomp",
+    "country": "SE",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (15.6237040000000000 58.4134010000000004)",
+    "address": "S:T Larsgatan 13",
+    "homepage": "http://www.deklomp.se/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 115
+},
+{
+  "fields": {
+    "city": "Kyiv",
+    "name": "Chasopys",
+    "country": "Ukraine",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (30.5150170000000003 50.4395000000000024)",
+    "address": "Lva Tolstoho 3",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 116
+},
+{
+  "fields": {
+    "city": "San Francisco",
+    "name": "Haus Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.4137290000000036 37.7526409999999970)",
+    "address": "3086 24th St",
+    "homepage": "https://plus.google.com/105646394886961700159"
+  },
+  "model": "commitcoffee.place",
+  "pk": 117
+},
+{
+  "fields": {
+    "city": "San Francisco",
+    "name": "Ritual Roasters",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.4212629999999962 37.7564899999999994)",
+    "address": "1026 Valencia St",
+    "homepage": "http://www.ritualroasters.com/\u200e"
+  },
+  "model": "commitcoffee.place",
+  "pk": 118
+},
+{
+  "fields": {
+    "city": "Curitiba",
+    "name": "Rubi Caf\u00e9",
+    "country": "BR",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-49.2772670000000019 -25.4339030000000008)",
+    "address": "Visconde de N\u00e1car, 1322",
+    "homepage": "https://www.facebook.com/RubiCafe"
+  },
+  "model": "commitcoffee.place",
+  "pk": 119
+},
+{
+  "fields": {
+    "city": "Portland",
+    "name": "Ford Food and Drink",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.6550229999999999 45.5047399999999982)",
+    "address": "2505 SE 11th Ave.",
+    "homepage": "http://www.fordfoodanddrink.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 120
+},
+{
+  "fields": {
+    "city": "Portland",
+    "name": "Papaccino's",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.6171169999999933 45.4793310000000019)",
+    "address": "4411 SE Woodstock Blvd.",
+    "homepage": "https://www.facebook.com/papaccinos"
+  },
+  "model": "commitcoffee.place",
+  "pk": 121
+},
+{
+  "fields": {
+    "city": "Dublin",
+    "name": "3FE Coffee",
+    "country": "Ireland",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-6.2419820000000001 53.3399259999999984)",
+    "address": "32/34 Lower Grand Canal, Dublin 2",
+    "homepage": "http://www.3fe.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 122
+},
+{
+  "fields": {
+    "city": "Palo Alto",
+    "name": "3 G's Cafe",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.1463169999999963 37.4265520000000009)",
+    "address": "456 Cambridge Ave",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 123
+},
+{
+  "fields": {
+    "city": "Toronto",
+    "name": "Dark Horse Espresso Bar",
+    "country": "Canada",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-79.4075799999999958 43.6465880000000013)",
+    "address": "684 Queen St W, Toronto, Ontario",
+    "homepage": "http://darkhorseespresso.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 124
+},
+{
+  "fields": {
+    "city": "Kastrup",
+    "name": "Starbucks",
+    "country": "DK",
+    "twitter": "",
+    "published": true,
+    "facebook": "startbucks.com",
+    "location": "POINT (12.6497700000000002 55.6289769999999990)",
+    "address": "Lufthavnsboulevarden 6",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 125
+},
+{
+  "fields": {
+    "city": "San Francisco",
+    "name": "Coffee Bar",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.4109310000000050 37.7631330000000034)",
+    "address": "1890 Bryant St",
+    "homepage": "http://www.coffeebarsf.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 126
+},
+{
+  "fields": {
+    "city": "Orenburg",
+    "name": "\u041f\u0440\u043e\u043a\u043eff\u0438\u0439",
+    "country": "Russia",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (55.1218739999999983 51.7624179999999967)",
+    "address": "4/2 Donetskaya Street",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 127
+},
+{
+  "fields": {
+    "city": "San Mateo",
+    "name": "Kaffeehaus",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.3243140000000011 37.5639809999999983)",
+    "address": "92 E 3rd Ave",
+    "homepage": "http://mykaffeehaus.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 128
+},
+{
+  "fields": {
+    "city": "Seattle",
+    "name": "Zeitgeist",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.3319240000000008 47.5991069999999965)",
+    "address": "171 S. Jackson St  Seattle",
+    "homepage": "http://zeitgeistcoffee.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 129
+},
+{
+  "fields": {
+    "city": "San Antonio",
+    "name": "Brown Coffee Company",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-98.4766489999999948 29.4429480000000012)",
+    "address": "1800 Broadway St",
+    "homepage": "http://browncoffeeco.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 130
+},
+{
+  "fields": {
+    "city": "San Francisco",
+    "name": "Greenhouse Cafe",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.4693999999999932 37.7375460000000018)",
+    "address": "329 West Portal Ave. San Francisco CA",
+    "homepage": "http://www.greenhousecafe-sf.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 131
+},
+{
+  "fields": {
+    "city": "Roseville",
+    "name": "Bloom Coffee",
+    "country": "US",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-121.2516370000000023 38.7527910000000020)",
+    "address": "1485 Eureka Road, Roseville",
+    "homepage": "http://www.bloomcoffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 132
+},
+{
+  "fields": {
+    "city": "Dallas",
+    "name": "Sip | Stir",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-96.7954540000000065 32.8088830000000016)",
+    "address": "3800 McKinney Ave. #180 Dallas, TX 75204",
+    "homepage": "http://www.sipstircafe.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 133
+},
+{
+  "fields": {
+    "city": "Mountain View",
+    "name": "Red Rock",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.0787739999999957 37.3936109999999999)",
+    "address": "201 Castro St, Mountain View, CA 94041",
+    "homepage": "http://www.redrockcoffee.org/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 134
+},
+{
+  "fields": {
+    "city": "London",
+    "name": "TAP Coffee No.193",
+    "country": "United Kingdom",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-0.1359580000000000 51.5157069999999990)",
+    "address": "193 Wardour Street, W1F 8ZF, London",
+    "homepage": "http://www.tapcoffee.co.uk/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 135
+},
+{
+  "fields": {
+    "city": "Boston",
+    "name": "Fuel America",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-71.1543219999999934 42.3417150000000007)",
+    "address": "152 Chestnut Hill Avenue, Brighton, MA",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 136
+},
+{
+  "fields": {
+    "city": "Smyrna",
+    "name": "Rev Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://www.revcoffee.com",
+    "location": "POINT (-84.5043170000000003 33.8822100000000006)",
+    "address": "1680-B Spring Road, Smyrna, Georgia 30080",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 137
+},
+{
+  "fields": {
+    "city": "Cedar Park",
+    "name": "Roasters Coffee Cafe",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-97.8288550000000043 30.4800369999999994)",
+    "address": "2011 Little Elm Trail",
+    "homepage": "http://www.roasterscoffeecafe.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 138
+},
+{
+  "fields": {
+    "city": "Montr\u00e9al",
+    "name": "Caf\u00e9 Larue & Fils",
+    "country": "Canada",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-73.6180899999999951 45.5378400000000028)",
+    "address": "244, De Castelnau Est",
+    "homepage": "https://www.facebook.com/caffedellavia"
+  },
+  "model": "commitcoffee.place",
+  "pk": 139
+},
+{
+  "fields": {
+    "city": "Cambridge",
+    "name": "Hot Numbers",
+    "country": "UK",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (0.1383620000000000 52.2000880000000009)",
+    "address": "Dales Brewery, Gwydir Street",
+    "homepage": "http://www.hotnumberscoffee.co.uk/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 140
+},
+{
+  "fields": {
+    "city": "Travelers Rest",
+    "name": "The Forest Coffeehouse",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-82.4415340000000043 34.9656719999999979)",
+    "address": "27 South Main Street, Travelers Rest, SC 29690",
+    "homepage": "http://www.theforestcoffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 141
+},
+{
+  "fields": {
+    "city": "New York",
+    "name": "Vbar",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-73.9851299999999981 40.7273950000000013)",
+    "address": "132 1st Ave",
+    "homepage": "http://vbarandcompany.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 142
+},
+{
+  "fields": {
+    "city": "Montreal",
+    "name": "Caf\u00e9 Expressions",
+    "country": "CA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-73.5800780000000003 45.5271410000000003)",
+    "address": "957 Avenue du Mont-Royal Est Montr\u00e9al, QC H2J 1X4",
+    "homepage": "https://plus.google.com/113437543592526873134/about?gl=ca&hl=en"
+  },
+  "model": "commitcoffee.place",
+  "pk": 143
+},
+{
+  "fields": {
+    "city": "St. Catharines",
+    "name": "Mahtay Caf\u00e9 & Lounge",
+    "country": "Canada",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-79.2431720000000013 43.1585499999999982)",
+    "address": "241 St. Paul Street",
+    "homepage": "http://www.mahtay.ca/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 144
+},
+{
+  "fields": {
+    "city": "Port Coquitlam",
+    "name": "Tim Hortons",
+    "country": "Canada",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.7487670000000008 49.2469380000000001)",
+    "address": "1320 Kingsway Ave",
+    "homepage": "http://www.timhortons.com/ca/locator/storedirections.html?id=101911"
+  },
+  "model": "commitcoffee.place",
+  "pk": 145
+},
+{
+  "fields": {
+    "city": "Pittsburgh",
+    "name": "Coffee Tree Roasters",
+    "country": "United States",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-79.8830229999999943 40.4883910000000000)",
+    "address": "48 Fox Chapel Road",
+    "homepage": "http://www.coffeetree.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 146
+},
+{
+  "fields": {
+    "city": "S\u00e3o Paulo",
+    "name": "Nina Veloso P\u00e2tisserie",
+    "country": "BR",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-46.6990649999999974 -23.5616470000000007)",
+    "address": "Rua Costa Carvalho, 195, Pinheiros",
+    "homepage": "http://www.ninaveloso.com.br/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 147
+},
+{
+  "fields": {
+    "city": "Ottawa",
+    "name": "Bridgehead",
+    "country": "CA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-75.7001970000000028 45.4199240000000017)",
+    "address": "109 Bank Street",
+    "homepage": "http://www.bridgehead.ca/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 148
+},
+{
+  "fields": {
+    "city": "Homewood",
+    "name": "O'Henry's Coffee",
+    "country": "US",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-86.7917669999999930 33.4801939999999973)",
+    "address": "2831 18th St S, Homewood AL 35209",
+    "homepage": "http://www.ohenryscoffees.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 149
+},
+{
+  "fields": {
+    "city": "Bogot\u00e1",
+    "name": "Arte y Pasi\u00f3n",
+    "country": "Colombia",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-74.0733120000000014 4.6028739999999999)",
+    "address": "Calle 16 No 7-76 Antiguo Gun Club",
+    "homepage": "http://www.arteypasioncafe.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 150
+},
+{
+  "fields": {
+    "city": "Berlin",
+    "name": "Tischendorf",
+    "country": "Germany",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/pages/Tischendorf/315316785224423",
+    "location": "POINT (13.4282500000000002 52.4920600000000022)",
+    "address": "Friedelstrasse 25, 12047 Neuk\u00f6ln",
+    "homepage": "http://tischendorf-berlin.de/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 151
+},
+{
+  "fields": {
+    "city": "Kiev",
+    "name": "Chashka Espresso Bar",
+    "country": "Ukraine",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (30.5213849999999987 50.4418450000000007)",
+    "address": "Chervonoarmiiska Vulytsia, 1",
+    "homepage": "https://www.facebook.com/ChashkaKiev"
+  },
+  "model": "commitcoffee.place",
+  "pk": 152
+},
+{
+  "fields": {
+    "city": "Geneseo",
+    "name": "Muddy Waters",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-77.8166839999999951 42.7967969999999980)",
+    "address": "53 Main Street, Geneseo, NY",
+    "homepage": "http://muddywaterscoffeeroasters.com/geneseo.html"
+  },
+  "model": "commitcoffee.place",
+  "pk": 153
+},
+{
+  "fields": {
+    "city": "Pittsburgh",
+    "name": "Cafe 61C",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-79.9227620000000059 40.4361650000000026)",
+    "address": "1839 Murray Ave",
+    "homepage": "http://61ccafe.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 154
+},
+{
+  "fields": {
+    "city": "Montreal",
+    "name": "Humble Lion",
+    "country": "Canada",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-73.5747870000000006 45.5032739999999976)",
+    "address": "904 Rue Sherbrooke Ouest",
+    "homepage": "http://cafehumblelion.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 155
+},
+{
+  "fields": {
+    "city": "Bangalore",
+    "name": "Matteo Coffee",
+    "country": "India",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (77.6070110000000000 12.9748470000000005)",
+    "address": "Church St, Shanthala Nagar, Ashok Nagar, Bangalore, Karnataka 560001",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 156
+},
+{
+  "fields": {
+    "city": "Boston",
+    "name": "Boston Common Coffee Co.",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-71.0619169999999940 42.3542169999999984)",
+    "address": "515 Washington Street",
+    "homepage": "http://bostoncommoncoffee.com/locations-hours/boston-common-coffee-company-downtown-crossing-515-washington-street/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 157
+},
+{
+  "fields": {
+    "city": "Hoboken",
+    "name": "Bwe Kafe",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-74.0273380000000003 40.7486060000000023)",
+    "address": "1002 Washington Street",
+    "homepage": "http://www.bwekafe.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 158
+},
+{
+  "fields": {
+    "city": "Issaquah",
+    "name": "Issaquah Coffee Company",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.0422159999999963 47.5396009999999976)",
+    "address": "317 NW Gilman Blvd",
+    "homepage": "http://issaquahcoffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 159
+},
+{
+  "fields": {
+    "city": "Isle of Wight",
+    "name": "Love Coffee",
+    "country": "UK",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-1.2945690000000001 50.6993730000000014)",
+    "address": "115 Pyle Street, Newport",
+    "homepage": "https://plus.google.com/109562220645564079210/about"
+  },
+  "model": "commitcoffee.place",
+  "pk": 160
+},
+{
+  "fields": {
+    "city": "Den Haag",
+    "name": "Belmondo",
+    "country": "The Netherlands",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (4.3220479999999997 52.0685530000000014)",
+    "address": "Waldorpstraat 25",
+    "homepage": "http://www.caffebelmondo.nl/den-haag/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 161
+},
+{
+  "fields": {
+    "city": "Newcastle Upon Tyne",
+    "name": "Pink Lane Coffee",
+    "country": "UK",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-1.6185140000000000 54.9694100000000034)",
+    "address": "1 Pink Lane, Newcastle upon Tyne, NE1 5DW",
+    "homepage": "http://www.pinklanecoffee.co.uk/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 162
+},
+{
+  "fields": {
+    "city": "Denver",
+    "name": "Paris on the Platte",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-105.0085530000000063 39.7572819999999965)",
+    "address": "1553 Platte St",
+    "homepage": "http://www.parisontheplatte.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 163
+},
+{
+  "fields": {
+    "city": "Denver",
+    "name": "Stella's Coffeehaus",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-104.9803789999999992 39.6896529999999998)",
+    "address": "1476 S Pearl St",
+    "homepage": "http://stellascoffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 164
+},
+{
+  "fields": {
+    "city": "Denver",
+    "name": "Roostercat Coffee House",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-104.9861209999999971 39.7329480000000004)",
+    "address": "1045 Lincoln Street",
+    "homepage": "http://roostercatcoffeehouse.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 165
+},
+{
+  "fields": {
+    "city": "Denver",
+    "name": "Crema Coffee House",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-104.9818800000000039 39.7611699999999999)",
+    "address": "2862 Larimer St",
+    "homepage": "http://cremacoffeehouse.net/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 166
+},
+{
+  "fields": {
+    "city": "Denver",
+    "name": "The Laughing Latte",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-105.0113719999999944 39.7620780000000025)",
+    "address": "2001 W 32nd Ave",
+    "homepage": "http://www.thelaughinglatte.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 167
+},
+{
+  "fields": {
+    "city": "Grand Junction",
+    "name": "Roasted Espresso and Subs",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-108.5640400000000056 39.0664599999999993)",
+    "address": "502 Colorado Ave",
+    "homepage": "http://www.roastedespresso.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 168
+},
+{
+  "fields": {
+    "city": "Grand Junction",
+    "name": "Cafe V",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-108.5642310000000066 39.0767179999999996)",
+    "address": "1014 N 5th St",
+    "homepage": "http://www.cafe-v-gj.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 169
+},
+{
+  "fields": {
+    "city": "Chicago",
+    "name": "The Wormhole Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-87.6745899999999949 41.9083499999999987)",
+    "address": "1462 N Milwaukee Ave",
+    "homepage": "http://www.thewormholecoffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 170
+},
+{
+  "fields": {
+    "city": "Nashville",
+    "name": "Crema",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-86.7697620000000001 36.1570990000000023)",
+    "address": "15 Hermitage Ave",
+    "homepage": "http://www.crema-coffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 171
+},
+{
+  "fields": {
+    "city": "Nashville",
+    "name": "Portland Brew East",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/portlandbreweast",
+    "location": "POINT (-86.7346569999999986 36.1826670000000021)",
+    "address": "1921 Eastland Avenue",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 172
+},
+{
+  "fields": {
+    "city": "Nashville",
+    "name": "Portland Brew",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/portlandbrew12th",
+    "location": "POINT (-86.7901379999999989 36.1236609999999985)",
+    "address": "2605 12th Avenue South",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 173
+},
+{
+  "fields": {
+    "city": "Seattle",
+    "name": "Elliot Bay Cafe",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.3195460000000026 47.6145980000000009)",
+    "address": "1521 10th Ave",
+    "homepage": "http://www.elliottbaybook.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 174
+},
+{
+  "fields": {
+    "city": "Szeged",
+    "name": "Dock Cafe",
+    "country": "Hungary",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (20.1474000000000011 46.2521020000000007)",
+    "address": "K\u00e1r\u00e1sz Street 3",
+    "homepage": "https://www.facebook.com/dockcafe.szeged"
+  },
+  "model": "commitcoffee.place",
+  "pk": 175
+},
+{
+  "fields": {
+    "city": "Philadelphia",
+    "name": "Elixir Cafe",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-75.1666720000000055 39.9494720000000001)",
+    "address": "207 South Sydenham Street, Philadelphia, PA 19102",
+    "homepage": "http://elixrcoffee.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 176
+},
+{
+  "fields": {
+    "city": "Portland",
+    "name": "Aliviar Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/pages/Aliviar-Coffeehouse/297008072078",
+    "location": "POINT (-122.6200500000000062 45.5356000000000023)",
+    "address": "4128 NE Sandy Blvd, Portland, OR 97213",
+    "homepage": "http://www.aliviarcoffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 177
+},
+{
+  "fields": {
+    "city": "Carmel",
+    "name": "SoHo Cafe & Gallery",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/SoHoCafeGallery",
+    "location": "POINT (-86.1291269999999969 39.9723410000000001)",
+    "address": "620 South Rangeline Rd, Carmel, IN",
+    "homepage": "http://www.sohocafecarmel.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 178
+},
+{
+  "fields": {
+    "city": "San Francisco",
+    "name": "Philz Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.4171809999999994 37.7814550000000011)",
+    "address": "399 Golden Gate Ave, San Francisco, CA 94102",
+    "homepage": "http://www.philzcoffee.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 179
+},
+{
+  "fields": {
+    "city": "F\u00e8s",
+    "name": "Caf\u00e9 Diamant Princess",
+    "country": "Morocco",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-5.0079170000000000 34.0137829999999965)",
+    "address": "N 408 Lot Nouzha Route Ain Chkef, F\u00e8s",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 180
+},
+{
+  "fields": {
+    "city": "Beijing",
+    "name": "MaanCoffee (\u6f2b\u5496\u5561)",
+    "country": "China",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (116.5161679999999933 39.9671549999999982)",
+    "address": "Jiangfu Park North Gate, Jiangtai Donglu, Chaoyang District (\u671d\u9633\u533a\u5c06\u53f0\u4e1c\u8def\u5c06\u5e9c\u516c\u56ed\u5317\u95e8)",
+    "homepage": "http://www.dianping.com/shop/5649296/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 181
+},
+{
+  "fields": {
+    "city": "Bucharest",
+    "name": "Acuarela",
+    "country": "Romania",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://www.facebook.com/Acuarela.BistroDeArte",
+    "location": "POINT (26.1030189999999997 44.4488369999999975)",
+    "address": "40 Polona Street, Bucharest",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 182
+},
+{
+  "fields": {
+    "city": "Bucharest",
+    "name": "Bastilia",
+    "country": "Romania",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://www.facebook.com/libraria.bastilia",
+    "location": "POINT (26.0963980000000006 44.4474069999999983)",
+    "address": "5 Romana Square, Bucharest",
+    "homepage": "http://www.librariumgrup.ro/bastilia/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 183
+},
+{
+  "fields": {
+    "city": "Iasi",
+    "name": "Mignon Cafe",
+    "country": "Romania",
+    "twitter": "",
+    "published": true,
+    "facebook": "http://www.facebook.com/MignonCafe",
+    "location": "POINT (27.5779770000000006 47.1681609999999978)",
+    "address": "7B Lapusneanu pedestrian walk",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 184
+},
+{
+  "fields": {
+    "city": "San Luis Obispo",
+    "name": "SLO Donut Company",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-120.6716420000000056 35.2939790000000002)",
+    "address": "793F Foothill Blvd, San Luis Obispo, CA",
+    "homepage": "http://slodoco.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 185
+},
+{
+  "fields": {
+    "city": "Philadelphia",
+    "name": "Menagerie Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-75.1459830000000011 39.9496859999999998)",
+    "address": "18 S 3rd St, Philadelphia, PA 19106",
+    "homepage": "http://menageriecoffee.wordpress.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 186
+},
+{
+  "fields": {
+    "city": "Richland",
+    "name": "Roasters Coffee",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-119.2712899999999934 46.2717000000000027)",
+    "address": "496 George Washington Way, Richland, WA 99352",
+    "homepage": "http://www.roasterscoffee.net/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 187
+},
+{
+  "fields": {
+    "city": "Richland",
+    "name": "The Local",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-119.2374899999999940 46.2277199999999979)",
+    "address": "8530 W Gage Blvd, Ste E, Kennewick, WA 99336",
+    "homepage": "http://www.wearethelocal.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 188
+},
+{
+  "fields": {
+    "city": "Redwood City",
+    "name": "Cafe La Tartine",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.2293039999999991 37.4858609999999999)",
+    "address": "830 Middlefield Road, Redwood City, CA 94063",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 189
+},
+{
+  "fields": {
+    "city": "Birmingham",
+    "name": "Yorks Bakery Cafe",
+    "country": "UK",
+    "twitter": "https://twitter.com/YorksBakeryCafe",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-1.9012690000000001 52.4810739999999996)",
+    "address": "1-3 Newhall St, B3 3NH",
+    "homepage": "http://www.yorksbakerycafe.co.uk/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 190
+},
+{
+  "fields": {
+    "city": "Zurich",
+    "name": "La Stanza",
+    "country": "Switzerland",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (8.5367870000000003 47.3685619999999972)",
+    "address": "Bleicherweg 10-8002 Zurich",
+    "homepage": "http://www.lastanza.ch/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 191
+},
+{
+  "fields": {
+    "city": "Banff",
+    "name": "MacLab Bistro",
+    "country": "Canada",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-115.5602290000000067 51.1699600000000032)",
+    "address": "107 Tunnel Mountain Dr",
+    "homepage": "http://www.banffcentre.ca/dining/maclab-bistro.asp"
+  },
+  "model": "commitcoffee.place",
+  "pk": 192
+},
+{
+  "fields": {
+    "city": "New York",
+    "name": "Birch Coffee Flatiron",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/birchcoffee",
+    "location": "POINT (-73.9796809999999994 40.6974879999999999)",
+    "address": "5 E 27th St, New York, NY 10016",
+    "homepage": "http://www.birchcoffee.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 193
+},
+{
+  "fields": {
+    "city": "Brooklyn",
+    "name": "Toby's Estate Brooklyn",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/tobysestatebrooklyn",
+    "location": "POINT (-73.9592530000000039 40.7178749999999994)",
+    "address": "125 N 6th St, Brooklyn, NY 11249",
+    "homepage": "http://www.tobysestate.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 194
+},
+{
+  "fields": {
+    "city": "Brooklyn",
+    "name": "Cafe Grumpy Greenpoint",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "https://www.facebook.com/cafegrumpy",
+    "location": "POINT (-73.9487309999999951 40.7286319999999975)",
+    "address": "193 Meserole Avenue, Brooklyn, NY 11222",
+    "homepage": "http://cafegrumpy.com"
+  },
+  "model": "commitcoffee.place",
+  "pk": 195
+},
+{
+  "fields": {
+    "city": "San Francisco",
+    "name": "Starbucks",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-122.2463199999999972 37.4577400000000011)",
+    "address": "2727 Mariposa St",
+    "homepage": ""
+  },
+  "model": "commitcoffee.place",
+  "pk": 196
+},
+{
+  "fields": {
+    "city": "Maribor",
+    "name": "Kavarna Ginger",
+    "country": "Slovenia",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (15.3919200000000007 46.3328599999999966)",
+    "address": "Pobre\u0161ka cesta 18",
+    "homepage": "http://www.europark.si/si/gostinstvo/kavarna-ginger"
+  },
+  "model": "commitcoffee.place",
+  "pk": 197
+},
+{
+  "fields": {
+    "city": "Ljubljana",
+    "name": "Kavarna in sla\u0161\u010di\u010darna Zvezda",
+    "country": "Slovenia",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (14.3030899999999992 46.3023000000000025)",
+    "address": "Wolfova ul. 14",
+    "homepage": "http://www.zvezdaljubljana.si/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 198
+},
+{
+  "fields": {
+    "city": "Brooklyn",
+    "name": "Konditori",
+    "country": "USA",
+    "twitter": "",
+    "published": true,
+    "facebook": "",
+    "location": "POINT (-73.9793530000000032 40.6696650000000020)",
+    "address": "240 7th Ave",
+    "homepage": "http://www.konditorinyc.com/"
+  },
+  "model": "commitcoffee.place",
+  "pk": 199
+}
+]
