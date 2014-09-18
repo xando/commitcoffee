@@ -1,6 +1,7 @@
 from django.http import JsonResponse
 from django.contrib.gis.geos import Polygon
 from django.contrib.gis.geos import Point
+from django.db.models import Q
 
 from rest_framework import viewsets, serializers, views, response
 
@@ -34,12 +35,25 @@ class PlaceView(viewsets.ModelViewSet):
 
 
 def search(request):
-    geom = Polygon.from_bbox((
-        request.GET['lng0'],
-        request.GET['lat0'],
-        request.GET['lng1'],
-        request.GET['lat1']
-    ))
-    queryset = models.Place.objects.filter(location__within=geom)
+
+    lng0 = float(request.GET['lng0'])
+    lat0 = float(request.GET['lat0'])
+
+    lng1 = float(request.GET['lng1'])
+    lat1 = float(request.GET['lat1'])
+
+    if lng0 > lng1:
+
+        geom_1 = Polygon.from_bbox((lng0, lat0, 180, lat1))
+        geom_2 = Polygon.from_bbox((-180, lat0, lng1, lat1))
+        queryset = models.Place.objects.filter(
+            Q(location__contained=geom_1) | Q(location__contained=geom_2)
+        )
+
+    else:
+
+        geom = Polygon.from_bbox((lng0, lat0, lng1,lat1))
+        queryset = models.Place.objects.filter(location__contained=geom)
+
 
     return JsonResponse(PlaceSerializer(queryset, many=True).data, safe=False)
