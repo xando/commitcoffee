@@ -11,7 +11,7 @@
 
 	  <windows closeClick="'close'" control="map.windows">
 	    <div class="window" ng-non-bindable> 
-	      <h3><i class="fa fa-coffee"/> {{name}}</h3>
+	      <h3><i class="fa fa-coffee"/> {{name}} <small>{{ address }}</small></h3>
 	      
 	      <h5 ng-show="homepage">
 		<i class="fa fa-home"></i>
@@ -44,7 +44,7 @@
 	
 	<a id="item-{{ item.id }}" ng-repeat="item in map.items" ng-href="" class="list-group-item" 
 	   ng-click="show_details(item)" ng-class="{'active': item.id == details.id}">
-	  <h5>{{ item.name }}</h5>
+	  <h5>{{ item.name }} <small>{{ item.address }}</small></h5>
 	</a>
 
 	<div class="list-group-item text-center">

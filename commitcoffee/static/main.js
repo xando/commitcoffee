@@ -124,14 +124,14 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 	  		  $scope.map.zoom = parseInt(search.z);
 		  } else {
 
-			  // navigator.geolocation.getCurrentPosition(function(position) {
-			  // 	  angular.copy(position.coords, $scope.current_location);
+			  navigator.geolocation.getCurrentPosition(function(position) {
+			  	  angular.copy(position.coords, $scope.current_location);
 
-			  // 	  $scope.map.center.latitude = position.coords.latitude;
-	  		  // 	  $scope.map.center.longitude = position.coords.longitude;
-			  // 	  $scope.map.zoom = 14;
+			  	  $scope.map.center.latitude = position.coords.latitude;
+	  		  	  $scope.map.center.longitude = position.coords.longitude;
+			  	  $scope.map.zoom = 13;
 
-			  // });
+			  });
 		  }
 	  }
 
