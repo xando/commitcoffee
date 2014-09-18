@@ -106,17 +106,12 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 		  zoom: $rootScope.map_zoom,
 		  events: {},
 		  items: [],
-		  markers: {}
+		  markers: {},
+		  windows: {}
 	  }
 
-	  // $scope.items = [];
 	  $scope.details = false;
 	  $scope.current_location = null;
-
-	  $scope.show_details = function(item) {
-		  $scope.details = item;
-		  $scope.map.center = item.location;
-	  }
 
 	  var setup_map = function() {
 		  var search = $location.search();
@@ -140,6 +135,10 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 		  }
 	  }
 
+	  $scope.show_details = function(item) {
+		  $scope.details = item;
+	  }
+
 	  $scope.$on('$routeUpdate', function(next, current) {
 		  setup_map();
 	  });
@@ -148,10 +147,34 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 
 	  $scope.map.events.dragstart = function(map) {
 		  $scope.details = false;
-		  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
-			  marker.setIcon("/static/img/map1.png");
-		  });
 	  }
+
+	  $scope.$watch('details', function(newValue, oldValue) {
+		  if (newValue) {
+			  angular.forEach($scope.map.windows.getChildWindows().values(), function(window, i) {
+				  if (window.model.id === newValue.id) {
+					  window.showWindow();
+				  } else {
+					  window.hideWindow();
+				  }
+			  });
+
+			  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
+				  if (marker.key === newValue.id) {
+				  	  marker.setIcon("/static/img/map2.png");
+				  } else {
+				  	  marker.setIcon("/static/img/map1.png");
+				  }
+			  });
+		  } else {
+			  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
+		  		  marker.setIcon("/static/img/map1.png");
+		  	  });
+			  angular.forEach($scope.map.windows.getChildWindows().values(), function(window, i) {
+				  window.hideWindow();
+			  });
+		  }
+	  });
 
 	  $scope.map.events.idle = function(map) {
 
@@ -171,33 +194,26 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 		  var url = '/api/search?' + decodeURIComponent($.param(search));
 		  $http({method: 'GET', url: url})
 	  		  .success(function(items, status, headers, config) {
-
 	  			  $scope.map.items = items;
-
 				  angular.forEach($scope.map.items, function(item, i) {
-	  				  item.icon = '/static/img/map1.png';
-	  				  item.click = function() {
+	  			  	  item.icon = '/static/img/map1.png';
 
-						  var el = angular.element('#item-' + this.model.id)[0];
-						  var elp = el.parentNode;
+					  item.close = function() {
+						  $scope.details = false;
+						  $scope.$apply();
+					  }
 
-						  if (el.getBoundingClientRect().bottom > elp.getBoundingClientRect().bottom ||
-						  	  el.getBoundingClientRect().top < elp.getBoundingClientRect().top) {
-						  	  el.scrollIntoView();
-						  }
+	  			  	  item.click = function() {
+				  	  	  var el = angular.element('#item-' + this.model.id)[0];
+				  	  	  var elp = el.parentNode;
 
-	  					  $scope.details = this.model;
-
-						  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
-							  if (marker.key === item.id) {
-								  marker.setIcon("/static/img/map2.png");
-							  } else {
-								  marker.setIcon("/static/img/map1.png");
-							  }
-						  })
+				  	  	  if (el.getBoundingClientRect().bottom > elp.getBoundingClientRect().bottom ||
+				  	  	  	  el.getBoundingClientRect().top < elp.getBoundingClientRect().top) {
+				  	  	  	  el.scrollIntoView();
+				  	  	  }
+	  			  	  	  $scope.details = this.model;
 	  			  	  }
 	  			  });
-
 			  });
 	  }
 }]);
