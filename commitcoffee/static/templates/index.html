@@ -6,8 +6,8 @@
     <div id="map" ng-class="{'col-sm-6': details, 'col-sm-9': !details}">
       <google-map style="block" ng-disabled="true" center="map.center" events="map.events" 
 		  zoom="map.zoom" draggable="true">
-		  <markers models="items" coords="'location'" doCluster="false" 
-			   click="'click'" icon="'icon'" >
+		  <markers models="map.items" coords="'location'" doCluster="false" 
+			   click="'click'" icon="'icon'" control="map.markers" >
 		  </markers>
       </google-map>
     </div>
@@ -44,9 +44,9 @@
     </div>
 
     <div id="list" class="col-sm-3" ng-disabled="true">
-      <div class="list-group" ng-show="items.length || details"> 
+      <div class="list-group" ng-show="map.items.length || details"> 
 	
-	<a id="item-{{ item.id }}" ng-repeat="item in items" ng-href="" class="list-group-item" 
+	<a id="item-{{ item.id }}" ng-repeat="item in map.items" ng-href="" class="list-group-item" 
 	   ng-click="show_details(item)" ng-class="{'active': item.id == details.id}">
 	  <h5>{{ item.name }}</h5>
 	  <small>{{ item.active }}</small>
@@ -62,7 +62,7 @@
 	</div>
 
       </div>
-      <div class="empty text-center" ng-hide="items.length || details">
+      <div class="empty text-center" ng-hide="map.items.length || details">
 
 	<div class="list-group-item text-center">
 	  <p>

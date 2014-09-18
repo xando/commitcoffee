@@ -104,10 +104,12 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 	  $scope.map = {
 		  center: $rootScope.map_center,
 		  zoom: $rootScope.map_zoom,
-		  events: {}
+		  events: {},
+		  items: [],
+		  markers: {}
 	  }
 
-	  $scope.items = [];
+	  // $scope.items = [];
 	  $scope.details = false;
 	  $scope.current_location = null;
 
@@ -146,6 +148,9 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 
 	  $scope.map.events.dragstart = function(map) {
 		  $scope.details = false;
+		  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
+			  marker.setIcon("/static/img/map1.png");
+		  });
 	  }
 
 	  $scope.map.events.idle = function(map) {
@@ -163,30 +168,33 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 	  	  	  lng1: map.getBounds().getNorthEast().lng(),
 	  	  }
 
-		  $http({method: 'GET', url: '/api/search?' + decodeURIComponent($.param(search))})
+		  var url = '/api/search?' + decodeURIComponent($.param(search));
+		  $http({method: 'GET', url: url})
 	  		  .success(function(items, status, headers, config) {
 
-	  			  $scope.items = items;
+	  			  $scope.map.items = items;
 
-				  angular.forEach($scope.items, function(item, i) {
-	  				  item.icon = '/static/img/map1-a.png';
+				  angular.forEach($scope.map.items, function(item, i) {
+	  				  item.icon = '/static/img/map1.png';
 	  				  item.click = function() {
+
 						  var el = angular.element('#item-' + this.model.id)[0];
 						  var elp = el.parentNode;
 
 						  if (el.getBoundingClientRect().bottom > elp.getBoundingClientRect().bottom ||
-							  el.getBoundingClientRect().top < elp.getBoundingClientRect().top) {
-							  el.scrollIntoView();
+						  	  el.getBoundingClientRect().top < elp.getBoundingClientRect().top) {
+						  	  el.scrollIntoView();
 						  }
 
 	  					  $scope.details = this.model;
-	  					  this.map.panTo(
-	  						  new google.maps.LatLng(
-	  							  this.coords.latitude,
-	  							  this.coords.longitude
-	  						  )
-	  					  );
-	  					  $scope.$apply();
+
+						  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
+							  if (marker.key === item.id) {
+								  marker.setIcon("/static/img/map2.png");
+							  } else {
+								  marker.setIcon("/static/img/map1.png");
+							  }
+						  })
 	  			  	  }
 	  			  });
 
