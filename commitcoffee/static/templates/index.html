@@ -2,15 +2,16 @@
 
 <div id="results" class="container-fluid">
 
-  <div id="details" ng-show="details">
+  <div id="details" ng-show="details" ng-click="details = false">
     <div class="window center-block" > 
       <h3>
 	<i class="fa fa-coffee"/> 
 	{{ details.name }} 
 	<small>{{ details.address }}</small>
+	<a class="btn btn-warning pull-right" href="#" ng-click="details = false"><i class="fa fa-close"></i></a>
       </h3>
       
-      <h5 ng-show="homepage">
+      <h5 ng-show="details.homepage">
 	<i class="fa fa-home"></i>
 	<a target="_blank" href="{{ details.homepage }}"> 
 	  {{ details.homepage }}
@@ -19,14 +20,14 @@
 
       <dl class="dl-horizontal">
 
-	<dt ng-hide="facebook"><i class="fa fa-facebook"></i></dt>
-	<dd ng-show="facebook"><a target="_blank" href="{{ details.facebook }}">{{ details.facebook }}</a></dd>
+	<dt ng-show="details.facebook"><i class="fa fa-facebook"></i></dt>
+	<dd ng-show="details.facebook"><a target="_blank" href="{{ details.facebook }}">{{ details.facebook }}</a></dd>
 
-	<dt><i class="fa fa-twitter"></i></dt>
-	<dd><a target="_blank" href="{{ details.twitter }}">{{ details.twitter }}</a></dd>
+	<dt ng-show="details.twitter"><i class="fa fa-twitter"></i></dt>
+	<dd ng-show="details.twitter"><a target="_blank" href="{{ details.twitter }}">{{ details.twitter }}</a></dd>
 
-	<dt><i class="fa fa-yelp"></i></dt>
-	<dd><a target="_blank" href="{{ details.yelp }}">{{ details.yelp }}</a></dd>
+	<dt ng-show="details.yelp"><i class="fa fa-yelp"></i></dt>
+	<dd ng-show="details.yelp"><a target="_blank" href="{{ details.yelp }}">{{ details.yelp }}</a></dd>
 
       </dl>
 
