@@ -20,29 +20,29 @@
 	</a>
       </h5>
 
-      <h5 ng-show="details.homepage">
-	<i class="fa fa-home"></i>
-	<a target="_blank" href="{{ details.homepage }}"> 
-	  {{ details.homepage }}
+      <h5 ng-show="details.facebook">
+	<i class="fa fa-facebook"></i>
+	<a target="_blank" href="{{ details.facebook }}"> 
+	  {{ details.facebook }}
+	</a>
+      </h5>
+
+      <h5 ng-show="details.twitter">
+	<i class="fa fa-twitter"></i>
+	<a target="_blank" href="{{ details.twitter }}"> 
+	  {{ details.twitter }}
+	</a>
+      </h5>
+
+      <h5 ng-show="details.yelp">
+	<i class="fa fa-yelp"></i>
+	<a target="_blank" href="{{ details.yelp }}"> 
+	  {{ details.yelp }}
 	</a>
       </h5>
       
-      <dl class="dl-horizontal">
-	
-	<dt ng-show="details.facebook"><i class="fa fa-facebook"></i></dt>
-	<dd ng-show="details.facebook">
-	  <a target="_blank" href="{{ details.facebook }}">{{ details.facebook }}</a></dd>
-
-	<dt ng-show="details.twitter"><i class="fa fa-twitter"></i></dt>
-	<dd ng-show="details.twitter">
-	  <a target="_blank" href="{{ details.twitter }}">{{ details.twitter }}</a></dd>
-	
-	<dt ng-show="details.yelp"><i class="fa fa-yelp"></i></dt>
-	<dd ng-show="details.yelp">
-	  <a target="_blank" href="{{ details.yelp }}">{{ details.yelp }}</a></dd>
-      </dl>
-
-      <button type="button" class="btn btn-default btn-lg btn-block" ng-click="details = false">back to map</button>
+      <button type="button" class="btn btn-default btn-lg btn-block hidden-lg hidden-md" ng-click="details = false">back to map
+      </button>
     </div>
   </div>
 
@@ -55,7 +55,7 @@
     </google-map>
   </div>
 
-  <div id="list" class="col-sm-4 hidden-xs hidden-sm" ng-disabled="true" >
+  <div id="list" class="col-sm-4 hidden-xs" ng-disabled="true" >
     <div class="list-group" ng-show="map.items.length || details"> 
       
       <a id="item-{{ item.id }}" ng-repeat="item in map.items" ng-href="" class="list-group-item" 
