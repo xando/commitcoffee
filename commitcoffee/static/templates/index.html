@@ -3,46 +3,46 @@
 <div id="results" class="row">
   
   <div id="details" class="col-sm-8 col-xs-12" ng-show="details">
-      <h3>
-	<button href="#" class="btn btn-default pull-right hidden-xs hidden-sm" ng-click="details = false">
-	  <i class="fa fa-close"/> back to map
-	</button>
-	<i class="fa fa-coffee"/> 
-	{{ details.name }} 
-	<small>{{ details.address }}</small>
-      </h3>
-      
-      <h5 ng-show="details.homepage">
-	<i class="fa fa-home"></i>
-	<a target="_blank" href="{{ details.homepage }}"> 
-	  {{ details.homepage }}
-	</a>
-      </h5>
-
-      <h5 ng-show="details.facebook">
-	<i class="fa fa-facebook"></i>
-	<a target="_blank" href="{{ details.facebook }}"> 
-	  {{ details.facebook }}
-	</a>
-      </h5>
-
-      <h5 ng-show="details.twitter">
-	<i class="fa fa-twitter"></i>
-	<a target="_blank" href="{{ details.twitter }}"> 
-	  {{ details.twitter }}
-	</a>
-      </h5>
-
-      <h5 ng-show="details.yelp">
-	<i class="fa fa-yelp"></i>
-	<a target="_blank" href="{{ details.yelp }}"> 
-	  {{ details.yelp }}
-	</a>
-      </h5>
-      
-      <button type="button" class="btn btn-default btn-lg btn-block hidden-lg hidden-md" ng-click="details = false">
-	back to map
+    <h3>
+      <button href="#" class="btn btn-default pull-right hidden-xs hidden-sm" ng-click="details = false">
+	<i class="fa fa-close"/> back to map
       </button>
+      <i class="fa fa-coffee"/> 
+      {{ details.name }} 
+      <small>{{ details.address }}</small>
+    </h3>
+    
+    <h5 ng-show="details.homepage">
+      <i class="fa fa-home"></i>
+      <a target="_blank" href="{{ details.homepage }}"> 
+	{{ details.homepage }}
+      </a>
+    </h5>
+
+    <h5 ng-show="details.facebook">
+      <i class="fa fa-facebook"></i>
+      <a target="_blank" href="{{ details.facebook }}"> 
+	{{ details.facebook }}
+      </a>
+    </h5>
+
+    <h5 ng-show="details.twitter">
+      <i class="fa fa-twitter"></i>
+      <a target="_blank" href="{{ details.twitter }}"> 
+	{{ details.twitter }}
+      </a>
+    </h5>
+
+    <h5 ng-show="details.yelp">
+      <i class="fa fa-yelp"></i>
+      <a target="_blank" href="{{ details.yelp }}"> 
+	{{ details.yelp }}
+      </a>
+    </h5>
+    
+    <button type="button" class="btn btn-default btn-lg btn-block hidden-lg hidden-md" ng-click="details = false">
+      back to map
+    </button>
   </div>
 
   <div id="map" class="col-sm-8" ng-hide="details">
