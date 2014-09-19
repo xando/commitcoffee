@@ -100,10 +100,9 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 		  angular.element('#search').outerHeight(true)
 	  );
 
-	  google.maps.event.addDomListener(window, 'load', function() {
-		  angular.element('#details').height(angular.element('#map').height());
-	  });
-
+	  // google.maps.event.addDomListener(window, 'load', function() {
+	  // 	  angular.element('#details').height(angular.element('#map').height());
+	  // });
 
 	  $rootScope.map_center = {
 		  latitude: 21.722797,
@@ -162,6 +161,10 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 
 	  $scope.map.events.dragstart = function(map) {
 		  $scope.details = false;
+	  }
+
+	  $scope.map.events.projection_changed = function(map) {
+		  angular.element('#details').height(angular.element('#map').height());
 	  }
 
 	  $scope.$watch('details', function(newValue, oldValue) {
