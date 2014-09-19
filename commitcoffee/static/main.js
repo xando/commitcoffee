@@ -1,3 +1,7 @@
+angular.element(document).ready(function () {
+	window.scrollTo(0,1);
+});
+
 angular.module('api', ['djangoRESTResources'])
 	.factory('Place', function(djResource) {
 		return djResource('/api/place/:id/', {id:'@id'});
