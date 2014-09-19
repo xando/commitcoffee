@@ -47,7 +47,7 @@
 
   <div id="map" class="col-sm-8" ng-hide="details">
     <google-map style="block" ng-disabled="true" center="map.center" events="map.events" 
-		zoom="map.zoom" draggable="true">
+		zoom="map.zoom" draggable="true" options="map.options">
       <markers models="map.items" coords="'location'" doCluster="false" 
 	       click="'click'" icon="'icon'" control="map.markers" >
       </markers>

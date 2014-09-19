@@ -114,7 +114,11 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 		  events: {},
 		  items: [],
 		  markers: {},
-		  windows: {}
+		  windows: {},
+		  options: {
+			  disableDefaultUI: true
+		  }
+
 	  }
 
 	  $scope.details = false;
