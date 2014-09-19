@@ -76,6 +76,8 @@ app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$
 					  .search('x', location.lng().toFixed(6))
 					  .search('y', location.lat().toFixed(6))
 					  .search('z', 14);
+
+				  angular.element("#search input").blur();
 	  		  }
 
 	  		  $scope.disabled = false;
