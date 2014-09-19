@@ -111,6 +111,8 @@ app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$
 app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$routeParams', '$rootScope',
   function ($scope, $http, $location, Place, $config, $routeParams, $rootScope) {
 
+	  do_things_right();
+
 	  $rootScope.map_center = {
 		  latitude: 21.722797,
 		  longitude: -42.705444

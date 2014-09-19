@@ -2,101 +2,122 @@
 
 <div id="results" class="row">
 
-  <div id="map" class="col-sm-8">
+  <div id="map" class="col-sm-4">
     <google-map center="map.center" events="map.events" zoom="map.zoom" draggable="true">
       <marker coords="map.center" icon="'/static/img/map2.png'" idkey="1" />
     </google-map>
   </div>
 
-  <div id="add" class="col-sm-4" ng-show="true">
+  <div id="add" class="col-sm-8" ng-show="true">
     
     <form role="form" ng-submit="submit()">
-      
-      <div class="form-group" ng-class="{'has-warning': error.name}">
-	<label class="control-label" > {{ error.name.join(", ") }}</label>
-	<input ng-model="place.name" type="text" class="form-control input-lg" placeholder="place name">
-      </div>
 
-      <div class="form-group" ng-class="{'has-warning': error.address}">
-	<label class="control-label"> {{ error.address.join(", ") }}</label>
-	<div class="input-group">
-	  <div class="input-group-addon"><i class="fa fa-home"></i></div>
-	  <input ng-model="place.address" class="form-control" type="text" placeholder="address">
-	</div>
-      </div>
-      
-      <div class="form-group">
-	<div class="input-group">
-	  <div class="input-group-addon"><i class="fa fa-link"></i></div>
-	  <input ng-model="place.homepage" class="form-control" type="text" placeholder="homepage">
-	</div>
-      </div>
+      <div class="row">
 
-      <div class="form-group">
-	<p class="help-block">
-	  Move map around to set the location
-	</p>
-	<div class="row">
-	  <div class="col-sm-6">
+	<div class="col-sm-12">
+
+	  <div class="form-group" ng-class="{'has-warning': error.name}">
+	    <label class="control-label" > {{ error.name.join(", ") }}</label>
+	    <input ng-model="place.name" type="text" class="form-control input-lg" placeholder="place name">
+	  </div>
+
+	  <div class="form-group" ng-class="{'has-warning': error.address}">
+	    <label ng-show="error.address" class="control-label"> {{ error.address.join(", ") }}</label>
 	    <div class="input-group">
-	      <div class="input-group-addon"><i class="fa fa-arrows-v"></i></div>
-	      <input class="form-control" type="text" ng-model="map.center.latitude" disabled>
+	      <div class="input-group-addon"><i class="fa fa-home"></i></div>
+	      <input ng-model="place.address" class="form-control" type="text" placeholder="address">
 	    </div>
 	  </div>
-	  <div class="col-sm-6">
+
+	  <div class="form-group">
 	    <div class="input-group">
-	      <div class="input-group-addon"><i class="fa fa-arrows-h"></i></div>
-	      <input class="form-control" type="text" ng-model="map.center.longitude" disabled>
+	      <div class="input-group-addon"><i class="fa fa-link"></i></div>
+	      <input ng-model="place.homepage" class="form-control" type="text" placeholder="homepage">
 	    </div>
 	  </div>
+	  
 	</div>
-      </div>
 
-      <div class="form-group">
-	<div class="input-group">
-	  <div class="input-group-addon"><i class="fa fa-twitter"></i></div>
-	  <input ng-model="place.twitter" class="form-control" type="text" placeholder="twitter account">
-	</div>
-      </div>
+	<div class="col-sm-6">
 
-      <div class="form-group">
-	<div class="input-group">
-	  <div class="input-group-addon"><i class="fa fa-facebook-square"></i></div>
-	  <input ng-model="place.facebook" class="form-control" type="text" placeholder="facebook page">
-	</div>
-      </div>
-
-      <div class="form-group">
-	<div class="input-group">
-	  <div class="input-group-addon"><i class="fa fa-yelp"></i></div>
-	  <input ng-model="place.yelp" class="form-control" type="text" placeholder="yelp page">
-	</div>
-      </div>
-      
-      <div class="form-group">
-	<div class="checkbox">
-	  <label>
-	    <input ng-model="place.owner" type="checkbox" ng-model="owner" />
-	    I'm the owner, I would like to talk about promoting my place here.
-	  </label>
-	</div>
-      </div>
-
-      <div class="form-group" ng-show="owner">
-	<label>Please leave your email, we will get back to you shortly</label>
-	<div class="form-group">
-	  <div class="input-group">
-	    <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-	    <input ng-model="place.email" class="form-control" type="email" placeholder="email address">
+	  <div class="form-group">
+	    <div class="row">
+	      <div class="col-sm-6">
+		<div class="input-group">
+		  <div class="input-group-addon"><i class="fa fa-arrows-v"></i></div>
+		  <input class="form-control" type="text" ng-model="map.center.latitude" disabled>
+		</div>
+	      </div>
+	      <div class="col-sm-6">
+		<div class="input-group">
+		  <div class="input-group-addon"><i class="fa fa-arrows-h"></i></div>
+		  <input class="form-control" type="text" ng-model="map.center.longitude" disabled>
+		</div>
+	      </div>
+	    </div>
+	    <p class="help-block">
+	      Move map around to set the location
+	    </p>
 	  </div>
-	</div>
-      </div>
 
-      
-      <div class="form-group">
-	<button type="submit" class="btn btn-success btn-lg btn-block">Submit</button>
+	</div>
+
+	<div class="col-sm-6">
+
+	  <div class="form-group">
+	    <div class="input-group">
+	      <div class="input-group-addon"><i class="fa fa-twitter"></i></div>
+	      <input ng-model="place.twitter" class="form-control" type="text" placeholder="twitter account">
+	    </div>
+	  </div>
+
+	  <div class="form-group">
+	    <div class="input-group">
+	      <div class="input-group-addon"><i class="fa fa-facebook-square"></i></div>
+	      <input ng-model="place.facebook" class="form-control" type="text" placeholder="facebook page">
+	    </div>
+	  </div>
+
+	  <div class="form-group">
+	    <div class="input-group">
+	      <div class="input-group-addon"><i class="fa fa-yelp"></i></div>
+	      <input ng-model="place.yelp" class="form-control" type="text" placeholder="yelp page">
+	    </div>
+	  </div>
+
+	</div>
+
+	<div class="col-sm-12">
+	  
+	  <hr/>
+	  
+	  <div class="form-group">
+	    <div class="checkbox">
+	      <label>
+		<input ng-model="place.owner" type="checkbox"  />
+		I'm the owner, I would like to talk about promoting my place here.
+	      </label>
+	    </div>
+	  </div>
+
+	  <div class="form-group" ng-show="place.owner">
+	    <label>Please leave your email, we will get back to you shortly</label>
+	    <div class="form-group">
+	      <div class="input-group">
+		<div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+		<input ng-model="place.email" class="form-control" type="email" placeholder="email address">
+	      </div>
+	    </div>
+	  </div>
+
+	  
+	  <div class="form-group">
+	    <button type="submit" class="btn btn-success btn-block">Submit</button>
+	  </div>
+
+	</div>
+
       </div>
-      
     </form>
 
   </div>
