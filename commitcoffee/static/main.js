@@ -1,6 +1,19 @@
-angular.element(document).ready(function () {
-	window.scrollTo(0,1);
-});
+function do_things_right() {
+
+	angular.element('.angular-google-map-container, #list .list-group, #add').height(
+		angular.element(window).outerHeight(true) -
+		angular.element('footer').outerHeight(true) -
+		angular.element('#search').outerHeight(true)
+	);
+
+	angular.element('#details').height(angular.element('#map').height());
+
+}
+
+angular.element(window).resize(function() {
+	do_things_right();
+})
+
 
 angular.module('api', ['djangoRESTResources'])
 	.factory('Place', function(djResource) {
@@ -59,11 +72,8 @@ app.factory('$config', ['$location', '$rootScope', '$route',
 
 app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$routeParams', '$route',
   function ($scope, $http, $location, Place, $config, $routeParams, $route) {
-	  angular.element('.angular-google-map-container, #list .list-group, #add').height(
-		  angular.element(window).outerHeight(true) -
-		  angular.element('footer').outerHeight(true) -
-		  angular.element('#search').outerHeight(true)
-	  );
+
+	  do_things_right();
 
 	  $scope.search = function() {
 	  	  $scope.disabled = true;
@@ -93,16 +103,6 @@ app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$
 
 app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$routeParams', '$rootScope',
   function ($scope, $http, $location, Place, $config, $routeParams, $rootScope) {
-
-	  angular.element('.angular-google-map-container, #list .list-group, #add').height(
-		  angular.element(window).outerHeight(true) -
-		  angular.element('footer').outerHeight(true) -
-		  angular.element('#search').outerHeight(true)
-	  );
-
-	  // google.maps.event.addDomListener(window, 'load', function() {
-	  // 	  angular.element('#details').height(angular.element('#map').height());
-	  // });
 
 	  $rootScope.map_center = {
 		  latitude: 21.722797,
@@ -250,11 +250,11 @@ app.controller('add', ['$scope', '$http', '$location', 'Place', '$config', '$roo
 		  events: {}
 	  }
 
-	  angular.element('.angular-google-map-container, #list .list-group, #add').height(
-		  angular.element(window).outerHeight(true) -
-		  angular.element('footer').outerHeight(true) -
-		  angular.element('#search').outerHeight(true)
-	  );
+	  // angular.element('.angular-google-map-container, #list .list-group, #add').height(
+	  // 	  angular.element(window).outerHeight(true) -
+	  // 	  angular.element('footer').outerHeight(true) -
+	  // 	  angular.element('#search').outerHeight(true)
+	  // );
 
 	  $scope.place = {
 		  location: $scope.map.center
