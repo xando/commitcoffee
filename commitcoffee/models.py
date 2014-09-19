@@ -1,4 +1,3 @@
-from django.contrib import admin
 from django.contrib.gis.db import models
 
 
@@ -21,5 +20,3 @@ class Place(models.Model):
 
     def __unicode__(self):
         return self.name
-
-admin.site.register(Place)
