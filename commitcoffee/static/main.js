@@ -177,20 +177,13 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 	  });
 
 	  $scope.map.events.idle = function(map) {
-		  // angular.element(window).outerWidth(true) < 1024
+		  angular.element('#details').height(angular.element('#map').height());
 
-		  var $details = angular.element('#details')
-
-		  $details
-			  .css("position", "absolute")
-			  .width(angular.element('#map').width())
-			  .height(angular.element('#map').height())
-
-		  if ($details.outerWidth(true) > 1024 ) {
-		  	  angular.element('.window').addClass('big')
-		  } else {
-			  angular.element('.window').addClass('small')
-		  }
+		  // if ($details.outerWidth(true) > 1024 ) {
+		  // 	  angular.element('.window').addClass('big')
+		  // } else {
+		  // 	  angular.element('.window').addClass('small')
+		  // }
 
 		  $location
 		  	  .path("/")

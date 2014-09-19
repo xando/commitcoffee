@@ -7,8 +7,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 
 	.container-fluid {
-		padding: 0;
-		overflow: hidden;
+		// padding: 0;
+	// 	overflow: hidden;
 	}
 }
 
@@ -58,6 +58,10 @@ body {
 }
 
 #results {
+	// &.container-fluid {
+	// 	padding-left: 0px !important;
+	// 	padding-right: 0px !important;
+	// }
 	#map {
 		padding: 0;
 
@@ -92,41 +96,41 @@ body {
 	}
 
 	#details {
-		z-index: 5;
+		z-index: 11;
+		background-color: #f5f5f5;
+		box-shadow: -5px 0px 30px -7px rgba(0,0,0,0.75);
+		// .window {
+			// padding: 30px;
+		// }
+	// 		// display: inline-block;
 
-		.window {
-			padding: 10px 30px 10px 10px;
-			display: inline-block;
-			background-color: #f5f5f5;
+	// 		// &.big {
+	// 		// 	box-shadow: -5px 0px 30px -7px rgba(0,0,0,0.75);
+	// 		// 	margin: 10% 0 0 10%;
+	// 		// 	height: 60%;
+	// 		// 	width: 78%;
+	// 		// 	height: 60%;
+	// 		// }
 
-			&.big {
-				box-shadow: -5px 0px 30px -7px rgba(0,0,0,0.75);
-				margin: 10% 0 0 10%;
-				height: 60%;
-				width: 78%;
-				height: 60%;
-			}
+	// 		// &.small {
+	// 		// }
+	// 		// width: 100%;
+	// 		// height: 100%;
 
-			&.small {
-				height: 100%;
-				width: 100%;
-			}
+	// 		// h3 {
+	// 		// 	border-bottom: 1px solid #eee;
+	// 		// 	padding-bottom: 10px;
+	// 		// }
 
-
-			h3 {
-				border-bottom: 1px solid #eee;
-				padding-bottom: 10px;
-			}
-
-			.dl-horizontal {
-				dt {
-					width: 12px;
-				}
-				dd {
-					margin-left: 22px;
-				}
-			}
-		}
+	// 		.dl-horizontal {
+	// 			dt {
+	// 				width: 12px;
+	// 			}
+	// 			dd {
+	// 				margin-left: 22px;
+	// 			}
+	// 		}
+	// 	}
 	}
 
 
@@ -150,87 +154,6 @@ footer {
 		&.submit {
 			border-top: #eee 1px solid;
 			background-color: #f5f5f5;
-		}
-	}
-
-}
-
-@media (max-width: 992px) {
-
-	html,body {
-
-		height: 100%;
-
-		.search {
-			text-align: center;
-			position: fixed;
-			z-index: 1;
-			background: black;
-			width: 100%;
-			padding: 9px 20px;
-			form {
-				margin-top: 0px;
-			}
-		}
-
-		.map {
-			height: 100%;
-			.detail {
-				height: 100%;
-				.message {
-					border-radius: 0px;
-					border: 0;
-					width: 100%;
-					background: #EfEfEf;
-					height: 100%;
-					margin: 0;
-					padding: 0 35px;
-					.close {
-						background: url('img/google-maps-icon.jpg') no-repeat;
-						position: fixed;
-						z-index: 2;
-						width: 150px;
-						height: 107px;
-						right: 10px;
-						top: 10px;
-						border: 1px solid;
-						background-size: 144px;
-						background-position: 0;
-					}
-					dl {
-						font-size: 1.5em;
-						dd {
-							margin-bottom: 15px;
-						}
-					}
-					h2 {
-						font-weight: bold;
-						text-align: center;
-						font-size: 2.8em;
-					}
-					h4 {
-						text-align: center;
-					}
-					address{
-						margin-bottom: 0;
-					}
-					.links {
-						font-size: 40px;
-						margin-top: 10px;
-						text-align: right;
-					}
-					img {
-
-						border-radius: 6px;
-						border: 2px solid #ccc;
-					}
-
-				}
-
-			}
-			#map-canvas {
-				height: 100%;
-			}
 		}
 	}
 

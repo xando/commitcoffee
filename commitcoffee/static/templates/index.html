@@ -1,14 +1,16 @@
 <div ng-include="'/static/templates/search.html'" ></div>
 
-<div id="results" class="container-fluid">
-
-  <div id="details" ng-show="details" ng-click="details = false">
-    <div class="window center-block" > 
+<div id="results" class="row">
+  
+  <div id="details" class="col-sm-8" ng-show="details">
+    <div class="window">
       <h3>
+	<button href="#" class="btn btn-default pull-right hidden-xs hidden-sm" ng-click="details = false">
+	  <i class="fa fa-close"/> back to map
+	</button>
 	<i class="fa fa-coffee"/> 
 	{{ details.name }} 
 	<small>{{ details.address }}</small>
-	<a class="btn btn-warning pull-right" href="#" ng-click="details = false"><i class="fa fa-close"></i></a>
       </h3>
       
       <h5 ng-show="details.homepage">
@@ -18,66 +20,71 @@
 	</a>
       </h5>
 
+      <h5 ng-show="details.homepage">
+	<i class="fa fa-home"></i>
+	<a target="_blank" href="{{ details.homepage }}"> 
+	  {{ details.homepage }}
+	</a>
+      </h5>
+      
       <dl class="dl-horizontal">
-
+	
 	<dt ng-show="details.facebook"><i class="fa fa-facebook"></i></dt>
-	<dd ng-show="details.facebook"><a target="_blank" href="{{ details.facebook }}">{{ details.facebook }}</a></dd>
+	<dd ng-show="details.facebook">
+	  <a target="_blank" href="{{ details.facebook }}">{{ details.facebook }}</a></dd>
 
 	<dt ng-show="details.twitter"><i class="fa fa-twitter"></i></dt>
-	<dd ng-show="details.twitter"><a target="_blank" href="{{ details.twitter }}">{{ details.twitter }}</a></dd>
-
+	<dd ng-show="details.twitter">
+	  <a target="_blank" href="{{ details.twitter }}">{{ details.twitter }}</a></dd>
+	
 	<dt ng-show="details.yelp"><i class="fa fa-yelp"></i></dt>
-	<dd ng-show="details.yelp"><a target="_blank" href="{{ details.yelp }}">{{ details.yelp }}</a></dd>
-
+	<dd ng-show="details.yelp">
+	  <a target="_blank" href="{{ details.yelp }}">{{ details.yelp }}</a></dd>
       </dl>
 
-    </div> 
-  </div>
-  
-  <div class="row">
-    <div id="map" class="col-sm-8">
-
-      
-      <google-map style="block" ng-disabled="true" center="map.center" events="map.events" 
-		  zoom="map.zoom" draggable="true">
-	<markers models="map.items" coords="'location'" doCluster="false" 
-		 click="'click'" icon="'icon'" control="map.markers" >
-	</markers>
-      </google-map>
-      
+      <button type="button" class="btn btn-default btn-lg btn-block" ng-click="details = false">back to map</button>
     </div>
+  </div>
 
-    <div id="list" class="col-sm-4" ng-disabled="true">
-      <div class="list-group" ng-show="map.items.length || details"> 
-	
-	<a id="item-{{ item.id }}" ng-repeat="item in map.items" ng-href="" class="list-group-item" 
-	   ng-click="show_details(item)" ng-class="{'active': item.id == details.id}">
-	  <h5>{{ item.name }} <small>{{ item.address }}</small></h5>
-	</a>
+  <div id="map" class="col-sm-8" ng-hide="details">
+    <google-map style="block" ng-disabled="true" center="map.center" events="map.events" 
+		zoom="map.zoom" draggable="true">
+      <markers models="map.items" coords="'location'" doCluster="false" 
+	       click="'click'" icon="'icon'" control="map.markers" >
+      </markers>
+    </google-map>
+  </div>
 
-	<div class="list-group-item text-center">
-	  <p>
-	    Is there a good coffee place missing? Would like to see it here?
-	  </p>
-	  <p>
-	    <a ng-href="add" class="btn btn-success" type="button">Submit</a>
-	  </p>
-	</div>
+  <div id="list" class="col-sm-4 hidden-xs hidden-sm" ng-disabled="true" >
+    <div class="list-group" ng-show="map.items.length || details"> 
+      
+      <a id="item-{{ item.id }}" ng-repeat="item in map.items" ng-href="" class="list-group-item" 
+	 ng-click="show_details(item)" ng-class="{'active': item.id == details.id}">
+	<h5>{{ item.name }} <small>{{ item.address }}</small></h5>
+      </a>
 
+      <div class="list-group-item text-center">
+	<p>
+	  Is there a good coffee place missing? Would like to see it here?
+	</p>
+	<p>
+	  <a ng-href="add" class="btn btn-success" type="button">Submit</a>
+	</p>
       </div>
-      <div class="empty text-center" ng-hide="map.items.length || details">
 
-	<div class="list-group-item text-center">
-	  <p>
-	    It looks like we don't have anything here.
-	    Would like to see it here?
-	  </p>
-	  <p>
-	    <a ng-href="add" class="btn btn-success" type="button">Submit</a>
-	  </p>
-	</div>
+    </div>
+    <div class="empty text-center" ng-hide="map.items.length || details">
 
+      <div class="list-group-item text-center">
+	<p>
+	  It looks like we don't have anything here.
+	  Would like to see it here?
+	</p>
+	<p>
+	  <a ng-href="add" class="btn btn-success" type="button">Submit</a>
+	</p>
       </div>
+
     </div>
   </div>
 </div>
