@@ -55,7 +55,7 @@ app.factory('$config', ['$location', '$rootScope', '$route',
 
 app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$routeParams', '$route',
   function ($scope, $http, $location, Place, $config, $routeParams, $route) {
-	  angular.element('.angular-google-map-container, #list .list-group, #details, #add').height(
+	  angular.element('.angular-google-map-container, #list .list-group, #add').height(
 		  angular.element(window).outerHeight(true) -
 		  angular.element('footer').outerHeight(true) -
 		  angular.element('#search').outerHeight(true)
@@ -88,7 +88,7 @@ app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$
 app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$routeParams', '$rootScope',
   function ($scope, $http, $location, Place, $config, $routeParams, $rootScope) {
 
-	  angular.element('.angular-google-map-container, #list .list-group, #details, #add').height(
+	  angular.element('.angular-google-map-container, #list .list-group, #add').height(
 		  angular.element(window).outerHeight(true) -
 		  angular.element('footer').outerHeight(true) -
 		  angular.element('#search').outerHeight(true)
@@ -151,13 +151,13 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 
 	  $scope.$watch('details', function(newValue, oldValue) {
 		  if (newValue) {
-			  angular.forEach($scope.map.windows.getChildWindows().values(), function(window, i) {
-				  if (window.model.id === newValue.id) {
-					  window.showWindow();
-				  } else {
-					  window.hideWindow();
-				  }
-			  });
+			  // angular.forEach($scope.map.windows.getChildWindows().values(), function(window, i) {
+			  // 	  if (window.model.id === newValue.id) {
+			  // 		  window.showWindow();
+			  // 	  } else {
+			  // 		  window.hideWindow();
+			  // 	  }
+			  // });
 
 			  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
 				  if (marker.key === newValue.id) {
@@ -170,13 +170,27 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 			  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
 		  		  marker.setIcon("/static/img/map1.png");
 		  	  });
-			  angular.forEach($scope.map.windows.getChildWindows().values(), function(window, i) {
-				  window.hideWindow();
-			  });
+			  // angular.forEach($scope.map.windows.getChildWindows().values(), function(window, i) {
+				  // window.hideWindow();
+			  // });
 		  }
 	  });
 
 	  $scope.map.events.idle = function(map) {
+		  // angular.element(window).outerWidth(true) < 1024
+
+		  var $details = angular.element('#details')
+
+		  $details
+			  .css("position", "absolute")
+			  .width(angular.element('#map').width())
+			  .height(angular.element('#map').height())
+
+		  if ($details.outerWidth(true) > 1024 ) {
+		  	  angular.element('.window').addClass('big')
+		  } else {
+			  angular.element('.window').addClass('small')
+		  }
 
 		  $location
 		  	  .path("/")
@@ -227,7 +241,7 @@ app.controller('add', ['$scope', '$http', '$location', 'Place', '$config', '$roo
 		  events: {}
 	  }
 
-	  angular.element('.angular-google-map-container, #list .list-group, #details, #add').height(
+	  angular.element('.angular-google-map-container, #list .list-group, #add').height(
 		  angular.element(window).outerHeight(true) -
 		  angular.element('footer').outerHeight(true) -
 		  angular.element('#search').outerHeight(true)

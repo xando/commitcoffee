@@ -1,42 +1,49 @@
 <div ng-include="'/static/templates/search.html'" ></div>
 
 <div id="results" class="container-fluid">
+
+  <div id="details" ng-show="details">
+    <div class="window center-block" > 
+      <h3>
+	<i class="fa fa-coffee"/> 
+	{{ details.name }} 
+	<small>{{ details.address }}</small>
+      </h3>
+      
+      <h5 ng-show="homepage">
+	<i class="fa fa-home"></i>
+	<a target="_blank" href="{{ details.homepage }}"> 
+	  {{ details.homepage }}
+	</a>
+      </h5>
+
+      <dl class="dl-horizontal">
+
+	<dt ng-hide="facebook"><i class="fa fa-facebook"></i></dt>
+	<dd ng-show="facebook"><a target="_blank" href="{{ details.facebook }}">{{ details.facebook }}</a></dd>
+
+	<dt><i class="fa fa-twitter"></i></dt>
+	<dd><a target="_blank" href="{{ details.twitter }}">{{ details.twitter }}</a></dd>
+
+	<dt><i class="fa fa-yelp"></i></dt>
+	<dd><a target="_blank" href="{{ details.yelp }}">{{ details.yelp }}</a></dd>
+
+      </dl>
+
+    </div> 
+  </div>
+  
   <div class="row">
     <div id="map" class="col-sm-8">
 
+      
       <google-map style="block" ng-disabled="true" center="map.center" events="map.events" 
 		  zoom="map.zoom" draggable="true">
 	<markers models="map.items" coords="'location'" doCluster="false" 
 		 click="'click'" icon="'icon'" control="map.markers" >
-
-	  <windows closeClick="'close'" control="map.windows">
-	    <div class="window" ng-non-bindable> 
-	      <h3><i class="fa fa-coffee"/> {{name}} <small>{{ address }}</small></h3>
-	      
-	      <h5 ng-show="homepage">
-		<i class="fa fa-home"></i>
-		<a target="_blank" href="{{ homepage }}"> 
-		  {{ homepage }}
-		</a>
-	      </h5>
-
-	      <dl class="dl-horizontal">
-
-		<dt ng-hide="facebook"><i class="fa fa-facebook"></i></dt>
-		<dd ng-show="facebook"><a target="_blank" href="{{ facebook }}">{{ facebook }}</a></dd>
-
-		<dt><i class="fa fa-twitter"></i></dt>
-		<dd><a target="_blank" href="{{ twitter }}">{{ twitter }}</a></dd>
-
-		<dt><i class="fa fa-yelp"></i></dt>
-		<dd><a target="_blank" href="{{ yelp }}">{{ yelp }}</a></dd>
-
-	      </dl>
-
-	    </div> 
-	  </windows>
 	</markers>
       </google-map>
+      
     </div>
 
     <div id="list" class="col-sm-4" ng-disabled="true">
