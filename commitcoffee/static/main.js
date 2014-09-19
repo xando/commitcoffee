@@ -82,16 +82,23 @@ app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$
 	  	  var geocoder = new google.maps.Geocoder();
 	  	  geocoder.geocode({'address': $scope.location}, function(results, status) {
 
-	  		  if (results.length > 0) {
+	  		  if (status == google.maps.GeocoderStatus.OK) {
 	  			  var location = results[0].geometry.location;
 
 				  $location
 					  .path("/")
 					  .search('x', location.lng().toFixed(6))
 					  .search('y', location.lat().toFixed(6))
-					  .search('z', 14);
 
 				  angular.element("#search input").blur();
+
+				  if (results[0].geometry.viewport) {
+					  var map = $scope.map.control.getGMap();
+					  map.fitBounds(
+						  results[0].geometry.viewport
+					  );
+					  map.setZoom(map.getZoom()+2);
+				  }
 	  		  }
 
 	  		  $scope.disabled = false;
@@ -120,7 +127,8 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 		  windows: {},
 		  options: {
 			  disableDefaultUI: true
-		  }
+		  },
+		  control: {}
 
 	  }
 
@@ -167,39 +175,34 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 		  angular.element('#details').height(angular.element('#map').height());
 	  }
 
-	  $scope.$watch('details', function(newValue, oldValue) {
-		  if (newValue) {
-			  // angular.forEach($scope.map.windows.getChildWindows().values(), function(window, i) {
-			  // 	  if (window.model.id === newValue.id) {
-			  // 		  window.showWindow();
-			  // 	  } else {
-			  // 		  window.hideWindow();
-			  // 	  }
-			  // });
+	  // $scope.$watch('details', function(newValue, oldValue) {
+	  // 	  if (newValue) {
+	  // 		  // angular.forEach($scope.map.windows.getChildWindows().values(), function(window, i) {
+	  // 		  // 	  if (window.model.id === newValue.id) {
+	  // 		  // 		  window.showWindow();
+	  // 		  // 	  } else {
+	  // 		  // 		  window.hideWindow();
+	  // 		  // 	  }
+	  // 		  // });
 
-			  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
-				  if (marker.key === newValue.id) {
-				  	  marker.setIcon("/static/img/map2.png");
-				  } else {
-				  	  marker.setIcon("/static/img/map1.png");
-				  }
-			  });
-		  } else {
-			  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
-		  		  marker.setIcon("/static/img/map1.png");
-		  	  });
-			  // angular.forEach($scope.map.windows.getChildWindows().values(), function(window, i) {
-				  // window.hideWindow();
-			  // });
-		  }
-	  });
+	  // 		  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
+	  // 			  if (marker.key === newValue.id) {
+	  // 			  	  marker.setIcon("/static/img/map2.png");
+	  // 			  } else {
+	  // 			  	  marker.setIcon("/static/img/map1.png");
+	  // 			  }
+	  // 		  });
+	  // 	  } else {
+	  // 		  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
+	  // 	  		  marker.setIcon("/static/img/map1.png");
+	  // 	  	  });
+	  // 		  // angular.forEach($scope.map.windows.getChildWindows().values(), function(window, i) {
+	  // 			  // window.hideWindow();
+	  // 		  // });
+	  // 	  }
+	  // });
 
 	  $scope.map.events.idle = function(map) {
-		  // if ($details.outerWidth(true) > 1024 ) {
-		  // 	  angular.element('.window').addClass('big')
-		  // } else {
-		  // 	  angular.element('.window').addClass('small')
-		  // }
 
 		  $location
 		  	  .path("/")
