@@ -247,17 +247,13 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 app.controller('add', ['$scope', '$http', '$location', 'Place', '$config', '$rootScope',
   function ($scope, $http, $location, Place, $config, $rootScope) {
 
+	  do_things_right();
+
 	  $scope.map = {
 		  center: $rootScope.map_center || {latitude: 0, longitude: 0},
 		  zoom: $rootScope.map_zoom || 13,
 		  events: {}
 	  }
-
-	  // angular.element('.angular-google-map-container, #list .list-group, #add').height(
-	  // 	  angular.element(window).outerHeight(true) -
-	  // 	  angular.element('footer').outerHeight(true) -
-	  // 	  angular.element('#search').outerHeight(true)
-	  // );
 
 	  $scope.place = {
 		  location: $scope.map.center
