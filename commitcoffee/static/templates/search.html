@@ -1,18 +1,36 @@
-<div id="search" ng-controller="search">
+<div id="search" ng-controller="search" class="row">
 
-  <p class="hidden-xs hidden-sm">
-    Enter the location and search for a
-    geek friendly coffee place near you with good
-    <span class="brown">WiFi</span> and <span class="brown">Coffee</span>
-  </p>
+  <div class="col-xs-12">
 
-  <form class="form text-center" role="form" ng-submit="search()">
-    <div class="input-group">
-      <input ng-model="location" type="text" class="form-control input-lg" ng-disabled="disabled">
-      <span class="input-group-btn">
-	<button class="btn btn-primary btn-lg" type="submit" ng-disabled="disabled">Search</button>
-      </span>
-    </div>
-  </form>
+    <p class="hidden-xs hidden-sm text-center">
+      Enter the location and search for a geek friendly coffee place near you with good
+      <span class="brown">WiFi</span> and <span class="brown">Coffee</span>
+    </p>
 
-</div>
+    <form role="form" ng-submit="search()">
+      <div class="form-group">
+
+	<div class="input-group">
+	  
+	  <input type="text" ng-model="location" ng-disabled="disabled" 
+		 class="form-control input-lg hidden-xs hidden-sm">
+	  <input type="text" ng-model="location" ng-disabled="disabled" 
+		 class="form-control hidden-lg hidden-md">
+	  
+	  <span class="input-group-btn">
+	    
+	    <button class="btn btn-success hidden-lg hidden-md" type="submit" ng-disabled="disabled">
+	      <i class="fa fa-search"></i>
+	    </button>
+	    
+	    <button class="btn btn-success btn-lg hidden-xs hidden-sm" type="submit" ng-disabled="disabled">
+	      <i class="fa fa-search"></i>  <span class="hidden-xs hidden-sm">Search</span>
+	    </button>
+
+	  </span>
+	</div>
+      </div>
+    </form>
+    
+  </div>
+</div>    

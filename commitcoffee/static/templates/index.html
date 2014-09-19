@@ -2,7 +2,7 @@
 
 <div id="results" class="row">
   
-  <div id="details" class="col-sm-8" ng-show="details">
+  <div id="details" class="col-sm-8 col-xs-12" ng-show="details">
     <div class="window">
       <h3>
 	<button href="#" class="btn btn-default pull-right hidden-xs hidden-sm" ng-click="details = false">
@@ -41,7 +41,8 @@
 	</a>
       </h5>
       
-      <button type="button" class="btn btn-default btn-lg btn-block hidden-lg hidden-md" ng-click="details = false">back to map
+      <button type="button" class="btn btn-default btn-lg btn-block hidden-lg hidden-md" ng-click="details = false">
+	back to map
       </button>
     </div>
   </div>
@@ -56,35 +57,12 @@
   </div>
 
   <div id="list" class="col-sm-4 hidden-xs" ng-disabled="true" >
-    <div class="list-group" ng-show="map.items.length || details"> 
-      
+    <div class="list-group"> 
       <a id="item-{{ item.id }}" ng-repeat="item in map.items" ng-href="" class="list-group-item" 
 	 ng-click="show_details(item)" ng-class="{'active': item.id == details.id}">
 	<h5>{{ item.name }} <small>{{ item.address }}</small></h5>
       </a>
-
-      <div class="list-group-item text-center">
-	<p>
-	  Is there a good coffee place missing? Would like to see it here?
-	</p>
-	<p>
-	  <a ng-href="add" class="btn btn-success" type="button">Submit</a>
-	</p>
-      </div>
-
-    </div>
-    <div class="empty text-center" ng-hide="map.items.length || details">
-
-      <div class="list-group-item text-center">
-	<p>
-	  It looks like we don't have anything here.
-	  Would like to see it here?
-	</p>
-	<p>
-	  <a ng-href="add" class="btn btn-success" type="button">Submit</a>
-	</p>
-      </div>
-
     </div>
   </div>
+  
 </div>
