@@ -1,6 +1,6 @@
 function do_things_right() {
 
-	angular.element('.angular-google-map-container, #list .list-group, #add').height(
+	angular.element('.angular-google-map-container, #list .list-group').height(
 		angular.element(window).outerHeight(true) -
 		angular.element('#search').outerHeight(true) -
 		angular.element('#submit').outerHeight(true) -
