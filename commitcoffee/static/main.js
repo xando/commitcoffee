@@ -11,9 +11,9 @@ function do_things_right() {
 
 }
 
-angular.element(window).resize(function() {
-	do_things_right();
-})
+// angular.element(window).resize(function() {
+// 	do_things_right();
+// })
 
 
 angular.module('api', ['djangoRESTResources'])
