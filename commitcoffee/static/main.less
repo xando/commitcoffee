@@ -5,6 +5,7 @@ body {
 	background: #000;
 	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
+	overflow-y: hidden;
 }
 
 .logo {
@@ -27,7 +28,6 @@ body {
 
 
 #search {
-	// background-color: #f5f5f5;
 	z-index: 50;
 	border-bottom: 1px solid #ddd;
 
@@ -117,27 +117,54 @@ body {
 	}
 
 	#add {
+
+		@media (max-width:992px) {
+		}
+
+		@media (min-width:992px) {
+			form {
+				margin: 0 auto;
+				width: 992px;
+			}
+		}
+
+
 		overflow-y: auto;
-		box-shadow: -5px 0px 30px -7px rgba(0,0,0,0.75);
 		padding: 0 30px 0 20px;
+		background-color: white;
 		form {
 			margin-top: 20px;
+
+			.fa {
+				min-width: 14px;
+			}
+
+			.description {
+				.input-group-addon {
+					text-align: left;
+					min-width: 137px;
+				}
+			}
 		}
-		background-color: white;
 	}
+
+	#submit {
+		text-align: center;
+		font-weight: bold;
+		p {
+			margin: 0;
+			padding: 10px 0;
+			&.submit {
+				border-top: #eee 1px solid;
+				background-color: #f5f5f5;
+			}
+		}
+	}
+
 }
 
 
 footer {
 	text-align: center;
 	font-weight: bold;
-	p {
-		margin: 0;
-		padding: 10px 0;
-		&.submit {
-			border-top: #eee 1px solid;
-			background-color: #f5f5f5;
-		}
-	}
-
 }

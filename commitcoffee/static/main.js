@@ -2,8 +2,9 @@ function do_things_right() {
 
 	angular.element('.angular-google-map-container, #list .list-group, #add').height(
 		angular.element(window).outerHeight(true) -
-		angular.element('footer').outerHeight(true) -
-		angular.element('#search').outerHeight(true)
+		angular.element('#search').outerHeight(true) -
+		angular.element('#submit').outerHeight(true) -
+		angular.element('footer').outerHeight(true)
 	);
 
 	angular.element('#details').height(angular.element('#map').height());
