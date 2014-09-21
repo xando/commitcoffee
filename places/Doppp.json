@@ -77,21 +77,6 @@
     {
         "city": "San Francisco",
         "country": "USA",
-        "name": "Sightglass Coffee",
-        "address": "270 7th St, San Francisco, CA 94103",
-        "coordinates": ["37.777033", "-122.408430"],
-        "description": {
-          "Internet": "Free wifi, good speed.",
-          "Power Outlets": "Some.",
-          "Seating": "Ample seating.",
-          "Service": "Excellent service.",
-          "Provision": "Great coffee and pastries."
-        },
-        "link": {"homepage":"https://sightglasscoffee.com/"}
-    },
-    {
-        "city": "San Francisco",
-        "country": "USA",
         "name": "Contraband Coffee Bar",
         "address": "1415 Larkin St, San Francisco, CA 94109",
         "coordinates": ["37.790981", "-122.419169"],
