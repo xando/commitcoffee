@@ -2,14 +2,8 @@
 
 <div id="results" class="row">
 
-  <div id="map" class="col-xs-12" ng-show="false">
-    <google-map center="map.center" events="map.events" zoom="map.zoom" draggable="true">
-      <marker coords="map.center" icon="'/static/img/map2.png'" idkey="1" />
-    </google-map>
-  </div>
-
   <div id="add" class="col-xs-12" ng-show="true">
-    
+
     <form role="form" ng-submit="submit()">
 
       <div class="row">
@@ -27,37 +21,8 @@
 
 	<div class="col-sm-6">
 
-	  <label>Location</label>
-
-	  <div class="form-group" ng-class="{'has-warning': error.address}">
-	    <label ng-show="error.address" class="control-label"> {{ error.address.join(", ") }}</label>
-	    <div class="input-group">
-	      <div class="input-group-addon"><i class="fa fa-home"></i></div>
-	      <input ng-model="place.address" class="form-control" type="text" placeholder="address">
-	    </div>
-	  </div>
-
-	  <div class="form-group">
-	    <div class="input-group">
-	      <div class="input-group-addon"><i class="fa fa-arrows-v"></i></div>
-	      <input class="form-control" type="text" ng-model="map.center.latitude" disabled>
-	    </div>
-	  </div>
-	  <div class="form-group">
-	    <div class="input-group">
-	      <div class="input-group-addon"><i class="fa fa-arrows-h"></i></div>
-	      <input class="form-control" type="text" ng-model="map.center.longitude" disabled>
-	    </div>
-	  </div>
-	  <p class="help-block">
-	    Move map around to set the location
-	  </p>
-	</div>
-
-	<div class="col-sm-6">
-
 	  <label>Links</label>
-	  
+
 	  <div class="form-group">
 	    <div class="input-group">
 	      <div class="input-group-addon"><i class="fa fa-link"></i></div>
@@ -88,10 +53,60 @@
 
 	</div>
 
-	
+	<div class="col-sm-6">
+	  <div class="form-group" ng-class="{'has-warning': error.country || error.city || error.address }">
+	    <label class="control-label"> 
+	      Location 
+	      {{ error.country.join(", ")}}
+	      {{ error.city.join(", ") }}
+	      {{ error.address.join(", ") }}
+	    </label>
+	    <div class="input-group">
+	      <div class="input-group-addon"><i class="fa fa-flag"></i></div>
+	      <input ng-model="place.country" class="form-control" type="text" placeholder="country">
+	    </div>
+	  </div>
+
+	  <div class="form-group" ng-class="{'has-warning': error.country || error.city || error.address }">
+	    <div class="input-group">
+	      <div class="input-group-addon"><i class="fa fa-university"></i></div>
+	      <input ng-model="place.city" class="form-control" type="text" placeholder="city">
+	    </div>
+	  </div>
+
+	  <div class="form-group" ng-class="{'has-warning': error.country || error.city || error.address }">
+	    <div class="input-group">
+	      <div class="input-group-addon"><i class="fa fa-home"></i></div>
+	      <input ng-model="place.address" class="form-control" type="text" placeholder="address">
+	    </div>
+	  </div>
+
+	  <div class="form-group">
+	    <div class="input-group">
+	      <div class="input-group-addon"><i class="fa fa-arrows"></i></div>
+	      <input class="form-control coords" type="text" ng-model="map.center.latitude" disabled />
+	      <input class="form-control coords" type="text" ng-model="map.center.longitude" disabled />
+	    </div>
+	  </div>
+
+	  <div class="form-group" ng-show="false">
+	    <div class="input-group show-map">
+	      <div class="input-group-addon"><i class="fa fa-map-marker"></i></div>
+	      <button class="btn btn-success btn-block" type="button"> adjust on map </button>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="col-sm-12">
+	  <google-map center="map.center" zoom="map.zoom" draggable="true" options="map.options"
+		      control="map.control" events="map.events">
+	  </google-map>
+	  <p class="help-block">Please drag map around to set the detailed location</p>
+	</div>
+
 	<div class="col-sm-12">
 	  <hr/>
-	  
+
 	  <div class="form-group description">
 	    <label>Description</label>
 	    <p class="help-block">Please leave a detailed description of the place for others</p>
@@ -109,7 +124,7 @@
 		<input ng-model="place.description_power" class="form-control">
 	      </div>
 	    </div>
-	    
+
 	    <div class="form-group">
 	      <div class="input-group">
 		<div class="input-group-addon"><i class="fa fa-users"></i> Service</div>
@@ -134,7 +149,7 @@
 	  </div>
 
 	  <hr/>
-	  
+
 	  <div class="form-group">
 	    <div class="checkbox">
 	      <label>
@@ -154,6 +169,8 @@
 	      </div>
 	    </div>
 	  </div>
+
+	  <hr/>
 
 	  <div class="form-group" style="position: absolute; bottom: 999999px">
 	    <div class="input-group">

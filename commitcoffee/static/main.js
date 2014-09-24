@@ -1,6 +1,6 @@
 function do_things_right() {
 
-	angular.element('.angular-google-map-container, #list .list-group').height(
+	angular.element('#list .list-group').height(
 		angular.element(window).outerHeight(true) -
 		angular.element('#search').outerHeight(true) -
 		angular.element('#submit').outerHeight(true) -
@@ -249,20 +249,70 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 	  }
 }]);
 
-app.controller('add', ['$scope', '$http', '$location', 'Place', '$config', '$rootScope',
-  function ($scope, $http, $location, Place, $config, $rootScope) {
-
-	  do_things_right();
+app.controller('add', ['$scope', '$http', '$location', 'Place', '$config', '$rootScope', '$timeout',
+  function ($scope, $http, $location, Place, $config, $rootScope, $timeout) {
 
 	  $scope.map = {
-		  center: $rootScope.map_center || {latitude: 0, longitude: 0},
-		  zoom: $rootScope.map_zoom || 13,
-		  events: {}
+	  	  center: {
+			  latitude: 39.1846,
+			  longitude: -42.705444
+		  },
+	  	  zoom: 3,
+		  control: {},
+	  	  options: {
+	  		  disableDefaultUI: true,
+			  scrollwheel: false
+	  	  },
+		  events: {
+			  projection_changed: function(map) {
+				  $('<img src="/static/img/map2.png" class="marker"/>')
+					  .appendTo(".angular-google-map-container");
+			  }
+		  }
 	  }
 
 	  $scope.place = {
 		  location: $scope.map.center
 	  }
+
+	  var address_timer=false;
+	  $scope.$watch(
+		  function() {
+			  return $scope.place.address +
+				     $scope.place.city +
+				     $scope.place.country;
+		  },
+		  function() {
+			  if(address_timer){
+				  $timeout.cancel(address_timer)
+			  }
+			  address_timer = $timeout(function(){
+				  var country = ($scope.place.country || '');
+				  var city = ($scope.place.city || '');
+				  var address = ($scope.place.address || '');
+				  var full_address = country+' '+city+' '+address;
+
+				  if (full_address.length > 2) {
+					  var geocoder = new google.maps.Geocoder();
+					  geocoder.geocode({'address': full_address}, function(results, status) {
+	  					  if (status == google.maps.GeocoderStatus.OK) {
+							  var location = results[0].geometry.location;
+							  $scope.map.center.latitude = location.lat();
+							  $scope.map.center.longitude = location.lng();
+							  $scope.$apply();
+							  if (results[0].geometry.viewport) {
+								  var map = $scope.map.control.getGMap();
+								  map.fitBounds(
+									  results[0].geometry.viewport
+								  );
+							  }
+	  					  }
+					  });
+				  }
+			  }, 1000);
+		  }
+	  );
+
 
 	  $scope.submit = function() {
 		  Place.save($scope.place, function() {}, function(response) {
