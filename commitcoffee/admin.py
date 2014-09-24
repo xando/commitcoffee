@@ -6,5 +6,4 @@ from . import models
 class PlaceAdmin(admin.ModelAdmin):
     list_display = ['name', 'address', 'published']
     list_filter = ['published']
-    actions = None
 
