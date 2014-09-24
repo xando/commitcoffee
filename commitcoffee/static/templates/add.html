@@ -61,21 +61,21 @@
 	  <div class="form-group">
 	    <div class="input-group">
 	      <div class="input-group-addon"><i class="fa fa-link"></i></div>
-	      <input ng-model="place.homepage" class="form-control" type="text" placeholder="homepage">
+	      <input ng-model="place.homepage" class="form-control" type="url" placeholder="homepage">
 	    </div>
 	  </div>
 
 	  <div class="form-group">
 	    <div class="input-group">
 	      <div class="input-group-addon"><i class="fa fa-facebook-square"></i></div>
-	      <input ng-model="place.facebook" class="form-control" type="text" placeholder="facebook page">
+	      <input ng-model="place.facebook" class="form-control" type="url" placeholder="facebook page">
 	    </div>
 	  </div>
 
 	  <div class="form-group">
 	    <div class="input-group">
 	      <div class="input-group-addon"><i class="fa fa-twitter"></i></div>
-	      <input ng-model="place.twitter" class="form-control" type="text" placeholder="twitter account">
+	      <input ng-model="place.twitter" class="form-control" type="url" placeholder="twitter account">
 	    </div>
 	  </div>
 
@@ -99,42 +99,42 @@
 	    <div class="form-group">
 	      <div class="input-group">
 		<div class="input-group-addon"><i class="fa fa-wifi"></i> Internet</div>
-		<input ng-model="service" class="form-control" type="text">
+		<input ng-model="place.description_internet" class="form-control">
 	      </div>
 	    </div>
 
 	    <div class="form-group">
 	      <div class="input-group">
 		<div class="input-group-addon"><i class="fa fa-plug"></i> Power Outlets</div>
-		<input ng-model="service" class="form-control" type="text">
+		<input ng-model="place.description_power" class="form-control">
 	      </div>
 	    </div>
 	    
 	    <div class="form-group">
 	      <div class="input-group">
 		<div class="input-group-addon"><i class="fa fa-users"></i> Service</div>
-		<input ng-model="service" class="form-control" type="text">
+		<input ng-model="place.description_service" class="form-control">
 	      </div>
 	    </div>
 
 	    <div class="form-group">
 	      <div class="input-group">
 		<div class="input-group-addon"><i class="fa fa-cutlery"></i> Provision</div>
-		<input ng-model="place.email" class="form-control" type="email">
+		<input ng-model="place.description_provision" class="form-control">
 	      </div>
 	    </div>
 
 	    <div class="form-group">
 	      <div class="input-group">
 		<div class="input-group-addon"><i class="fa fa-question"></i> Anything Else</div>
-		<input ng-model="place.email" class="form-control" type="email">
+		<input ng-model="place.description_other" class="form-control">
 	      </div>
 	    </div>
 
 	  </div>
 
 	  <hr/>
-		  
+	  
 	  <div class="form-group">
 	    <div class="checkbox">
 	      <label>
@@ -150,7 +150,7 @@
 	    <div class="form-group">
 	      <div class="input-group">
 		<div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-		<input ng-model="place.email" class="form-control" type="email" placeholder="email address">
+		<input ng-model="place.contact" class="form-control" type="email" placeholder="email address">
 	      </div>
 	    </div>
 	  </div>
@@ -161,17 +161,18 @@
 	      <input ng-model="place.email" class="form-control" type="email">
 	    </div>
 	  </div>
-	  
+
 	  <div class="form-group">
-	    <button type="submit" class="btn btn-success btn-block">Submit</button>
+
+	    <div class="btn-group input-group btn-group-justified">
+	      <a href="#" class="btn btn-warning" ng-click="back" style="width:10%">Cancel</a>
+	      <button type="submit" class="btn btn-success" style="width:100%">Submit</button>
+	    </div>
+
 	  </div>
-
 	</div>
-
       </div>
     </form>
-
   </div>
-
 </div>
 

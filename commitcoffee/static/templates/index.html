@@ -8,37 +8,110 @@
 	<i class="fa fa-close"/> back to map
       </button>
       <i class="fa fa-coffee"/> 
-      {{ details.name }} 
+      {{ details.name }} <br/>
       <small>{{ details.address }}</small>
     </h3>
     
-    <h5 ng-show="details.homepage">
+    <h4 ng-show="details.homepage" class="hidden-xs hidden-sm">
       <i class="fa fa-home"></i>
       <a target="_blank" href="{{ details.homepage }}"> 
 	{{ details.homepage }}
       </a>
-    </h5>
+    </h4>
 
-    <h5 ng-show="details.facebook">
+    <h4 ng-show="details.facebook" class="hidden-xs hidden-sm">
       <i class="fa fa-facebook"></i>
       <a target="_blank" href="{{ details.facebook }}"> 
 	{{ details.facebook }}
       </a>
-    </h5>
+    </h4>
 
-    <h5 ng-show="details.twitter">
+    <h4 ng-show="details.twitter" class="hidden-xs hidden-sm">
       <i class="fa fa-twitter"></i>
-      <a target="_blank" href="{{ details.twitter }}"> 
-	{{ details.twitter }}
+      <a target="_blank" href="http://twitter.com/{{ details.twitter }}"> 
+	@{{ details.twitter }}
       </a>
-    </h5>
+    </h4>
 
-    <h5 ng-show="details.yelp">
+    <h4 ng-show="details.yelp" class="hidden-xs hidden-sm">
       <i class="fa fa-yelp"></i>
       <a target="_blank" href="{{ details.yelp }}"> 
 	{{ details.yelp }}
       </a>
-    </h5>
+    </h4>
+
+    <p class="description">
+
+      <div class="row">
+	<div class="col-sm-6 col-xs-12">
+	  <dl>
+	    <dt><i class="fa fa-wifi" /> Internet</dt>
+	    <dd>
+	      <span ng-show="details.description_internet">
+		{{ details.description_internet }} 
+	      </span>
+	      <span ng-show="!details.description_internet.length">
+		<i>no infromation provided</i>
+	      </span>
+	    </dd>
+
+	    <dt><i class="fa fa-plug" /> Power Outlets</dt>
+	    <dd>
+	      <span ng-show="details.description_power">
+		{{ details.description_power }} 
+	      </span>
+	      <span ng-show="!details.description_power.length">
+		<i>no infromation provided</i>
+	      </span>
+	    </dd>
+	  </dl>
+	</div>
+	<div class="col-sm-6 col-xs-12">
+	  <dl>
+	    <dt><i class="fa fa-users" /> Service</dt>
+	    <dd>
+	      <span ng-show="details.description_service">
+		{{ details.description_service }} 
+	      </span>
+	      <span ng-show="!details.description_service.length">
+		<i>no infromation provided</i>
+	      </span>
+	    </dd>
+
+	    <dt><i class="fa fa-cutlery"/> Provision</dt>
+	    <dd>
+	      <span ng-show="details.description_provision">
+		{{ details.description_provision }} 
+	      </span>
+	      <span ng-show="!details.description_provision.length">
+		<i>no infromation provided</i>
+	      </span>
+	    </dd>
+	    
+	  </dl>	  
+	</div>
+	<div class="col-xs-12" ng-snow="details.description_other">
+	  <dl>
+	    <dt><i class="fa fa-question"/> More</dt>
+	    <dd>{{ details.description_other }}</dd>
+	  </dl>
+	</div>
+      </div>
+      
+    </p>
+
+    <a ng-show="details.homepage" type="button" class="btn btn-default social hidden-md hidden-lg">
+      <i class="fa fa-home"/>Homepage
+    </a>
+    <a ng-show="details.facebook" type="button" class="btn btn-default social hidden-md hidden-lg">
+      <i class="fa fa-facebook"></i> Facebook 
+    </a>
+    <a ng-show="details.twitter" type="button" class="btn btn-default social hidden-md hidden-lg">
+      <i class="fa fa-twitter"></i> Twitter 
+    </a>
+    <a ng-show="details.yelp" type="button" class="btn btn-default social hidden-md hidden-lg">
+      <i class="fa fa-yelp"></i> Yelp 
+    </a>
     
     <button type="button" class="btn btn-default btn-lg btn-block hidden-lg hidden-md" ng-click="details = false">
       back to map

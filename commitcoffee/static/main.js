@@ -36,7 +36,7 @@ var app = angular.module(
 			.when('/', {
 				templateUrl: '/static/templates/index.html',
 				controller: 'index',
-				reloadOnSearch: false,
+				// reloadOnSearch: false,
 
 			})
 			.when('/:id/:name', {
@@ -46,7 +46,7 @@ var app = angular.module(
 			.when('/add', {
 				templateUrl: '/static/templates/add.html',
 				controller: 'add',
-				reloadOnSearch: false,
+				// reloadOnSearch: false,
 			});
 
 	})
@@ -93,12 +93,12 @@ app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$
 
 				  angular.element("#search input").blur();
 
-				  if (results[0].geometry.viewport) {
+				  if (results[0].geometry.viewport && $scope.map.control !== undefined) {
 					  var map = $scope.map.control.getGMap();
 					  map.fitBounds(
 						  results[0].geometry.viewport
 					  );
-					  map.setZoom(map.getZoom()+2);
+					  // map.setZoom(map.getZoom()+2);
 				  }
 	  		  }
 
@@ -213,6 +213,8 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 		  	  .search('y', map.getCenter().lat().toFixed(6))
 		  	  .search('z', map.getZoom());
 
+		  history.pushState(null, null, $location.url());
+
 	  	  var search = {
 	  	  	  lat0: map.getBounds().getSouthWest().lat(),
 	  	  	  lng0: map.getBounds().getSouthWest().lng(),
@@ -221,7 +223,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 	  	  }
 
 		  var url = '/api/search?' + decodeURIComponent($.param(search));
-		  $http({method: 'GET', url: url})
+		  $http({method: 'GET', url: url, cache: true})
 	  		  .success(function(items, status, headers, config) {
 	  			  $scope.map.items = items;
 				  angular.forEach($scope.map.items, function(item, i) {
@@ -266,6 +268,13 @@ app.controller('add', ['$scope', '$http', '$location', 'Place', '$config', '$roo
 		  Place.save($scope.place, function() {}, function(response) {
 			  $scope.error = response.data;
 		  })
+	  }
+
+	  $scope.back = function() {
+		  history.go(-1);
+		  // Place.save($scope.place, function() {}, function(response) {
+			  // $scope.error = response.data;
+		  // })
 	  }
 
 }]);

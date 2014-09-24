@@ -13,6 +13,14 @@ class Place(models.Model):
     facebook = models.URLField(blank=True)
     twitter = models.URLField(blank=True)
 
+    description_internet = models.TextField(blank=True)
+    description_power = models.TextField(blank=True)
+    description_service = models.TextField(blank=True)
+    description_provision = models.TextField(blank=True)
+    description_other = models.TextField(blank=True)
+
+    owner = models.BooleanField(default=False)
+    contact = models.EmailField(blank=True)
     published = models.BooleanField(default=False)
 
     objects = models.GeoManager()
