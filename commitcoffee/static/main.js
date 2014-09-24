@@ -272,6 +272,9 @@ app.controller('add', ['$scope', '$http', '$location', 'Place', '$config', '$roo
 				  marker.css('top', marker.position().top - 57);
 				  marker.css('left', marker.position().left - 17);
 			  }
+			  dragstart: function(map) {
+				  $('input').blur();
+			  }
 		  }
 	  }
 
