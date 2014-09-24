@@ -4,6 +4,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
+	background: black;
 }
 
 .logo {
@@ -64,19 +65,23 @@ body {
 	background-color: white;
 	padding: 0 30px 0 20px;
 
-	.angular-google-map-container {
-		height: 300px;
-		border: 1px solid #ccc;
-		.marker {
-			z-index: 11111;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-		}
+	.submited {
+		padding: 100px 0;
 	}
 
 	form {
 		margin-top: 20px;
+
+		.angular-google-map-container {
+			height: 300px;
+			border: 1px solid #ccc;
+			.marker {
+				z-index: 11111;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+			}
+		}
 
 		.fa {
 			min-width: 16px;
@@ -88,9 +93,7 @@ body {
 				border-right: 0;
 			}
 		}
-		.show-map button {
-			border-radius: 0 5px 5px 0;
-		}
+
 		.description {
 			.input-group-addon {
 				text-align: left;

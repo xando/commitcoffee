@@ -322,7 +322,9 @@ app.controller('add', ['$scope', '$http', '$location', 'Place', '$config', '$roo
 
 
 	  $scope.submit = function() {
-		  Place.save($scope.place, function() {}, function(response) {
+		  Place.save($scope.place, function() {
+			  $scope.submited = true;
+		  }, function(response) {
 			  $scope.error = response.data;
 		  })
 	  }

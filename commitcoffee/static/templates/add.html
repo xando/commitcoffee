@@ -2,7 +2,25 @@
 
 
 <div id="add" class="container">
-  <div class="row">
+  
+  <div class="row submited" ng-show="submited">
+    <div class="col-sm-12 text-center">
+
+      <div class="page-header text-center">
+	<h1>Thanks!</h1>
+      </div>
+
+      <a type="button" ng-href="/" class="btn btn-default btn-lg">
+	Go to map
+      </a>
+      <button type="button" ng-click="submited=false; place={}" class="btn btn-success btn-lg">
+	Submit another one
+      </button>
+      
+    </div>
+  </div>
+
+  <div class="row" ng-hide="submited">
     <form role="form" ng-submit="submit()">
       <div class="col-sm-12">
 
