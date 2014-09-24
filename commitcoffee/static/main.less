@@ -2,7 +2,6 @@
 #preload-02 { background: url(/static/img/map2.png) }
 
 body {
-	background: #000;
 	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
@@ -27,6 +26,7 @@ body {
 
 
 #search {
+	background: #000;
 	z-index: 50;
 	border-bottom: 1px solid #ddd;
 
@@ -59,7 +59,50 @@ body {
 	}
 }
 
+
+#add.container {
+	background-color: white;
+	padding: 0 30px 0 20px;
+
+	.angular-google-map-container {
+		height: 300px;
+		border: 1px solid #ccc;
+		.marker {
+			z-index: 11111;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+		}
+	}
+
+	form {
+		margin-top: 20px;
+
+		.fa {
+			min-width: 16px;
+		}
+
+		.coords {
+			width: 50%;
+			&:first-of-type {
+				border-right: 0;
+			}
+		}
+		.show-map button {
+			border-radius: 0 5px 5px 0;
+		}
+		.description {
+			.input-group-addon {
+				text-align: left;
+				min-width: 137px;
+			}
+		}
+	}
+}
+
 #results {
+
+
 	#map {
 		// padding: 0;
 
@@ -92,10 +135,6 @@ body {
 	#details {
 		z-index: 11;
 		background-color: #f5f5f5;
-		// padding-top: 10px;
-		// padding-bottom: 10px;
-		// overflow-y: auto;
-
 		dl {
 			dd {
 				margin-bottom: 10px;
@@ -108,73 +147,6 @@ body {
 
 		.social {
 			min-width: 150px;
-		}
-
-		// button.hidden-lg {
-		// 	position:absolute;
-		// 	bottom:0;
-		// 	width: 95%;
-		// 	left: 0;
-		// 	position:absolute;
-		// 	left:0;
-		// 	right:0;
-		// 	margin-bottom:25px;
-		// 	margin-left:auto;
-		// 	margin-right:auto;
-		// }
-	}
-
-	#add {
-
-		@media (max-width:992px) {
-		}
-
-		.angular-google-map-container {
-			height: 300px;
-			border: 1px solid #ccc;
-			.marker {
-				z-index: 11111;
-				// margin: auto;
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				// bottom: 57px;
-				// right: 0;
-				// height: 57px;
-			}
-		}
-
-		form {
-			margin: 0 auto;
-			width: 992px;
-			.coords {
-				width: 50%;
-				&:first-of-type {
-					border-right: 0;
-				}
-			}
-			.show-map button {
-				border-radius: 0 5px 5px 0;
-			}
-
-
-		}
-
-		padding: 0 30px 0 20px;
-		background-color: white;
-		form {
-			margin-top: 20px;
-
-			.fa {
-				min-width: 16px;
-			}
-
-			.description {
-				.input-group-addon {
-					text-align: left;
-					min-width: 137px;
-				}
-			}
 		}
 	}
 
@@ -195,6 +167,8 @@ body {
 
 
 footer {
+	background: #000;
+	padding: 15px 0 10px;
 	text-align: center;
 	font-weight: bold;
 }

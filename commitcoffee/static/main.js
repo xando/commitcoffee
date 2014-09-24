@@ -260,13 +260,17 @@ app.controller('add', ['$scope', '$http', '$location', 'Place', '$config', '$roo
 	  	  zoom: 3,
 		  control: {},
 	  	  options: {
-	  		  disableDefaultUI: true,
-			  scrollwheel: false
+			  scrollwheel: false,
+			  zoomControl: true,
+			  mapTypeControl: false,
+			  streetViewControl: false,
 	  	  },
 		  events: {
 			  projection_changed: function(map) {
-				  $('<img src="/static/img/map2.png" class="marker"/>')
+				  var marker = $('<img src="/static/img/map2.png" class="marker"/>')
 					  .appendTo(".angular-google-map-container");
+				  marker.css('top', marker.position().top - 57);
+				  marker.css('left', marker.position().left - 17);
 			  }
 		  }
 	  }
