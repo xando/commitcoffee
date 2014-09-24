@@ -2,7 +2,7 @@
 
 
 <div id="add" class="container">
-  
+
   <div class="row submited" ng-show="submited">
     <div class="col-sm-12 text-center">
 
@@ -16,7 +16,7 @@
       <button type="button" ng-click="submited=false; place={}" class="btn btn-success btn-lg">
 	Submit another one
       </button>
-      
+
     </div>
   </div>
 
@@ -69,8 +69,8 @@
 
       <div class="col-sm-6">
 	<div class="form-group" ng-class="{'has-warning': error.country || error.city || error.address }">
-	  <label class="control-label"> 
-	    Location 
+	  <label class="control-label">
+	    Location
 	    {{ error.country.join(", ")}}
 	    {{ error.city.join(", ") }}
 	    {{ error.address.join(", ") }}
@@ -189,18 +189,17 @@
 	<div class="form-group" style="position: absolute; bottom: 999999px">
 	  <div class="input-group">
 	    <div class="input-group-addon"><i class="fa fa-question"></i> Internet of things</div>
-	    <input ng-model="place.email" class="form-control" type="email">
+	    <input ng-model="place.things" class="form-control" type="text">
 	  </div>
 	</div>
 
 	<div class="form-group">
-
 	  <div class="btn-group input-group btn-group-justified">
 	    <a href="#" class="btn btn-warning cancel" ng-click="back">Cancel</a>
 	    <button type="submit" class="btn btn-success submit">Submit</button>
 	  </div>
-
 	</div>
+
       </div>
     </form>
   </div>
