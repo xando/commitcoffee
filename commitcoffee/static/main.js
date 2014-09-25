@@ -1,13 +1,13 @@
 function do_things_right() {
 
-	angular.element('#list .list-group').height(
+	angular.element('.list .list-group, .angular-google-map-container').height(
 		angular.element(window).outerHeight(true) -
 		angular.element('#search').outerHeight(true) -
-		angular.element('#submit').outerHeight(true) -
-		angular.element('footer').outerHeight(true)
+		angular.element('.submit').outerHeight(true) -
+		angular.element('footer').outerHeight(true) - 2
 	);
 
-	angular.element('#details').height(angular.element('#map').height());
+	// angular.element('#details').height(angular.element('#map').height());
 
 }
 

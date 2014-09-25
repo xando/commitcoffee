@@ -72,7 +72,7 @@ body {
 		margin-top: 20px;
 
 		.angular-google-map-container {
-			height: 300px;
+			height: 200px;
 			border: 1px solid #ccc;
 			.marker {
 				z-index: 11111;
@@ -108,28 +108,38 @@ body {
 	}
 }
 
-#results {
+#results.container-fluid {
 
+	.row {
+		border-bottom: 1px solid #ccc;
+	}
 
-	#map {
-		// padding: 0;
-
-		.angular-google-map {
-			// position: relative;
+	.map {
+		padding: 0;
+		.angular-google-map-container {
+			height: 400px;
+			.marker {
+				z-index: 11111;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+			}
 		}
 	}
 
-	#list {
+	.list {
 		// box-shadow: -5px 0px 30px -7px rgba(0,0,0,0.75);
 		z-index: 10;
 		padding: 0;
 		color: #555;
 		text-decoration: none;
 		background-color: #f5f5f5;
+		// border-bottom: 1px solid #ccc;
+		// outline: 1px solid #ccc;
 
 		.list-group {
 			margin-bottom: 0;
-			overflow-y: scroll;
+			overflow-y: auto;
 			.list-group-item {
 				&:first-child{
 					border-top: 0;
@@ -140,25 +150,7 @@ body {
 		}
 	}
 
-	#details {
-		z-index: 11;
-		background-color: #f5f5f5;
-		dl {
-			dd {
-				margin-bottom: 10px;
-			}
-		}
-
-		.fa {
-			min-width: 20px;
-		}
-
-		.social {
-			min-width: 150px;
-		}
-	}
-
-	#submit {
+	.submit {
 		text-align: center;
 		font-weight: bold;
 		p {
@@ -170,6 +162,55 @@ body {
 			}
 		}
 	}
+
+
+	// #map {
+	// 	// padding: 0;
+
+	// 	.angular-google-map {
+	// 		// position: relative;
+	// 	}
+	// }
+
+	// #list {
+	// 	// box-shadow: -5px 0px 30px -7px rgba(0,0,0,0.75);
+	// 	z-index: 10;
+	// 	padding: 0;
+	// 	color: #555;
+	// 	text-decoration: none;
+	// 	background-color: #f5f5f5;
+
+	// 	.list-group {
+	// 		margin-bottom: 0;
+	// 		overflow-y: scroll;
+	// 		.list-group-item {
+	// 			&:first-child{
+	// 				border-top: 0;
+	// 			}
+	// 			cursor: pointer;
+	// 			border-radius: 0;
+	// 		}
+	// 	}
+	// }
+
+	// #details {
+	// 	z-index: 11;
+	// 	background-color: #f5f5f5;
+	// 	dl {
+	// 		dd {
+	// 			margin-bottom: 10px;
+	// 		}
+	// 	}
+
+	// 	.fa {
+	// 		min-width: 20px;
+	// 	}
+
+	// 	.social {
+	// 		min-width: 150px;
+	// 	}
+	// }
+
 
 }
 
