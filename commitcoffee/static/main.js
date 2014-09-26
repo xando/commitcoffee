@@ -51,17 +51,38 @@ var app = angular.module(
 
 	})
 
-app.factory('$config', ['$location', '$rootScope', '$route',
-						function($location, $rootScope, $route) {
 
-
-}]);
-
-
-app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$routeParams', '$route',
-  function ($scope, $http, $location, Place, $config, $routeParams, $route) {
+app.controller('search', ['$scope', '$http', '$location', 'Place', '$routeParams', '$route',
+  function ($scope, $http, $location, Place, $routeParams, $route) {
 
 	  do_things_right();
+
+
+  }])
+
+var pins = {}
+
+app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams', '$rootScope',
+  function ($scope, $http, $location, Place, $routeParams, $rootScope) {
+
+	  do_things_right();
+
+	  $scope.latitude = 39.1846;
+	  $scope.longitude = -42.705444;
+	  $scope.active = null;
+
+	  var options = {
+          center: {
+			  lat: $scope.latitude,
+			  lng: $scope.longitude
+		  },
+          zoom: 3,
+	  	  zoomControl: true,
+	  	  mapTypeControl: false,
+	  	  streetViewControl: false,
+      };
+
+      var map = new google.maps.Map($('#map-search')[0], options);
 
 	  $scope.search = function() {
 	  	  $scope.disabled = true;
@@ -73,10 +94,10 @@ app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$
 	  		  if (status == google.maps.GeocoderStatus.OK) {
 	  			  var location = results[0].geometry.location;
 
-				  $location
-					  .path("/")
-					  .search('x', location.lng().toFixed(6))
-					  .search('y', location.lat().toFixed(6))
+				  // $location
+				  // 	  .path("/")
+				  // 	  .search('x', location.lng().toFixed(6))
+				  // 	  .search('y', location.lat().toFixed(6))
 
 				  angular.element("#search input").blur();
 
@@ -93,31 +114,15 @@ app.controller('search', ['$scope', '$http', '$location', 'Place', '$config', '$
 	  	  });
 	  }
 
-  }])
 
-app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$routeParams', '$rootScope',
-  function ($scope, $http, $location, Place, $config, $routeParams, $rootScope) {
 
-	  $scope.latitude = 39.1846;
-	  $scope.longitude = -42.705444;
+	  google.maps.event.addListener(map, 'zoom_changed', function() {
+		  if ($scope.active) {
+			  $scope.active.window.close();
+		  }
+		  $scope.active = null;
 
-	  var options = {
-          center: {
-			  lat: $scope.latitude,
-			  lng: $scope.longitude
-		  },
-          zoom: 3,
-	  	  zoomControl: true,
-	  	  mapTypeControl: false,
-	  	  streetViewControl: false,
-      };
-
-      var map = new google.maps.Map($('#map-search')[0], options);
-
-	  google.maps.event.addListener(map, 'idle', function() {
 	  });
-
-	  var markers = []
 
 	  google.maps.event.addListener(map, 'idle', function() {
 		  google.maps.event.trigger(map, 'resize');
@@ -140,14 +145,74 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 	  	  var url = '/api/search?' + decodeURIComponent($.param(search));
 	  	  $http({method: 'GET', url: url, cache: true})
 	  		  .success(function(items, status, headers, config) {
-	  			  $rootScope.items = items;
+	  			  $scope.items = items;
 
-				  angular.forEach($rootScope.items, function(item, i) {
+				  angular.forEach($scope.items, function(item, i) {
+
 					  var marker = new google.maps.Marker({
-						  position: new google.maps.LatLng(-25.363882,131.044922),
+						  position: new google.maps.LatLng(
+							  item.location.latitude,
+							  item.location.longitude
+						  ),
 						  map: map,
+						  icon: '/static/img/map1.png',
+						  customInfo: item,
+					  });
+
+
+					  var content = '<div class="window">' +
+						  '<h3>' + item.name + '<small> ' + item.address + '</small></h3>';
+
+					  var window = new google.maps.InfoWindow();
+
+					  pins[item.id] = {
+						  marker: marker,
+						  window: window
+					  }
+
+					  google.maps.event.addListener(marker, 'click', function(a,b) {
+						  var el = angular.element('#item-' + item.id)[0];
+	  			  	  	  var elp = el.parentNode;
+
+	  			  	  	  if (el.getBoundingClientRect().bottom > elp.getBoundingClientRect().bottom ||
+	  			  	  	  	  el.getBoundingClientRect().top < elp.getBoundingClientRect().top) {
+	  			  	  	  	  el.scrollIntoView();
+	  			  	  	  }
+
+						  $scope.$apply(function(){
+							  if ($scope.active) {
+								  $scope.active.window.close();
+							  }
+						  	  $scope.active = {
+								  item: item,
+								  window: window
+							  }
+
+							  $scope.active.window.setContent(
+								  $('#item-'+ item.id +'-window').html()
+							  )
+							  $scope.active.window.open(map, marker);
+						  });
 					  });
 				  });
+	  		  });
+	  });
+
+	  $scope.show_details = function(item) {
+		  if ($scope.active) {
+			  $scope.active.window.close();
+		  }
+
+		  var pin = pins[item.id];
+
+		  $scope.active = {
+			  item: item,
+			  window: pin.window
+		  }
+
+		  $scope.active.window.open(map, pin.marker);
+	  }
+
 
 	  			  // angular.forEach($scope.map.items, function(item, i) {
 	  			  // 	  item.icon = '/static/img/map1.png';
@@ -168,10 +233,6 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 	  			  // 	  	  $scope.details = this.model;
 	  		  // }
 	  				  // });
-	  		  });
-	  });
-
-
 	  // $rootScope.map_zoom = 3;
 
 	  // $scope.map = {
@@ -211,10 +272,6 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 
 	  // 		  // });
 	  // 	  }
-	  // }
-
-	  // $scope.show_details = function(item) {
-	  // 	  $scope.details = item;
 	  // }
 
 	  // $scope.$on('$routeUpdate', function(next, current) {
@@ -302,8 +359,8 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$config', '$r
 									// }
 }]);
 
-app.controller('add', ['$scope', '$http', '$location', 'Place', '$config', '$rootScope', '$timeout',
-  function ($scope, $http, $location, Place, $config, $rootScope, $timeout) {
+app.controller('add', ['$scope', '$http', '$location', 'Place', '$rootScope', '$timeout',
+  function ($scope, $http, $location, Place, $rootScope, $timeout) {
 
 	  $scope.place = {
 		  loction: {}
