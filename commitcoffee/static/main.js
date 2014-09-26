@@ -80,6 +80,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 	  	  zoomControl: true,
 	  	  mapTypeControl: false,
 	  	  streetViewControl: false,
+		  disableDoubleClickZoom: true
       };
 
       var map = new google.maps.Map($('#map-search')[0], options);
