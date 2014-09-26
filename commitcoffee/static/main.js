@@ -122,8 +122,15 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 			  $scope.active.window.close();
 		  }
 		  $scope.active = null;
-
 	  });
+
+	  google.maps.event.addListener(map, 'click', function() {
+		  if ($scope.active) {
+			  $scope.active.window.close();
+		  }
+		  $scope.active = null;
+	  });
+
 
 	  google.maps.event.addListener(map, 'idle', function() {
 		  google.maps.event.trigger(map, 'resize');
@@ -156,7 +163,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 							  item.location.longitude
 						  ),
 						  map: map,
-						  icon: '/static/img/map1.png',
+						  // icon: '/static/img/map1.png',
 						  customInfo: item,
 					  });
 
@@ -164,7 +171,9 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 					  var content = '<div class="window">' +
 						  '<h3>' + item.name + '<small> ' + item.address + '</small></h3>';
 
-					  var window = new google.maps.InfoWindow();
+					  var window = new google.maps.InfoWindow({
+						  pixelOffset: (new google.maps.Size(0, 46))
+					  });
 
 					  pins[item.id] = {
 						  marker: marker,
