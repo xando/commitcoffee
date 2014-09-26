@@ -8,11 +8,11 @@ if __name__ == '__main__':
     sys.path.append('commitcoffee')
 
     from commitcoffee import models
-
     places = json.loads(open('places.js').read())
 
     for each in places:
         print each['name']
+
         models.Place.objects.create(
             name=each['name'],
             city=each['city'],
@@ -26,4 +26,3 @@ if __name__ == '__main__':
             facebook=(each.get('link') or {}).get('facebook'),
             twitter=(each.get('link') or {}).get('twitter')
         )
-

@@ -61,7 +61,7 @@
 	<div class="form-group">
 	  <div class="input-group">
 	    <div class="input-group-addon"><i class="fa fa-yelp"></i></div>
-	    <input ng-model="place.yelp" class="form-control" type="text" placeholder="yelp page">
+	    <input ng-model="place.yelp" class="form-control" type="url" placeholder="yelp page">
 	  </div>
 	</div>
 
@@ -98,8 +98,9 @@
 	<div class="form-group">
 	  <div class="input-group">
 	    <div class="input-group-addon"><i class="fa fa-arrows"></i></div>
-	    <input class="form-control coords" type="text" ng-model="map.center.latitude" disabled />
-	    <input class="form-control coords" type="text" ng-model="map.center.longitude" disabled />
+	    <input class="form-control coords" type="text" ng-model="place.location.latitude" disabled />
+	    <input class="form-control coords" type="text" ng-model="place.location.longitude" disabled />
+	    
 	  </div>
 	</div>
 
@@ -110,11 +111,9 @@
 	  </div>
 	</div>
       </div>
-
+      
       <div class="col-sm-12">
-	<google-map center="map.center" zoom="map.zoom" draggable="true" options="map.options"
-		    control="map.control" events="map.events">
-	</google-map>
+	<div id="map-add"></div>
 	<p class="help-block">Please drag map around to set the detailed location</p>
       </div>
 
@@ -191,7 +190,7 @@
 	<div class="form-group" style="position: absolute; bottom: 999999px">
 	  <div class="input-group">
 	    <div class="input-group-addon"><i class="fa fa-question"></i> Internet of things</div>
-	    <input ng-model="place.things" class="form-control" type="text">
+	    <input ng-model="place.things" class="form-control" type="text"> -->
 	  </div>
 	</div>
 
