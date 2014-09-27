@@ -80,16 +80,29 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 
       var map = new google.maps.Map($('#map-search')[0], options);
 
-	  navigator.geolocation.getCurrentPosition(function(position) {
-
-		  map.setCenter({
-			  lat: position.coords.latitude,
-			  lng: position.coords.longitude
+	  if($location.search().q) {
+		  (new google.maps.Geocoder()).geocode({'address': $location.search().q}, function(results, status) {
+			  if (status == google.maps.GeocoderStatus.OK) {
+				  if (results[0].geometry.viewport) {
+					  console.log(map.getZoom());
+					  map.fitBounds(
+						  results[0].geometry.viewport
+					  );
+					  map.setZoom(map.getZoom()+1);
+				  }
+	  		  }
 		  });
+	  } else {
+		  navigator.geolocation.getCurrentPosition(function(position) {
 
-		  map.setZoom(10);
-	  });
+			  map.setCenter({
+				  lat: position.coords.latitude,
+				  lng: position.coords.longitude
+			  });
 
+			  map.setZoom(10);
+		  });
+	  }
 
 	  $scope.search = function() {
 	  	  $scope.disabled = true;
@@ -102,6 +115,8 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 	  		  if (status == google.maps.GeocoderStatus.OK) {
 	  			  var location = results[0].geometry.location;
 
+	  			  $location.search('q', $scope.location);
+
 				  angular.element("#search input").blur();
 
 				  if (results[0].geometry.viewport) {
@@ -109,7 +124,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 					  map.fitBounds(
 						  results[0].geometry.viewport
 					  );
-					  map.setZoom(map.getZoom()+2);
+					  map.setZoom(map.getZoom()+1);
 				  }
 	  		  }
 
@@ -139,14 +154,6 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 
 	  google.maps.event.addListener(map, 'idle', function() {
 		  google.maps.event.trigger(map, 'resize');
-
-	  	  // $location
-	  	  // 	  .path("/")
-	  	  // 	  .search('', map.getCenter().lng().toFixed(6))
-	  	  // 	  .search('y', map.getCenter().lat().toFixed(6))
-	  	  // 	  .search('z', map.getZoom());
-
-	  	  // history.pushState(null, null, $location.url());
 
 	  	  var search = {
 	  	  	  lat0: map.getBounds().getSouthWest().lat(),
@@ -214,151 +221,6 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 	  $scope.show_details = function(item) {
 		  google.maps.event.trigger(pins[item.id].marker, 'click');
 	  }
-
-
-	  			  // angular.forEach($scope.map.items, function(item, i) {
-	  			  // 	  item.icon = '/static/img/map1.png';
-
-	  			  // 	  item.close = function() {
-	  			  // 		  $scope.details = false;
-	  			  // 		  $scope.$apply();
-	  			  // 	  }
-
-	  			  // 	  item.click = function() {
-	  			  // 	  	  var el = angular.element('#item-' + this.model.id)[0];
-	  			  // 	  	  var elp = el.parentNode;
-
-	  			  // 	  	  if (el.getBoundingClientRect().bottom > elp.getBoundingClientRect().bottom ||
-	  			  // 	  	  	  el.getBoundingClientRect().top < elp.getBoundingClientRect().top) {
-	  			  // 	  	  	  el.scrollIntoView();
-	  			  // 	  	  }
-	  			  // 	  	  $scope.details = this.model;
-	  		  // }
-	  				  // });
-	  // $rootScope.map_zoom = 3;
-
-	  // $scope.map = {
-	  // 	  center: $rootScope.map_center,
-	  // 	  zoom: $rootScope.map_zoom,
-	  // 	  events: {},
-	  // 	  items: [],
-	  // 	  markers: {},
-	  // 	  windows: {},
-	  // 	  options: {
-	  // 		  disableDefaultUI: true
-	  // 	  },
-	  // 	  control: {}
-
-	  // }
-
-	  // $scope.details = false;
-	  // $scope.current_location = null;
-
-	  // var setup_map = function() {
-	  // 	  var search = $location.search();
-	  // 	  if ('x' in search &&
-	  // 		  'y' in search &&
-	  // 		  'z' in search) {
-
-	  // 		  $scope.map.center.latitude = parseFloat(search.y);
-	  // 		  $scope.map.center.longitude = parseFloat(search.x);
-	  // 		  $scope.map.zoom = parseInt(search.z);
-	  // 	  } else {
-
-	  // 		  // navigator.geolocation.getCurrentPosition(function(position) {
-	  // 		  // 	  angular.copy(position.coords, $scope.current_location);
-
-	  // 		  // 	  $scope.map.center.latitude = position.coords.latitude;
-	  // 		  // 	  $scope.map.center.longitude = position.coords.longitude;
-	  // 		  // 	  $scope.map.zoom = 13;
-
-	  // 		  // });
-	  // 	  }
-	  // }
-
-	  // $scope.$on('$routeUpdate', function(next, current) {
-	  // 	  setup_map();
-	  // });
-
-	  // setup_map();
-
-	  // $scope.map.events.dragstart = function(map) {
-	  // 	  $scope.details = false;
-	  // }
-
-	  // $scope.map.events.projection_changed = function(map) {
-	  // 	  angular.element('#details').height(angular.element('#map').height());
-	  // }
-
-	  // $scope.$watch('details', function(newValue, oldValue) {
-	  // 	  if (newValue) {
-	  // 		  // angular.forEach($scope.map.windows.getChildWindows().values(), function(window, i) {
-	  // 		  // 	  if (window.model.id === newValue.id) {
-	  // 		  // 		  window.showWindow();
-	  // 		  // 	  } else {
-	  // 		  // 		  window.hideWindow();
-	  // 		  // 	  }
-	  // 		  // });
-
-	  // 		  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
-	  // 			  if (marker.key === newValue.id) {
-	  // 			  	  marker.setIcon("/static/img/map2.png");
-	  // 			  } else {
-	  // 			  	  marker.setIcon("/static/img/map1.png");
-	  // 			  }
-	  // 		  });
-	  // 	  } else {
-	  // 		  angular.forEach($scope.map.markers.getGMarkers(), function(marker, i) {
-	  // 	  		  marker.setIcon("/static/img/map1.png");
-	  // 	  	  });
-	  // 		  // angular.forEach($scope.map.windows.getChildWindows().values(), function(window, i) {
-	  // 			  // window.hideWindow();
-	  // 		  // });
-	  // 	  }
-	  // });
-
-	  // $scope.map.events.idle = function(map) {
-
-	  // 	  $location
-	  // 	  	  .path("/")
-	  // 	  	  .search('x', map.getCenter().lng().toFixed(6))
-	  // 	  	  .search('y', map.getCenter().lat().toFixed(6))
-	  // 	  	  .search('z', map.getZoom());
-
-	  // 	  history.pushState(null, null, $location.url());
-
-	  // 	  var search = {
-	  // 	  	  lat0: map.getBounds().getSouthWest().lat(),
-	  // 	  	  lng0: map.getBounds().getSouthWest().lng(),
-	  // 	  	  lat1: map.getBounds().getNorthEast().lat(),
-	  // 	  	  lng1: map.getBounds().getNorthEast().lng(),
-	  // 	  }
-
-	  // 	  var url = '/api/search?' + decodeURIComponent($.param(search));
-	  // 	  $http({method: 'GET', url: url, cache: true})
-	  // 		  .success(function(items, status, headers, config) {
-	  // 			  $scope.map.items = items;
-	  // 			  angular.forEach($scope.map.items, function(item, i) {
-	  // 			  	  item.icon = '/static/img/map1.png';
-
-	  // 				  item.close = function() {
-	  // 					  $scope.details = false;
-	  // 					  $scope.$apply();
-	  // 				  }
-
-	  // 			  	  item.click = function() {
-	  // 			  	  	  var el = angular.element('#item-' + this.model.id)[0];
-	  // 			  	  	  var elp = el.parentNode;
-
-	  // 			  	  	  if (el.getBoundingClientRect().bottom > elp.getBoundingClientRect().bottom ||
-	  // 			  	  	  	  el.getBoundingClientRect().top < elp.getBoundingClientRect().top) {
-	  // 			  	  	  	  el.scrollIntoView();
-	  // 			  	  	  }
-	  // 			  	  	  $scope.details = this.model;
-	  // 			  	  }
-	  // 			  });
-	  // 		  });
-									// }
 }]);
 
 app.controller('add', ['$scope', '$http', '$location', 'Place', '$rootScope', '$timeout',
