@@ -181,7 +181,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 
 					  var window = new google.maps.InfoWindow({
 						  zIndex: 10000,
-						  pixelOffset: (new google.maps.Size(0, 46))
+						  pixelOffset: (new google.maps.Size(0, 170))
 					  });
 
 					  pins[item.id] = {
