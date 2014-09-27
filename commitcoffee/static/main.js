@@ -4,17 +4,9 @@ function do_things_right() {
 		angular.element(window).outerHeight(true) -
 		angular.element('#search').outerHeight(true) -
 		angular.element('.submit').outerHeight(true) -
-		angular.element('footer').outerHeight(true) - 2
+		angular.element('footer').outerHeight(true)
 	);
-
-	// angular.element('#details').height(angular.element('#map').height());
-
 }
-
-// angular.element(window).resize(function() {
-// 	do_things_right();
-// })
-var map = null;
 
 angular.module('api', ['djangoRESTResources'])
 	.factory('Place', function(djResource) {
@@ -49,21 +41,24 @@ var app = angular.module(
 				// reloadOnSearch: false,
 			});
 
-	})
+	});
 
-
-app.controller('search', ['$scope', '$http', '$location', 'Place', '$routeParams', '$route',
-  function ($scope, $http, $location, Place, $routeParams, $route) {
-
-	  do_things_right();
-
-
-  }])
-
-var pins = {}
 
 app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams', '$rootScope',
   function ($scope, $http, $location, Place, $routeParams, $rootScope) {
+
+	  $scope.safeApply = function(fn) {
+		  var phase = this.$root.$$phase;
+		  if(phase == '$apply' || phase == '$digest') {
+			  if(fn && (typeof(fn) === 'function')) {
+				  fn();
+			  }
+		  } else {
+			  this.$apply(fn);
+		  }
+	  };
+
+	  var pins = {}
 
 	  do_things_right();
 
@@ -85,28 +80,36 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 
       var map = new google.maps.Map($('#map-search')[0], options);
 
+	  navigator.geolocation.getCurrentPosition(function(position) {
+
+		  map.setCenter({
+			  lat: position.coords.latitude,
+			  lng: position.coords.longitude
+		  });
+
+		  map.setZoom(10);
+	  });
+
+
 	  $scope.search = function() {
 	  	  $scope.disabled = true;
 	  	  $scope.details = false;
 
 	  	  var geocoder = new google.maps.Geocoder();
+
 	  	  geocoder.geocode({'address': $scope.location}, function(results, status) {
 
 	  		  if (status == google.maps.GeocoderStatus.OK) {
 	  			  var location = results[0].geometry.location;
 
-				  // $location
-				  // 	  .path("/")
-				  // 	  .search('x', location.lng().toFixed(6))
-				  // 	  .search('y', location.lat().toFixed(6))
-
 				  angular.element("#search input").blur();
 
-				  if (results[0].geometry.viewport && $scope.map.control !== undefined) {
-					  var map = $scope.map.control.getGMap();
+				  if (results[0].geometry.viewport) {
+					  console.log(map.getZoom());
 					  map.fitBounds(
 						  results[0].geometry.viewport
 					  );
+					  map.setZoom(map.getZoom()+2);
 				  }
 	  		  }
 
@@ -122,6 +125,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 			  $scope.active.window.close();
 		  }
 		  $scope.active = null;
+		  $scope.$apply();
 	  });
 
 	  google.maps.event.addListener(map, 'click', function() {
@@ -129,6 +133,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 			  $scope.active.window.close();
 		  }
 		  $scope.active = null;
+		  $scope.$apply();
 	  });
 
 
@@ -137,7 +142,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 
 	  	  // $location
 	  	  // 	  .path("/")
-	  	  // 	  .search('x', map.getCenter().lng().toFixed(6))
+	  	  // 	  .search('', map.getCenter().lng().toFixed(6))
 	  	  // 	  .search('y', map.getCenter().lat().toFixed(6))
 	  	  // 	  .search('z', map.getZoom());
 
@@ -163,15 +168,12 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 							  item.location.longitude
 						  ),
 						  map: map,
-						  // icon: '/static/img/map1.png',
+						  icon: '/static/img/map1.png',
 						  customInfo: item,
 					  });
 
-
-					  var content = '<div class="window">' +
-						  '<h3>' + item.name + '<small> ' + item.address + '</small></h3>';
-
 					  var window = new google.maps.InfoWindow({
+						  zIndex: 10000,
 						  pixelOffset: (new google.maps.Size(0, 46))
 					  });
 
@@ -189,7 +191,8 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 	  			  	  	  	  el.scrollIntoView();
 	  			  	  	  }
 
-						  $scope.$apply(function(){
+						  // safeApply
+						  $scope.safeApply(function(){
 							  if ($scope.active) {
 								  $scope.active.window.close();
 							  }
@@ -209,18 +212,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 	  });
 
 	  $scope.show_details = function(item) {
-		  if ($scope.active) {
-			  $scope.active.window.close();
-		  }
-
-		  var pin = pins[item.id];
-
-		  $scope.active = {
-			  item: item,
-			  window: pin.window
-		  }
-
-		  $scope.active.window.open(map, pin.marker);
+		  google.maps.event.trigger(pins[item.id].marker, 'click');
 	  }
 
 
