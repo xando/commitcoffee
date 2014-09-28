@@ -75,36 +75,39 @@
     <h3>
       <i class="fa fa-coffee"/>
       {{ item.name }} <br/>
-      <small>{{ item.address }}</small>
+      <small>
+	<a href="//maps.google.com?saddr=Current+Location&daddr={{ item.location.latitude }},{{ item.location.longitude }}"
+	   title="click to get directions" target="_blank">{{ item.address }}</a>
+      </small>
     </h3>
 
-    <h4 ng-show="item.homepage" class="hidden-xs hidden-sm">
+    <h5 ng-show="item.homepage" class="hidden-xs hidden-sm">
       <i class="fa fa-home"></i>
       <a target="_blank" href="{{ item.homepage }}">
 	{{ item.homepage }}
       </a>
-    </h4>
+    </h5>
 
-    <h4 ng-show="item.facebook" class="hidden-xs hidden-sm">
+    <h5 ng-show="item.facebook" class="hidden-xs hidden-sm">
       <i class="fa fa-facebook"></i>
       <a target="_blank" href="{{ item.facebook }}">
 	{{ item.facebook }}
       </a>
-    </h4>
+    </h5>
 
-    <h4 ng-show="item.twitter" class="hidden-xs hidden-sm">
+    <h5 ng-show="item.twitter" class="hidden-xs hidden-sm">
       <i class="fa fa-twitter"></i>
       <a target="_blank" href="http://twitter.com/{{ item.twitter }}">
 	@{{ item.twitter }}
       </a>
-    </h4>
+    </h5>
 
-    <h4 ng-show="item.yelp" class="hidden-xs hidden-sm">
+    <h5 ng-show="item.yelp" class="hidden-xs hidden-sm">
       <i class="fa fa-yelp"></i>
       <a target="_blank" href="{{ item.yelp }}">
 	{{ item.yelp }}
       </a>
-    </h4>
+    </h5>
 
     <hr/>
 

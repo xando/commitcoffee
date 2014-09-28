@@ -185,7 +185,6 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 							  shadowStyle: 0,
 							  borderRadius: 0,
 							  arrowSize: 0,
-							  // disableAutoPan: true,
 							  maxWidth: 450,
 							  backgroundClassName: 'phoney',
 							  disableAnimation: true,
