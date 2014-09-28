@@ -58,7 +58,6 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 		  }
 	  };
 
-	  $scope.pins = {}
 
 	  do_things_right();
 
@@ -152,6 +151,9 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 	  });
 
 
+	  $scope.pins = {};
+	  $scope.items = [];
+
 	  google.maps.event.addListener(map, 'idle', function() {
 		  google.maps.event.trigger(map, 'resize');
 
@@ -165,13 +167,11 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 	  	  var url = '/api/search?' + decodeURIComponent($.param(search));
 	  	  $http({method: 'GET', url: url, cache: true})
 	  		  .success(function(items, status, headers, config) {
+				  $scope.items = items;
 
-				  angular.forEach(items, function(item, id) {
-					  if (id in $scope.pins) {
-
-					  } else {
-
-						  var marker = new google.maps.Marker({
+				  angular.forEach(items, function(item) {
+				  	  if (!(item.id in $scope.pins)) {
+				  		  var marker = new google.maps.Marker({
 				  			  position: new google.maps.LatLng(
 				  				  item.location.latitude,
 				  				  item.location.longitude
@@ -186,11 +186,11 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 				  			  pixelOffset: (new google.maps.Size(0, 170))
 				  		  });
 
-						  $scope.pins[id] = {
-							  item: item,
-							  marker: marker,
-							  window: window
-						  }
+				  		  $scope.pins[item.id] = {
+				  			  item: item,
+				  			  marker: marker,
+				  			  window: window
+				  		  }
 
 				  		  google.maps.event.addListener(marker, 'click', function(a,b) {
 				  			  var el = angular.element('#item-' + item.id)[0];
@@ -209,7 +209,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 				  		  		  $scope.active = {
 				  					  item: item,
 				  					  window: window,
-									  marker: marker
+				  					  marker: marker
 				  				  }
 				  				  $scope.active.window.setContent(
 				  					  $('#item-'+ item.id +'-window').html()
@@ -217,13 +217,13 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 				  				  $scope.active.window.open(map, marker);
 				  			  });
 				  		  });
-					  }
+				  	  }
 				  });
 	  		  });
 	  });
 
-	  $scope.show_details = function(pin) {
-		  google.maps.event.trigger(pin.marker, 'click');
+	  $scope.show_details = function(item) {
+		  google.maps.event.trigger($scope.pins[item.id].marker, 'click');
 	  }
 }]);
 
