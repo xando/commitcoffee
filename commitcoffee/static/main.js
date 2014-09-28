@@ -181,16 +181,22 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 				  			  customInfo: item,
 				  		  });
 
-				  		  var window = new google.maps.InfoWindow({
-				  			  zIndex: 10000,
-				  			  pixelOffset: (new google.maps.Size(0, 170))
-				  		  });
+						  var window = new InfoBubble({
+							  shadowStyle: 0,
+							  borderRadius: 0,
+							  arrowSize: 0,
+							  // disableAutoPan: true,
+							  maxWidth: 450,
+							  backgroundClassName: 'phoney',
+							  disableAnimation: true,
+						  });
 
 				  		  $scope.pins[item.id] = {
 				  			  item: item,
 				  			  marker: marker,
 				  			  window: window
 				  		  }
+
 
 				  		  google.maps.event.addListener(marker, 'click', function(a,b) {
 				  			  var el = angular.element('#item-' + item.id)[0];
@@ -211,10 +217,22 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 				  					  window: window,
 				  					  marker: marker
 				  				  }
+
 				  				  $scope.active.window.setContent(
 				  					  $('#item-'+ item.id +'-window').html()
 				  				  )
-				  				  $scope.active.window.open(map, marker);
+
+								  var newlat = marker.getPosition().lat() + (
+										  -0.000045 * Math.pow(2, (21 - map.getZoom()))
+								  );
+
+								  var position = new google.maps.LatLng(
+							  		  newlat,
+							  		  marker.getPosition().lng()
+								  )
+
+								  $scope.active.window.setPosition(position);
+				  				  $scope.active.window.open(map);
 				  			  });
 				  		  });
 				  	  }
