@@ -58,7 +58,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 		  }
 	  };
 
-	  var pins = {}
+	  $scope.pins = {}
 
 	  do_things_right();
 
@@ -165,61 +165,65 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 	  	  var url = '/api/search?' + decodeURIComponent($.param(search));
 	  	  $http({method: 'GET', url: url, cache: true})
 	  		  .success(function(items, status, headers, config) {
-	  			  $scope.items = items;
 
-				  angular.forEach($scope.items, function(item, i) {
+				  angular.forEach(items, function(item, id) {
+					  if (id in $scope.pins) {
 
-					  var marker = new google.maps.Marker({
-						  position: new google.maps.LatLng(
-							  item.location.latitude,
-							  item.location.longitude
-						  ),
-						  map: map,
-						  icon: '/static/img/map1.png',
-						  customInfo: item,
-					  });
+					  } else {
 
-					  var window = new google.maps.InfoWindow({
-						  zIndex: 10000,
-						  pixelOffset: (new google.maps.Size(0, 170))
-					  });
+						  var marker = new google.maps.Marker({
+				  			  position: new google.maps.LatLng(
+				  				  item.location.latitude,
+				  				  item.location.longitude
+				  			  ),
+				  			  map: map,
+				  			  icon: '/static/img/map2.png',
+				  			  customInfo: item,
+				  		  });
 
-					  pins[item.id] = {
-						  marker: marker,
-						  window: window
+				  		  var window = new google.maps.InfoWindow({
+				  			  zIndex: 10000,
+				  			  pixelOffset: (new google.maps.Size(0, 170))
+				  		  });
+
+						  $scope.pins[id] = {
+							  item: item,
+							  marker: marker,
+							  window: window
+						  }
+
+				  		  google.maps.event.addListener(marker, 'click', function(a,b) {
+				  			  var el = angular.element('#item-' + item.id)[0];
+	  			  	  		  var elp = el.parentNode;
+
+	  			  	  		  if (el.getBoundingClientRect().bottom > elp.getBoundingClientRect().bottom ||
+	  			  	  	  		  el.getBoundingClientRect().top < elp.getBoundingClientRect().top) {
+	  			  	  	  		  el.scrollIntoView();
+	  			  	  		  }
+
+				  			  $scope.safeApply(function(){
+				  				  if ($scope.active) {
+				  					  $scope.active.window.close();
+				  				  }
+
+				  		  		  $scope.active = {
+				  					  item: item,
+				  					  window: window,
+									  marker: marker
+				  				  }
+				  				  $scope.active.window.setContent(
+				  					  $('#item-'+ item.id +'-window').html()
+				  				  )
+				  				  $scope.active.window.open(map, marker);
+				  			  });
+				  		  });
 					  }
-
-					  google.maps.event.addListener(marker, 'click', function(a,b) {
-						  var el = angular.element('#item-' + item.id)[0];
-	  			  	  	  var elp = el.parentNode;
-
-	  			  	  	  if (el.getBoundingClientRect().bottom > elp.getBoundingClientRect().bottom ||
-	  			  	  	  	  el.getBoundingClientRect().top < elp.getBoundingClientRect().top) {
-	  			  	  	  	  el.scrollIntoView();
-	  			  	  	  }
-
-						  // safeApply
-						  $scope.safeApply(function(){
-							  if ($scope.active) {
-								  $scope.active.window.close();
-							  }
-						  	  $scope.active = {
-								  item: item,
-								  window: window
-							  }
-
-							  $scope.active.window.setContent(
-								  $('#item-'+ item.id +'-window').html()
-							  )
-							  $scope.active.window.open(map, marker);
-						  });
-					  });
 				  });
 	  		  });
 	  });
 
-	  $scope.show_details = function(item) {
-		  google.maps.event.trigger(pins[item.id].marker, 'click');
+	  $scope.show_details = function(pin) {
+		  google.maps.event.trigger(pin.marker, 'click');
 	  }
 }]);
 

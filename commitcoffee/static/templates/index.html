@@ -47,9 +47,9 @@
 
     <div class="list col-sm-4 hidden-xs">
       <div class="list-group">
-	<a id="item-{{ item.id }}" ng-repeat="item in items" ng-href="" class="list-group-item"
-	   ng-click="show_details(item)" ng-class="{'active': active.item.id === item.id}">
-	  <h5>{{ item.name }} <small>{{ item.address }}</small></h5>
+	<a id="item-{{ pin.item.id }}" ng-repeat="pin in pins" ng-href="" class="list-group-item"
+	   ng-click="show_details(pin)" ng-class="{'active': active.item.id === pin.item.id}">
+	  <h5>{{ pin.item.name }} <small>{{ pin.item.address }}</small></h5>
 	</a>
       </div>
     </div>
@@ -70,39 +70,39 @@
 </div>
 
 <div ng-show="false">
-  <div class="window" id="item-{{ item.id }}-window" ng-repeat="item in items">
+  <div class="window" id="item-{{ pin.item.id }}-window" ng-repeat="pin in pins">
     
     <h3>
       <i class="fa fa-coffee"/>
-      {{ item.name }} <br/>
-      <small>{{ item.address }}</small>
+      {{ pin.item.name }} <br/>
+      <small>{{ pin.item.address }}</small>
     </h3>
 
-    <h4 ng-show="item.homepage" class="hidden-xs hidden-sm">
+    <h4 ng-show="pin.item.homepage" class="hidden-xs hidden-sm">
       <i class="fa fa-home"></i>
-      <a target="_blank" href="{{ item.homepage }}">
-	{{ item.homepage }}
+      <a target="_blank" href="{{ pin.item.homepage }}">
+	{{ pin.item.homepage }}
       </a>
     </h4>
 
-    <h4 ng-show="item.facebook" class="hidden-xs hidden-sm">
+    <h4 ng-show="pin.item.facebook" class="hidden-xs hidden-sm">
       <i class="fa fa-facebook"></i>
-      <a target="_blank" href="{{ item.facebook }}">
-	{{ item.facebook }}
+      <a target="_blank" href="{{ pin.item.facebook }}">
+	{{ pin.item.facebook }}
       </a>
     </h4>
 
-    <h4 ng-show="item.twitter" class="hidden-xs hidden-sm">
+    <h4 ng-show="pin.item.twitter" class="hidden-xs hidden-sm">
       <i class="fa fa-twitter"></i>
-      <a target="_blank" href="http://twitter.com/{{ item.twitter }}">
-	@{{ item.twitter }}
+      <a target="_blank" href="http://twitter.com/{{ pin.item.twitter }}">
+	@{{ pin.item.twitter }}
       </a>
     </h4>
 
-    <h4 ng-show="item.yelp" class="hidden-xs hidden-sm">
+    <h4 ng-show="pin.item.yelp" class="hidden-xs hidden-sm">
       <i class="fa fa-yelp"></i>
-      <a target="_blank" href="{{ item.yelp }}">
-	{{ item.yelp }}
+      <a target="_blank" href="{{ pin.item.yelp }}">
+	{{ pin.item.yelp }}
       </a>
     </h4>
 
@@ -113,20 +113,20 @@
 	<dl>
 	  <dt><i class="fa fa-wifi" /> Internet</dt>
 	  <dd>
-	    <span ng-show="item.description_internet">
-	      {{ item.description_internet }}
+	    <span ng-show="pin.item.description_internet">
+	      {{ pin.item.description_internet }}
 	    </span>
-	    <span ng-show="!item.description_internet.length">
+	    <span ng-show="!pin.item.description_internet.length">
 	      <i>no infromation provided</i>
 	    </span>
 	  </dd>
 
 	  <dt><i class="fa fa-plug" /> Power Outlets</dt>
 	  <dd>
-	    <span ng-show="item.description_power">
-	      {{ item.description_power }}
+	    <span ng-show="pin.item.description_power">
+	      {{ pin.item.description_power }}
 	    </span>
-	    <span ng-show="!item.description_power.length">
+	    <span ng-show="!pin.item.description_power.length">
 	      <i>no infromation provided</i>
 	    </span>
 	  </dd>
@@ -136,30 +136,30 @@
 	<dl>
 	  <dt><i class="fa fa-users" /> Service</dt>
 	  <dd>
-	    <span ng-show="item.description_service">
-	      {{ item.description_service }}
+	    <span ng-show="pin.item.description_service">
+	      {{ pin.item.description_service }}
 	    </span>
-	    <span ng-show="!item.description_service.length">
+	    <span ng-show="!pin.item.description_service.length">
 	      <i>no infromation provided</i>
 	    </span>
 	  </dd>
 
 	  <dt><i class="fa fa-cutlery"/> Provision</dt>
 	  <dd>
-	    <span ng-show="item.description_provision">
-	      {{ item.description_provision }}
+	    <span ng-show="pin.item.description_provision">
+	      {{ pin.item.description_provision }}
 	    </span>
-	    <span ng-show="!item.description_provision.length">
+	    <span ng-show="!pin.item.description_provision.length">
 	      <i>no infromation provided</i>
 	    </span>
 	  </dd>
 
 	</dl>
       </div>
-      <div class="col-xs-12" ng-snow="item.description_other">
+      <div class="col-xs-12" ng-snow="pin.item.description_other">
 	<dl>
 	  <dt><i class="fa fa-question"/> More</dt>
-	  <dd>{{ item.description_other }}</dd>
+	  <dd>{{ pin.item.description_other }}</dd>
 	</dl>
       </div>
       
