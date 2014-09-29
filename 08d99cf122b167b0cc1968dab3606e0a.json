@@ -1,1 +1,10 @@
-{"country": "Poland", "location": {"latitude": 52.01386376307815, "longitude": 19.13437859999999}, "city": "", "name": "New place test4", "loction": {}}
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [125.6, 10.1]
+  },
+  "properties": {
+    "name": "Dinagat Islands"
+  }
+}
