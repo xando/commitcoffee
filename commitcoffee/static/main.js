@@ -26,26 +26,21 @@ var app = angular.module(
 
 		$routeProvider
 			.when('/', {
-				templateUrl: '/static/templates/index.html',
-				controller: 'index',
-				// reloadOnSearch: false,
-
-			})
-			.when('/:id/:name', {
-				templateUrl: '/static/templates/details.html',
-				controller: 'details'
+				templateUrl: '/static/templates/search.html',
+				controller: 'search',
+				reloadOnSearch: false
 			})
 			.when('/add', {
 				templateUrl: '/static/templates/add.html',
 				controller: 'add',
-				// reloadOnSearch: false,
 			});
 
 	});
 
 
-app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams', '$rootScope',
+app.controller('search', ['$scope', '$http', '$location', 'Place', '$routeParams', '$rootScope',
   function ($scope, $http, $location, Place, $routeParams, $rootScope) {
+
 
 	  $scope.safeApply = function(fn) {
 		  var phase = this.$root.$$phase;
@@ -61,6 +56,7 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 
 	  do_things_right();
 
+	  $scope.in_search = false;
 	  $scope.latitude = 39.1846;
 	  $scope.longitude = -42.705444;
 	  $scope.active = null;
@@ -119,12 +115,14 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 				  angular.element("#search input").blur();
 
 				  if (results[0].geometry.viewport) {
-					  console.log(map.getZoom());
-					  map.fitBounds(
-						  results[0].geometry.viewport
-					  );
-					  map.setZoom(map.getZoom()+1);
+				  	  map.fitBounds(
+				  		  results[0].geometry.viewport
+				  	  );
+				  	  map.setZoom(map.getZoom()+1);
+				  } else {
+					  map.setCenter(results[0].geometry.location);
 				  }
+				  $scope.in_search = true;
 	  		  }
 
 	  		  $scope.disabled = false;
@@ -132,7 +130,9 @@ app.controller('index', ['$scope', '$http', '$location', 'Place', '$routeParams'
 	  	  });
 	  }
 
-
+	  google.maps.event.addListener(map, 'projection_changed', function() {
+		  google.maps.event.trigger(map, 'resize');
+	  });
 
 	  google.maps.event.addListener(map, 'zoom_changed', function() {
 		  if ($scope.active) {
