@@ -1,0 +1,21 @@
+{
+    "geometry": {
+        "type": "Point", 
+        "coordinates": [
+            19.936286280688464, 
+            50.06132931977577
+        ]
+    }, 
+    "type": "Feature", 
+    "properties": {
+        "city": "Krak\u00f3w", 
+        "name": "test", 
+        "marker-symbol": "bar", 
+        "country": "Poland", 
+        "location": {
+            "latitude": 50.06132931977577, 
+            "longitude": 19.936286280688464
+        }, 
+        "address": "Rynek G\u0142\u00f3wmy 1"
+    }
+}
