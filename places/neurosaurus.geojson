@@ -1,0 +1,42 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "37.752352", 
+                "-122.414300"
+            ]
+        }, 
+        "properties": {
+            "name": "Philz Coffee", 
+            "city": "San Francisco", 
+            "country": "USA", 
+            "address": "3101 24th St", 
+            "homepage": "http://www.philzcoffee.com/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "37.757441", 
+                "-122.421421"
+            ]
+        }, 
+        "properties": {
+            "name": "Mission Creek Cafe", 
+            "city": "San Francisco", 
+            "country": "USA", 
+            "address": "968 Valencia St", 
+            "homepage": "http://www.yelp.com/biz/mission-creek-cafe-san-francisco", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

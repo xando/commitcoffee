@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "39.907234", 
+                "116.460042"
+            ]
+        }, 
+        "properties": {
+            "name": "Her Coffee", 
+            "city": "Beijing", 
+            "country": "China", 
+            "address": "0104A Building #2 East JianwaiSoho, 39 E 3rd Ring Road Middle,Chaoyang, Beijing (\u5317\u4eac\u671d\u9633\u533a\u5efa\u5916soho\u4e1c\u533a2\u53f7\u697c0104A)", 
+            "homepage": "http://www.dianping.com/shop/13778004", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

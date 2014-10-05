@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "6.213583", 
+                "-75.571814"
+            ]
+        }, 
+        "properties": {
+            "name": "Tal Cual", 
+            "city": "Medell\u00edn", 
+            "country": "Colombia", 
+            "address": "Calle 12 No. 43D -12. Manila, El Poblado", 
+            "homepage": "http://www.talcualweb.com.co", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

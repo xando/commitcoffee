@@ -1,0 +1,162 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.393996", 
+                "2.165491"
+            ]
+        }, 
+        "properties": {
+            "name": "La Clandestina", 
+            "city": "Barcelona", 
+            "country": "Spain", 
+            "address": "Baixada de Viladecols, 2", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.380657", 
+                "2.179155"
+            ]
+        }, 
+        "properties": {
+            "name": "Caf\u00e9 Milans", 
+            "city": "Barcelona", 
+            "country": "Spain", 
+            "address": "Milans, 7", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.384698", 
+                "2.16686"
+            ]
+        }, 
+        "properties": {
+            "name": "Candela", 
+            "city": "Barcelona", 
+            "country": "Spain", 
+            "address": "Hospital, 48", 
+            "homepage": "http://www.candelaraval.com/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.39377", 
+                "2.165792"
+            ]
+        }, 
+        "properties": {
+            "name": "Carmelitas", 
+            "city": "Barcelona", 
+            "country": "Spain", 
+            "address": "Carme, 42", 
+            "homepage": "http://www.carmelitas.biz/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "37.399875", 
+                "-2.364469"
+            ]
+        }, 
+        "properties": {
+            "name": "Laie", 
+            "city": "Barcelona", 
+            "country": "Spain", 
+            "address": "Pau Claris 85 (between Gran Via y Casp)", 
+            "homepage": "http://www.laie.es/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "37.399875", 
+                "-2.364469"
+            ]
+        }, 
+        "properties": {
+            "name": "Caf\u00e8 Cam\u00e8lia", 
+            "city": "Barcelona", 
+            "country": "Spain", 
+            "address": "C/ Verdi, 79", 
+            "homepage": "", 
+            "facebook": "https://www.facebook.com/pages/Caf%C3%A8-Cam%C3%A8lia/198100180227662", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "37.399875", 
+                "-2.364469"
+            ]
+        }, 
+        "properties": {
+            "name": "Federal Caf\u00e9", 
+            "city": "Barcelona", 
+            "country": "Spain", 
+            "address": "C/ Parlament, 39", 
+            "homepage": "http://www.federalcafe.es/", 
+            "facebook": "https://www.facebook.com/pages/federal-cafe-barcelona/134531549899409", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.39281", 
+                "2.14670"
+            ]
+        }, 
+        "properties": {
+            "name": "Bab\u00e8lia Books and Coffee", 
+            "city": "Barcelona", 
+            "country": "Spain", 
+            "address": "Carrer de Villarroel, 271", 
+            "homepage": "http://www.babeliabcn.com/", 
+            "facebook": "https://www.facebook.com/pages/Babelia-Barcelona/394872200528214", 
+            "yelp": "", 
+            "twitter": "https://twitter.com/babeliabcn"
+        }
+    }
+]

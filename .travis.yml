@@ -1,3 +1,6 @@
-language: node_js
-node_js:
-  - "0.10"
+language: python
+python:
+  - "2.7"
+
+# command to run tests
+script: python validateplaces.py

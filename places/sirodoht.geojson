@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "40.632470", 
+                "22.952963"
+            ]
+        }, 
+        "properties": {
+            "name": "iheart", 
+            "city": "Thessaloniki", 
+            "country": "GR", 
+            "address": "Episkopou Nikolau Kitrou 7", 
+            "homepage": "http://www.iheartthessaloniki.com/", 
+            "facebook": "https://www.facebook.com/pages/IHeart/199695586742430", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "40.810050", 
+                "-73.943229"
+            ]
+        }, 
+        "properties": {
+            "name": "Lenox Coffee", 
+            "city": "New York City", 
+            "country": "USA", 
+            "address": "60 W 129th St, New York, NY 10027", 
+            "homepage": "www.lenoxcoffee.com/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "37.324135", 
+                "-121.994298"
+            ]
+        }, 
+        "properties": {
+            "name": "Chromatic Coffee", 
+            "city": "Santa Clara", 
+            "country": "USA", 
+            "address": "5237 Stevens Creek Blvd, Santa Clara, CA 95051", 
+            "homepage": "http://www.chromaticcoffee.com/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.692806", 
+                "-73.900682"
+            ]
+        }, 
+        "properties": {
+            "name": "Crafted Kup", 
+            "city": "Poughkeepsie", 
+            "country": "USA", 
+            "address": "44 Raymond Ave, Poughkeepsie, NY 12603", 
+            "homepage": "http://www.craftedkup.com/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "42.364360", 
+                "-71.083300"
+            ]
+        }, 
+        "properties": {
+            "name": "Voltage Coffee in Kendall", 
+            "city": "Cambridge", 
+            "country": "USA", 
+            "address": "295 Third St, Cambridge, MA 02142", 
+            "homepage": "http://voltagecoffee.com/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "42.550351", 
+                "-70.877632"
+            ]
+        }, 
+        "properties": {
+            "name": "Atomic Cafe Coffee Roasters in Beverly", 
+            "city": "Beverly", 
+            "country": "USA", 
+            "address": "265 Cabot St, Beverly, MA 01915", 
+            "homepage": "http://www.atomicafe.com", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "42.501676", 
+                "-70.856408"
+            ]
+        }, 
+        "properties": {
+            "name": "Atomic Cafe Coffee Roasters in Marblehead", 
+            "city": "Marblehead", 
+            "country": "USA", 
+            "address": "14 School St, Marblehead, MA 01945", 
+            "homepage": "http://www.atomicafe.com", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "42.391810", 
+                "-71.111912"
+            ]
+        }, 
+        "properties": {
+            "name": "Three Little Figs", 
+            "city": "Somerville", 
+            "country": "USA", 
+            "address": "278 Highland Ave, Somerville, MA 02143", 
+            "homepage": "http://3littlefigs.com/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "42.562215", 
+                "-70.814162"
+            ]
+        }, 
+        "properties": {
+            "name": "Vidalias", 
+            "city": "Beverly Farms", 
+            "country": "USA", 
+            "address": "9 West Street, Beverly Farms, MA", 
+            "homepage": "http://vidaliasmarket.com/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "42.520784", 
+                "-70.888215"
+            ]
+        }, 
+        "properties": {
+            "name": "Jaho Coffee and Tea", 
+            "city": "Salem", 
+            "country": "USA", 
+            "address": "197 Derby St, Salem, MA 01970", 
+            "homepage": "http://www.jaho.com/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "42.521664", 
+                "-70.894196"
+            ]
+        }, 
+        "properties": {
+            "name": "Jo Freedom", 
+            "city": "Salem", 
+            "country": "USA", 
+            "address": "196 Essex St, Salem, MA 01970", 
+            "homepage": "http://www.yelp.com/biz/jo-freedom-salem", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

@@ -248,11 +248,11 @@ app.controller('add', ['$scope', '$http', '$location', 'Place', '$rootScope', '$
   function ($scope, $http, $location, Place, $rootScope, $timeout) {
 
 	  $scope.place = {
-		  loction: {}
+		  location: {
+			  latitude: $scope.latitude = 39.1846,
+			  longitude: $scope.longitude = -42.705444
+		  }
 	  };
-
-	  $scope.latitude = 39.1846;
-	  $scope.longitude = -42.705444;
 
 	  var options = {
           center: {
@@ -264,7 +264,6 @@ app.controller('add', ['$scope', '$http', '$location', 'Place', '$rootScope', '$
 	  	  zoomControl: true,
 	  	  mapTypeControl: false,
 	  	  streetViewControl: false,
-
       };
 
       var map = new google.maps.Map($('#map-add')[0], options);

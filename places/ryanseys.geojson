@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "43.66513", 
+                "-79.36814"
+            ]
+        }, 
+        "properties": {
+            "name": "Jetfuel Coffee", 
+            "city": "Toronto", 
+            "country": "Canada", 
+            "address": "519 Parliament Street", 
+            "homepage": "http://www.jetfuelcoffee.com", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

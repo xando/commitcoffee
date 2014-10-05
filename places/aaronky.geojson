@@ -1,0 +1,20 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+            ]
+        }, 
+        "properties": {
+            "name": "Beans Coffee House", 
+            "city": "Dana Point", 
+            "country": "USA", 
+            "address": "34114 Pacific Coast Highway, Dana Point, CA 92629", 
+            "homepage": "http://www.jcbeans.com", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

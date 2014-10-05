@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "40.669665", 
+                "-73.979353"
+            ]
+        }, 
+        "properties": {
+            "name": "Konditori", 
+            "city": "Brooklyn", 
+            "country": "USA", 
+            "address": "240 7th Ave", 
+            "homepage": "http://www.konditorinyc.com/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

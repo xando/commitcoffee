@@ -1,0 +1,162 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.821898", 
+                "-71.392167"
+            ]
+        }, 
+        "properties": {
+            "name": "Malachi's", 
+            "city": "Providence", 
+            "country": "USA", 
+            "address": "134 Ives St, Providence, RI 02906", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "http://www.yelp.com/biz/malachis-providence", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.818550", 
+                "-71.420079"
+            ]
+        }, 
+        "properties": {
+            "name": "White Electric Coffee", 
+            "city": "Providence", 
+            "country": "USA", 
+            "address": "711 Westminster St, Providence, RI 02903", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "http://www.yelp.com/biz/white-electric-coffee-providence", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.822959", 
+                "-71.412513"
+            ]
+        }, 
+        "properties": {
+            "name": "Small Point Caf\u00e9", 
+            "city": "Providence", 
+            "country": "USA", 
+            "address": "230 Westminster St, Providence, RI 02903", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "http://www.yelp.com/biz/small-point-caf\u00e9-providence", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.830135", 
+                "-71.401046"
+            ]
+        }, 
+        "properties": {
+            "name": "Blue State Coffee", 
+            "city": "Providence", 
+            "country": "USA", 
+            "address": "300 Thayer St, Providence, RI 02906", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "http://www.yelp.com/biz/blue-state-coffee-providence", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.819664", 
+                "-71.396906"
+            ]
+        }, 
+        "properties": {
+            "name": "The Duck and Bunny", 
+            "city": "Providence", 
+            "country": "USA", 
+            "address": "312 Wickenden St, Providence, RI", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "http://www.yelp.com/biz/the-duck-and-bunny-providence", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.819415", 
+                "-71.398484"
+            ]
+        }, 
+        "properties": {
+            "name": "Cafe Zog", 
+            "city": "Providence", 
+            "country": "USA", 
+            "address": "239 Wickenden St, Providence, RI", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "http://www.yelp.com/biz/cafe-zog-providence", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.824152", 
+                "-71.410730"
+            ]
+        }, 
+        "properties": {
+            "name": "New Harvest Coffee & Spirits", 
+            "city": "Providence", 
+            "country": "USA", 
+            "address": "130 Westminster St, Ste 118, Providence, RI 02903", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "http://www.yelp.com/biz/new-harvest-coffee-and-spirits-providence", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "41.819275", 
+                "-71.399081"
+            ]
+        }, 
+        "properties": {
+            "name": "Coffee Exchange", 
+            "city": "Providence", 
+            "country": "USA", 
+            "address": "207 Wickenden St, Providence, RI 02903", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "http://www.yelp.com/biz/coffee-exchange-providence", 
+            "twitter": ""
+        }
+    }
+]

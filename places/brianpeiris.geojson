@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "43.738046", 
+                "-79.702882"
+            ]
+        }, 
+        "properties": {
+            "name": "Williams Fresh Cafe", 
+            "city": "Brampton", 
+            "country": "CA", 
+            "address": "2454 Queen Street East", 
+            "homepage": "http://www.williamsfreshcafe.com/2454-queen-street-east", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

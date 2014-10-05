@@ -2237,7 +2237,9 @@
 	},
 	{
 		"name": "Birch Coffee Flatiron",
-		"address": "5 E 27th St, New York, NY 10016",
+		"address": "5 E 27th St, NY 10016",
+		"city": "New York",
+		"country": "USA",
 		"coordinates": ["40.697488","-73.979681"],
 		"description": {
 			"Internet": "Free WiFi",

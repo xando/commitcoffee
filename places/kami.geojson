@@ -1,0 +1,62 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "37.45774", 
+                "-122.24632"
+            ]
+        }, 
+        "properties": {
+            "name": "Starbucks", 
+            "city": "San Francisco", 
+            "country": "USA", 
+            "address": "2727 Mariposa St", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "46.33286", 
+                "15.39192"
+            ]
+        }, 
+        "properties": {
+            "name": "Kavarna Ginger", 
+            "city": "Maribor", 
+            "country": "Slovenia", 
+            "address": "Pobre\u0161ka cesta 18", 
+            "homepage": "http://www.europark.si/si/gostinstvo/kavarna-ginger", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "46.3023", 
+                "14.30309"
+            ]
+        }, 
+        "properties": {
+            "name": "Kavarna in sla\u0161\u010di\u010darna Zvezda", 
+            "city": "Ljubljana", 
+            "country": "Slovenia", 
+            "address": "Wolfova ul. 14", 
+            "homepage": "http://www.zvezdaljubljana.si/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

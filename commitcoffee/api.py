@@ -1,12 +1,17 @@
+import json
+import hashlib
+
 from django.http import JsonResponse
 from django.contrib.gis.geos import Polygon
 from django.contrib.gis.geos import Point
 from django.db.models import Q
 
-from rest_framework import viewsets, serializers, views, response, status
+from rest_framework import viewsets, serializers, status, views
 from rest_framework.response import Response
 
 from . import models
+from . import github
+from . import validate
 
 
 class PlaceSerializer(serializers.ModelSerializer):
@@ -34,14 +39,39 @@ class PlaceSerializer(serializers.ModelSerializer):
         return attrs
 
 
-class PlaceView(viewsets.ModelViewSet):
-    queryset = models.Place.objects.filter(published=True)
-    serializer_class = PlaceSerializer
 
-    def create(self, request, *args, **kwargs):
+class PlaceView(views.APIView):
+    def post(self, request):
+
         if request.DATA.get('things', None):
             return Response({}, status=status.HTTP_201_CREATED)
-        return super(PlaceView, self).create(request, *args, **kwargs)
+
+        errors = validate.properties(request.DATA)
+
+        if errors:
+            return Response(errors, status.HTTP_400_BAD_REQUEST)
+
+        properties = request.DATA
+        properties["marker-symbol"] = "bar"
+        location = request.DATA["location"].values()[::-1]
+
+        data = {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": location
+            },
+            "properties": properties
+        }
+
+        branch_name = hashlib.md5(json.dumps(data)).hexdigest()
+        sha = github.get_sha()
+
+        github.create_branch(branch_name, sha)
+        github.create_file(data, branch_name)
+        github.create_pull_request(branch_name, properties['name'])
+
+        return Response({}, status=status.HTTP_201_CREATED)
 
 
 def search(request):
@@ -61,9 +91,7 @@ def search(request):
         )
 
     else:
-
         geom = Polygon.from_bbox((lng0, lat0, lng1,lat1))
         queryset = models.Place.objects.filter(location__contained=geom)
-
 
     return JsonResponse(PlaceSerializer(queryset, many=True).data, safe=False)

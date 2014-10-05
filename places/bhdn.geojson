@@ -1,0 +1,42 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "-25.429623", 
+                "-49.261253"
+            ]
+        }, 
+        "properties": {
+            "name": "Bello Caffe", 
+            "city": "Curitiba", 
+            "country": "BR", 
+            "address": "Comendador Macedo, 371, loja 2", 
+            "homepage": "", 
+            "facebook": "https://www.facebook.com/pages/Bello-Caffe/284075251619204", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "-25.423266", 
+                "-49.269915"
+            ]
+        }, 
+        "properties": {
+            "name": "Caf\u00e9 do Top", 
+            "city": "Curitiba", 
+            "country": "BR", 
+            "address": "Av. C\u00e2ndido de Abreu, 127, Shopping Mueller, loja PC009", 
+            "homepage": "", 
+            "facebook": "https://www.facebook.com/cafedotop", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "53.558911", 
+                "9.963615"
+            ]
+        }, 
+        "properties": {
+            "name": "Kopiba", 
+            "city": "Hamburg", 
+            "country": "DE", 
+            "address": "Beim Gr\u00fcnen J\u00e4ger 24", 
+            "homepage": "http://www.kopiba.de", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

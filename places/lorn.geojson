@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "-23.477683", 
+                "-46.605930"
+            ]
+        }, 
+        "properties": {
+            "name": "Bookafe", 
+            "city": "S\u00e3o Paulo", 
+            "country": "BR", 
+            "address": "Av. Mazzei 277", 
+            "homepage": "http://www.bookafe.com.br", 
+            "facebook": "https://www.facebook.com/bookafeoficial", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

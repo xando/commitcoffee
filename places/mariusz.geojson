@@ -1,0 +1,102 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "52.490720", 
+                "13.435080"
+            ]
+        }, 
+        "properties": {
+            "name": "The Playwright Cafe", 
+            "city": "Berlin", 
+            "country": "Germany", 
+            "address": "Pannierstrasse 30", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "52.502453", 
+                "13.411978"
+            ]
+        }, 
+        "properties": {
+            "name": "betahaus", 
+            "city": "Berlin", 
+            "country": "Germany", 
+            "address": "Prinzessinnenstrasse 19-20", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "52.497253", 
+                "13.428707"
+            ]
+        }, 
+        "properties": {
+            "name": "Cutie Pie", 
+            "city": "Berlin", 
+            "country": "Germany", 
+            "address": "Lausitzer Strasse", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "52.533440", 
+                "13.423270"
+            ]
+        }, 
+        "properties": {
+            "name": "Godshot", 
+            "city": "Berlin", 
+            "country": "Germany", 
+            "address": "Immanuelkirchstrasse 32", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "52.529339", 
+                "13.401871"
+            ]
+        }, 
+        "properties": {
+            "name": "Sankt Oberholz", 
+            "city": "Berlin", 
+            "country": "Germany", 
+            "address": "Rosenthaler Strasse 72a", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

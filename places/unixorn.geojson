@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "37.486495", 
+                "-122.233522"
+            ]
+        }, 
+        "properties": {
+            "name": "Peet's", 
+            "city": "Redwood City", 
+            "country": "USA", 
+            "address": "2600 Broadway Street, Redwood City, CA 94063", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

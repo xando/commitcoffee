@@ -9,13 +9,14 @@ from rest_framework.routers import DefaultRouter
 from . import api
 
 
-router = DefaultRouter()
-router.register(r'place', api.PlaceView)
+# router = DefaultRouter()
+# router.register(r'place', api.PlaceView)
 
 
 urlpatterns = [
     url(r'^api/search$', api.search),
-    url(r'^api/', include(router.urls)),
+    url(r'^api/place/$', api.PlaceView.as_view()),
+    # url(r'^api/', include(router.urls)),
     url(r'^admin/', include(admin.site.urls)),
     url(r'', lambda r: serve(r, 'templates/base.html', settings.STATIC_ROOT)),
 ]

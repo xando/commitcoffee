@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "10.7886577", 
+                "106.70294639999997"
+            ]
+        }, 
+        "properties": {
+            "name": "Ca Phe Take", 
+            "city": "Ho Chi Minh City", 
+            "country": "VN", 
+            "address": "26/7 Nguy\u1ec5n B\u1ec9nh Khi\u00eam Q1", 
+            "homepage": "", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "59.910505", 
+                "10.746625"
+            ]
+        }, 
+        "properties": {
+            "name": "Stockfleths Prinsens Gate", 
+            "city": "Oslo", 
+            "country": "NO", 
+            "address": "Prinsens gate 6", 
+            "homepage": "http://www.stockfleths.as/?page_id=78", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "40.419201", 
+                "-86.895019"
+            ]
+        }, 
+        "properties": {
+            "name": "Star City Coffee & Ale House", 
+            "city": "Lafayette, IN", 
+            "country": "USA", 
+            "address": "210 Main St, Lafayette, IN 47901", 
+            "homepage": "http://www.starcitycoffee.net/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]

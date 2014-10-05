@@ -1,0 +1,42 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "53.48296", 
+                "-2.23583"
+            ]
+        }, 
+        "properties": {
+            "name": "North Tea Power", 
+            "city": "Manchester", 
+            "country": "UK", 
+            "address": "36 Tib St, Manchester, M4 1LA", 
+            "homepage": "http://northteapower.co.uk/", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": "https://twitter.com/northteapower"
+        }
+    }, 
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "52.48227", 
+                "-1.900485"
+            ]
+        }, 
+        "properties": {
+            "name": "Urban Coffee Co (Church St)", 
+            "city": "Birmingham", 
+            "country": "UK", 
+            "address": "30 Church Street, Birmingham, B3 2NP", 
+            "homepage": "http://www.urbancoffee.co.uk/", 
+            "facebook": "https://facebook.com/urbancoffee", 
+            "yelp": "", 
+            "twitter": "https://twitter.com/urbancoffeeco"
+        }
+    }
+]

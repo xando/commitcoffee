@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Feature", 
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [
+                "49.193379", 
+                "16.607919"
+            ]
+        }, 
+        "properties": {
+            "name": "Caf\u00e9 Mitte", 
+            "city": "Brno", 
+            "country": "Czech Republic", 
+            "address": "Pansk\u00e1 11, Brno, Czech Republic", 
+            "homepage": "http://www.cafemitte.com/en/index.php", 
+            "facebook": "", 
+            "yelp": "", 
+            "twitter": ""
+        }
+    }
+]
