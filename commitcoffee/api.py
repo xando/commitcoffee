@@ -1,4 +1,6 @@
 import json
+import glob
+import geohash
 import hashlib
 
 from django.http import JsonResponse
@@ -39,7 +41,6 @@ class PlaceSerializer(serializers.ModelSerializer):
         return attrs
 
 
-
 class PlaceView(views.APIView):
     def post(self, request):
 
@@ -74,6 +75,21 @@ class PlaceView(views.APIView):
         return Response({}, status=status.HTTP_201_CREATED)
 
 
+def places():
+    places = []
+    for file_name in glob.glob('places/*.geojson'):
+        places.extend(json.load(open(file_name)))
+
+    places_coords = []
+    for place in places:
+        lat, lng = place['geometry']['coordinates'] or [0, 0]
+        lat, lng = float(lat), float(lng)
+        place['id'] = geohash.encode(lat, lng)
+        places_coords.append((lat, lng, place))
+
+    return places_coords
+
+
 def search(request):
 
     lng0 = float(request.GET['lng0'])
@@ -82,16 +98,22 @@ def search(request):
     lng1 = float(request.GET['lng1'])
     lat1 = float(request.GET['lat1'])
 
-    if lng0 > lng1:
+    find = []
+    for lat, lng, place in places():
+        if lat0 < lat and lat < lat1 and lng0 < lng and lng < lng1:
+            find.append(place)
 
-        geom_1 = Polygon.from_bbox((lng0, lat0, 180, lat1))
-        geom_2 = Polygon.from_bbox((-180, lat0, lng1, lat1))
-        queryset = models.Place.objects.filter(
-            Q(location__contained=geom_1) | Q(location__contained=geom_2)
-        )
+    # import pdb; pdb.set_trace()
+    # if lng0 > lng1:
+    #     geom_1 = Polygon.from_bbox((lng0, lat0, 180, lat1))
+    #     geom_2 = Polygon.from_bbox((-180, lat0, lng1, lat1))
+    #     queryset = models.Place.objects.filter(
+    #         Q(location__contained=geom_1) | Q(location__contained=geom_2)
+    #     )
 
-    else:
-        geom = Polygon.from_bbox((lng0, lat0, lng1,lat1))
-        queryset = models.Place.objects.filter(location__contained=geom)
+    # else:
+    # geom = Polygon.from_bbox((lng0, lat0, lng1,lat1))
+    #     queryset = models.Place.objects.filter(location__contained=geom)
 
-    return JsonResponse(PlaceSerializer(queryset, many=True).data, safe=False)
+    return JsonResponse(find, safe=False)
+    # return JsonResponse(PlaceSerializer(queryset, many=True).data, safe=False)

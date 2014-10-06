@@ -171,10 +171,11 @@ app.controller('search', ['$scope', '$http', '$location', 'Place', '$routeParams
 
 				  angular.forEach(items, function(item) {
 				  	  if (!(item.id in $scope.pins)) {
+
 				  		  var marker = new google.maps.Marker({
 				  			  position: new google.maps.LatLng(
-				  				  item.location.latitude,
-				  				  item.location.longitude
+								  item.geometry.coordinates[0],
+								  item.geometry.coordinates[1]
 				  			  ),
 				  			  map: map,
 				  			  icon: '/static/img/map2.png',

@@ -55,7 +55,7 @@
       <div class="list-group">
 	<a id="item-{{ item.id }}" ng-repeat="item in items" ng-href="" class="list-group-item"
 	   ng-click="show_details(item)" ng-class="{'active': active.item.id === item.id}">
-	  <h5>{{ item.name }} <small>{{ item.address }}</small></h5>
+	  <h5>{{ item.properties.name }} <small>{{ item.properties.address }}</small></h5>
 	</a>
       </div>
     </div>
@@ -80,38 +80,38 @@
     
     <h3>
       <i class="fa fa-coffee"/>
-      {{ item.name }} <br/>
+      {{ item.properties.name }} <br/>
       <small>
-	<a href="//maps.google.com?saddr=Current+Location&daddr={{ item.location.latitude }},{{ item.location.longitude }}"
+	<a href="//maps.google.com?saddr=Current+Location&daddr={{ item.geometry.coordinates[0] }},{{ item.geometry.coordinates[1] }}"
 	   title="click to get directions" target="_blank">{{ item.address }}</a>
       </small>
     </h3>
 
-    <h5 ng-show="item.homepage" class="hidden-xs hidden-sm">
+    <h5 ng-show="item.properties.homepage" class="hidden-xs hidden-sm">
       <i class="fa fa-home"></i>
-      <a target="_blank" href="{{ item.homepage }}">
-	{{ item.homepage }}
+      <a target="_blank" href="{{ item.properties.homepage }}">
+	{{ item.properties.homepage }}
       </a>
     </h5>
 
-    <h5 ng-show="item.facebook" class="hidden-xs hidden-sm">
+    <h5 ng-show="item.properties.facebook" class="hidden-xs hidden-sm">
       <i class="fa fa-facebook"></i>
-      <a target="_blank" href="{{ item.facebook }}">
-	{{ item.facebook }}
+      <a target="_blank" href="{{ item.properties.facebook }}">
+	{{ item.properties.facebook }}
       </a>
     </h5>
 
-    <h5 ng-show="item.twitter" class="hidden-xs hidden-sm">
+    <h5 ng-show="item.properties.twitter" class="hidden-xs hidden-sm">
       <i class="fa fa-twitter"></i>
-      <a target="_blank" href="http://twitter.com/{{ item.twitter }}">
-	@{{ item.twitter }}
+      <a target="_blank" href="http://twitter.com/{{ item.properties.twitter }}">
+	@{{ item.properties.twitter }}
       </a>
     </h5>
 
     <h5 ng-show="item.yelp" class="hidden-xs hidden-sm">
       <i class="fa fa-yelp"></i>
-      <a target="_blank" href="{{ item.yelp }}">
-	{{ item.yelp }}
+      <a target="_blank" href="{{ item.properties.yelp }}">
+	{{ item.properties.yelp }}
       </a>
     </h5>
 
@@ -122,20 +122,20 @@
 	<dl>
 	  <dt><i class="fa fa-wifi" /> Internet</dt>
 	  <dd>
-	    <span ng-show="item.description_internet">
-	      {{ item.description_internet }}
+	    <span ng-show="item.properties.description.internet">
+	      {{ item.properties.description.internet }}
 	    </span>
-	    <span ng-show="!item.description_internet.length">
+	    <span ng-show="!item.properties.description.internet.length">
 	      <i>no infromation provided</i>
 	    </span>
 	  </dd>
 
 	  <dt><i class="fa fa-plug" /> Power Outlets</dt>
 	  <dd>
-	    <span ng-show="item.description_power">
+	    <span ng-show="item.properties.description.power">
 	      {{ item.description_power }}
 	    </span>
-	    <span ng-show="!item.description_power.length">
+	    <span ng-show="!item.properties.description.power.length">
 	      <i>no infromation provided</i>
 	    </span>
 	  </dd>
@@ -145,30 +145,30 @@
 	<dl>
 	  <dt><i class="fa fa-users" /> Service</dt>
 	  <dd>
-	    <span ng-show="item.description_service">
+	    <span ng-show="item.properties.description.service">
 	      {{ item.description_service }}
 	    </span>
-	    <span ng-show="!item.description_service.length">
+	    <span ng-show="!item.properties.description.service.length">
 	      <i>no infromation provided</i>
 	    </span>
 	  </dd>
 
 	  <dt><i class="fa fa-cutlery"/> Provision</dt>
 	  <dd>
-	    <span ng-show="item.description_provision">
+	    <span ng-show="item.properties.description.provision">
 	      {{ item.description_provision }}
 	    </span>
-	    <span ng-show="!item.description_provision.length">
+	    <span ng-show="!item.properties.description.provision.length">
 	      <i>no infromation provided</i>
 	    </span>
 	  </dd>
 
 	</dl>
       </div>
-      <div class="col-xs-12" ng-snow="item.description_other">
+      <div class="col-xs-12" ng-snow="item.properties.description.other">
 	<dl>
 	  <dt><i class="fa fa-question"/> More</dt>
-	  <dd>{{ item.description_other }}</dd>
+	  <dd>{{ item.properties.description.other }}</dd>
 	</dl>
       </div>
       
@@ -176,142 +176,4 @@
 
   </div>
 </div>
-
-
-
-  <!-- <div id="details" class="col-sm-8 col-xs-12" ng-show="details">
-
-  <button type="button" class="btn btn-default btn btn-block hidden-lg hidden-md" ng-click="details = false">
-  back to map
-  </button>
-
-
-  <a ng-show="details.homepage" type="button" class="btn btn-default btn-sm social hidden-md hidden-lg">
-  <i class="fa fa-home"/>Homepage
-  </a>
-  <a ng-show="details.facebook" type="button" class="btn btn-default btn-sm social hidden-md hidden-lg">
-  <i class="fa fa-facebook"></i> Facebook
-  </a>
-  <a ng-show="details.twitter" type="button" class="btn btn-default btn-sm social hidden-md hidden-lg">
-  <i class="fa fa-twitter"></i> Twitter
-  </a>
-  <a ng-show="details.yelp" type="button" class="btn btn-default btn-sm social hidden-md hidden-lg">
-  <i class="fa fa-yelp"></i> Yelp
-  </a>
-
-  <h4 ng-show="details.homepage" class="hidden-xs hidden-sm">
-  <i class="fa fa-home"></i>
-  <a target="_blank" href="{{ details.homepage }}">
-  {{ details.homepage }}
-  </a>
-  </h4>
-
-  <h4 ng-show="details.facebook" class="hidden-xs hidden-sm">
-  <i class="fa fa-facebook"></i>
-  <a target="_blank" href="{{ details.facebook }}">
-  {{ details.facebook }}
-  </a>
-  </h4>
-
-  <h4 ng-show="details.twitter" class="hidden-xs hidden-sm">
-  <i class="fa fa-twitter"></i>
-  <a target="_blank" href="http://twitter.com/{{ details.twitter }}">
-  @{{ details.twitter }}
-  </a>
-  </h4>
-
-  <h4 ng-show="details.yelp" class="hidden-xs hidden-sm">
-  <i class="fa fa-yelp"></i>
-  <a target="_blank" href="{{ details.yelp }}">
-  {{ details.yelp }}
-  </a>
-  </h4>
-
-  <p class="description">
-
-  <div class="row">
-  <div class="col-sm-6 col-xs-12">
-  <dl>
-  <dt><i class="fa fa-wifi" /> Internet</dt>
-  <dd>
-  <span ng-show="details.description_internet">
-  {{ details.description_internet }}
-  </span>
-  <span ng-show="!details.description_internet.length">
-  <i>no infromation provided</i>
-  </span>
-  </dd>
-
-  <dt><i class="fa fa-plug" /> Power Outlets</dt>
-  <dd>
-  <span ng-show="details.description_power">
-  {{ details.description_power }}
-  </span>
-  <span ng-show="!details.description_power.length">
-  <i>no infromation provided</i>
-  </span>
-  </dd>
-  </dl>
-  </div>
-  <div class="col-sm-6 col-xs-12">
-  <dl>
-  <dt><i class="fa fa-users" /> Service</dt>
-  <dd>
-  <span ng-show="details.description_service">
-  {{ details.description_service }}
-  </span>
-  <span ng-show="!details.description_service.length">
-  <i>no infromation provided</i>
-  </span>
-  </dd>
-
-  <dt><i class="fa fa-cutlery"/> Provision</dt>
-  <dd>
-  <span ng-show="details.description_provision">
-  {{ details.description_provision }}
-  </span>
-  <span ng-show="!details.description_provision.length">
-  <i>no infromation provided</i>
-  </span>
-  </dd>
-
-  </dl>
-  </div>
-  <div class="col-xs-12" ng-snow="details.description_other">
-  <dl>
-  <dt><i class="fa fa-question"/> More</dt>
-  <dd>{{ details.description_other }}</dd>
-  </dl>
-  </div>
-  </div>
-  </p>
-
-  </div>
-
-  <div id="map" class="col-sm-8" ng-hide="details">
-  <google-map style="block" ng-disabled="true" center="map.center" events="map.events"
-  zoom="map.zoom" draggable="true" options="map.options" control="map.control">
-  <markers models="map.items" coords="'location'" doCluster="false"
-  click="'click'" icon="'icon'" control="map.markers" >
-  </markers>
-  </google-map>
-  </div>
-
-  <div id="list" class="col-sm-4 hidden-xs" ng-disabled="true" >
-  <div class="list-group">
-  <a id="item-{{ item.id }}" ng-repeat="item in map.items" ng-href="" class="list-group-item"
-  ng-click="show_details(item)" ng-class="{'active': item.id == details.id}">
-  <h5>{{ item.name }} <small>{{ item.address }}</small></h5>
-  </a>
-  </div>
-  </div>
-
-  <div id="submit" class="col-xs-12" >
-  <p>
-  Is there a good <i class="fa fa-coffee"></i> place missing? Would like to see it here? Please
-  <a ng-href="add" class="btn btn-primary" type="button">submit</a>
-  </p>
-  </div>
-
-  </div> -->
 
