@@ -77,21 +77,6 @@
     {
         "city": "San Francisco",
         "country": "USA",
-        "name": "Sightglass Coffee",
-        "address": "270 7th St, San Francisco, CA 94103",
-        "coordinates": ["37.777033", "-122.408430"],
-        "description": {
-          "Internet": "Free wifi, good speed.",
-          "Power Outlets": "Some.",
-          "Seating": "Ample seating.",
-          "Service": "Excellent service.",
-          "Provision": "Great coffee and pastries."
-        },
-        "link": {"homepage":"https://sightglasscoffee.com/"}
-    },
-    {
-        "city": "San Francisco",
-        "country": "USA",
         "name": "Contraband Coffee Bar",
         "address": "1415 Larkin St, San Francisco, CA 94109",
         "coordinates": ["37.790981", "-122.419169"],
@@ -133,21 +118,6 @@
           "Provision": "Okay coffee, sandwiches and pastries."
         },
         "link": {"homepage":"https://plus.google.com/113039391985179622929/"}
-    },
-    {
-        "city": "San Francisco",
-        "country": "USA",
-        "name": "Sugar Cafe",
-        "address": "679 Sutter Street, San Francisco CA 94102",
-        "coordinates": ["37.788674", "-122.411519"],
-        "description": {
-          "Internet": "Free wifi, very quick speed.",
-          "Power Outlets": "Plenty.",
-          "Seating": "Ample seating.",
-          "Service": "Good service.",
-          "Provision": "Coffee, bar food and drink."
-        },
-        "link": {"homepage":"http://www.sugarcafesf.com/"}
     },
     {
         "city": "San Francisco",
