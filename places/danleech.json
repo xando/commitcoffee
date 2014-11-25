@@ -2,6 +2,24 @@
     {
         "city": "Bath",
         "country": "UK",
+        "name": "Colonna and Hunter",
+        "address": "14–15 Milsom Place, Milsom Street & Broad Street, Bath, BA1 1BZ",
+        "coordinates": ["51.384397", "-2.360356"],
+        "description": {
+            "Internet": "Free WiFi",
+            "Power Outlets": "Sockets next to some tables.",
+            "Seating": "Tables and benches indoors",
+            "Service": "Friendly service by knowledgable, experienced staff.",
+            "Provision": "Specialty espresso, flat white and filter coffee, craft beer, small food."
+        },
+        "link": {
+            "homepage":"http://colonnaandhunter.co.uk",
+            "twitter":"https://twitter.com/Colonna_Hunter"
+        }
+    },
+    {
+        "city": "Bath",
+        "country": "UK",
         "name": "Colonna and Smalls",
         "address": "6 Chapel Row, Bath, BA1 1HN",
         "coordinates": ["51.382876", "-2.364413"],
