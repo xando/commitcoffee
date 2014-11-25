@@ -1,0 +1,18 @@
+[
+    {
+        "city": "Vilnius",
+        "country": "LT",
+        "name": "No Sugar",
+        "address": "A. Stulginskio g. 2, Vilnius, Lithuania",
+        "coordinates": ["54.687630","25.275177"],
+        "description": {
+            "Internet": "Free Wi-Fi",
+            "Power Outlets": "Limited",
+            "Seating": "Stools and high tables, big enough for a laptop.",
+            "Service": "Friendly staff, great coffee.",
+            "Provision": "Coffee, biscuits, cakes etc.",
+            "Hours": "Mon-Fri 8am - 8pm, Sat-Sun 10am - 10pm"
+        },
+        "link": {"facebook":"https://www.facebook.com/nosugar"}
+    }
+]
