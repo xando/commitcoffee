@@ -1,0 +1,20 @@
+[
+    {
+        "city": "Bath",
+        "country": "UK",
+        "name": "Colonna and Smalls",
+        "address": "6 Chapel Row, Bath, BA1 1HN",
+        "coordinates": ["51.382876", "-2.364413"],
+        "description": {
+            "Internet": "Free WiFi",
+            "Power Outlets": "Sockets next to some tables.",
+            "Seating": "Tables and benches indoors, patio furniture in courtyard",
+            "Service": "The best baristas, brewers, cuppers and latte artists work here, with awards to prove it.",
+            "Provision": "Specialty espresso, flat white and filter coffee, tea, water, cakes."
+        },
+        "link": {
+            "homepage":"http://www.colonnaandsmalls.co.uk",
+            "twitter":"https://twitter.com/Colonna_Smalls"
+        }
+    }
+]
