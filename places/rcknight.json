@@ -1,0 +1,34 @@
+[
+    {
+        "city": "Vilnius",
+        "country": "LT",
+        "name": "No Sugar",
+        "address": "A. Stulginskio g. 2, Vilnius, Lithuania",
+        "coordinates": ["54.687630","25.275177"],
+        "description": {
+            "Internet": "Free Wi-Fi",
+            "Power Outlets": "Limited",
+            "Seating": "Stools and high tables, big enough for a laptop.",
+            "Service": "Friendly staff, great coffee.",
+            "Provision": "Coffee, biscuits, cakes etc.",
+            "Hours": "Mon-Fri 8am - 8pm, Sat-Sun 10am - 10pm"
+        },
+        "link": {"facebook":"https://www.facebook.com/nosugar"}
+    },
+    {
+        "city": "Bath",
+        "country": "UK",
+        "name": "Picnic Coffee",
+        "address": "9 Saracen St, Bath",
+        "coordinates": ["51.384534","-2.359867"],
+        "description": {
+            "Internet": "Free Wi-Fi",
+            "Power Outlets": "Not Sure",
+            "Seating": "Comfy seats, tables for laptop",
+            "Service": "Friendly staff, great coffee.",
+            "Provision": "Coffee, sandwiches, biscuits, cakes etc.",
+            "Hours": "Mon-Wed 7:30am - 6pm, Thu-Fri 7:30am - 9pm, Sat 8:30am - 9pm, Sun 9am - 5pm"
+        },
+        "link": {"homepage":"http://picniccoffee.co.uk/"}
+    }
+]
