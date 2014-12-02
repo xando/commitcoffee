@@ -1,0 +1,18 @@
+[
+    {
+        "city": "Prague",
+        "country": "CZ",
+        "name": "National Library of Technology",
+        "address": "Technická 6",
+        "coordinates": ["50.103924", "14.390703"],
+        "description": {
+            "Internet": "Free wifi",
+            "Power Outlets": "Almost everywhere",
+            "Seating": "Tables, chairs and couches",
+            "Service": "Very friendly",
+            "Provision": "Coffee, tea, softdrinks and much more in cafeteria",
+            "Hours": "non-stop (there's After Hours Study Room)"
+        },
+        "link": {"homepage":"http://www.techlib.cz/en/"}
+    }
+]
