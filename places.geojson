@@ -1061,6 +1061,38 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    25.275177, 
+                    54.68763
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free Wi-Fi", 
+                "name": "No Sugar", 
+                "marker-symbol": "cafe", 
+                "address": "Vilnius LT, A. Stulginskio g. 2, Vilnius, Lithuania"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -2.359867, 
+                    51.384534
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free Wi-Fi", 
+                "name": "Picnic Coffee", 
+                "marker-symbol": "cafe", 
+                "address": "Bath UK, 9 Saracen St, Bath"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     9.963615, 
                     53.558911
                 ]

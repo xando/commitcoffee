@@ -1263,6 +1263,48 @@ var places = [
 		"name": "Stockfleths Prinsens Gate"
 	},
 	{
+		"city": "Vilnius",
+		"description": {
+			"Seating": "Stools and high tables, big enough for a laptop.",
+			"Service": "Friendly staff, great coffee.",
+			"Power Outlets": "Limited",
+			"Hours": "Mon-Fri 8am - 8pm, Sat-Sun 10am - 10pm",
+			"Internet": "Free Wi-Fi",
+			"Provision": "Coffee, biscuits, cakes etc."
+		},
+		"country": "LT",
+		"coordinates": [
+			"54.687630",
+			"25.275177"
+		],
+		"link": {
+			"facebook": "https://www.facebook.com/nosugar"
+		},
+		"address": "A. Stulginskio g. 2, Vilnius, Lithuania",
+		"name": "No Sugar"
+	},
+	{
+		"city": "Bath",
+		"description": {
+			"Seating": "Comfy seats, tables for laptop",
+			"Service": "Friendly staff, great coffee.",
+			"Power Outlets": "Not Sure",
+			"Hours": "Mon-Wed 7:30am - 6pm, Thu-Fri 7:30am - 9pm, Sat 8:30am - 9pm, Sun 9am - 5pm",
+			"Internet": "Free Wi-Fi",
+			"Provision": "Coffee, sandwiches, biscuits, cakes etc."
+		},
+		"country": "UK",
+		"coordinates": [
+			"51.384534",
+			"-2.359867"
+		],
+		"link": {
+			"homepage": "http://picniccoffee.co.uk/"
+		},
+		"address": "9 Saracen St, Bath",
+		"name": "Picnic Coffee"
+	},
+	{
 		"city": "Hamburg",
 		"description": {
 			"Provision": "Coffee, tea, juices, softdrinks, beer, wine, longdrinks, cocktails",
