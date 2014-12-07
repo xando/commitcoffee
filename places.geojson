@@ -629,6 +629,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    -21.933333, 
+                    64.133333
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Complimentary wireless internet access to all of it's customers.", 
+                "name": "Reykjav\u00edk Roasters", 
+                "marker-symbol": "cafe", 
+                "address": "Reykjav\u00edk Iceland, K\u00e1rast\u00edgur 1, 101 Reykjav\u00edk"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -46.60593, 
                     -23.477683
                 ]

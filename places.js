@@ -776,6 +776,25 @@ var places = [
 		"name": "Kavarna in sla\u0161\u010di\u010darna Zvezda"
 	},
 	{
+		"city": "Reykjav\u00edk",
+		"description": {
+			"Hours": "Mon-Fri: 8:00 AM - 6:00 PM, Sat-Sun: 09:00 AM - 06:00 PM",
+			"Provision": "Amazing coffee and baked goods.",
+			"Service": "Service is awesome and quick",
+			"Internet": "Complimentary wireless internet access to all of it's customers."
+		},
+		"country": "Iceland",
+		"coordinates": [
+			"64.133333",
+			"-21.933333"
+		],
+		"link": {
+			"homepage": "http://reykjavikroasters.is/"
+		},
+		"address": "K\u00e1rast\u00edgur 1, 101 Reykjav\u00edk",
+		"name": "Reykjav\u00edk Roasters"
+	},
+	{
 		"city": "S\u00e3o Paulo",
 		"description": {
 			"Provision": "Coffee, tea, sandwiches",

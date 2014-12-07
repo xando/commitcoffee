@@ -1,0 +1,16 @@
+[
+    {
+        "city": "Reykjavík",
+        "country": "Iceland",
+        "name": "Reykjavík Roasters",
+        "address": "Kárastígur 1, 101 Reykjavík",
+        "coordinates": ["64.133333", "-21.933333"],
+        "description": {
+                "Internet": "Complimentary wireless internet access to all of it's customers.",
+                "Service": "Service is awesome and quick",
+                "Provision": "Amazing coffee and baked goods.",
+                "Hours": "Mon-Fri: 8:00 AM - 6:00 PM, Sat-Sun: 09:00 AM - 06:00 PM"
+        },
+        "link": {"homepage":"http://reykjavikroasters.is/"}
+    }
+]
