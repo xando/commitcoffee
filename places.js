@@ -440,6 +440,25 @@ var places = [
 		"name": "Due South Coffee Roasters"
 	},
 	{
+		"city": "Paris",
+		"description": {
+			"Hours": "Weekdays 8:00 AM - 8:00 PM, Weekends 10:00 AM - 8:00 PM",
+			"Provision": "A few wall outlets, great food and cakes, modern coffee shop, best place for working in central Paris",
+			"Service": "Frendly, English speaking and very quick",
+			"Internet": "complimentary wireless internet access to all of it's customers. Very fast, just ask for the password"
+		},
+		"country": "France",
+		"coordinates": [
+			"48.862272",
+			"2.357350"
+		],
+		"link": {
+			"homepage": "http://www.stradacafe.fr/"
+		},
+		"address": "94 Rue du Temple, 75003 Paris",
+		"name": "Strada Cafe"
+	},
+	{
 		"city": "New York City",
 		"description": {
 			"Provision": "Stumptown coffee in Harlem. Absolutely amazing. They also have beer!",

@@ -357,6 +357,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    2.35735, 
+                    48.862272
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "complimentary wireless internet access to all of it's customers. Very fast, just ask for the password", 
+                "name": "Strada Cafe", 
+                "marker-symbol": "cafe", 
+                "address": "Paris France, 94 Rue du Temple, 75003 Paris"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -73.943229, 
                     40.81005
                 ]
