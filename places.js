@@ -36,6 +36,26 @@ var places = [
 		"name": "Ca Phe Take"
 	},
 	{
+		"city": "Cambridge",
+		"description": {
+			"Provision": "Vegetarian cuisine that makes you wonder why we eat meat anyways. The coffee is pretty typical, but it's a great atmosphere.",
+			"Seating": "Tables fill up during mealtimes, but you can usually get a seat at the counter",
+			"Power Outlets": "No",
+			"Service": "Very friendly",
+			"Internet": "Free wifi"
+		},
+		"country": "USA",
+		"coordinates": [
+			"42.363602",
+			"-71.101107"
+		],
+		"link": {
+			"homepage": "http://www.veggiegalaxy.com/"
+		},
+		"address": "450 Massachusetts Avenue",
+		"name": "Veggie Galaxy"
+	},
+	{
 		"city": "Curitiba",
 		"description": {
 			"Seating": "Regular chairs and solid tables. Crowded in the evenings",
