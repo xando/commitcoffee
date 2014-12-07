@@ -101,6 +101,38 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    -2.360356, 
+                    51.384397
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free WiFi", 
+                "name": "Colonna and Hunter", 
+                "marker-symbol": "cafe", 
+                "address": "Bath UK, 14\u201315 Milsom Place, Milsom Street & Broad Street, Bath, BA1 1BZ"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -2.364413, 
+                    51.382876
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free WiFi", 
+                "name": "Colonna and Smalls", 
+                "marker-symbol": "cafe", 
+                "address": "Bath UK, 6 Chapel Row, Bath, BA1 1HN"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -79.940019, 
                     32.791406
                 ]

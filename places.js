@@ -119,6 +119,48 @@ var places = [
 		"name": "Williams Fresh Cafe"
 	},
 	{
+		"city": "Bath",
+		"description": {
+			"Provision": "Specialty espresso, flat white and filter coffee, craft beer, small food.",
+			"Seating": "Tables and benches indoors",
+			"Power Outlets": "Sockets next to some tables.",
+			"Service": "Friendly service by knowledgable, experienced staff.",
+			"Internet": "Free WiFi"
+		},
+		"country": "UK",
+		"coordinates": [
+			"51.384397",
+			"-2.360356"
+		],
+		"link": {
+			"twitter": "https://twitter.com/Colonna_Hunter",
+			"homepage": "http://colonnaandhunter.co.uk"
+		},
+		"address": "14\u201315 Milsom Place, Milsom Street & Broad Street, Bath, BA1 1BZ",
+		"name": "Colonna and Hunter"
+	},
+	{
+		"city": "Bath",
+		"description": {
+			"Provision": "Specialty espresso, flat white and filter coffee, tea, water, cakes.",
+			"Seating": "Tables and benches indoors, patio furniture in courtyard",
+			"Power Outlets": "Sockets next to some tables.",
+			"Service": "The best baristas, brewers, cuppers and latte artists work here, with awards to prove it.",
+			"Internet": "Free WiFi"
+		},
+		"country": "UK",
+		"coordinates": [
+			"51.382876",
+			"-2.364413"
+		],
+		"link": {
+			"twitter": "https://twitter.com/Colonna_Smalls",
+			"homepage": "http://www.colonnaandsmalls.co.uk"
+		},
+		"address": "6 Chapel Row, Bath, BA1 1HN",
+		"name": "Colonna and Smalls"
+	},
+	{
 		"city": "Charleston",
 		"description": {
 			"Hours": "M-TR: 11-11 | FR&SAT: 11-2 | SUN: 11-11",
