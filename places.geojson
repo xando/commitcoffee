@@ -405,6 +405,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    -77.025249, 
+                    38.919316
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "complimentary wireless internet access to all of it's customers. The password is painted on the counter", 
+                "name": "Blind Dog Cafe", 
+                "marker-symbol": "cafe", 
+                "address": "Washington USA, 944 Florida Avenue NW Washington, DC 20001"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -73.943229, 
                     40.81005
                 ]

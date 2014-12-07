@@ -501,6 +501,25 @@ var places = [
 		"name": "Strada Cafe"
 	},
 	{
+		"city": "Washington",
+		"description": {
+			"Hours": "Every day 8:00 AM - 4:00 PM",
+			"Provision": "amazing coffee and delicious sandwiches prepared fresh daily",
+			"Service": "service is awesome and quick",
+			"Internet": "complimentary wireless internet access to all of it's customers. The password is painted on the counter"
+		},
+		"country": "USA",
+		"coordinates": [
+			"38.919316",
+			"-77.025249"
+		],
+		"link": {
+			"homepage": "http://blinddogcafe.com/"
+		},
+		"address": "944 Florida Avenue NW Washington, DC 20001",
+		"name": "Blind Dog Cafe"
+	},
+	{
 		"city": "New York City",
 		"description": {
 			"Provision": "Stumptown coffee in Harlem. Absolutely amazing. They also have beer!",
