@@ -1262,6 +1262,27 @@ var places = [
 		"name": "Tal Cual"
 	},
 	{
+		"city": "Prague",
+		"description": {
+			"Seating": "Tables, chairs and couches",
+			"Service": "Very friendly",
+			"Power Outlets": "Almost everywhere",
+			"Hours": "non-stop (there's After Hours Study Room)",
+			"Internet": "Free wifi",
+			"Provision": "Coffee, tea, softdrinks and much more in cafeteria"
+		},
+		"country": "CZ",
+		"coordinates": [
+			"50.103924",
+			"14.390703"
+		],
+		"link": {
+			"homepage": "http://www.techlib.cz/en/"
+		},
+		"address": "Technick\u00e1 6",
+		"name": "National Library of Technology"
+	},
+	{
 		"city": "Oslo",
 		"description": {
 			"Provision": "Coffee, tea, juices, cakes, cookies, sandwiches, baguettes",
