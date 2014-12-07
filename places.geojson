@@ -325,6 +325,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    -82.287138, 
+                    34.9201
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free Wifi. Ask for the password", 
+                "name": "Due South Coffee Roasters", 
+                "marker-symbol": "cafe", 
+                "address": "Taylors USA, 250 Mill St, Taylors, SC 29687"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -73.943229, 
                     40.81005
                 ]

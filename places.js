@@ -399,6 +399,27 @@ var places = [
 		"name": "CityMug Caf\u00e9"
 	},
 	{
+		"city": "Taylors",
+		"description": {
+			"Seating": "Couches and a bar",
+			"Service": "Service is a little slower than other coffee shops, but the coffee is brewed by hand each order.",
+			"Power Outlets": "A few",
+			"Hours": "Mon-Sat 9am-6pm. Sun 12pm-6pm",
+			"Internet": "Free Wifi. Ask for the password",
+			"Provision": "Great coffee, beer, etc"
+		},
+		"country": "USA",
+		"coordinates": [
+			"34.920100",
+			"-82.287138"
+		],
+		"link": {
+			"homepage": "https://www.facebook.com/pages/Due-South-Coffee/1457616714452951"
+		},
+		"address": "250 Mill St, Taylors, SC 29687",
+		"name": "Due South Coffee Roasters"
+	},
+	{
 		"city": "New York City",
 		"description": {
 			"Provision": "Stumptown coffee in Harlem. Absolutely amazing. They also have beer!",
