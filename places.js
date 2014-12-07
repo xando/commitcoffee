@@ -1327,6 +1327,47 @@ var places = [
 		"name": "Peet's"
 	},
 	{
+		"city": "Lviv",
+		"description": {
+			"Provision": "Coffee, tea, hot chocolate and many others coffee-based drinks",
+			"Power outlets": "A lot of them",
+			"Service": "Order at the bar, very friendly",
+			"Internet": "Free wifi, nice speed, password protected"
+		},
+		"country": "Ukraine",
+		"coordinates": [
+			"49.84308",
+			"24.026064"
+		],
+		"link": {
+			"facebook": "https://www.facebook.com/kredenscoffee",
+			"homepage": "http://www.kredens.com.ua/en/"
+		},
+		"address": "37 Prospekt Svobody",
+		"name": "Kredens"
+	},
+	{
+		"city": "Lviv",
+		"description": {
+			"Provision": "Coffee, tea (they are free, but assortment is limited)",
+			"Internet": "Free wifi",
+			"Power outlets": "Usual amount of them",
+			"Service": "Order at the bar, very friendly",
+			"Format": "Time-based"
+		},
+		"country": "Ukraine",
+		"coordinates": [
+			"49.841015",
+			"24.03112"
+		],
+		"link": {
+			"facebook": "https://www.facebook.com/pages/CoMMuna/440386219353270",
+			"homepage": "http://communa.net.ua/en/"
+		},
+		"address": "1 Halytska str.",
+		"name": "CoMMuna"
+	},
+	{
 		"city": "Brno",
 		"description": {
 			"Seating": "Chairs",

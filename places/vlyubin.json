@@ -1,0 +1,31 @@
+[
+    {
+        "city": "Lviv",
+        "country": "Ukraine",
+        "name": "Kredens",
+        "address": "37 Prospekt Svobody",
+        "coordinates": ["49.84308", "24.026064"],
+        "description": {
+            "Internet": "Free wifi, nice speed, password protected",
+            "Power outlets": "A lot of them",
+            "Service": "Order at the bar, very friendly",
+            "Provision": "Coffee, tea, hot chocolate and many others coffee-based drinks"
+        },
+        "link": {"homepage":"http://www.kredens.com.ua/en/", "facebook":"https://www.facebook.com/kredenscoffee"}
+    },
+    {
+        "city": "Lviv",
+        "country": "Ukraine",
+        "name": "CoMMuna",
+        "address": "1 Halytska str.",
+        "coordinates": ["49.841015", "24.03112"],
+        "description": {
+            "Format": "Time-based",
+            "Internet": "Free wifi",
+            "Power outlets": "Usual amount of them",
+            "Service": "Order at the bar, very friendly",
+            "Provision": "Coffee, tea (they are free, but assortment is limited)"
+        },
+        "link": {"homepage":"http://communa.net.ua/en/", "facebook":"https://www.facebook.com/pages/CoMMuna/440386219353270"}
+    }
+]

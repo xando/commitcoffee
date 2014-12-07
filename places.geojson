@@ -1109,6 +1109,38 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    24.026064, 
+                    49.84308
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi, nice speed, password protected", 
+                "name": "Kredens", 
+                "marker-symbol": "cafe", 
+                "address": "Lviv Ukraine, 37 Prospekt Svobody"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    24.03112, 
+                    49.841015
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi", 
+                "name": "CoMMuna", 
+                "marker-symbol": "cafe", 
+                "address": "Lviv Ukraine, 1 Halytska str."
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     16.607919, 
                     49.193379
                 ]
