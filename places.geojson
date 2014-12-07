@@ -1013,6 +1013,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    -8.01075999, 
+                    31.635213
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Wifi with password (name of cafe)", 
+                "name": "Cafe du Livre", 
+                "marker-symbol": "cafe", 
+                "address": "Marrakesh Morroco, 44 Rue Tarik Ibn Ziad"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -79.36814, 
                     43.66513
                 ]

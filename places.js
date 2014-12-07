@@ -1201,6 +1201,24 @@ var places = [
 		"name": "Star City Coffee & Ale House"
 	},
 	{
+		"city": "Marrakesh",
+		"description": {
+			"Seating": "Comfortable chairs",
+			"Service": "Friendly, English Speaking",
+			"Power Outlets": "There are a few",
+			"Internet": "Wifi with password (name of cafe)",
+			"Directions": "Down an alley way between two buildings, to the left.",
+			"Provision": "Full menu"
+		},
+		"country": "Morroco",
+		"coordinates": [
+			"31.635213",
+			"-8.01075999"
+		],
+		"address": "44 Rue Tarik Ibn Ziad",
+		"name": "Cafe du Livre"
+	},
+	{
 		"city": "Toronto",
 		"description": {
 			"Seating": "Wooden chairs and tables, single-person tables available",
