@@ -282,26 +282,6 @@ var places = [
 	{
 		"city": "San Francisco",
 		"description": {
-			"Provision": "Great coffee and pastries.",
-			"Seating": "Ample seating.",
-			"Power Outlets": "Some.",
-			"Service": "Excellent service.",
-			"Internet": "Free wifi, good speed."
-		},
-		"country": "USA",
-		"coordinates": [
-			"37.777033",
-			"-122.408430"
-		],
-		"link": {
-			"homepage": "https://sightglasscoffee.com/"
-		},
-		"address": "270 7th St, San Francisco, CA 94103",
-		"name": "Sightglass Coffee"
-	},
-	{
-		"city": "San Francisco",
-		"description": {
 			"Provision": "Great coffee and okay pastries.",
 			"Seating": "Ample seating.",
 			"Power Outlets": "Only four available.",
@@ -358,26 +338,6 @@ var places = [
 		},
 		"address": "968 Valencia St, San Francisco, CA 94110",
 		"name": "Mission Creek Cafe"
-	},
-	{
-		"city": "San Francisco",
-		"description": {
-			"Provision": "Coffee, bar food and drink.",
-			"Seating": "Ample seating.",
-			"Power Outlets": "Plenty.",
-			"Service": "Good service.",
-			"Internet": "Free wifi, very quick speed."
-		},
-		"country": "USA",
-		"coordinates": [
-			"37.788674",
-			"-122.411519"
-		],
-		"link": {
-			"homepage": "http://www.sugarcafesf.com/"
-		},
-		"address": "679 Sutter Street, San Francisco CA 94102",
-		"name": "Sugar Cafe"
 	},
 	{
 		"city": "San Francisco",

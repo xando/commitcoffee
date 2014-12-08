@@ -229,22 +229,6 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
-                    -122.40843, 
-                    37.777033
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free wifi, good speed.", 
-                "name": "Sightglass Coffee", 
-                "marker-symbol": "cafe", 
-                "address": "San Francisco USA, 270 7th St, San Francisco, CA 94103"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
                     -122.419169, 
                     37.790981
                 ]
@@ -287,22 +271,6 @@
                 "name": "Mission Creek Cafe", 
                 "marker-symbol": "cafe", 
                 "address": "San Francisco USA, 968 Valencia St, San Francisco, CA 94110"
-            }
-        }, 
-        {
-            "geometry": {
-                "type": "Point", 
-                "coordinates": [
-                    -122.411519, 
-                    37.788674
-                ]
-            }, 
-            "type": "Feature", 
-            "properties": {
-                "info": "Free wifi, very quick speed.", 
-                "name": "Sugar Cafe", 
-                "marker-symbol": "cafe", 
-                "address": "San Francisco USA, 679 Sutter Street, San Francisco CA 94102"
             }
         }, 
         {
