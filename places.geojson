@@ -1077,6 +1077,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    77.643341, 
+                    13.0205
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Good WiFi speed", 
+                "name": "Caffe Pascucci", 
+                "marker-symbol": "cafe", 
+                "address": "Bangalore IN, 7th Main Road, HRBR Layout 1st Block, Banaswadi"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     25.275177, 
                     54.68763
                 ]

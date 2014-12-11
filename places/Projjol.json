@@ -1,0 +1,18 @@
+[
+    {
+        "city": "Bangalore",
+        "country": "IN",
+        "name": "Caffe Pascucci",
+        "address": "7th Main Road, HRBR Layout 1st Block, Banaswadi",
+        "coordinates": ["13.020500", "77.643341"],
+        "description": {
+            "Internet": "Good WiFi speed",
+            "Power outlets": "No",
+            "Seating": "Chairs and sofas",
+            "Service": "Service is prompt and on time.",
+            "Provision": "Good food and WiFi, overall pretty cool place to work.",
+    		"Hours": "Everyday from 10 AM to 11 PM"
+        }
+    }
+]
+

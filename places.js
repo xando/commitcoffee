@@ -1282,6 +1282,24 @@ var places = [
 		"name": "Stockfleths Prinsens Gate"
 	},
 	{
+		"city": "Bangalore",
+		"description": {
+			"Seating": "Chairs and sofas",
+			"Service": "Service is prompt and on time.",
+			"Power outlets": "No",
+			"Hours": "Everyday from 10 AM to 11 PM",
+			"Internet": "Good WiFi speed",
+			"Provision": "Good food and WiFi, overall pretty cool place to work."
+		},
+		"country": "IN",
+		"coordinates": [
+			"13.020500",
+			"77.643341"
+		],
+		"address": "7th Main Road, HRBR Layout 1st Block, Banaswadi",
+		"name": "Caffe Pascucci"
+	},
+	{
 		"city": "Vilnius",
 		"description": {
 			"Seating": "Stools and high tables, big enough for a laptop.",
