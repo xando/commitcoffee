@@ -1,5 +1,6 @@
 language: python
 script:
+  - npm install
   - npm run build
 branches:
   only:
