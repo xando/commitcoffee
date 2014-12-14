@@ -1,0 +1,208 @@
+body {
+  background: #000;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.logo {
+  background: url('img/background.jpg') no-repeat;
+  background-size: 1920px;
+  background-position: center -84px;
+  border-bottom: 2px solid #666;
+  padding: 80px 0 90px 0;
+}
+.logo .sign {
+  text-align: center;
+  color: #fff;
+  color: #F5F4DF;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 10em;
+  line-height: 140px;
+  text-shadow: 2px 2px 20px #111;
+}
+.search {
+  padding: 20px 140px;
+  text-align: center;
+  color: #ddd;
+  line-height: 30px;
+  font-size: 19px;
+  text-shadow: 2px 2px 3px #000;
+  margin-bottom: 20px;
+}
+.search .brown {
+  color: #A19572;
+  font-weight: bold;
+}
+.search form {
+  margin-top: 20px;
+}
+.search form button,
+.search form button[disabled] {
+  font-weight: bold;
+  background: #A19572;
+  border-color: #A19572;
+  width: 130px;
+}
+.search form button:hover,
+.search form button[disabled]:hover {
+  background: #A19572;
+  border-color: #A19572;
+}
+.search form button:active,
+.search form button[disabled]:active {
+  background: #A19572;
+  border-color: #A19572;
+}
+.search form button:focus,
+.search form button[disabled]:focus {
+  background: #A19572;
+  border-color: #A19572;
+}
+.contribute {
+  background: #191919;
+  border-top: 2px solid #222;
+  border-bottom: 2px solid #222;
+  padding: 30px 0px;
+  text-align: center;
+}
+.contribute p {
+  color: #ddd;
+  line-height: 30px;
+  font-size: 22px;
+  text-shadow: 2px 2px 3px #000;
+}
+.contribute code {
+  display: inline-block;
+  margin: 18px 0 13px 0;
+  color: green;
+  background-color: #222;
+  padding: 13px 70px;
+}
+.map {
+  position: relative;
+}
+.map .detail {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  height: 500px;
+}
+.map .detail .message {
+  border-radius: 10px;
+  border: 3px solid #ddd;
+  width: 50%;
+  background: #EfEfEf;
+  margin: 50px auto;
+  min-height: 400px;
+  height: auto;
+}
+.map .detail .message h2 {
+  font-weight: bold;
+}
+.map .detail .message address {
+  margin-bottom: 0;
+}
+.map .detail .message .links {
+  font-size: 40px;
+  margin-top: 10px;
+  text-align: right;
+}
+.map .detail .message img {
+  max-width: 100%;
+  border-radius: 6px;
+  border: 2px solid #ccc;
+}
+#map-canvas {
+  height: 500px;
+}
+footer {
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0;
+}
+@media (max-width: 992px) {
+  html,
+  body {
+    height: 100%;
+  }
+  html .search,
+  body .search {
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    background: black;
+    width: 100%;
+    padding: 9px 20px;
+  }
+  html .search form,
+  body .search form {
+    margin-top: 0px;
+  }
+  html .map,
+  body .map {
+    height: 100%;
+  }
+  html .map .detail,
+  body .map .detail {
+    height: 100%;
+  }
+  html .map .detail .message,
+  body .map .detail .message {
+    border-radius: 0px;
+    border: 0;
+    width: 100%;
+    background: #EfEfEf;
+    height: 100%;
+    margin: 0;
+    padding: 0 35px;
+  }
+  html .map .detail .message .close,
+  body .map .detail .message .close {
+    background: url('img/google-maps-icon.jpg') no-repeat;
+    position: fixed;
+    z-index: 2;
+    width: 150px;
+    height: 107px;
+    right: 10px;
+    top: 10px;
+    border: 1px solid;
+    background-size: 144px;
+    background-position: 0;
+  }
+  html .map .detail .message dl,
+  body .map .detail .message dl {
+    font-size: 1.5em;
+  }
+  html .map .detail .message dl dd,
+  body .map .detail .message dl dd {
+    margin-bottom: 15px;
+  }
+  html .map .detail .message h2,
+  body .map .detail .message h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.8em;
+  }
+  html .map .detail .message h4,
+  body .map .detail .message h4 {
+    text-align: center;
+  }
+  html .map .detail .message address,
+  body .map .detail .message address {
+    margin-bottom: 0;
+  }
+  html .map .detail .message .links,
+  body .map .detail .message .links {
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: right;
+  }
+  html .map .detail .message img,
+  body .map .detail .message img {
+    border-radius: 6px;
+    border: 2px solid #ccc;
+  }
+  html .map #map-canvas,
+  body .map #map-canvas {
+    height: 100%;
+  }
+}
