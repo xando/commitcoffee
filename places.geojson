@@ -53,6 +53,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    -93.277886, 
+                    44.935153
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Freely available and wide open. VPN is a good idea.", 
+                "name": "Five Watt Coffee", 
+                "marker-symbol": "cafe", 
+                "address": "Minneapolis USA, 3745 Nicollet Avenue, Minneapolis, MN 55409"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -49.261253, 
                     -25.429623
                 ]

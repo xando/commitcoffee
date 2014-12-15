@@ -56,6 +56,25 @@ var places = [
 		"name": "Veggie Galaxy"
 	},
 	{
+		"city": "Minneapolis",
+		"description": {
+			"Hours": "Mon-Sat 06:00 to 21:00, Sun 06:30 to 21:00",
+			"Provision": "Unusual coffees you won't find elsewhere. They use bitters for a number of their drinks.",
+			"Service": "Very friendly, characterful, and highly competent staff.",
+			"Internet": "Freely available and wide open. VPN is a good idea."
+		},
+		"country": "USA",
+		"coordinates": [
+			"44.935153",
+			"-93.277886"
+		],
+		"link": {
+			"homepage": "http://www.fivewattcoffee.com/"
+		},
+		"address": "3745 Nicollet Avenue, Minneapolis, MN 55409",
+		"name": "Five Watt Coffee"
+	},
+	{
 		"city": "Curitiba",
 		"description": {
 			"Seating": "Regular chairs and solid tables. Crowded in the evenings",
