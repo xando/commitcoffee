@@ -13,6 +13,10 @@
             "Provision": "Coffee, tea, softdrinks and much more in cafeteria",
             "Hours": "non-stop (there's After Hours Study Room)"
         },
-        "link": {"homepage":"http://www.techlib.cz/en/"}
+        "link": {
+            "homepage": "http://www.techlib.cz/en/",
+            "twitter": "https://twitter.com/ntkcz/",
+            "facebook": "https://facebook.com/ntkcz/"
+        }
     }
 ]
