@@ -1,18 +1,42 @@
 [
-    {
-        "city": "Prague",
-        "country": "CZ",
-        "name": "National Library of Technology",
-        "address": "Technická 6",
-        "coordinates": ["50.103924", "14.390703"],
-        "description": {
-            "Internet": "Free wifi",
-            "Power Outlets": "Almost everywhere",
-            "Seating": "Tables, chairs and couches",
-            "Service": "Very friendly",
-            "Provision": "Coffee, tea, softdrinks and much more in cafeteria",
-            "Hours": "non-stop (there's After Hours Study Room)"
-        },
-        "link": {"homepage":"http://www.techlib.cz/en/"}
+  {
+    "city": "Prague",
+    "country": "CZ",
+    "name": "National Library of Technology",
+    "address": "Technická 6",
+    "coordinates": ["50.103924", "14.390703"],
+    "description": {
+      "Internet": "Free wifi",
+      "Power Outlets": "Almost everywhere",
+      "Seating": "Tables, chairs and couches",
+      "Service": "Very friendly",
+      "Provision": "Coffee, tea, softdrinks and much more in cafeteria",
+      "Hours": "non-stop (there's After Hours Study Room)"
+    },
+    "link": {
+      "homepage": "http://www.techlib.cz/en/",
+      "twitter": "https://twitter.com/ntkcz/",
+      "facebook": "https://facebook.com/ntkcz/"
     }
+  },
+  {
+    "city": "Prague",
+    "country": "CZ",
+    "name": "Můj šálek kávy",
+    "address": "Křižíkova 105",
+    "coordinates": ["50.096688", "14.450465"],
+    "description": {
+      "Internet": "Free wifi",
+      "Power Outlets": "Yes",
+      "Seating": "Chairs and couches",
+      "Service": "Very friendly",
+      "Provision": "Great coffee, but also food",
+      "Hours": "Mon - Sat: 9:00 - 22:00, Sun: 10:00 - 18:00"
+    },
+    "link": {
+      "homepage": "http://www.doubleshot.cz/kavarny",
+      "twitter": "https://twitter.com/Mujsalekkavy",
+      "facebook": "https://facebook.com/mujsalekkavy"
+    }
+  }
 ]

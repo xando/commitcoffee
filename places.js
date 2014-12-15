@@ -1256,10 +1256,35 @@ var places = [
 			"14.390703"
 		],
 		"link": {
+			"facebook": "https://facebook.com/ntkcz/",
+			"twitter": "https://twitter.com/ntkcz/",
 			"homepage": "http://www.techlib.cz/en/"
 		},
 		"address": "Technick\u00e1 6",
 		"name": "National Library of Technology"
+	},
+	{
+		"city": "Prague",
+		"description": {
+			"Seating": "Chairs and couches",
+			"Service": "Very friendly",
+			"Power Outlets": "Yes",
+			"Hours": "Mon - Sat: 9:00 - 22:00, Sun: 10:00 - 18:00",
+			"Internet": "Free wifi",
+			"Provision": "Great coffee, but also food"
+		},
+		"country": "CZ",
+		"coordinates": [
+			"50.096688",
+			"14.450465"
+		],
+		"link": {
+			"facebook": "https://facebook.com/mujsalekkavy",
+			"twitter": "https://twitter.com/Mujsalekkavy",
+			"homepage": "http://www.doubleshot.cz/kavarny"
+		},
+		"address": "K\u0159i\u017e\u00edkova 105",
+		"name": "M\u016fj \u0161\u00e1lek k\u00e1vy"
 	},
 	{
 		"city": "Oslo",
