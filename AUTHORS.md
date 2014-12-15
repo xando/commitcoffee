@@ -1,6 +1,6 @@
 ### Author 
 
-Sebastian Pawluś 
+Sebastian Pawluś ([@sebapawlus](https://twitter.com/sebapawlus))
 
 
 ### Code contributions and suggestions
