@@ -1362,6 +1362,66 @@ var places = [
 		"name": "Kopiba"
 	},
 	{
+		"city": "Hamburg",
+		"description": {
+			"Provision": "Coffee, tea, juices, softdrinks, beer, everything else nearby",
+			"Seating": "Tables and chairs",
+			"Power Outlets": "At every table",
+			"Service": "Very friendly",
+			"Internet": "Ask for password (co-working space)"
+		},
+		"country": "DE",
+		"coordinates": [
+			"53.5625523",
+			"9.9601225"
+		],
+		"link": {
+			"homepage": "http://hamburg.betahaus.de/"
+		},
+		"address": "Eifflerstra\u00dfe 43",
+		"name": "Betahaus"
+	},
+	{
+		"city": "Hamburg",
+		"description": {
+			"Provision": "Coffee, tea, juices, cake and sandwiches",
+			"Seating": "Tables and chairs, sofas upstairs",
+			"Power Outlets": "Upstairs at the table",
+			"Service": "Very friendly",
+			"Internet": "BTOpenzone hotspot (free)"
+		},
+		"country": "DE",
+		"coordinates": [
+			"53.5513",
+			"9.9935"
+		],
+		"link": {
+			"homepage": "http://www.starbucks.de/store/2015/de/neuer-jungfernstieg-5/neuer-jungfernstieg-5-hamburg-hh-20354"
+		},
+		"address": "Neuer Jungfernstieg 5",
+		"name": "Starbucks"
+	},
+	{
+		"city": "Hamburg",
+		"description": {
+			"Provision": "Coffee, tea, juices, cake and sandwiches",
+			"Seating": "Coffee tables and chairs, sofas",
+			"Power Outlets": "Only a few",
+			"Service": "Very friendly",
+			"Internet": "BTOpenzone hotspot (free)"
+		},
+		"country": "DE",
+		"coordinates": [
+			"53.5513",
+			"9.9935"
+		],
+		"link": {
+			"homepage": "http://www.starbucks.de/store/2011/de/rathausmarkt-5/rathausmarkt-5-hamburg-hh-20095"
+		},
+		"address": "Rathausmarkt 5",
+		"name": "Starbucks"
+	},
+	{
 		"city": "Lafayette, IN",
 		"description": {
 			"Provision": "Direct trade coffee, craft beer, paninis, cupcakes",

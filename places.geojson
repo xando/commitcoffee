@@ -1141,6 +1141,54 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    9.9601225, 
+                    53.5625523
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Ask for password (co-working space)", 
+                "name": "Betahaus", 
+                "marker-symbol": "cafe", 
+                "address": "Hamburg DE, Eifflerstra\u00dfe 43"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    9.9935, 
+                    53.5513
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "BTOpenzone hotspot (free)", 
+                "name": "Starbucks", 
+                "marker-symbol": "cafe", 
+                "address": "Hamburg DE, Neuer Jungfernstieg 5"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    9.9935, 
+                    53.5513
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "BTOpenzone hotspot (free)", 
+                "name": "Starbucks", 
+                "marker-symbol": "cafe", 
+                "address": "Hamburg DE, Rathausmarkt 5"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -86.895019, 
                     40.419201
                 ]
