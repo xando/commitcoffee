@@ -1547,6 +1547,48 @@ var places = [
 		"name": "iheart"
 	},
 	{
+		"city": "Montpellier",
+		"description": {
+			"Seating": "A lot of tables with chairs and also room on the counter",
+			"Service": "Very nice",
+			"Power Outlets": "Some available",
+			"Hours": "Wed-Sat 10.00-01.00, Sun 10.00-18.00",
+			"Internet": "Free WiFi",
+			"Provision": "Coffee, tea, beer, wine, cookies, muffins, tapas, etc"
+		},
+		"country": "FR",
+		"coordinates": [
+			"43.612777",
+			"3.878086"
+		],
+		"link": {
+			"homepage": "http://lapanacee.org/le-cafe"
+		},
+		"address": "14 Rue de l'\u00c9cole de Pharmacie",
+		"name": "Caf\u00e9 La Panac\u00e9e"
+	},
+	{
+		"city": "Auckland",
+		"description": {
+			"Seating": "Tables on the terrace next to Albert Park",
+			"Service": "Nice",
+			"Power Outlets": "No",
+			"Hours": "Mon-Fri 07.00-17.00, Sat-Sun 08.00-16.00",
+			"Internet": "No",
+			"Provision": "Coffee, tea, beer, wine, juices, soda, pastries, sandwiches, snacks"
+		},
+		"country": "NZ",
+		"coordinates": [
+			"-36.851226",
+			"174.765787"
+		],
+		"link": {
+			"homepage": "http://www.aucklandartgallery.com/visit/caf\u00e9"
+		},
+		"address": "Corner Kitchener and Wellesley Streets, Auckland 1010",
+		"name": "Auckland Art Gallery Cafe"
+	},
+	{
 		"city": "Seattle",
 		"description": {
 			"Seating": "chairs",

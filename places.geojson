@@ -1285,6 +1285,38 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    3.878086, 
+                    43.612777
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free WiFi", 
+                "name": "Caf\u00e9 La Panac\u00e9e", 
+                "marker-symbol": "cafe", 
+                "address": "Montpellier FR, 14 Rue de l'\u00c9cole de Pharmacie"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    174.765787, 
+                    -36.851226
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "No", 
+                "name": "Auckland Art Gallery Cafe", 
+                "marker-symbol": "cafe", 
+                "address": "Auckland NZ, Corner Kitchener and Wellesley Streets, Auckland 1010"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -122.312957, 
                     47.622711
                 ]
