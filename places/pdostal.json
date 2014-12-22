@@ -38,5 +38,24 @@
       "twitter": "https://twitter.com/Mujsalekkavy",
       "facebook": "https://facebook.com/mujsalekkavy"
     }
+  },
+  {
+    "city": "Prague",
+    "country": "CZ",
+    "name": "Kavárna Pod Lipami",
+    "address": "Čechova 1",
+    "coordinates": ["50.100214", "14.421306"],
+    "description": {
+      "Internet": "Free wifi",
+      "Power Outlets": "Few inside",
+      "Seating": "Many seats and two benches outside",
+      "Service": "Friendly and helpful staff - awesome outdoor seating",
+      "Provision": "Great coffee, fresh food, lunch menus",
+      "Hours": "Mon - Fri: 8:30 - 22:00, Sat - Sun: 11:00 - 22:00"
+    },
+    "link": {
+      "twitter": "https://twitter.com/pod_lipami",
+      "facebook": "https://www.facebook.com/pages/Kavárna-Pod-Lipami/174753202539775?sk=info"
+    }
   }
 ]

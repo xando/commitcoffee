@@ -1306,6 +1306,28 @@ var places = [
 		"name": "M\u016fj \u0161\u00e1lek k\u00e1vy"
 	},
 	{
+		"city": "Prague",
+		"description": {
+			"Seating": "Many seats and two benches outside",
+			"Service": "Friendly and helpful staff - awesome outdoor seating",
+			"Power Outlets": "Few inside",
+			"Hours": "Mon - Fri: 8:30 - 22:00, Sat - Sun: 11:00 - 22:00",
+			"Internet": "Free wifi",
+			"Provision": "Great coffee, fresh food, lunch menus"
+		},
+		"country": "CZ",
+		"coordinates": [
+			"50.100214",
+			"14.421306"
+		],
+		"link": {
+			"twitter": "https://twitter.com/pod_lipami",
+			"facebook": "https://www.facebook.com/pages/Kav\u00e1rna-Pod-Lipami/174753202539775?sk=info"
+		},
+		"address": "\u010cechova 1",
+		"name": "Kav\u00e1rna Pod Lipami"
+	},
+	{
 		"city": "Oslo",
 		"description": {
 			"Provision": "Coffee, tea, juices, cakes, cookies, sandwiches, baguettes",
