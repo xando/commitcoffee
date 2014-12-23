@@ -57,5 +57,21 @@
       "twitter": "https://twitter.com/pod_lipami",
       "facebook": "https://www.facebook.com/pages/Kavárna-Pod-Lipami/174753202539775?sk=info"
     }
+  },
+  {
+    "city": "Prague",
+    "country": "CZ",
+    "name": "Era svět",
+    "address": "Jungmannovo náměstí 767",
+    "coordinates": ["50.083431", "14.422924"],
+    "description": {
+      "Internet": "Free wifi",
+      "Power Outlets": "Yes",
+      "Seating": "Seats and large tables ... There is also paid coworking space [25 Kč / hour & 200 Kč / day]",
+      "Service": "Friendly staff, quiet surroundings",
+      "Provision": "Good coffee, tea, cakes, desserts",
+      "Hours": "Mon - Fri: 8:30 - 19:00, Sat - Sun: 09:00 - 15:00"
+    },
+    "link": { "website": "https://prostor.erasvet.cz/#kavarna" }
   }
 ]
