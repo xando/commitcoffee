@@ -325,6 +325,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    -75.6165, 
+                    38.3685
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "WiFi access password displayed on a card on the bread rack near the entrance", 
+                "name": "Pemberton Coffeehouse", 
+                "marker-symbol": "cafe", 
+                "address": "Salisbury USA, 1100 Pemberton Dr., Salisbury, MD 21801"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     116.460042, 
                     39.907234
                 ]

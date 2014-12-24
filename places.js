@@ -399,6 +399,25 @@ var places = [
 		"name": "Konditori"
 	},
 	{
+		"city": "Salisbury",
+		"description": {
+			"Hours": "Sat-Thurs: 7 AM - 7PM, Fri: 7 AM - 9 PM, occasionally closed for events",
+			"Provision": "coffee, sandwiches and salads, breakfast, amazing bread pudding, beer and wine",
+			"Service": "friendly and laid-back staff",
+			"Internet": "WiFi access password displayed on a card on the bread rack near the entrance"
+		},
+		"country": "USA",
+		"coordinates": [
+			"38.3685",
+			"-75.6165"
+		],
+		"link": {
+			"homepage": "http://www.pembertoncoffeehouse.com/"
+		},
+		"address": "1100 Pemberton Dr., Salisbury, MD 21801",
+		"name": "Pemberton Coffeehouse"
+	},
+	{
 		"city": "Beijing",
 		"description": {
 			"Seating": "plenty of seats, two-story",
