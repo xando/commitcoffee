@@ -1,0 +1,16 @@
+[
+        {
+                "city": "Saskatoon",
+                "country": "Canada",
+                "name": "Collective Coffee",
+                "address": "220 20th Streeet West, Saskatoon, Saskatchewan S7M 0W9",
+                "coordinates": ["52.144708", "-106.6433432"],
+                "description": {
+                        "Internet": "free wireless internet from co-working space in the same building",
+                        "Service": "service and staff is always amazing",
+                        "Provision": "amazing coffee, baked goods and sandwitches prepared fresh daily",
+                        "Hours": "Mon - Sat: 8:00 am - 8:00 pm, Sun:10:00 am - 6:00 pm"
+                },
+                "link": {"homepage":"http://www.collectivecoffee.com"}
+        }
+]
