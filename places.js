@@ -1328,6 +1328,27 @@ var places = [
 		"name": "Kav\u00e1rna Pod Lipami"
 	},
 	{
+		"city": "Prague",
+		"description": {
+			"Seating": "Seats and large tables ... There is also paid coworking space [25 K\u010d / hour & 200 K\u010d / day]",
+			"Service": "Friendly staff, quiet surroundings",
+			"Power Outlets": "Yes",
+			"Hours": "Mon - Fri: 8:30 - 19:00, Sat - Sun: 09:00 - 15:00",
+			"Internet": "Free wifi",
+			"Provision": "Good coffee, tea, cakes, desserts"
+		},
+		"country": "CZ",
+		"coordinates": [
+			"50.083431",
+			"14.422924"
+		],
+		"link": {
+			"website": "https://prostor.erasvet.cz/#kavarna"
+		},
+		"address": "Jungmannovo n\u00e1m\u011bst\u00ed 767",
+		"name": "Era sv\u011bt"
+	},
+	{
 		"city": "Oslo",
 		"description": {
 			"Provision": "Coffee, tea, juices, cakes, cookies, sandwiches, baguettes",

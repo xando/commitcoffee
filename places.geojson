@@ -1109,6 +1109,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    14.422924, 
+                    50.083431
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi", 
+                "name": "Era sv\u011bt", 
+                "marker-symbol": "cafe", 
+                "address": "Prague CZ, Jungmannovo n\u00e1m\u011bst\u00ed 767"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     10.746625, 
                     59.910505
                 ]
