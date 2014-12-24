@@ -793,6 +793,25 @@ var places = [
 		"name": "Reykjav\u00edk Roasters"
 	},
 	{
+		"city": "Saskatoon",
+		"description": {
+			"Hours": "Mon - Sat: 8:00 am - 8:00 pm, Sun:10:00 am - 6:00 pm",
+			"Provision": "amazing coffee, baked goods and sandwitches prepared fresh daily",
+			"Service": "service and staff is always amazing",
+			"Internet": "free wireless internet from co-working space in the same building"
+		},
+		"country": "Canada",
+		"coordinates": [
+			"52.144708",
+			"-106.6433432"
+		],
+		"link": {
+			"homepage": "http://www.collectivecoffee.com"
+		},
+		"address": "220 20th Streeet West, Saskatoon, Saskatchewan S7M 0W9",
+		"name": "Collective Coffee"
+	},
+	{
 		"city": "S\u00e3o Paulo",
 		"description": {
 			"Provision": "Coffee, tea, sandwiches",

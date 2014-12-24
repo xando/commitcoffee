@@ -645,6 +645,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    -106.6433432, 
+                    52.144708
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "free wireless internet from co-working space in the same building", 
+                "name": "Collective Coffee", 
+                "marker-symbol": "cafe", 
+                "address": "Saskatoon Canada, 220 20th Streeet West, Saskatoon, Saskatchewan S7M 0W9"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -46.60593, 
                     -23.477683
                 ]
