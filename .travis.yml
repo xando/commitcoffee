@@ -1,6 +1,8 @@
-language: python
+language: node_js
+before_install:
+  - npm install -g less
 script:
-  - python validateplaces.py
+  - npm run build
 branches:
   only:
     - gh-pages

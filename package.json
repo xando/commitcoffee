@@ -2,6 +2,9 @@
   "name": "commitcoffee",
   "description": "A list of places friendly to social oriented geeks",
   "scripts": {
+    "build:map": "python validateplaces.py -o places.js --geojson places.geojson",
+    "build:css": "./node_modules/.bin/lessc main.less > main.css",
+    "build": "npm run build:map && npm run build:css",
     "test": "python validateplaces.py"
   },
   "repository": {
@@ -11,5 +14,8 @@
   "author": "Sebastian Pawluś",
   "bugs": {
     "url": "https://github.com/xando/commitcoffee/issues"
+  },
+  "dependencies": {
+    "less": "^2.1.1"
   }
 }
