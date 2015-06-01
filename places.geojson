@@ -325,6 +325,22 @@
             "geometry": {
                 "type": "Point", 
                 "coordinates": [
+                    -1.478741, 
+                    53.361816
+                ]
+            }, 
+            "type": "Feature", 
+            "properties": {
+                "info": "Free wifi hotspot", 
+                "name": "Bragazzi\u2019s", 
+                "marker-symbol": "cafe", 
+                "address": "Sheffield United Kingdom, 220-226 Abbeydale Road, S7 1FL"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
                     -75.6165, 
                     38.3685
                 ]

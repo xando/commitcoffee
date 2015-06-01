@@ -399,6 +399,25 @@ var places = [
 		"name": "Konditori"
 	},
 	{
+		"city": "Sheffield",
+		"description": {
+			"Hours": "Monday - Saturday: 9am - 5.30pm | Sunday: 11am - 4pm",
+			"Provision": "Amazing coffee and award winning Delicatessen",
+			"Service": "Familiy run business which is shown in its service",
+			"Internet": "Free wifi hotspot"
+		},
+		"country": "United Kingdom",
+		"coordinates": [
+			"53.361816",
+			"-1.478741"
+		],
+		"link": {
+			"homepage": "http://www.bragazzis.co.uk"
+		},
+		"address": "220-226 Abbeydale Road, S7 1FL",
+		"name": "Bragazzi\u2019s"
+	},
+	{
 		"city": "Salisbury",
 		"description": {
 			"Hours": "Sat-Thurs: 7 AM - 7PM, Fri: 7 AM - 9 PM, occasionally closed for events",
