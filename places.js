@@ -3286,26 +3286,6 @@ var places = [
 		"name": "3FE Coffee"
 	},
 	{
-		"city": "Palo Alto",
-		"description": {
-			"Provision": "Coffee, tea, juices, beers, cake, meals",
-			"Seating": "Few but good chairs, outdoor morning sun",
-			"Power Outlets": "Plenty",
-			"Service": "Very friendly",
-			"Internet": "Free wifi, good speed, ask for the password"
-		},
-		"country": "USA",
-		"coordinates": [
-			"37.426552",
-			"-122.146317"
-		],
-		"link": {
-			"yelp": "http://www.yelp.com/biz/3-gs-cafe-palo-alto"
-		},
-		"address": "456 Cambridge Ave",
-		"name": "3 G's Cafe"
-	},
-	{
 		"city": "Toronto",
 		"description": {
 			"Seating": "Benches and some chairs",
