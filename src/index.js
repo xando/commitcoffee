@@ -7,15 +7,9 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import SearchBox from './SearchBox';
 import loadPlaces from './loadPlaces';
 
-import {
-    Flex,
-    Button
-} from 'rebass';
-
-import { Heading, Box, Grommet, Text, Paragraph } from 'grommet';
+import { Heading, Box, Grommet, Text, Button } from 'grommet';
 
 import 'normalize.css';
-import './styles.css';
 
 const theme = {
     global: {
@@ -154,7 +148,7 @@ class App extends React.Component {
                     <SearchBox onChange={this.searchChanged} />
                 </Box>
 
-                <div className="map" ref={el => this.mapContainer = el} >
+                <Box height="300px" ref={el => this.mapContainer = el} >
                     {this.state.popup && (
                         <Box>
                             <h1>
@@ -172,7 +166,7 @@ class App extends React.Component {
                             </Button>
                         </Box>
                     )}
-                </div>
+                </Box>
 
                 <Box pad="large">
                     <Text size="medium" color="neutral-1">
