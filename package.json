@@ -27,6 +27,6 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "check": "git checkout gh-pages && git checkout master"
+    "deploy": "npm run build && git branch -D gh-pages; git checkout -b gh-pages; cp -r .git dist; cd dist; git add -A . ; git commit -a -m 'gh-pages update'; git push origin gh-pages --force; rm .git -rf; cd ..; git checkout master"
   }
 }
