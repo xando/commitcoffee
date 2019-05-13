@@ -4,7 +4,7 @@ import googleMaps from '@google/maps';
 import { TextInput } from 'grommet';
 
 const GoogleMaps = googleMaps.createClient({
-    key: 'AIzaSyBIuem9zQdCPNBrV9atuN5fsrfMSBAuTLU'
+    key: 'AIzaSyCzXlZNle1VqRusjwtt7P0drmJJGyRGTE8'
 });
 
 
