@@ -188,7 +188,10 @@ class App extends React.Component {
                         weight="600"
                         size="medium"
                         color="dark-3">
-                        $ git clone https://github.com/xando/commitcoffee
+                        $ git clone&nbsp;
+                        <a href="https://github.com/xando/commitcoffee" target="_blank" rel="noopener noreferrer">
+                            https://github.com/xando/commitcoffee
+                        </a>
                     </Text>
 
                     <Text size="medium" color="neutral-1">
