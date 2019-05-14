@@ -24,8 +24,6 @@ export default class SearchBox extends React.Component {
                 if (status === 'OK') {
                     const { lat, lng } = results[0].geometry.location;
                     this.props.onChange(lng(), lat());
-                } else {
-                    alert('Geocode was not successful for the following reason: ' + status);
                 }
             });
     }
