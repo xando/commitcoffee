@@ -1,35 +1,33 @@
 import React from 'react';
-import googleMaps from '@google/maps';
 
 import { TextInput } from 'grommet';
 
-const GoogleMaps = googleMaps.createClient({
-    key: 'AIzaSyCzXlZNle1VqRusjwtt7P0drmJJGyRGTE8'
-});
-
 
 export default class SearchBox extends React.Component {
-
+    
     state = {value: ""}
-
+    
     onChange = e => this.setState({ value: e.target.value });
-
+    
     onSubmit = (e) => {
         e.stopPropagation();
         e.preventDefault();
-
+        
         if (!this.state.value) {
             return
         }
+        var geocoder = new google.maps.Geocoder();
 
-        GoogleMaps.geocode({
-            address: this.state.value
-        }, (err, response) => {
-            if (!err) {
-                const { lat, lng } = response.json.results[0].geometry.location;
-                this.props.onChange(lng, lat);
-            }
-        });
+        geocoder.geocode(
+            { 'address': this.state.value },
+            (results, status) => {
+                if (status === 'OK') {
+                    const { lat, lng } = results[0].geometry.location;
+                    this.props.onChange(lng(), lat());
+                } else {
+                    alert('Geocode was not successful for the following reason: ' + status);
+                }
+            });
     }
 
     render = () => (
