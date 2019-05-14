@@ -148,11 +148,7 @@ class App extends React.Component {
                     <SearchBox onChange={this.searchChanged} />
                 </Box>
 
-                <Box height="300px" ref={el => this.mapContainer = el} >
-                    <Box style={{ background: 'red' }}>
-                        seba
-                    </Box>
-                </Box>
+                <Box height="300px" ref={el => this.mapContainer = el} />
 
                 {this.state.popup && (
                     <Layer
