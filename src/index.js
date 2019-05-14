@@ -7,7 +7,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import SearchBox from './SearchBox';
 import loadPlaces from './loadPlaces';
 
-import { Heading, Box, Grommet, Text, Button } from 'grommet';
+import { Heading, Box, Grommet, Text, Button, Layer } from 'grommet';
 
 import 'normalize.css';
 
@@ -149,24 +149,32 @@ class App extends React.Component {
                 </Box>
 
                 <Box height="300px" ref={el => this.mapContainer = el} >
-                    {this.state.popup && (
-                        <Box>
+                    <Box style={{ background: 'red' }}>
+                        seba
+                    </Box>
+                </Box>
+
+                {this.state.popup && (
+                    <Layer
+                        onEsc={this.closePopup}
+                        onClickOutside={this.closePopup}
+                        margin="medium"
+                    >
+                        <Box pad="large" width="large">
                             <h1>
                                 {this.state.popup.name}
                             </h1>
                             <div>
                                 {Object.keys(this.state.popup.description).map(e =>
                                     <div key={e}>
-                                        {e}: {this.state.popup.description[e]}
+                                        <strong>{e}</strong>: {this.state.popup.description[e]}
                                     </div>
                                 )}
                             </div>
-                            <Button onClick={this.closePopup}>
-                                close
-                            </Button>
+                            <Button margin={{top: "medium"}} label="close" onClick={this.closePopup} />
                         </Box>
-                    )}
-                </Box>
+                    </Layer>
+                )}
 
                 <Box pad="large">
                     <Text size="medium" color="neutral-1">
