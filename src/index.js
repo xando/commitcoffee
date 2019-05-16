@@ -7,29 +7,18 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import SearchBox from './SearchBox';
 import loadPlaces from './loadPlaces';
 
-import { Heading, Box, Grommet, Text, Button, Layer } from 'grommet';
+import { Anchor, Heading, Box, Grommet, Text, Button, Layer } from 'grommet';
 
 import 'normalize.css';
 
 const theme = {
     global: {
         font: {
-            family: 'Roboto',
+            family: 'Inconsolata',
             size: '14px',
             height: '20px',
-        },
-    },
-    heading: {
-        font: {
-            family: 'Ubuntu Mono'
-        }
-    },
-    text: {
-        font: {
-            family: 'Ubuntu Mono'
         }
     }
-
 };
 
 
@@ -185,18 +174,18 @@ class App extends React.Component {
                 <Box
                     pad={{ horizontal: "large", vertical: "xsmall" }} 
                     background="dark-1">
-                    <Heading
-                        font="Roboto Mono">
-                        $ commit -m "Coffee"
+                    <Heading size="small">
+                        $ commit -m "coffee"
                     </Heading>
                 </Box>
 
                 <Box pad="large" 
                 pad={{ horizontal: "large", vertical: "medium" }} 
                 >
-                    <Text size="medium" margin={{bottom: "small"}}>
-                        # Enter the location and search for a geek friendly
-                        coffee place near you with good WiFi and Coffee
+                    <Text size="large" margin={{bottom: "xsmall"}}>
+                        # Enter the location 
+                        {/* and search for a geek friendly */}
+                        {/* coffee place near you with good WiFi and Coffee */}
                     </Text>
 
                     <SearchBox onChange={this.searchChanged} />
@@ -226,47 +215,51 @@ class App extends React.Component {
                     </Layer>
                 )}
 
-                <Box pad="large">
-                    <Text size="medium" color="neutral-1">
+                <Box pad="large" background="dark-1">
+                    <Text size="medium" color="status-ok">
                         # Is there a good coffee place missing? Would like to see it here?
 
                         <br/>
-                        # (just in case you don't know how to use git ;)
+                        # Please make a fork of the repository.
 
                         <br/>
-                        # Please make a fork of the repository.
+                        # (just in case you don't know how to use git ;)
                     </Text>
 
                     <Text
                         margin={{ vertical: "medium" }}
                         weight="600"
                         size="medium"
-                        color="dark-3">
+                        color="light-6">
                         $ git clone&nbsp;
-                        <a href="https://github.com/xando/commitcoffee" target="_blank" rel="noopener noreferrer">
-                            https://github.com/xando/commitcoffee
-                        </a>
+                        <Anchor
+                            primary
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://github.com/xando/commitcoffee"
+                            label="https://github.com/xando/commitcoffee" />
+
                     </Text>
 
-                    <Text size="medium" color="neutral-1">
-                        # Create new <strong>places/‹your-github-username›.json</strong> file like one of these and simply put you place there.
+                    <Text size="medium" color="status-ok">
+                        # Create new <strong>places/‹your-github-username›.json</strong> file. 
                     </Text>
 
                     <Text
                         margin={{ vertical: "medium" }}
                         weight="600"
                         size="medium"
-                        color="dark-3">
+                        color="light-6">
                         $ git add <strong>places/xando.json</strong>
                         <br/>
-                        $ git commit -m "Bal Kraków, good coffee decent wifi"
+                        $ git commit -m "Bal Kraków, good coffee, decent wifi"
                     </Text>
 
                 </Box>
 
                 <Box pad="small">
                     <Text
-                    textAlign="center"
+                        textAlign="center"
                         size="small"
                         color="dark-3">
                         This website does not give a damn about cookies for now.
