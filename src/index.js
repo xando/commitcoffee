@@ -170,7 +170,6 @@ class App extends React.Component {
     render() {
         return (
             <Grommet theme={theme}>
-
                 <Box
                     pad={{ horizontal: "large", vertical: "medium" }} 
                     background="dark-1">
