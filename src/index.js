@@ -182,15 +182,7 @@ class App extends React.Component {
 
                 </Box>
 
-                <Box pad="large" 
-                pad={{ horizontal: "large", vertical: "medium" }} 
-                >
-                    <Text size="large" margin={{bottom: "xsmall"}}>
-                        {/* # Enter the location  */}
-                        {/* and search for a geek friendly */}
-                        {/* coffee place near you with good WiFi and Coffee */}
-                    </Text>
-
+                <Box pad="large" pad={{ horizontal: "large", vertical: "medium" }} >
                     <SearchBox onChange={this.searchChanged} />
                 </Box>
 
