@@ -145,19 +145,22 @@ class App extends React.Component {
             this.map.getCanvas().style.cursor = '';
         });
 
+        this.map.on('click', 'clusters', (e) => {
+            let coordinates = e.features[0].geometry.coordinates.slice();
+            this.map.flyTo({
+                center: coordinates,
+                zoom: this.map.getZoom() + 3,
+                speed: 3.5,
+            });
+    
+        });
 
         this.map.on('click', 'unclustered-point', (e) => {
             const { name, description } = e.features[0].properties;
             let coordinates = e.features[0].geometry.coordinates.slice();
 
-            // Ensure that if the map is zoomed out such that multiple
-            // copies of the feature are visible, the popup appears
-            // over the copy being pointed to.
-            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-            }
             // TODO:
-            // * parsing JSON is not ideal heare.
+            // parsing JSON is not ideal heare.
             this.setState({ popup: { name, description: JSON.parse(description) } });
         });
 
