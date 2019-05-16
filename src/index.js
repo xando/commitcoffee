@@ -172,18 +172,22 @@ class App extends React.Component {
             <Grommet theme={theme}>
 
                 <Box
-                    pad={{ horizontal: "large", vertical: "xsmall" }} 
+                    pad={{ horizontal: "large", vertical: "medium" }} 
                     background="dark-1">
-                    <Heading size="small">
+                    <Heading size="small" margin={{vertical: "none"}}>
                         $ commit -m "coffee"
                     </Heading>
+                    <Text size="xsmall" margin={{bottom: "nonoe"}}>
+                        # where we keep geek friendly places (near you) with good WiFi and coffee
+                    </Text>
+
                 </Box>
 
                 <Box pad="large" 
                 pad={{ horizontal: "large", vertical: "medium" }} 
                 >
                     <Text size="large" margin={{bottom: "xsmall"}}>
-                        # Enter the location 
+                        {/* # Enter the location  */}
                         {/* and search for a geek friendly */}
                         {/* coffee place near you with good WiFi and Coffee */}
                     </Text>

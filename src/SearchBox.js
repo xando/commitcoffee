@@ -31,6 +31,7 @@ export default class SearchBox extends React.Component {
     render = () => (
         <form onSubmit={this.onSubmit}>
             <TextInput
+                placeholder="# Enter Location"
                 value={this.state.search}
                 onChange={this.onChange}
             />
