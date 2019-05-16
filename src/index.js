@@ -52,7 +52,7 @@ class App extends React.Component {
     searchChanged = (lon, lng) => {
         this.map.flyTo({
             center: [lon, lng],
-            zoom: 9,
+            zoom: 7,
             speed: 3.5,
         });
     }
@@ -79,31 +79,85 @@ class App extends React.Component {
         });
 
         this.map.on('load', () => {
+            this.map.addSource("places", {
+                type: "geojson",
+                data: loadPlaces(),
+                cluster: true,
+                clusterMaxZoom: 8,
+                clusterRadius: 50
+            })
+
             this.map.addLayer({
-                "id": "places",
-                "type": "circle",
-                "source": {
-                    "type": "geojson",
-                    "data": loadPlaces()
-                },
-                "paint": {
+                id: "unclustered-point",
+                type: "circle",
+                source: "places",
+                filter: ["!", ["has", "point_count"]],
+                paint: {
                     "circle-color": "#11b4da",
-                    "circle-radius": 7,
+                    "circle-radius": 8,
                     "circle-stroke-width": 1,
                     "circle-stroke-color": "#fff"
                 }
             });
+
+            this.map.addLayer({
+                id: "clusters",
+                type: "circle",
+                source: "places",
+                filter: ["has", "point_count"],
+                paint: {
+                    "circle-color": [
+                        "step",
+                        ["get", "point_count"],
+                        "#51bbd6",
+                        20,
+                        "#f1f075",
+                        50,
+                        "#f28cb1"
+                    ],
+                    "circle-radius": [
+                        "step",
+                        ["get", "point_count"],
+                        18,
+                        20,
+                        20,
+                        50,
+                        25
+                    ]
+                }
+            });
+
+            this.map.addLayer({
+                id: "cluster-count",
+                type: "symbol",
+                source: "places",
+                filter: ["has", "point_count"],
+                layout: {
+                    "text-field": "{point_count_abbreviated}",
+                    "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
+                    "text-size": 12
+                }
+            });
         })
 
-        this.map.on('mouseenter', 'places', () => {
+        this.map.on('mouseenter', 'unclustered-point', () => {
             this.map.getCanvas().style.cursor = 'pointer';
         });
 
-        this.map.on('mouseleave', 'places', () => {
+        this.map.on('mouseleave', 'unclustered-point', () => {
             this.map.getCanvas().style.cursor = '';
         });
 
-        this.map.on('click', 'places', (e) => {
+        this.map.on('mouseenter', 'clusters', () => {
+            this.map.getCanvas().style.cursor = 'pointer';
+        });
+
+        this.map.on('mouseleave', 'clusters', () => {
+            this.map.getCanvas().style.cursor = '';
+        });
+
+
+        this.map.on('click', 'unclustered-point', (e) => {
             const { name, description } = e.features[0].properties;
             let coordinates = e.features[0].geometry.coordinates.slice();
 
