@@ -28,8 +28,8 @@ class App extends React.Component {
                 <ResponsiveContext.Consumer>
                     {size => {
                         return (
-                            size === 'small' || 
-                            size === 'medium'
+                            size === 'small' ||
+                                size === 'medium'
                                 ? <MobileView />
                                 : <DesktopView />
                         );
@@ -37,7 +37,7 @@ class App extends React.Component {
                 </ResponsiveContext.Consumer>
             </Grommet>
         );
-            }
-        }
-        
+    }
+}
+
 ReactDOM.render(<App />, document.getElementById("app"));
