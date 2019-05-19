@@ -26,15 +26,18 @@ class App extends React.Component {
         return (
             <Grommet theme={theme} full={true}>
                 <ResponsiveContext.Consumer>
-                    {size => (
-                        size == 'small' 
-                            ? <MobileView />
-                            : <DesktopView />
-                    )}
+                    {size => {
+                        return (
+                            size === 'small' || 
+                            size === 'medium'
+                                ? <MobileView />
+                                : <DesktopView />
+                        );
+                    }}
                 </ResponsiveContext.Consumer>
             </Grommet>
         );
-    }
-}
-
+            }
+        }
+        
 ReactDOM.render(<App />, document.getElementById("app"));
