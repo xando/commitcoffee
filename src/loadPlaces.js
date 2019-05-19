@@ -1,5 +1,5 @@
 export default () => {
-    const context = require.context("../places");
+    const context = require.context("../places", false, /\.json$/);
 
     let palces = {
         type: 'FeatureCollection',
@@ -33,5 +33,6 @@ export default () => {
             });
         }
     });
+
     return palces;
 }
