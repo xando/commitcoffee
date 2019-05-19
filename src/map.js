@@ -22,6 +22,10 @@ export default class Map extends React.Component {
 
     componentDidUpdate(prevProps) {
 
+        if (this.props.lon == prevProps.lon ||
+            this.props.lat == prevProps.lat)
+            return
+
         this.map.flyTo({
             center: [this.props.lon, this.props.lat],
             zoom: 9,
