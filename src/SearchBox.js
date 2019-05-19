@@ -4,15 +4,15 @@ import { TextInput } from 'grommet';
 
 
 export default class SearchBox extends React.Component {
-    
-    state = {value: ""}
-    
+
+    state = { value: "" }
+
     onChange = e => this.setState({ value: e.target.value });
-    
+
     onSubmit = (e) => {
         e.stopPropagation();
         e.preventDefault();
-        
+
         if (!this.state.value) {
             return
         }
