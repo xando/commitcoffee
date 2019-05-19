@@ -33,7 +33,6 @@ export default class View extends React.Component {
                         <Button
                             label="Search"
                             primary={true}
-                            // margin={{ top: "medium" }}
                             color="accent-1"
                             href="#map"
                         />
