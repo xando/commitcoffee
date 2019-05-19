@@ -55,7 +55,7 @@ export default class Map extends React.Component {
                 filter: ["!", ["has", "point_count"]],
                 paint: {
                     "circle-color": "#11b4da",
-                    "circle-radius": 8,
+                    "circle-radius": 13,
                     "circle-stroke-width": 1,
                     "circle-stroke-color": "#fff"
                 }
